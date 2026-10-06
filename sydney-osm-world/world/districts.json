@@ -1,0 +1,1419 @@
+{
+ "generatedAt": "2026-09-29T17:49:22+00:00",
+ "note": "Districts are derived by nearest-seed assignment, not official boundaries. Distances/areas are approximations - see provenance in each record.",
+ "districts": [
+  {
+   "id": "cbd-core",
+   "realName": "Sydney CBD",
+   "characterSeed": "commercial-tourist-core",
+   "center": [
+    -33.869,
+    151.209
+   ],
+   "local": {
+    "x": 92.46,
+    "y": 0.0,
+    "z": -444.079
+   },
+   "extent": {
+    "south": -33.874763,
+    "west": 151.20215,
+    "north": -33.864499,
+    "east": 151.211843
+   },
+   "extentKm2": 1.23,
+   "counts": {
+    "venues": 1062,
+    "nightlifeVenues": 164,
+    "shops": 86,
+    "food": 261,
+    "lodging": 27,
+    "civic": 29,
+    "transport": 197,
+    "parks": 33,
+    "transitStops": 52,
+    "landmarks": 13,
+    "waterBodies": 4
+   },
+   "measured": {
+    "arterialRoadKm": 7.39,
+    "allRoadKm": 19.75,
+    "parkAreaKm2": 0.012,
+    "venuesPerKm2": 863.4,
+    "nightlifePerKm2": 133.3
+   },
+   "provenance": {
+    "assignment": "derived",
+    "assignmentMethod": "nearest configured district seed point (Voronoi by great-circle distance)",
+    "densityCaveat": "Densities use each district's feature extent as its area, which understates dense cores and overstates sparse ones. Use for relative comparison only."
+   }
+  },
+  {
+   "id": "barangaroo",
+   "realName": "Barangaroo",
+   "characterSeed": "waterfront-commercial",
+   "center": [
+    -33.862,
+    151.201
+   ],
+   "local": {
+    "x": -647.219,
+    "y": 0.0,
+    "z": -1221.216
+   },
+   "extent": {
+    "south": -33.867587,
+    "west": 151.200482,
+    "north": -33.858826,
+    "east": 151.206014
+   },
+   "extentKm2": 0.599,
+   "counts": {
+    "venues": 296,
+    "nightlifeVenues": 37,
+    "shops": 15,
+    "food": 77,
+    "lodging": 5,
+    "civic": 15,
+    "transport": 83,
+    "parks": 41,
+    "transitStops": 16,
+    "landmarks": 5,
+    "waterBodies": 2
+   },
+   "measured": {
+    "arterialRoadKm": 2.84,
+    "allRoadKm": 10.55,
+    "parkAreaKm2": 0.019,
+    "venuesPerKm2": 494.2,
+    "nightlifePerKm2": 61.8
+   },
+   "provenance": {
+    "assignment": "derived",
+    "assignmentMethod": "nearest configured district seed point (Voronoi by great-circle distance)",
+    "densityCaveat": "Densities use each district's feature extent as its area, which understates dense cores and overstates sparse ones. Use for relative comparison only."
+   }
+  },
+  {
+   "id": "the-rocks",
+   "realName": "The Rocks",
+   "characterSeed": "historic-lowscale",
+   "center": [
+    -33.859,
+    151.208
+   ],
+   "local": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": -1554.275
+   },
+   "extent": {
+    "south": -33.863085,
+    "west": 151.203421,
+    "north": -33.844774,
+    "east": 151.214096
+   },
+   "extentKm2": 2.417,
+   "counts": {
+    "venues": 380,
+    "nightlifeVenues": 86,
+    "shops": 22,
+    "food": 81,
+    "lodging": 11,
+    "civic": 19,
+    "transport": 75,
+    "parks": 115,
+    "transitStops": 6,
+    "landmarks": 28,
+    "waterBodies": 2
+   },
+   "measured": {
+    "arterialRoadKm": 13.8,
+    "allRoadKm": 25.11,
+    "parkAreaKm2": 0.148,
+    "venuesPerKm2": 157.2,
+    "nightlifePerKm2": 35.6
+   },
+   "provenance": {
+    "assignment": "derived",
+    "assignmentMethod": "nearest configured district seed point (Voronoi by great-circle distance)",
+    "densityCaveat": "Densities use each district's feature extent as its area, which understates dense cores and overstates sparse ones. Use for relative comparison only."
+   }
+  },
+  {
+   "id": "circular-quay",
+   "realName": "Circular Quay",
+   "characterSeed": "transit-waterfront",
+   "center": [
+    -33.861,
+    151.211
+   ],
+   "local": {
+    "x": 277.38,
+    "y": 0.0,
+    "z": -1332.236
+   },
+   "extent": {
+    "south": -33.864976,
+    "west": 151.207106,
+    "north": -33.856213,
+    "east": 151.215916
+   },
+   "extentKm2": 0.955,
+   "counts": {
+    "venues": 314,
+    "nightlifeVenues": 64,
+    "shops": 17,
+    "food": 104,
+    "lodging": 6,
+    "civic": 8,
+    "transport": 43,
+    "parks": 41,
+    "transitStops": 37,
+    "landmarks": 14,
+    "waterBodies": 9
+   },
+   "measured": {
+    "arterialRoadKm": 0.74,
+    "allRoadKm": 12.27,
+    "parkAreaKm2": 0.082,
+    "venuesPerKm2": 328.8,
+    "nightlifePerKm2": 67.0
+   },
+   "provenance": {
+    "assignment": "derived",
+    "assignmentMethod": "nearest configured district seed point (Voronoi by great-circle distance)",
+    "densityCaveat": "Densities use each district's feature extent as its area, which understates dense cores and overstates sparse ones. Use for relative comparison only."
+   }
+  },
+  {
+   "id": "walsh-bay",
+   "realName": "Walsh Bay",
+   "characterSeed": "heritage-waterfront",
+   "center": [
+    -33.856,
+    151.2
+   ],
+   "local": {
+    "x": -739.679,
+    "y": 0.0,
+    "z": -1887.334
+   },
+   "extent": {
+    "south": -33.859494,
+    "west": 151.187912,
+    "north": -33.844943,
+    "east": 151.210628
+   },
+   "extentKm2": 4.087,
+   "counts": {
+    "venues": 187,
+    "nightlifeVenues": 12,
+    "shops": 3,
+    "food": 12,
+    "lodging": 0,
+    "civic": 4,
+    "transport": 60,
+    "parks": 104,
+    "transitStops": 15,
+    "landmarks": 21,
+    "waterBodies": 16
+   },
+   "measured": {
+    "arterialRoadKm": 2.35,
+    "allRoadKm": 2.83,
+    "parkAreaKm2": 0.365,
+    "venuesPerKm2": 45.8,
+    "nightlifePerKm2": 2.9
+   },
+   "provenance": {
+    "assignment": "derived",
+    "assignmentMethod": "nearest configured district seed point (Voronoi by great-circle distance)",
+    "densityCaveat": "Densities use each district's feature extent as its area, which understates dense cores and overstates sparse ones. Use for relative comparison only."
+   }
+  },
+  {
+   "id": "woolloomooloo",
+   "realName": "Woolloomooloo",
+   "characterSeed": "waterfront-mixed",
+   "center": [
+    -33.871,
+    151.218
+   ],
+   "local": {
+    "x": 924.599,
+    "y": 0.0,
+    "z": -222.039
+   },
+   "extent": {
+    "south": -33.874984,
+    "west": 151.214535,
+    "north": -33.866978,
+    "east": 151.223796
+   },
+   "extentKm2": 0.917,
+   "counts": {
+    "venues": 179,
+    "nightlifeVenues": 47,
+    "shops": 5,
+    "food": 35,
+    "lodging": 9,
+    "civic": 14,
+    "transport": 25,
+    "parks": 71,
+    "transitStops": 0,
+    "landmarks": 6,
+    "waterBodies": 6
+   },
+   "measured": {
+    "arterialRoadKm": 7.65,
+    "allRoadKm": 24.54,
+    "parkAreaKm2": 0.138,
+    "venuesPerKm2": 195.2,
+    "nightlifePerKm2": 51.3
+   },
+   "provenance": {
+    "assignment": "derived",
+    "assignmentMethod": "nearest configured district seed point (Voronoi by great-circle distance)",
+    "densityCaveat": "Densities use each district's feature extent as its area, which understates dense cores and overstates sparse ones. Use for relative comparison only."
+   }
+  },
+  {
+   "id": "darling-harbour",
+   "realName": "Darling Harbour",
+   "characterSeed": "tourist-waterfront",
+   "center": [
+    -33.871,
+    151.196
+   ],
+   "local": {
+    "x": -1109.519,
+    "y": 0.0,
+    "z": -222.039
+   },
+   "extent": {
+    "south": -33.877106,
+    "west": 151.187537,
+    "north": -33.867764,
+    "east": 151.202619
+   },
+   "extentKm2": 1.742,
+   "counts": {
+    "venues": 241,
+    "nightlifeVenues": 25,
+    "shops": 15,
+    "food": 71,
+    "lodging": 7,
+    "civic": 11,
+    "transport": 38,
+    "parks": 71,
+    "transitStops": 98,
+    "landmarks": 13,
+    "waterBodies": 7
+   },
+   "measured": {
+    "arterialRoadKm": 8.79,
+    "allRoadKm": 30.75,
+    "parkAreaKm2": 0.233,
+    "venuesPerKm2": 138.3,
+    "nightlifePerKm2": 14.4
+   },
+   "provenance": {
+    "assignment": "derived",
+    "assignmentMethod": "nearest configured district seed point (Voronoi by great-circle distance)",
+    "densityCaveat": "Densities use each district's feature extent as its area, which understates dense cores and overstates sparse ones. Use for relative comparison only."
+   }
+  },
+  {
+   "id": "pyrmont",
+   "realName": "Pyrmont",
+   "characterSeed": "residential-dense",
+   "center": [
+    -33.866,
+    151.195
+   ],
+   "local": {
+    "x": -1201.979,
+    "y": 0.0,
+    "z": -777.138
+   },
+   "extent": {
+    "south": -33.869376,
+    "west": 151.188027,
+    "north": -33.859113,
+    "east": 151.198944
+   },
+   "extentKm2": 1.385,
+   "counts": {
+    "venues": 110,
+    "nightlifeVenues": 14,
+    "shops": 4,
+    "food": 33,
+    "lodging": 1,
+    "civic": 3,
+    "transport": 16,
+    "parks": 49,
+    "transitStops": 26,
+    "landmarks": 7,
+    "waterBodies": 2
+   },
+   "measured": {
+    "arterialRoadKm": 0.14,
+    "allRoadKm": 9.35,
+    "parkAreaKm2": 0.108,
+    "venuesPerKm2": 79.4,
+    "nightlifePerKm2": 10.1
+   },
+   "provenance": {
+    "assignment": "derived",
+    "assignmentMethod": "nearest configured district seed point (Voronoi by great-circle distance)",
+    "densityCaveat": "Densities use each district's feature extent as its area, which understates dense cores and overstates sparse ones. Use for relative comparison only."
+   }
+  },
+  {
+   "id": "haymarket",
+   "realName": "Haymarket",
+   "characterSeed": "market-commercial",
+   "center": [
+    -33.878,
+    151.203
+   ],
+   "local": {
+    "x": -462.299,
+    "y": 0.0,
+    "z": 555.098
+   },
+   "extent": {
+    "south": -33.883056,
+    "west": 151.19629,
+    "north": -33.87277,
+    "east": 151.210511
+   },
+   "extentKm2": 1.809,
+   "counts": {
+    "venues": 951,
+    "nightlifeVenues": 183,
+    "shops": 78,
+    "food": 333,
+    "lodging": 42,
+    "civic": 33,
+    "transport": 138,
+    "parks": 77,
+    "transitStops": 103,
+    "landmarks": 15,
+    "waterBodies": 10
+   },
+   "measured": {
+    "arterialRoadKm": 9.25,
+    "allRoadKm": 34.26,
+    "parkAreaKm2": 0.072,
+    "venuesPerKm2": 525.7,
+    "nightlifePerKm2": 101.2
+   },
+   "provenance": {
+    "assignment": "derived",
+    "assignmentMethod": "nearest configured district seed point (Voronoi by great-circle distance)",
+    "densityCaveat": "Densities use each district's feature extent as its area, which understates dense cores and overstates sparse ones. Use for relative comparison only."
+   }
+  },
+  {
+   "id": "ultimo",
+   "realName": "Ultimo",
+   "characterSeed": "university-mixed",
+   "center": [
+    -33.883,
+    151.199
+   ],
+   "local": {
+    "x": -832.139,
+    "y": 0.0,
+    "z": 1110.197
+   },
+   "extent": {
+    "south": -33.895429,
+    "west": 151.185499,
+    "north": -33.877619,
+    "east": 151.205713
+   },
+   "extentKm2": 4.451,
+   "counts": {
+    "venues": 1073,
+    "nightlifeVenues": 158,
+    "shops": 73,
+    "food": 262,
+    "lodging": 24,
+    "civic": 70,
+    "transport": 232,
+    "parks": 272,
+    "transitStops": 12,
+    "landmarks": 41,
+    "waterBodies": 2
+   },
+   "measured": {
+    "arterialRoadKm": 17.97,
+    "allRoadKm": 66.38,
+    "parkAreaKm2": 0.299,
+    "venuesPerKm2": 241.1,
+    "nightlifePerKm2": 35.5
+   },
+   "provenance": {
+    "assignment": "derived",
+    "assignmentMethod": "nearest configured district seed point (Voronoi by great-circle distance)",
+    "densityCaveat": "Densities use each district's feature extent as its area, which understates dense cores and overstates sparse ones. Use for relative comparison only."
+   }
+  },
+  {
+   "id": "kings-cross",
+   "realName": "Kings Cross",
+   "characterSeed": "nightlife",
+   "center": [
+    -33.874,
+    151.225
+   ],
+   "local": {
+    "x": 1571.818,
+    "y": 0.0,
+    "z": 111.02
+   },
+   "extent": {
+    "south": -33.878882,
+    "west": 151.220353,
+    "north": -33.867355,
+    "east": 151.234071
+   },
+   "extentKm2": 1.955,
+   "counts": {
+    "venues": 574,
+    "nightlifeVenues": 93,
+    "shops": 29,
+    "food": 142,
+    "lodging": 28,
+    "civic": 31,
+    "transport": 51,
+    "parks": 70,
+    "transitStops": 5,
+    "landmarks": 5,
+    "waterBodies": 6
+   },
+   "measured": {
+    "arterialRoadKm": 5.12,
+    "allRoadKm": 27.47,
+    "parkAreaKm2": 0.155,
+    "venuesPerKm2": 293.6,
+    "nightlifePerKm2": 47.6
+   },
+   "provenance": {
+    "assignment": "derived",
+    "assignmentMethod": "nearest configured district seed point (Voronoi by great-circle distance)",
+    "densityCaveat": "Densities use each district's feature extent as its area, which understates dense cores and overstates sparse ones. Use for relative comparison only."
+   }
+  },
+  {
+   "id": "potts-point",
+   "realName": "Potts Point",
+   "characterSeed": "residential-waterfront",
+   "center": [
+    -33.859,
+    151.223
+   ],
+   "local": {
+    "x": 1386.898,
+    "y": 0.0,
+    "z": -1554.275
+   },
+   "extent": {
+    "south": -33.866072,
+    "west": 151.221017,
+    "north": -33.855046,
+    "east": 151.2288
+   },
+   "extentKm2": 1.061,
+   "counts": {
+    "venues": 21,
+    "nightlifeVenues": 4,
+    "shops": 0,
+    "food": 1,
+    "lodging": 0,
+    "civic": 0,
+    "transport": 7,
+    "parks": 59,
+    "transitStops": 6,
+    "landmarks": 7,
+    "waterBodies": 6
+   },
+   "measured": {
+    "arterialRoadKm": 1.38,
+    "allRoadKm": 7.52,
+    "parkAreaKm2": 4.08,
+    "venuesPerKm2": 19.8,
+    "nightlifePerKm2": 3.8
+   },
+   "provenance": {
+    "assignment": "derived",
+    "assignmentMethod": "nearest configured district seed point (Voronoi by great-circle distance)",
+    "densityCaveat": "Densities use each district's feature extent as its area, which understates dense cores and overstates sparse ones. Use for relative comparison only."
+   }
+  },
+  {
+   "id": "surry-hills",
+   "realName": "Surry Hills",
+   "characterSeed": "nightlife-residential",
+   "center": [
+    -33.888,
+    151.212
+   ],
+   "local": {
+    "x": 369.84,
+    "y": 0.0,
+    "z": 1665.295
+   },
+   "extent": {
+    "south": -33.89548,
+    "west": 151.2002,
+    "north": -33.881389,
+    "east": 151.217275
+   },
+   "extentKm2": 2.975,
+   "counts": {
+    "venues": 523,
+    "nightlifeVenues": 109,
+    "shops": 35,
+    "food": 159,
+    "lodging": 7,
+    "civic": 35,
+    "transport": 99,
+    "parks": 77,
+    "transitStops": 39,
+    "landmarks": 13,
+    "waterBodies": 1
+   },
+   "measured": {
+    "arterialRoadKm": 10.59,
+    "allRoadKm": 43.1,
+    "parkAreaKm2": 0.191,
+    "venuesPerKm2": 175.8,
+    "nightlifePerKm2": 36.6
+   },
+   "provenance": {
+    "assignment": "derived",
+    "assignmentMethod": "nearest configured district seed point (Voronoi by great-circle distance)",
+    "densityCaveat": "Densities use each district's feature extent as its area, which understates dense cores and overstates sparse ones. Use for relative comparison only."
+   }
+  },
+  {
+   "id": "kingsford",
+   "realName": "Kingsford",
+   "characterSeed": "residential",
+   "center": [
+    -33.884,
+    151.225
+   ],
+   "local": {
+    "x": 1571.818,
+    "y": 0.0,
+    "z": 1221.216
+   },
+   "extent": {
+    "south": -33.892509,
+    "west": 151.218317,
+    "north": -33.87905,
+    "east": 151.233716
+   },
+   "extentKm2": 2.563,
+   "counts": {
+    "venues": 218,
+    "nightlifeVenues": 28,
+    "shops": 13,
+    "food": 42,
+    "lodging": 2,
+    "civic": 12,
+    "transport": 24,
+    "parks": 37,
+    "transitStops": 0,
+    "landmarks": 6,
+    "waterBodies": 0
+   },
+   "measured": {
+    "arterialRoadKm": 9.01,
+    "allRoadKm": 32.58,
+    "parkAreaKm2": 0.121,
+    "venuesPerKm2": 85.1,
+    "nightlifePerKm2": 10.9
+   },
+   "provenance": {
+    "assignment": "derived",
+    "assignmentMethod": "nearest configured district seed point (Voronoi by great-circle distance)",
+    "densityCaveat": "Densities use each district's feature extent as its area, which understates dense cores and overstates sparse ones. Use for relative comparison only."
+   }
+  },
+  {
+   "id": "darlinghurst",
+   "realName": "Darlinghurst",
+   "characterSeed": "residential-institutional",
+   "center": [
+    -33.879,
+    151.218
+   ],
+   "local": {
+    "x": 924.599,
+    "y": 0.0,
+    "z": 666.118
+   },
+   "extent": {
+    "south": -33.88463,
+    "west": 151.210432,
+    "north": -33.875021,
+    "east": 151.223624
+   },
+   "extentKm2": 1.567,
+   "counts": {
+    "venues": 526,
+    "nightlifeVenues": 145,
+    "shops": 30,
+    "food": 155,
+    "lodging": 11,
+    "civic": 30,
+    "transport": 50,
+    "parks": 51,
+    "transitStops": 0,
+    "landmarks": 8,
+    "waterBodies": 2
+   },
+   "measured": {
+    "arterialRoadKm": 11.9,
+    "allRoadKm": 32.36,
+    "parkAreaKm2": 0.034,
+    "venuesPerKm2": 335.7,
+    "nightlifePerKm2": 92.5
+   },
+   "provenance": {
+    "assignment": "derived",
+    "assignmentMethod": "nearest configured district seed point (Voronoi by great-circle distance)",
+    "densityCaveat": "Densities use each district's feature extent as its area, which understates dense cores and overstates sparse ones. Use for relative comparison only."
+   }
+  },
+  {
+   "id": "redfern",
+   "realName": "Redfern",
+   "characterSeed": "mixed",
+   "center": [
+    -33.893,
+    151.22
+   ],
+   "local": {
+    "x": 1109.519,
+    "y": 0.0,
+    "z": 2220.393
+   },
+   "extent": {
+    "south": -33.895852,
+    "west": 151.213631,
+    "north": -33.888395,
+    "east": 151.234015
+   },
+   "extentKm2": 1.879,
+   "counts": {
+    "venues": 108,
+    "nightlifeVenues": 10,
+    "shops": 3,
+    "food": 27,
+    "lodging": 0,
+    "civic": 12,
+    "transport": 29,
+    "parks": 47,
+    "transitStops": 41,
+    "landmarks": 2,
+    "waterBodies": 1
+   },
+   "measured": {
+    "arterialRoadKm": 7.81,
+    "allRoadKm": 28.05,
+    "parkAreaKm2": 2.841,
+    "venuesPerKm2": 57.5,
+    "nightlifePerKm2": 5.3
+   },
+   "provenance": {
+    "assignment": "derived",
+    "assignmentMethod": "nearest configured district seed point (Voronoi by great-circle distance)",
+    "densityCaveat": "Densities use each district's feature extent as its area, which understates dense cores and overstates sparse ones. Use for relative comparison only."
+   }
+  },
+  {
+   "id": "hyde-park",
+   "realName": "Hyde Park",
+   "characterSeed": "park-anchor",
+   "center": [
+    -33.87,
+    151.213
+   ],
+   "local": {
+    "x": 462.299,
+    "y": 0.0,
+    "z": -333.059
+   },
+   "extent": {
+    "south": -33.875591,
+    "west": 151.209193,
+    "north": -33.866332,
+    "east": 151.21602
+   },
+   "extentKm2": 0.782,
+   "counts": {
+    "venues": 136,
+    "nightlifeVenues": 2,
+    "shops": 3,
+    "food": 19,
+    "lodging": 0,
+    "civic": 16,
+    "transport": 50,
+    "parks": 104,
+    "transitStops": 8,
+    "landmarks": 13,
+    "waterBodies": 18
+   },
+   "measured": {
+    "arterialRoadKm": 4.26,
+    "allRoadKm": 9.52,
+    "parkAreaKm2": 0.474,
+    "venuesPerKm2": 173.9,
+    "nightlifePerKm2": 2.6
+   },
+   "provenance": {
+    "assignment": "derived",
+    "assignmentMethod": "nearest configured district seed point (Voronoi by great-circle distance)",
+    "densityCaveat": "Densities use each district's feature extent as its area, which understates dense cores and overstates sparse ones. Use for relative comparison only."
+   }
+  },
+  {
+   "id": "botanic-garden",
+   "realName": "Royal Botanic Garden",
+   "characterSeed": "park-anchor",
+   "center": [
+    -33.864,
+    151.216
+   ],
+   "local": {
+    "x": 739.679,
+    "y": 0.0,
+    "z": -999.177
+   },
+   "extent": {
+    "south": -33.867208,
+    "west": 151.211466,
+    "north": -33.859644,
+    "east": 151.221595
+   },
+   "extentKm2": 0.947,
+   "counts": {
+    "venues": 126,
+    "nightlifeVenues": 9,
+    "shops": 1,
+    "food": 7,
+    "lodging": 0,
+    "civic": 4,
+    "transport": 16,
+    "parks": 89,
+    "transitStops": 0,
+    "landmarks": 9,
+    "waterBodies": 18
+   },
+   "measured": {
+    "arterialRoadKm": 3.46,
+    "allRoadKm": 7.94,
+    "parkAreaKm2": 0.478,
+    "venuesPerKm2": 133.1,
+    "nightlifePerKm2": 9.5
+   },
+   "provenance": {
+    "assignment": "derived",
+    "assignmentMethod": "nearest configured district seed point (Voronoi by great-circle distance)",
+    "densityCaveat": "Densities use each district's feature extent as its area, which understates dense cores and overstates sparse ones. Use for relative comparison only."
+   }
+  },
+  {
+   "id": "centennial-park",
+   "realName": "Centennial Park",
+   "characterSeed": "park-anchor",
+   "center": [
+    -33.881,
+    151.233
+   ],
+   "local": {
+    "x": 2311.497,
+    "y": 0.0,
+    "z": 888.157
+   },
+   "extent": {
+    "south": -33.890755,
+    "west": 151.227511,
+    "north": -33.873143,
+    "east": 151.236384
+   },
+   "extentKm2": 1.932,
+   "counts": {
+    "venues": 132,
+    "nightlifeVenues": 10,
+    "shops": 3,
+    "food": 14,
+    "lodging": 3,
+    "civic": 10,
+    "transport": 22,
+    "parks": 77,
+    "transitStops": 0,
+    "landmarks": 1,
+    "waterBodies": 0
+   },
+   "measured": {
+    "arterialRoadKm": 7.06,
+    "allRoadKm": 24.85,
+    "parkAreaKm2": 0.106,
+    "venuesPerKm2": 68.3,
+    "nightlifePerKm2": 5.2
+   },
+   "provenance": {
+    "assignment": "derived",
+    "assignmentMethod": "nearest configured district seed point (Voronoi by great-circle distance)",
+    "densityCaveat": "Densities use each district's feature extent as its area, which understates dense cores and overstates sparse ones. Use for relative comparison only."
+   }
+  }
+ ],
+ "populationZones": [
+  {
+   "districtId": "cbd-core",
+   "dayActivity": "HIGH",
+   "nightActivity": "VERY_HIGH",
+   "inputs": {
+    "venuesPerKm2": 863.4,
+    "nightlifePerKm2": 133.3,
+    "transitStops": 52,
+    "parkAreaRatio": 0.01
+   },
+   "evidenceLayer": "gameplay-design",
+   "disclaimer": "Gameplay classification derived from OSM feature density. It is not a measurement of real human population or foot traffic."
+  },
+  {
+   "districtId": "barangaroo",
+   "dayActivity": "HIGH",
+   "nightActivity": "HIGH",
+   "inputs": {
+    "venuesPerKm2": 494.2,
+    "nightlifePerKm2": 61.8,
+    "transitStops": 16,
+    "parkAreaRatio": 0.032
+   },
+   "evidenceLayer": "gameplay-design",
+   "disclaimer": "Gameplay classification derived from OSM feature density. It is not a measurement of real human population or foot traffic."
+  },
+  {
+   "districtId": "the-rocks",
+   "dayActivity": "MEDIUM",
+   "nightActivity": "MEDIUM",
+   "inputs": {
+    "venuesPerKm2": 157.2,
+    "nightlifePerKm2": 35.6,
+    "transitStops": 6,
+    "parkAreaRatio": 0.061
+   },
+   "evidenceLayer": "gameplay-design",
+   "disclaimer": "Gameplay classification derived from OSM feature density. It is not a measurement of real human population or foot traffic."
+  },
+  {
+   "districtId": "circular-quay",
+   "dayActivity": "HIGH",
+   "nightActivity": "HIGH",
+   "inputs": {
+    "venuesPerKm2": 328.8,
+    "nightlifePerKm2": 67.0,
+    "transitStops": 37,
+    "parkAreaRatio": 0.086
+   },
+   "evidenceLayer": "gameplay-design",
+   "disclaimer": "Gameplay classification derived from OSM feature density. It is not a measurement of real human population or foot traffic."
+  },
+  {
+   "districtId": "walsh-bay",
+   "dayActivity": "LOW",
+   "nightActivity": "LOW",
+   "inputs": {
+    "venuesPerKm2": 45.8,
+    "nightlifePerKm2": 2.9,
+    "transitStops": 15,
+    "parkAreaRatio": 0.089
+   },
+   "evidenceLayer": "gameplay-design",
+   "disclaimer": "Gameplay classification derived from OSM feature density. It is not a measurement of real human population or foot traffic."
+  },
+  {
+   "districtId": "woolloomooloo",
+   "dayActivity": "MEDIUM",
+   "nightActivity": "HIGH",
+   "inputs": {
+    "venuesPerKm2": 195.2,
+    "nightlifePerKm2": 51.3,
+    "transitStops": 0,
+    "parkAreaRatio": 0.15
+   },
+   "evidenceLayer": "gameplay-design",
+   "disclaimer": "Gameplay classification derived from OSM feature density. It is not a measurement of real human population or foot traffic."
+  },
+  {
+   "districtId": "darling-harbour",
+   "dayActivity": "HIGH",
+   "nightActivity": "MEDIUM",
+   "inputs": {
+    "venuesPerKm2": 138.3,
+    "nightlifePerKm2": 14.4,
+    "transitStops": 98,
+    "parkAreaRatio": 0.134
+   },
+   "evidenceLayer": "gameplay-design",
+   "disclaimer": "Gameplay classification derived from OSM feature density. It is not a measurement of real human population or foot traffic."
+  },
+  {
+   "districtId": "pyrmont",
+   "dayActivity": "LOW",
+   "nightActivity": "MEDIUM",
+   "inputs": {
+    "venuesPerKm2": 79.4,
+    "nightlifePerKm2": 10.1,
+    "transitStops": 26,
+    "parkAreaRatio": 0.078
+   },
+   "evidenceLayer": "gameplay-design",
+   "disclaimer": "Gameplay classification derived from OSM feature density. It is not a measurement of real human population or foot traffic."
+  },
+  {
+   "districtId": "haymarket",
+   "dayActivity": "HIGH",
+   "nightActivity": "VERY_HIGH",
+   "inputs": {
+    "venuesPerKm2": 525.7,
+    "nightlifePerKm2": 101.2,
+    "transitStops": 103,
+    "parkAreaRatio": 0.04
+   },
+   "evidenceLayer": "gameplay-design",
+   "disclaimer": "Gameplay classification derived from OSM feature density. It is not a measurement of real human population or foot traffic."
+  },
+  {
+   "districtId": "ultimo",
+   "dayActivity": "MEDIUM",
+   "nightActivity": "MEDIUM",
+   "inputs": {
+    "venuesPerKm2": 241.1,
+    "nightlifePerKm2": 35.5,
+    "transitStops": 12,
+    "parkAreaRatio": 0.067
+   },
+   "evidenceLayer": "gameplay-design",
+   "disclaimer": "Gameplay classification derived from OSM feature density. It is not a measurement of real human population or foot traffic."
+  },
+  {
+   "districtId": "kings-cross",
+   "dayActivity": "MEDIUM",
+   "nightActivity": "HIGH",
+   "inputs": {
+    "venuesPerKm2": 293.6,
+    "nightlifePerKm2": 47.6,
+    "transitStops": 5,
+    "parkAreaRatio": 0.079
+   },
+   "evidenceLayer": "gameplay-design",
+   "disclaimer": "Gameplay classification derived from OSM feature density. It is not a measurement of real human population or foot traffic."
+  },
+  {
+   "districtId": "potts-point",
+   "dayActivity": "MEDIUM",
+   "nightActivity": "LOW",
+   "inputs": {
+    "venuesPerKm2": 19.8,
+    "nightlifePerKm2": 3.8,
+    "transitStops": 6,
+    "parkAreaRatio": 3.845
+   },
+   "evidenceLayer": "gameplay-design",
+   "disclaimer": "Gameplay classification derived from OSM feature density. It is not a measurement of real human population or foot traffic."
+  },
+  {
+   "districtId": "surry-hills",
+   "dayActivity": "HIGH",
+   "nightActivity": "MEDIUM",
+   "inputs": {
+    "venuesPerKm2": 175.8,
+    "nightlifePerKm2": 36.6,
+    "transitStops": 39,
+    "parkAreaRatio": 0.064
+   },
+   "evidenceLayer": "gameplay-design",
+   "disclaimer": "Gameplay classification derived from OSM feature density. It is not a measurement of real human population or foot traffic."
+  },
+  {
+   "districtId": "kingsford",
+   "dayActivity": "LOW",
+   "nightActivity": "MEDIUM",
+   "inputs": {
+    "venuesPerKm2": 85.1,
+    "nightlifePerKm2": 10.9,
+    "transitStops": 0,
+    "parkAreaRatio": 0.047
+   },
+   "evidenceLayer": "gameplay-design",
+   "disclaimer": "Gameplay classification derived from OSM feature density. It is not a measurement of real human population or foot traffic."
+  },
+  {
+   "districtId": "darlinghurst",
+   "dayActivity": "MEDIUM",
+   "nightActivity": "HIGH",
+   "inputs": {
+    "venuesPerKm2": 335.7,
+    "nightlifePerKm2": 92.5,
+    "transitStops": 0,
+    "parkAreaRatio": 0.022
+   },
+   "evidenceLayer": "gameplay-design",
+   "disclaimer": "Gameplay classification derived from OSM feature density. It is not a measurement of real human population or foot traffic."
+  },
+  {
+   "districtId": "redfern",
+   "dayActivity": "HIGH",
+   "nightActivity": "LOW",
+   "inputs": {
+    "venuesPerKm2": 57.5,
+    "nightlifePerKm2": 5.3,
+    "transitStops": 41,
+    "parkAreaRatio": 1.512
+   },
+   "evidenceLayer": "gameplay-design",
+   "disclaimer": "Gameplay classification derived from OSM feature density. It is not a measurement of real human population or foot traffic."
+  },
+  {
+   "districtId": "hyde-park",
+   "dayActivity": "MEDIUM",
+   "nightActivity": "LOW",
+   "inputs": {
+    "venuesPerKm2": 173.9,
+    "nightlifePerKm2": 2.6,
+    "transitStops": 8,
+    "parkAreaRatio": 0.606
+   },
+   "evidenceLayer": "gameplay-design",
+   "disclaimer": "Gameplay classification derived from OSM feature density. It is not a measurement of real human population or foot traffic."
+  },
+  {
+   "districtId": "botanic-garden",
+   "dayActivity": "MEDIUM",
+   "nightActivity": "LOW",
+   "inputs": {
+    "venuesPerKm2": 133.1,
+    "nightlifePerKm2": 9.5,
+    "transitStops": 0,
+    "parkAreaRatio": 0.505
+   },
+   "evidenceLayer": "gameplay-design",
+   "disclaimer": "Gameplay classification derived from OSM feature density. It is not a measurement of real human population or foot traffic."
+  },
+  {
+   "districtId": "centennial-park",
+   "dayActivity": "LOW",
+   "nightActivity": "LOW",
+   "inputs": {
+    "venuesPerKm2": 68.3,
+    "nightlifePerKm2": 5.2,
+    "transitStops": 0,
+    "parkAreaRatio": 0.055
+   },
+   "evidenceLayer": "gameplay-design",
+   "disclaimer": "Gameplay classification derived from OSM feature density. It is not a measurement of real human population or foot traffic."
+  }
+ ],
+ "gameplayZones": [
+  {
+   "districtId": "cbd-core",
+   "roles": [
+    "COMMERCIAL",
+    "MEDICAL",
+    "NIGHTLIFE",
+    "PARK",
+    "RESIDENTIAL",
+    "TOURIST",
+    "WATERFRONT"
+   ],
+   "evidenceLayer": "gameplay-design",
+   "disclaimer": "Game-design metadata. OSM does not determine these labels."
+  },
+  {
+   "districtId": "barangaroo",
+   "roles": [
+    "COMMERCIAL",
+    "NIGHTLIFE",
+    "PARK",
+    "WATERFRONT"
+   ],
+   "evidenceLayer": "gameplay-design",
+   "disclaimer": "Game-design metadata. OSM does not determine these labels."
+  },
+  {
+   "districtId": "the-rocks",
+   "roles": [
+    "PARK",
+    "WATERFRONT"
+   ],
+   "evidenceLayer": "gameplay-design",
+   "disclaimer": "Game-design metadata. OSM does not determine these labels."
+  },
+  {
+   "districtId": "circular-quay",
+   "roles": [
+    "COMMERCIAL",
+    "NIGHTLIFE",
+    "PARK",
+    "WATERFRONT"
+   ],
+   "evidenceLayer": "gameplay-design",
+   "disclaimer": "Game-design metadata. OSM does not determine these labels."
+  },
+  {
+   "districtId": "walsh-bay",
+   "roles": [
+    "PARK",
+    "WATERFRONT"
+   ],
+   "evidenceLayer": "gameplay-design",
+   "disclaimer": "Game-design metadata. OSM does not determine these labels."
+  },
+  {
+   "districtId": "woolloomooloo",
+   "roles": [
+    "NIGHTLIFE",
+    "PARK",
+    "WATERFRONT"
+   ],
+   "evidenceLayer": "gameplay-design",
+   "disclaimer": "Game-design metadata. OSM does not determine these labels."
+  },
+  {
+   "districtId": "darling-harbour",
+   "roles": [
+    "PARK",
+    "WATERFRONT"
+   ],
+   "evidenceLayer": "gameplay-design",
+   "disclaimer": "Game-design metadata. OSM does not determine these labels."
+  },
+  {
+   "districtId": "pyrmont",
+   "roles": [
+    "PARK",
+    "WATERFRONT"
+   ],
+   "evidenceLayer": "gameplay-design",
+   "disclaimer": "Game-design metadata. OSM does not determine these labels."
+  },
+  {
+   "districtId": "haymarket",
+   "roles": [
+    "CIVIC",
+    "COMMERCIAL",
+    "NIGHTLIFE",
+    "PARK",
+    "TOURIST",
+    "WATERFRONT"
+   ],
+   "evidenceLayer": "gameplay-design",
+   "disclaimer": "Game-design metadata. OSM does not determine these labels."
+  },
+  {
+   "districtId": "ultimo",
+   "roles": [
+    "CIVIC",
+    "PARK",
+    "TOURIST",
+    "WATERFRONT"
+   ],
+   "evidenceLayer": "gameplay-design",
+   "disclaimer": "Game-design metadata. OSM does not determine these labels."
+  },
+  {
+   "districtId": "kings-cross",
+   "roles": [
+    "CIVIC",
+    "NIGHTLIFE",
+    "PARK",
+    "TOURIST",
+    "WATERFRONT"
+   ],
+   "evidenceLayer": "gameplay-design",
+   "disclaimer": "Game-design metadata. OSM does not determine these labels."
+  },
+  {
+   "districtId": "potts-point",
+   "roles": [
+    "PARK",
+    "WATERFRONT"
+   ],
+   "evidenceLayer": "gameplay-design",
+   "disclaimer": "Game-design metadata. OSM does not determine these labels."
+  },
+  {
+   "districtId": "surry-hills",
+   "roles": [
+    "CIVIC",
+    "PARK",
+    "WATERFRONT"
+   ],
+   "evidenceLayer": "gameplay-design",
+   "disclaimer": "Game-design metadata. OSM does not determine these labels."
+  },
+  {
+   "districtId": "kingsford",
+   "roles": [
+    "PARK",
+    "WATERFRONT"
+   ],
+   "evidenceLayer": "gameplay-design",
+   "disclaimer": "Game-design metadata. OSM does not determine these labels."
+  },
+  {
+   "districtId": "darlinghurst",
+   "roles": [
+    "CIVIC",
+    "COMMERCIAL",
+    "NIGHTLIFE",
+    "PARK",
+    "WATERFRONT"
+   ],
+   "evidenceLayer": "gameplay-design",
+   "disclaimer": "Game-design metadata. OSM does not determine these labels."
+  },
+  {
+   "districtId": "redfern",
+   "roles": [
+    "PARK",
+    "WATERFRONT"
+   ],
+   "evidenceLayer": "gameplay-design",
+   "disclaimer": "Game-design metadata. OSM does not determine these labels."
+  },
+  {
+   "districtId": "hyde-park",
+   "roles": [
+    "PARK",
+    "WATERFRONT"
+   ],
+   "evidenceLayer": "gameplay-design",
+   "disclaimer": "Game-design metadata. OSM does not determine these labels."
+  },
+  {
+   "districtId": "botanic-garden",
+   "roles": [
+    "PARK",
+    "WATERFRONT"
+   ],
+   "evidenceLayer": "gameplay-design",
+   "disclaimer": "Game-design metadata. OSM does not determine these labels."
+  },
+  {
+   "districtId": "centennial-park",
+   "roles": [
+    "PARK",
+    "WATERFRONT"
+   ],
+   "evidenceLayer": "gameplay-design",
+   "disclaimer": "Game-design metadata. OSM does not determine these labels."
+  }
+ ],
+ "corridors": [
+  {
+   "id": "cbd-to-barangaroo",
+   "from": {
+    "lat": -33.872,
+    "lon": 151.203,
+    "label": "CBD"
+   },
+   "to": {
+    "lat": -33.862,
+    "lon": 151.201,
+    "label": "Barangaroo"
+   },
+   "straightLineM": 1127.2,
+   "fromDistrict": "cbd-core",
+   "toDistrict": "barangaroo",
+   "drivenRoute": {
+    "distanceM": 7650.8,
+    "durationS": 595,
+    "geometryPoints": 280,
+    "source": "OSRM via osm-mcp get_route_directions",
+    "evidenceLayer": "derived"
+   }
+  },
+  {
+   "id": "cbd-to-kings-cross",
+   "from": {
+    "lat": -33.879,
+    "lon": 151.207,
+    "label": "Central"
+   },
+   "to": {
+    "lat": -33.874,
+    "lon": 151.225,
+    "label": "Kings Cross"
+   },
+   "straightLineM": 1752.3,
+   "fromDistrict": "haymarket",
+   "toDistrict": "kings-cross",
+   "drivenRoute": {
+    "distanceM": 2320.4,
+    "durationS": 297.5,
+    "geometryPoints": 135,
+    "source": "OSRM via osm-mcp get_route_directions",
+    "evidenceLayer": "derived"
+   }
+  },
+  {
+   "id": "cbd-to-surry-hills",
+   "from": {
+    "lat": -33.879,
+    "lon": 151.207,
+    "label": "Central"
+   },
+   "to": {
+    "lat": -33.888,
+    "lon": 151.212,
+    "label": "Surry Hills"
+   },
+   "straightLineM": 1102.1,
+   "fromDistrict": "haymarket",
+   "toDistrict": "surry-hills",
+   "drivenRoute": {
+    "distanceM": 1339.6,
+    "durationS": 166.9,
+    "geometryPoints": 111,
+    "source": "OSRM via osm-mcp get_route_directions",
+    "evidenceLayer": "derived"
+   }
+  },
+  {
+   "id": "harbour-to-waterfront",
+   "from": {
+    "lat": -33.871,
+    "lon": 151.196,
+    "label": "Darling Harbour"
+   },
+   "to": {
+    "lat": -33.861,
+    "lon": 151.211,
+    "label": "Circular Quay"
+   },
+   "straightLineM": 1776.1,
+   "fromDistrict": "darling-harbour",
+   "toDistrict": "circular-quay",
+   "drivenRoute": {
+    "distanceM": 7877.7,
+    "durationS": 552.1,
+    "geometryPoints": 263,
+    "source": "OSRM via osm-mcp get_route_directions",
+    "evidenceLayer": "derived"
+   }
+  }
+ ]
+}

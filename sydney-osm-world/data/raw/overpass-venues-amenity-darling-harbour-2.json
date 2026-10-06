@@ -1,0 +1,6402 @@
+{
+ "kind": "venues-amenity-darling-harbour-2",
+ "sourceChannel": "overpass-api",
+ "collectedAt": "2026-09-29T17:49:03+00:00",
+ "dataSource": "OpenStreetMap",
+ "license": "ODbL 1.0",
+ "payload": {
+  "elements": [
+   {
+    "type": "node",
+    "id": 18825536,
+    "lat": -33.8927173,
+    "lon": 151.2026012,
+    "tags": {
+     "amenity": "place_of_worship",
+     "check_date": "2026-09-09",
+     "denomination": "catholic",
+     "name": "St Vincent de Paul Catholic Church",
+     "religion": "christian"
+    }
+   },
+   {
+    "type": "node",
+    "id": 20930525,
+    "lat": -33.8800286,
+    "lon": 151.2049579,
+    "tags": {
+     "addr:housenumber": "691-693",
+     "addr:street": "George Street",
+     "amenity": "bank",
+     "brand": "Commonwealth Bank",
+     "brand:wikidata": "Q285328",
+     "brand:wikipedia": "en:Commonwealth Bank",
+     "check_date": "2025-06-14",
+     "check_date:opening_hours": "2025-06-14",
+     "name": "Commonwealth Bank",
+     "opening_hours": "Mo-Fr 09:30-16:00; Sa,Su off"
+    }
+   },
+   {
+    "type": "node",
+    "id": 20930526,
+    "lat": -33.8802551,
+    "lon": 151.2048642,
+    "tags": {
+     "amenity": "bank",
+     "brand": "St.George",
+     "brand:wikidata": "Q1606050",
+     "brand:wikipedia": "en:St.George Bank",
+     "check_date": "2025-06-14",
+     "check_date:opening_hours": "2025-06-14",
+     "name": "St.George",
+     "opening_hours": "Mo-Th 09:30-16:00; Fr 09:30-17:00"
+    }
+   },
+   {
+    "type": "node",
+    "id": 20930528,
+    "lat": -33.8802046,
+    "lon": 151.2045933,
+    "tags": {
+     "amenity": "bank",
+     "brand": "Citibank",
+     "brand:wikidata": "Q857063",
+     "brand:wikipedia": "en:Citibank",
+     "name": "Citibank",
+     "short_name": "Citi"
+    }
+   },
+   {
+    "type": "node",
+    "id": 265079450,
+    "lat": -33.8939309,
+    "lon": 151.1926449,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "created_by": "Potlatch 0.9a"
+    }
+   },
+   {
+    "type": "node",
+    "id": 265079491,
+    "lat": -33.89371,
+    "lon": 151.1925419,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "wide_stands",
+     "capacity": "4",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 265917440,
+    "lat": -33.8925377,
+    "lon": 151.2032207,
+    "tags": {
+     "addr:housenumber": "118A",
+     "addr:street": "Redfern Street",
+     "amenity": "pharmacy",
+     "dispensing": "yes",
+     "email": "goldcrosspharmacy@gmail.com",
+     "healthcare": "pharmacy",
+     "name": "Gold Cross",
+     "phone": "+61 2 9698 2155",
+     "website": "https://www.compoundingchemists.com.au/"
+    }
+   },
+   {
+    "type": "node",
+    "id": 265917842,
+    "lat": -33.8899091,
+    "lon": 151.2047726,
+    "tags": {
+     "addr:housenumber": "219-241",
+     "addr:postcode": "2016",
+     "addr:street": "Cleveland Street",
+     "amenity": "post_office",
+     "bicycle_parking": "no",
+     "brand": "Australia Post",
+     "name": "Strawberry Hills Post Shop",
+     "opening_hours": "Mo-Fr 09:00-17:00; Sa 09:30-13:00",
+     "operator": "Australia Post",
+     "operator:wikidata": "Q1142936",
+     "website": "https://auspost.com.au/locate/showpop/245550"
+    }
+   },
+   {
+    "type": "node",
+    "id": 266130422,
+    "lat": -33.892717,
+    "lon": 151.2020114,
+    "tags": {
+     "amenity": "atm",
+     "name": "Cashcard"
+    }
+   },
+   {
+    "type": "node",
+    "id": 1085489535,
+    "lat": -33.8802886,
+    "lon": 151.2065735,
+    "tags": {
+     "addr:housenumber": "477",
+     "addr:street": "Pitt Street",
+     "addr:unit": "13",
+     "amenity": "post_office",
+     "brand": "Australia Post",
+     "brand:wikidata": "Q1142936",
+     "brand:wikipedia": "en:Australia Post",
+     "check_date": "2026-09-15",
+     "check_date:opening_hours": "2026-09-15",
+     "level": "0",
+     "name": "Haymarket Post Office",
+     "opening_hours": "Mo-Fr 09:00-17:00",
+     "operator": "Australia Post",
+     "operator:wikidata": "Q1142936",
+     "operator:wikipedia": "en:Australia Post",
+     "phone:AU": "13 13 18",
+     "website": "https://auspost.com.au/locate/post-office/nsw/haymarket/2000/haymarket-post-office-235387",
+     "wheelchair": "yes"
+    }
+   },
+   {
+    "type": "node",
+    "id": 1114800736,
+    "lat": -33.8800333,
+    "lon": 151.2119167,
+    "tags": {
+     "amenity": "drinking_water",
+     "bottle": "yes",
+     "dog": "yes",
+     "fountain": "bubbler"
+    }
+   },
+   {
+    "type": "node",
+    "id": 1319610516,
+    "lat": -33.8907881,
+    "lon": 151.1918331,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "capacity": "32"
+    }
+   },
+   {
+    "type": "node",
+    "id": 1577577879,
+    "lat": -33.8924393,
+    "lon": 151.192252,
+    "tags": {
+     "amenity": "place_of_worship",
+     "check_date": "2025-07-09",
+     "name": "Church of the Assumption of Our Lady",
+     "religion": "christian"
+    }
+   },
+   {
+    "type": "node",
+    "id": 1577805047,
+    "lat": -33.8919682,
+    "lon": 151.1942426,
+    "tags": {
+     "amenity": "bbq",
+     "capacity": "2",
+     "covered": "no",
+     "fuel": "gas"
+    }
+   },
+   {
+    "type": "node",
+    "id": 1613758330,
+    "lat": -33.8894706,
+    "lon": 151.1907642,
+    "tags": {
+     "amenity": "atm",
+     "brand": "NAB",
+     "brand:wikidata": "Q1430985",
+     "brand:wikipedia": "en:National Australia Bank",
+     "name": "NAB",
+     "operator": "NAB",
+     "operator:wikidata": "Q1430985",
+     "operator:wikipedia": "en:National Australia Bank"
+    }
+   },
+   {
+    "type": "node",
+    "id": 1613758344,
+    "lat": -33.886774,
+    "lon": 151.1876204,
+    "tags": {
+     "amenity": "atm",
+     "check_date": "2021-03-02",
+     "operator": "rediATM"
+    }
+   },
+   {
+    "type": "node",
+    "id": 1613758347,
+    "lat": -33.8898268,
+    "lon": 151.1904985,
+    "tags": {
+     "amenity": "atm",
+     "brand": "ANZ",
+     "brand:wikidata": "Q714641",
+     "brand:wikipedia": "en:Australia and New Zealand Banking Group",
+     "name": "ANZ",
+     "official_name": "Australia and New Zealand Banking Group Limited",
+     "operator": "ANZ",
+     "operator:wikidata": "Q714641",
+     "operator:wikipedia": "en:Australia and New Zealand Banking Group"
+    }
+   },
+   {
+    "type": "node",
+    "id": 1613758350,
+    "lat": -33.8892546,
+    "lon": 151.1909947,
+    "tags": {
+     "amenity": "atm",
+     "brand": "ANZ",
+     "brand:wikidata": "Q714641",
+     "brand:wikipedia": "en:Australia and New Zealand Banking Group",
+     "name": "ANZ",
+     "official_name": "Australia and New Zealand Banking Group Limited",
+     "operator": "ANZ",
+     "operator:wikidata": "Q714641",
+     "operator:wikipedia": "en:Australia and New Zealand Banking Group"
+    }
+   },
+   {
+    "type": "node",
+    "id": 1613758371,
+    "lat": -33.8867853,
+    "lon": 151.1875588,
+    "tags": {
+     "amenity": "atm",
+     "brand": "Commonwealth Bank",
+     "brand:wikidata": "Q285328",
+     "operator": "Commonwealth Bank",
+     "operator:wikidata": "Q285328"
+    }
+   },
+   {
+    "type": "node",
+    "id": 1613758372,
+    "lat": -33.889337,
+    "lon": 151.1907106,
+    "tags": {
+     "amenity": "atm",
+     "brand": "Commonwealth Bank",
+     "brand:wikidata": "Q285328",
+     "brand:wikipedia": "en:Commonwealth Bank",
+     "name": "Commonwealth Bank",
+     "operator": "Commonwealth Bank",
+     "operator:wikidata": "Q285328",
+     "operator:wikipedia": "en:Commonwealth Bank"
+    }
+   },
+   {
+    "type": "node",
+    "id": 1613758374,
+    "lat": -33.8908212,
+    "lon": 151.191992,
+    "tags": {
+     "amenity": "atm",
+     "brand": "Westpac",
+     "brand:wikidata": "Q2031726",
+     "operator": "Westpac",
+     "operator:wikidata": "Q2031726"
+    }
+   },
+   {
+    "type": "node",
+    "id": 1776791466,
+    "lat": -33.8860361,
+    "lon": 151.2069189,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "2",
+     "check_date": "2024-05-13",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 1812120498,
+    "lat": -33.8916485,
+    "lon": 151.1983661,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "12",
+     "covered": "no",
+     "fee": "no",
+     "source": "visual survey"
+    }
+   },
+   {
+    "type": "node",
+    "id": 1815377725,
+    "lat": -33.892313,
+    "lon": 151.2012673,
+    "tags": {
+     "amenity": "post_office",
+     "brand": "Australia Post",
+     "check_date": "2024-11-10",
+     "name": "Redfern Post Office",
+     "operator": "Australia Post",
+     "operator:wikidata": "Q1142936",
+     "wikidata": "Q58204867"
+    }
+   },
+   {
+    "type": "node",
+    "id": 1821115399,
+    "lat": -33.8898842,
+    "lon": 151.2069064,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "capacity": "4",
+     "covered": "no",
+     "source": "visual inspection"
+    }
+   },
+   {
+    "type": "node",
+    "id": 1821115401,
+    "lat": -33.8899206,
+    "lon": 151.2070842,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "capacity": "4",
+     "covered": "no",
+     "source": "visual inspection"
+    }
+   },
+   {
+    "type": "node",
+    "id": 1821160044,
+    "lat": -33.8903235,
+    "lon": 151.1984426,
+    "tags": {
+     "amenity": "townhall",
+     "name": "Redfern Community Centre"
+    }
+   },
+   {
+    "type": "node",
+    "id": 1823641670,
+    "lat": -33.8905371,
+    "lon": 151.1984402,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "8",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 1823641684,
+    "lat": -33.8903369,
+    "lon": 151.1982176,
+    "tags": {
+     "amenity": "drinking_water",
+     "fountain": "bubbler"
+    }
+   },
+   {
+    "type": "node",
+    "id": 1833107577,
+    "lat": -33.8837411,
+    "lon": 151.1961929,
+    "tags": {
+     "amenity": "place_of_worship",
+     "denomination": "anglican",
+     "name": "St. Barnabas",
+     "religion": "christian",
+     "source": "survey",
+     "website": "https://www.barneys.org.au/"
+    }
+   },
+   {
+    "type": "node",
+    "id": 1833142900,
+    "lat": -33.8831481,
+    "lon": 151.1947007,
+    "tags": {
+     "amenity": "bank",
+     "atm": "yes",
+     "brand": "Westpac",
+     "brand:wikidata": "Q2031726",
+     "brand:wikipedia": "en:Westpac",
+     "name": "Westpac",
+     "opening_hours": "\"temporarily closed\"",
+     "source": "photo",
+     "website": "https://www.westpac.com.au/"
+    }
+   },
+   {
+    "type": "node",
+    "id": 1851026582,
+    "lat": -33.8903628,
+    "lon": 151.2094765,
+    "tags": {
+     "amenity": "place_of_worship",
+     "name": "Redfern Mosque",
+     "religion": "muslim",
+     "source": "local knowledge",
+     "website": "https://ris.org.au/"
+    }
+   },
+   {
+    "type": "node",
+    "id": 1853708467,
+    "lat": -33.8885057,
+    "lon": 151.212277,
+    "tags": {
+     "amenity": "toilets",
+     "check_date": "2026-03"
+    }
+   },
+   {
+    "type": "node",
+    "id": 1941652168,
+    "lat": -33.883226,
+    "lon": 151.2036855,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "1",
+     "covered": "no",
+     "fixme": "which lamp post is this on? wouldn't be on the road",
+     "note": "ring on lamp post"
+    }
+   },
+   {
+    "type": "node",
+    "id": 2189149449,
+    "lat": -33.8895455,
+    "lon": 151.1910593,
+    "tags": {
+     "amenity": "toilets",
+     "toilets:disposal": "flush"
+    }
+   },
+   {
+    "type": "node",
+    "id": 2199090299,
+    "lat": -33.8927613,
+    "lon": 151.2122132,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "4",
+     "covered": "no",
+     "source": "local knowledge"
+    }
+   },
+   {
+    "type": "node",
+    "id": 2199402556,
+    "lat": -33.8882876,
+    "lon": 151.1908622,
+    "tags": {
+     "amenity": "toilets",
+     "female": "no",
+     "layer": "-1",
+     "male": "yes"
+    }
+   },
+   {
+    "type": "node",
+    "id": 2199402579,
+    "lat": -33.8882273,
+    "lon": 151.190852,
+    "tags": {
+     "amenity": "toilets",
+     "female": "yes",
+     "layer": "-1",
+     "male": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 2351681263,
+    "lat": -33.8861666,
+    "lon": 151.2066778,
+    "tags": {
+     "access": "yes",
+     "amenity": "drinking_water",
+     "bottle": "yes",
+     "dog": "yes",
+     "fee": "no",
+     "fountain": "bubbler",
+     "source": "wetap.org",
+     "survey:date": "2022-02-03",
+     "wetap:status": "working"
+    }
+   },
+   {
+    "type": "node",
+    "id": 2351681265,
+    "lat": -33.8874219,
+    "lon": 151.2049577,
+    "tags": {
+     "access": "yes",
+     "amenity": "drinking_water",
+     "bottle": "no",
+     "description": "Sport field",
+     "fee": "no",
+     "fountain": "bubbler",
+     "source": "wetap.org",
+     "wetap:status": "working"
+    }
+   },
+   {
+    "type": "node",
+    "id": 2351681267,
+    "lat": -33.8890759,
+    "lon": 151.2028801,
+    "tags": {
+     "access": "yes",
+     "amenity": "drinking_water",
+     "bottle": "yes",
+     "dog": "yes",
+     "fee": "no",
+     "fountain": "bubbler",
+     "source": "wetap.org",
+     "wetap:status": "working"
+    }
+   },
+   {
+    "type": "node",
+    "id": 2699744955,
+    "lat": -33.8837259,
+    "lon": 151.2026464,
+    "tags": {
+     "access": "no",
+     "amenity": "atm",
+     "cash_in": "no",
+     "demolished:atm": "yes",
+     "operator": "DC ATM"
+    }
+   },
+   {
+    "type": "node",
+    "id": 2743996060,
+    "lat": -33.8840828,
+    "lon": 151.1868094,
+    "tags": {
+     "amenity": "drinking_water",
+     "fountain": "bubbler"
+    }
+   },
+   {
+    "type": "node",
+    "id": 2854352903,
+    "lat": -33.8919227,
+    "lon": 151.2007406,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "6",
+     "covered": "no",
+     "source": "survey"
+    }
+   },
+   {
+    "type": "node",
+    "id": 2880965403,
+    "lat": -33.8871966,
+    "lon": 151.1970052,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "anchors",
+     "capacity": "6",
+     "covered": "no",
+     "source": "survey"
+    }
+   },
+   {
+    "type": "node",
+    "id": 2952224084,
+    "lat": -33.8933123,
+    "lon": 151.1921652,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "32",
+     "check_date": "2026-02-12",
+     "check_date:capacity": "2026-02-12",
+     "covered": "no",
+     "source": "survey",
+     "source:location": "extrapolation"
+    }
+   },
+   {
+    "type": "node",
+    "id": 2976798055,
+    "lat": -33.8852383,
+    "lon": 151.1875745,
+    "tags": {
+     "amenity": "drinking_water",
+     "check_date": "2023-04-19",
+     "fountain": "bubbler"
+    }
+   },
+   {
+    "type": "node",
+    "id": 3085751584,
+    "lat": -33.8953076,
+    "lon": 151.1991446,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "anchors",
+     "capacity": "4",
+     "covered": "no",
+     "operator": "City of Sydney",
+     "source": "survey"
+    }
+   },
+   {
+    "type": "node",
+    "id": 3132596128,
+    "lat": -33.8930723,
+    "lon": 151.2000804,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "metal_loops_in_ground",
+     "capacity": "4",
+     "covered": "no",
+     "operator": "City of Sydney"
+    }
+   },
+   {
+    "type": "node",
+    "id": 3132596529,
+    "lat": -33.8928547,
+    "lon": 151.2001013,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "metal_hoop_on_pole",
+     "capacity": "2",
+     "covered": "no",
+     "operator": "City of Sydney"
+    }
+   },
+   {
+    "type": "node",
+    "id": 3132596530,
+    "lat": -33.8935621,
+    "lon": 151.1998418,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "metal_loop_on_pole",
+     "capacity": "2",
+     "covered": "no",
+     "operator": "City of Sydney"
+    }
+   },
+   {
+    "type": "node",
+    "id": 3135980696,
+    "lat": -33.8943651,
+    "lon": 151.1995651,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "half-loops fixed in the ground",
+     "capacity": "6",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 3149871334,
+    "lat": -33.8912879,
+    "lon": 151.1960703,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "2",
+     "covered": "no",
+     "fee": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 3250377345,
+    "lat": -33.8847604,
+    "lon": 151.2001421,
+    "tags": {
+     "access": "no",
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "36",
+     "construction": "yes",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 3250377346,
+    "lat": -33.8855463,
+    "lon": 151.200028,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "10",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 3506630304,
+    "lat": -33.8849289,
+    "lon": 151.1960814,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "4",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 3724312818,
+    "lat": -33.8894372,
+    "lon": 151.1931522,
+    "tags": {
+     "amenity": "bicycle_parking"
+    }
+   },
+   {
+    "type": "node",
+    "id": 3724312819,
+    "lat": -33.8892922,
+    "lon": 151.1938587,
+    "tags": {
+     "amenity": "bicycle_parking"
+    }
+   },
+   {
+    "type": "node",
+    "id": 3724312820,
+    "lat": -33.8906237,
+    "lon": 151.1926164,
+    "tags": {
+     "amenity": "bicycle_parking"
+    }
+   },
+   {
+    "type": "node",
+    "id": 3724312821,
+    "lat": -33.8895223,
+    "lon": 151.1913625,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "12",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 3724312822,
+    "lat": -33.8894208,
+    "lon": 151.1915471,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "24",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 3724312823,
+    "lat": -33.8856536,
+    "lon": 151.1862011,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "28",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 3736947284,
+    "lat": -33.8866905,
+    "lon": 151.20559,
+    "tags": {
+     "access": "yes",
+     "amenity": "bbq",
+     "covered": "no",
+     "fuel": "electric"
+    }
+   },
+   {
+    "type": "node",
+    "id": 3921514863,
+    "lat": -33.8858774,
+    "lon": 151.1996092,
+    "tags": {
+     "amenity": "bbq",
+     "covered": "no",
+     "opening_hours": "Mo-Su 09:00-20:00"
+    }
+   },
+   {
+    "type": "node",
+    "id": 3921514958,
+    "lat": -33.8855766,
+    "lon": 151.2000227,
+    "tags": {
+     "amenity": "drinking_water",
+     "bottle": "yes",
+     "check_date": "2025-02-05",
+     "dog": "yes",
+     "fountain": "bubbler"
+    }
+   },
+   {
+    "type": "node",
+    "id": 3921515057,
+    "lat": -33.8837522,
+    "lon": 151.2024241,
+    "tags": {
+     "amenity": "atm",
+     "brand": "EzyMart",
+     "brand:wikidata": "Q117220554",
+     "check_date": "2025-11",
+     "name": "EzyMart",
+     "shop": "convenience"
+    }
+   },
+   {
+    "type": "node",
+    "id": 3977545157,
+    "lat": -33.8841608,
+    "lon": 151.1983491,
+    "tags": {
+     "amenity": "drinking_water",
+     "bottle": "no",
+     "check_date": "2024-10-13",
+     "dog": "no",
+     "fountain": "bubbler"
+    }
+   },
+   {
+    "type": "node",
+    "id": 3977545159,
+    "lat": -33.883175,
+    "lon": 151.1938677,
+    "tags": {
+     "addr:housenumber": "1-21",
+     "addr:postcode": "2037",
+     "addr:state": "NSW",
+     "addr:street": "Bay Street",
+     "addr:suburb": "Glebe",
+     "amenity": "post_office",
+     "branch": "Broadway",
+     "brand": "Australia Post",
+     "brand:wikidata": "Q1142936",
+     "brand:wikipedia": "en:Australia Post",
+     "level": "0",
+     "name": "Broadway Post Office",
+     "opening_hours": "Mo-We 09:00-17:00; Th 09:00-18:00; Fr 09:00-17:00; Sa 09:30-13:00",
+     "operator": "Australia Post",
+     "operator:wikidata": "Q1142936",
+     "phone:AU": "13 13 18",
+     "source:name": "NSW LPI Base Map",
+     "source:name:date": "2016-06",
+     "website": "https://auspost.com.au/locate/post-office/nsw/glebe/2037/glebe-post-office-228216"
+    }
+   },
+   {
+    "type": "node",
+    "id": 3977545465,
+    "lat": -33.8838004,
+    "lon": 151.19461,
+    "tags": {
+     "amenity": "bank",
+     "atm": "yes",
+     "brand": "ANZ",
+     "brand:wikidata": "Q714641",
+     "brand:wikipedia": "en:Australia and New Zealand Banking Group",
+     "check_date": "2025-01-05",
+     "level": "0",
+     "name": "ANZ",
+     "official_name": "Australia and New Zealand Banking Group Limited",
+     "opening_hours": "Mo-Th 09:30-16:00; Fr 09:30-17:00",
+     "wheelchair": "yes"
+    }
+   },
+   {
+    "type": "node",
+    "id": 3977545469,
+    "lat": -33.8829488,
+    "lon": 151.1939376,
+    "tags": {
+     "amenity": "pharmacy",
+     "brand": "Priceline Pharmacy",
+     "brand:wikidata": "Q7242652",
+     "brand:wikipedia": "en:Priceline (Australia)",
+     "check_date": "2025-06-21",
+     "dispensing": "yes",
+     "healthcare": "pharmacy",
+     "level": "3",
+     "name": "Priceline Pharmacy",
+     "website": "https://www.priceline.com.au/"
+    }
+   },
+   {
+    "type": "node",
+    "id": 4027321791,
+    "lat": -33.8806056,
+    "lon": 151.2074456,
+    "tags": {
+     "amenity": "drinking_water",
+     "check_date": "2022-10-02",
+     "fountain": "bubbler"
+    }
+   },
+   {
+    "type": "node",
+    "id": 4071269497,
+    "lat": -33.8857885,
+    "lon": 151.1876529,
+    "tags": {
+     "amenity": "post_office",
+     "brand": "Australia Post",
+     "brand:wikidata": "Q1142936",
+     "name": "Sydney University Post Office",
+     "opening_hours": "Mo-Fr 09:00-17:00",
+     "operator": "Australia Post",
+     "operator:wikidata": "Q1142936",
+     "phone": "+61 2 9351 2269",
+     "website": "https://auspost.com.au/locate/post-office/nsw/camperdown/2050/camperdown-post-office-245593"
+    }
+   },
+   {
+    "type": "node",
+    "id": 4094596239,
+    "lat": -33.8805092,
+    "lon": 151.2014957,
+    "tags": {
+     "amenity": "drinking_water",
+     "bottle": "yes",
+     "check_date": "2022-06-15",
+     "fountain": "bubbler",
+     "mapillary": "946002096173512"
+    }
+   },
+   {
+    "type": "node",
+    "id": 4094954495,
+    "lat": -33.8807762,
+    "lon": 151.1986792,
+    "tags": {
+     "amenity": "drinking_water",
+     "check_date": "2022-04-04",
+     "fountain": "bubbler"
+    }
+   },
+   {
+    "type": "node",
+    "id": 4160638731,
+    "lat": -33.8948024,
+    "lon": 151.199392,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "anchors",
+     "capacity": "6",
+     "covered": "no",
+     "operator": "City of Sydney",
+     "source": "survey"
+    }
+   },
+   {
+    "type": "node",
+    "id": 4160638732,
+    "lat": -33.8948345,
+    "lon": 151.1994327,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "anchors",
+     "capacity": "2",
+     "covered": "yes",
+     "source": "survey"
+    }
+   },
+   {
+    "type": "node",
+    "id": 4229020201,
+    "lat": -33.891684,
+    "lon": 151.2135493,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "loop",
+     "capacity": "1",
+     "covered": "no",
+     "operator": "City of Sydney"
+    }
+   },
+   {
+    "type": "node",
+    "id": 4229084363,
+    "lat": -33.8872979,
+    "lon": 151.2138333,
+    "tags": {
+     "addr:housenumber": "500",
+     "addr:street": "Crown Street",
+     "addr:suburb": "Surry Hills",
+     "addr:unit": "4",
+     "amenity": "post_office",
+     "brand": "Australia Post",
+     "brand:wikidata": "Q1142936",
+     "name": "Surry Hills Post Office",
+     "opening_hours": "Mo-Fr 09:00-17:00; Sa 09:30-13:00",
+     "operator": "Australia Post",
+     "operator:wikidata": "Q1142936",
+     "phone:AU": "13 13 18",
+     "website": "https://auspost.com.au/locate/post-office/nsw/surry-hills/2010/surry-hills-post-office-245315"
+    }
+   },
+   {
+    "type": "node",
+    "id": 4242650291,
+    "lat": -33.8858577,
+    "lon": 151.208342,
+    "tags": {
+     "amenity": "atm",
+     "cash_in": "no",
+     "check_date": "2025-06-21",
+     "operator": "Precinct"
+    }
+   },
+   {
+    "type": "node",
+    "id": 4385322832,
+    "lat": -33.8898016,
+    "lon": 151.1936237,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "10",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 4469665786,
+    "lat": -33.8921224,
+    "lon": 151.1877741,
+    "tags": {
+     "amenity": "drinking_water"
+    }
+   },
+   {
+    "type": "node",
+    "id": 4469665787,
+    "lat": -33.8869787,
+    "lon": 151.1930535,
+    "tags": {
+     "amenity": "drinking_water",
+     "fountain": "bubbler"
+    }
+   },
+   {
+    "type": "node",
+    "id": 4469665788,
+    "lat": -33.8868337,
+    "lon": 151.1933142,
+    "tags": {
+     "amenity": "bbq",
+     "covered": "no",
+     "fuel": "electric"
+    }
+   },
+   {
+    "type": "node",
+    "id": 4470607059,
+    "lat": -33.8942994,
+    "lon": 151.1969217,
+    "tags": {
+     "access": "yes",
+     "amenity": "drinking_water"
+    }
+   },
+   {
+    "type": "node",
+    "id": 4484797189,
+    "lat": -33.8813015,
+    "lon": 151.2025374,
+    "tags": {
+     "access": "yes",
+     "amenity": "toilets",
+     "changing_table": "yes",
+     "changing_table:location": "dedicated_room",
+     "check_date": "2026-08-08",
+     "description": "Disabled toilets locked via combination keypad - may need shop owners there to give out combination to allow access",
+     "fee": "no",
+     "female": "yes",
+     "handwashing:soap": "yes",
+     "hot_water": "yes",
+     "male": "yes",
+     "toilets:disposal": "flush",
+     "toilets:hands_drying": "electric_hand_dryer",
+     "toilets:handwashing": "yes",
+     "toilets:paper_supplied": "yes",
+     "toilets:position": "seated;urinal",
+     "waste": "sharps",
+     "wheelchair": "limited"
+    }
+   },
+   {
+    "type": "node",
+    "id": 4498404155,
+    "lat": -33.8918108,
+    "lon": 151.1941796,
+    "tags": {
+     "amenity": "drinking_water",
+     "fountain": "bubbler"
+    }
+   },
+   {
+    "type": "node",
+    "id": 4498404192,
+    "lat": -33.8906423,
+    "lon": 151.1920349,
+    "tags": {
+     "access": "yes",
+     "amenity": "drinking_water",
+     "fee": "no",
+     "fountain": "bubbler"
+    }
+   },
+   {
+    "type": "node",
+    "id": 4505421190,
+    "lat": -33.890127,
+    "lon": 151.205735,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "40",
+     "covered": "yes",
+     "fee": "no",
+     "source": "Observed"
+    }
+   },
+   {
+    "type": "node",
+    "id": 4543947091,
+    "lat": -33.890127,
+    "lon": 151.2033675,
+    "tags": {
+     "access": "yes",
+     "amenity": "drinking_water",
+     "bottle": "no",
+     "fee": "no",
+     "fountain": "bubbler"
+    }
+   },
+   {
+    "type": "node",
+    "id": 4543990689,
+    "lat": -33.885335,
+    "lon": 151.208074,
+    "tags": {
+     "amenity": "toilets",
+     "fee": "no",
+     "wheelchair": "yes"
+    }
+   },
+   {
+    "type": "node",
+    "id": 4543992189,
+    "lat": -33.888819,
+    "lon": 151.211189,
+    "tags": {
+     "amenity": "drinking_water",
+     "fountain": "bubbler"
+    }
+   },
+   {
+    "type": "node",
+    "id": 4543992989,
+    "lat": -33.885318,
+    "lon": 151.20801,
+    "tags": {
+     "amenity": "toilets",
+     "fee": "no",
+     "name": "Ground 407 Elizabeth Street",
+     "note": "Permissive",
+     "wheelchair": "yes"
+    }
+   },
+   {
+    "type": "node",
+    "id": 4543994389,
+    "lat": -33.888827,
+    "lon": 151.211143,
+    "tags": {
+     "amenity": "drinking_water",
+     "check_date": "2026-09-20",
+     "fountain": "bubbler"
+    }
+   },
+   {
+    "type": "node",
+    "id": 4545928830,
+    "lat": -33.8807226,
+    "lon": 151.188098,
+    "tags": {
+     "amenity": "drinking_water",
+     "description": "Next to postboxes",
+     "fountain": "bubbler"
+    }
+   },
+   {
+    "type": "node",
+    "id": 4545928889,
+    "lat": -33.8802463,
+    "lon": 151.1863389,
+    "tags": {
+     "amenity": "drinking_water",
+     "fountain": "bubbler"
+    }
+   },
+   {
+    "type": "node",
+    "id": 4561280316,
+    "lat": -33.8837276,
+    "lon": 151.190774,
+    "tags": {
+     "amenity": "toilets",
+     "description": "Only public during markets"
+    }
+   },
+   {
+    "type": "node",
+    "id": 4714362190,
+    "lat": -33.8815443,
+    "lon": 151.2045615,
+    "tags": {
+     "amenity": "atm",
+     "cash_in": "no",
+     "check_date": "2025-06-14",
+     "operator": "city convenient store"
+    }
+   },
+   {
+    "type": "node",
+    "id": 5021494321,
+    "lat": -33.8882426,
+    "lon": 151.1899318,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "42",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 5116414883,
+    "lat": -33.8869687,
+    "lon": 151.206299,
+    "tags": {
+     "access": "yes",
+     "amenity": "toilets",
+     "changing_table": "yes",
+     "fee": "no",
+     "toilets:disposal": "flush",
+     "unisex": "yes",
+     "waste": "sharps",
+     "wheelchair": "yes"
+    }
+   },
+   {
+    "type": "node",
+    "id": 5125972279,
+    "lat": -33.8837995,
+    "lon": 151.194953,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "6",
+     "covered": "yes"
+    }
+   },
+   {
+    "type": "node",
+    "id": 5192515913,
+    "lat": -33.8935022,
+    "lon": 151.2069035,
+    "tags": {
+     "access": "yes",
+     "amenity": "drinking_water",
+     "bottle": "yes",
+     "covered": "no",
+     "dog": "yes",
+     "indoor": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 5209441523,
+    "lat": -33.8881369,
+    "lon": 151.1899693,
+    "tags": {
+     "amenity": "drinking_water",
+     "fountain": "bubbler"
+    }
+   },
+   {
+    "type": "node",
+    "id": 5209443993,
+    "lat": -33.8866503,
+    "lon": 151.1900972,
+    "tags": {
+     "amenity": "drinking_water",
+     "check_date": "2025-11-16",
+     "fountain": "bubbler"
+    }
+   },
+   {
+    "type": "node",
+    "id": 5211359434,
+    "lat": -33.8809767,
+    "lon": 151.1909063,
+    "tags": {
+     "amenity": "drinking_water",
+     "check_date": "2025-04",
+     "fountain": "bubbler"
+    }
+   },
+   {
+    "type": "node",
+    "id": 5211361079,
+    "lat": -33.882052,
+    "lon": 151.1923478,
+    "tags": {
+     "amenity": "drinking_water",
+     "bottle": "yes",
+     "dog": "yes",
+     "fountain": "bubbler"
+    }
+   },
+   {
+    "type": "node",
+    "id": 5233502262,
+    "lat": -33.8852321,
+    "lon": 151.1876139,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "8",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 5233502922,
+    "lat": -33.8854808,
+    "lon": 151.1875201,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "24",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 5233502923,
+    "lat": -33.8852142,
+    "lon": 151.1870772,
+    "tags": {
+     "amenity": "toilets",
+     "fee": "no",
+     "wheelchair": "yes"
+    }
+   },
+   {
+    "type": "node",
+    "id": 5233503828,
+    "lat": -33.8849321,
+    "lon": 151.1874452,
+    "tags": {
+     "amenity": "bicycle_parking"
+    }
+   },
+   {
+    "type": "node",
+    "id": 5237596977,
+    "lat": -33.8831265,
+    "lon": 151.201783,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "anchors",
+     "capacity": "6",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 5237596978,
+    "lat": -33.8827202,
+    "lon": 151.2015563,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "anchors",
+     "capacity": "4",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 5237596979,
+    "lat": -33.8824474,
+    "lon": 151.2014061,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "anchors",
+     "capacity": "10",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 5237596980,
+    "lat": -33.8821991,
+    "lon": 151.2012613,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "anchors",
+     "capacity": "4",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 5237596981,
+    "lat": -33.8824694,
+    "lon": 151.2011902,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "rack",
+     "capacity": "32"
+    }
+   },
+   {
+    "type": "node",
+    "id": 5237774303,
+    "lat": -33.880422,
+    "lon": 151.2044516,
+    "tags": {
+     "addr:housenumber": "75-77",
+     "addr:street": "Ultimo Road",
+     "amenity": "pharmacy",
+     "healthcare": "pharmacy",
+     "name": "Chinese Ginsengs & Herbs Co.",
+     "name:vi": "Trung Hoa Sâm Nhung Dược Hàng"
+    }
+   },
+   {
+    "type": "node",
+    "id": 5296648131,
+    "lat": -33.8918094,
+    "lon": 151.1940276,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "1",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 5296648132,
+    "lat": -33.891708,
+    "lon": 151.1942221,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "4",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 5544030734,
+    "lat": -33.89378,
+    "lon": 151.2107522,
+    "tags": {
+     "amenity": "drinking_water",
+     "fee": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 5608349154,
+    "lat": -33.8917085,
+    "lon": 151.2127857,
+    "tags": {
+     "amenity": "pharmacy",
+     "brand": "Chemist Warehouse",
+     "brand:wikidata": "Q48782120",
+     "check_date": "2026-05-02",
+     "dispensing": "yes",
+     "healthcare": "pharmacy",
+     "name": "Chemist Warehouse"
+    }
+   },
+   {
+    "type": "node",
+    "id": 5610439451,
+    "lat": -33.8896659,
+    "lon": 151.2130636,
+    "tags": {
+     "amenity": "atm",
+     "brand": "Commonwealth Bank",
+     "brand:wikidata": "Q285328",
+     "operator": "Commonwealth Bank",
+     "operator:wikidata": "Q285328"
+    }
+   },
+   {
+    "type": "node",
+    "id": 5610439528,
+    "lat": -33.8900099,
+    "lon": 151.2132364,
+    "tags": {
+     "amenity": "pharmacy",
+     "dispensing": "yes",
+     "healthcare": "pharmacy",
+     "name": "Surry Hills Pharmacy",
+     "wheelchair": "yes"
+    }
+   },
+   {
+    "type": "node",
+    "id": 5739975367,
+    "lat": -33.8923154,
+    "lon": 151.2013516,
+    "tags": {
+     "amenity": "bank",
+     "brand": "Commonwealth Bank",
+     "brand:wikidata": "Q285328",
+     "brand:wikipedia": "en:Commonwealth Bank",
+     "check_date": "2025-05",
+     "name": "Commonwealth Bank"
+    }
+   },
+   {
+    "type": "node",
+    "id": 5761000894,
+    "lat": -33.8953568,
+    "lon": 151.1985826,
+    "tags": {
+     "amenity": "drinking_water",
+     "fountain": "bubbler"
+    }
+   },
+   {
+    "type": "node",
+    "id": 5851213428,
+    "lat": -33.8806421,
+    "lon": 151.2062835,
+    "tags": {
+     "access": "permissive",
+     "amenity": "toilets",
+     "check_date": "2025-07-17",
+     "check_date:wheelchair": "2025-07-17",
+     "fee": "no",
+     "wheelchair": "yes"
+    }
+   },
+   {
+    "type": "node",
+    "id": 5883163289,
+    "lat": -33.8832342,
+    "lon": 151.1933031,
+    "tags": {
+     "access": "yes",
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "racks",
+     "capacity": "20",
+     "covered": "yes"
+    }
+   },
+   {
+    "type": "node",
+    "id": 5982614448,
+    "lat": -33.8835361,
+    "lon": 151.2090145,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 6072921051,
+    "lat": -33.8922589,
+    "lon": 151.2042345,
+    "tags": {
+     "amenity": "townhall",
+     "name": "Redfern Town Hall",
+     "website": "https://www.cityofsydney.nsw.gov.au/explore/facilities/venues-for.../redfern-town-hall",
+     "wikidata": "Q7305834",
+     "wikipedia": "en:Redfern Town Hall"
+    }
+   },
+   {
+    "type": "node",
+    "id": 6107803643,
+    "lat": -33.8936483,
+    "lon": 151.20571,
+    "tags": {
+     "amenity": "bbq"
+    }
+   },
+   {
+    "type": "node",
+    "id": 6223006265,
+    "lat": -33.8851507,
+    "lon": 151.2019378,
+    "tags": {
+     "access": "yes",
+     "amenity": "toilets",
+     "check_date": "2025-02",
+     "opening_hours": "Su-We 11:00-21:30;Th-Sa 11:00-22:00"
+    }
+   },
+   {
+    "type": "node",
+    "id": 6273392861,
+    "lat": -33.883441,
+    "lon": 151.2086893,
+    "tags": {
+     "amenity": "pharmacy",
+     "check_date": "2026-09",
+     "healthcare": "pharmacy",
+     "name": "Caremore Centennial Pharmacy",
+     "opening_hours": "Mo-Fr 08:00-18:00;Sa 09:00-13:00"
+    }
+   },
+   {
+    "type": "node",
+    "id": 6308025255,
+    "lat": -33.8930629,
+    "lon": 151.1977439,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "6",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 6308025258,
+    "lat": -33.8946176,
+    "lon": 151.1972983,
+    "tags": {
+     "amenity": "bicycle_parking"
+    }
+   },
+   {
+    "type": "node",
+    "id": 6308025283,
+    "lat": -33.8952483,
+    "lon": 151.196819,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "6",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 6594058323,
+    "lat": -33.8865339,
+    "lon": 151.2085026,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "6",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 6738224985,
+    "lat": -33.8916264,
+    "lon": 151.1986326,
+    "tags": {
+     "amenity": "toilets",
+     "changing_table": "yes",
+     "check_date": "2026-02-18",
+     "fee": "no",
+     "level": "0",
+     "toilets:disposal": "flush",
+     "toilets:handwashing": "yes",
+     "wheelchair": "yes"
+    }
+   },
+   {
+    "type": "node",
+    "id": 6765363494,
+    "lat": -33.8857952,
+    "lon": 151.2081432,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "anchors",
+     "capacity": "2",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 6765363495,
+    "lat": -33.8856906,
+    "lon": 151.2081391,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "anchors",
+     "capacity": "2",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 6901209242,
+    "lat": -33.8879313,
+    "lon": 151.1890422,
+    "tags": {
+     "amenity": "bbq"
+    }
+   },
+   {
+    "type": "node",
+    "id": 6901613936,
+    "lat": -33.8877622,
+    "lon": 151.1890141,
+    "tags": {
+     "amenity": "bbq"
+    }
+   },
+   {
+    "type": "node",
+    "id": 6904040539,
+    "lat": -33.8897672,
+    "lon": 151.1925791,
+    "tags": {
+     "amenity": "drinking_water"
+    }
+   },
+   {
+    "type": "node",
+    "id": 6904053673,
+    "lat": -33.8914486,
+    "lon": 151.1950901,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "2",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 6904101825,
+    "lat": -33.8879163,
+    "lon": 151.1898013,
+    "tags": {
+     "amenity": "bbq",
+     "covered": "no",
+     "fuel": "electric"
+    }
+   },
+   {
+    "type": "node",
+    "id": 6904154102,
+    "lat": -33.8897487,
+    "lon": 151.1909265,
+    "tags": {
+     "access": "permissive",
+     "amenity": "toilets",
+     "toilets:disposal": "flush"
+    }
+   },
+   {
+    "type": "node",
+    "id": 6904221230,
+    "lat": -33.8897514,
+    "lon": 151.1913403,
+    "tags": {
+     "access": "yes",
+     "amenity": "drinking_water",
+     "fee": "no",
+     "fountain": "bubbler"
+    }
+   },
+   {
+    "type": "node",
+    "id": 6904252540,
+    "lat": -33.888273,
+    "lon": 151.1897884,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "42",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 6904585111,
+    "lat": -33.8877233,
+    "lon": 151.1903853,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "12",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 6904588626,
+    "lat": -33.8876547,
+    "lon": 151.1907834,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "16",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 6907295534,
+    "lat": -33.8888735,
+    "lon": 151.1923294,
+    "tags": {
+     "amenity": "bicycle_parking"
+    }
+   },
+   {
+    "type": "node",
+    "id": 6907297052,
+    "lat": -33.8890329,
+    "lon": 151.1920821,
+    "tags": {
+     "amenity": "bicycle_parking"
+    }
+   },
+   {
+    "type": "node",
+    "id": 6907310397,
+    "lat": -33.8903961,
+    "lon": 151.1933265,
+    "tags": {
+     "amenity": "toilets"
+    }
+   },
+   {
+    "type": "node",
+    "id": 6907320970,
+    "lat": -33.8903586,
+    "lon": 151.1933032,
+    "tags": {
+     "amenity": "drinking_water",
+     "check_date": "2025-06"
+    }
+   },
+   {
+    "type": "node",
+    "id": 6914007581,
+    "lat": -33.8913765,
+    "lon": 151.1911262,
+    "tags": {
+     "amenity": "bicycle_parking"
+    }
+   },
+   {
+    "type": "node",
+    "id": 6914031179,
+    "lat": -33.8888242,
+    "lon": 151.1889647,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "2",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 6914031501,
+    "lat": -33.8918427,
+    "lon": 151.1910343,
+    "tags": {
+     "access": "yes",
+     "amenity": "bicycle_parking",
+     "capacity": "12",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 6914036092,
+    "lat": -33.8917541,
+    "lon": 151.191229,
+    "tags": {
+     "access": "yes",
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "12",
+     "covered": "no",
+     "lit": "yes"
+    }
+   },
+   {
+    "type": "node",
+    "id": 6914038595,
+    "lat": -33.8886828,
+    "lon": 151.1889143,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "22",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 6914045177,
+    "lat": -33.8887783,
+    "lon": 151.1889466,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "22",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 6914045249,
+    "lat": -33.8886119,
+    "lon": 151.1889005,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "6",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 6968849370,
+    "lat": -33.8941448,
+    "lon": 151.1902371,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "wide_stands",
+     "capacity": "6"
+    }
+   },
+   {
+    "type": "node",
+    "id": 6991091101,
+    "lat": -33.8878678,
+    "lon": 151.1899301,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "8",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 6991095138,
+    "lat": -33.8877836,
+    "lon": 151.1899079,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "4",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 6991095226,
+    "lat": -33.8879855,
+    "lon": 151.1899457,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "4",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 6991100211,
+    "lat": -33.8880694,
+    "lon": 151.1899558,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "4",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 6991100573,
+    "lat": -33.8881602,
+    "lon": 151.1899746,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "4",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 6991104929,
+    "lat": -33.888725,
+    "lon": 151.1902154,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "8",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 7023049787,
+    "lat": -33.8943886,
+    "lon": 151.2054897,
+    "tags": {
+     "amenity": "toilets"
+    }
+   },
+   {
+    "type": "node",
+    "id": 7212917752,
+    "lat": -33.8828328,
+    "lon": 151.2026953,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "5",
+     "covered": "no",
+     "fee": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 7321381391,
+    "lat": -33.8829392,
+    "lon": 151.2002024,
+    "tags": {
+     "amenity": "drinking_water",
+     "bottle": "yes",
+     "fee": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 7367892047,
+    "lat": -33.8819715,
+    "lon": 151.2020864,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "wall_loops",
+     "capacity": "10",
+     "covered": "no",
+     "fee": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 7780637796,
+    "lat": -33.8825584,
+    "lon": 151.1923553,
+    "tags": {
+     "amenity": "bbq",
+     "fuel": "electric"
+    }
+   },
+   {
+    "type": "node",
+    "id": 7844952492,
+    "lat": -33.8900979,
+    "lon": 151.2080875,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "4",
+     "covered": "yes"
+    }
+   },
+   {
+    "type": "node",
+    "id": 7844960832,
+    "lat": -33.8923598,
+    "lon": 151.204068,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "capacity": "2",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 7844964652,
+    "lat": -33.8897534,
+    "lon": 151.2078557,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "capacity": "1",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 7844968339,
+    "lat": -33.8900164,
+    "lon": 151.2082901,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "4",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 7844973985,
+    "lat": -33.88958,
+    "lon": 151.2080428,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "1",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 7871006736,
+    "lat": -33.892865,
+    "lon": 151.2055012,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "4",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 7965353553,
+    "lat": -33.8926677,
+    "lon": 151.2021024,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "6",
+     "capacity:beds": "6",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 7996385764,
+    "lat": -33.8853827,
+    "lon": 151.2070897,
+    "tags": {
+     "access": "yes",
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "6",
+     "covered": "no",
+     "fee": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 7996385765,
+    "lat": -33.8849232,
+    "lon": 151.2072936,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "8",
+     "check_date": "2026-09-22",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 8585789661,
+    "lat": -33.8850906,
+    "lon": 151.2017033,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "5",
+     "check_date": "2026-03-19",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 8624636073,
+    "lat": -33.8847977,
+    "lon": 151.200349,
+    "tags": {
+     "amenity": "pharmacy",
+     "brand": "Priceline Pharmacy",
+     "brand:wikidata": "Q7242652",
+     "brand:wikipedia": "en:Priceline (Australia)",
+     "check_date": "2025-08",
+     "dispensing": "yes",
+     "healthcare": "pharmacy",
+     "level": "-1",
+     "name": "Priceline Pharmacy",
+     "opening_hours": "Mo-Fr 08:00-22:00;Sa-Su 09:00-21:00"
+    }
+   },
+   {
+    "type": "node",
+    "id": 8725238455,
+    "lat": -33.8951093,
+    "lon": 151.1864904,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "6",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 8759025884,
+    "lat": -33.889914,
+    "lon": 151.1913652,
+    "tags": {
+     "amenity": "bbq",
+     "covered": "yes"
+    }
+   },
+   {
+    "type": "node",
+    "id": 8930037606,
+    "lat": -33.8865829,
+    "lon": 151.2117506,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "capacity": "6",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 8930123550,
+    "lat": -33.8909309,
+    "lon": 151.2109109,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "1",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 8930123551,
+    "lat": -33.8911512,
+    "lon": 151.2108874,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "2",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 8930123552,
+    "lat": -33.8911971,
+    "lon": 151.2107479,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "1",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 9173871604,
+    "lat": -33.8805462,
+    "lon": 151.2009395,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "6",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 9173871605,
+    "lat": -33.8805583,
+    "lon": 151.2012666,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "18",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 9173871606,
+    "lat": -33.8808172,
+    "lon": 151.2005791,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "18",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 9195271974,
+    "lat": -33.8949874,
+    "lon": 151.1965406,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "capacity": "3"
+    }
+   },
+   {
+    "type": "node",
+    "id": 9195271976,
+    "lat": -33.8950041,
+    "lon": 151.1962563,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "capacity": "2"
+    }
+   },
+   {
+    "type": "node",
+    "id": 9195271977,
+    "lat": -33.8951354,
+    "lon": 151.1958902,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "capacity": "3"
+    }
+   },
+   {
+    "type": "node",
+    "id": 9195271978,
+    "lat": -33.8951624,
+    "lon": 151.19611,
+    "tags": {
+     "access": "yes",
+     "amenity": "toilets",
+     "fee": "no",
+     "female": "yes",
+     "male": "yes",
+     "wheelchair": "yes"
+    }
+   },
+   {
+    "type": "node",
+    "id": 9318063150,
+    "lat": -33.887711,
+    "lon": 151.1903074,
+    "tags": {
+     "amenity": "drinking_water",
+     "fountain": "yes",
+     "indoor": "yes",
+     "level": "1"
+    }
+   },
+   {
+    "type": "node",
+    "id": 9318142067,
+    "lat": -33.8877063,
+    "lon": 151.1903274,
+    "tags": {
+     "amenity": "toilets",
+     "level": "1"
+    }
+   },
+   {
+    "type": "node",
+    "id": 9385116118,
+    "lat": -33.8940117,
+    "lon": 151.2139318,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "2",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 9447037383,
+    "lat": -33.8832939,
+    "lon": 151.2038815,
+    "tags": {
+     "access": "yes",
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "8",
+     "covered": "no",
+     "fee": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 9494180817,
+    "lat": -33.8873838,
+    "lon": 151.1985389,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "4",
+     "covered": "no",
+     "survey:date": "2022-02-10"
+    }
+   },
+   {
+    "type": "node",
+    "id": 9497023218,
+    "lat": -33.8861451,
+    "lon": 151.2016817,
+    "tags": {
+     "access": "yes",
+     "amenity": "drinking_water",
+     "bottle": "yes",
+     "survey:date": "2022-02-11"
+    }
+   },
+   {
+    "type": "node",
+    "id": 9497026317,
+    "lat": -33.8860201,
+    "lon": 151.20118,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "6",
+     "covered": "no",
+     "survey:date": "2022-02-11"
+    }
+   },
+   {
+    "type": "node",
+    "id": 9497026318,
+    "lat": -33.8857129,
+    "lon": 151.2018639,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "8",
+     "covered": "no",
+     "survey:date": "2022-02-11"
+    }
+   },
+   {
+    "type": "node",
+    "id": 9497026417,
+    "lat": -33.8859691,
+    "lon": 151.2015003,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "4",
+     "covered": "no",
+     "survey:date": "2022-02-11"
+    }
+   },
+   {
+    "type": "node",
+    "id": 9497028417,
+    "lat": -33.8863713,
+    "lon": 151.2018765,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "6",
+     "covered": "no",
+     "survey:date": "2022-02-11"
+    }
+   },
+   {
+    "type": "node",
+    "id": 9497028517,
+    "lat": -33.8860813,
+    "lon": 151.2018201,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "4",
+     "covered": "no",
+     "survey:date": "2022-02-11"
+    }
+   },
+   {
+    "type": "node",
+    "id": 9497033817,
+    "lat": -33.8847395,
+    "lon": 151.201626,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "8",
+     "covered": "no",
+     "survey:date": "2025-02"
+    }
+   },
+   {
+    "type": "node",
+    "id": 9497039617,
+    "lat": -33.8845948,
+    "lon": 151.2001355,
+    "tags": {
+     "access": "no",
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "36",
+     "construction": "yes",
+     "covered": "no",
+     "survey:date": "2022-02-11"
+    }
+   },
+   {
+    "type": "node",
+    "id": 9497059517,
+    "lat": -33.8855763,
+    "lon": 151.1994944,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "16",
+     "covered": "no",
+     "survey:date": "2022-02-11"
+    }
+   },
+   {
+    "type": "node",
+    "id": 9497065417,
+    "lat": -33.8856922,
+    "lon": 151.1987913,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "6",
+     "covered": "no",
+     "survey:date": "2022-02-11"
+    }
+   },
+   {
+    "type": "node",
+    "id": 9497065517,
+    "lat": -33.8859503,
+    "lon": 151.1987853,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "6",
+     "covered": "no",
+     "survey:date": "2022-02-11"
+    }
+   },
+   {
+    "type": "node",
+    "id": 9837800723,
+    "lat": -33.8888753,
+    "lon": 151.1915893,
+    "tags": {
+     "addr:housenumber": "150",
+     "addr:postcode": "2008",
+     "addr:state": "NSW",
+     "addr:street": "City Road",
+     "addr:suburb": "Darlington",
+     "amenity": "place_of_worship",
+     "denomination": "catholic",
+     "email": "usydcatholics@sydneycatholic.org",
+     "internet_access": "wlan",
+     "name": "St John Paul II Student Centre",
+     "opening_hours": "Mo-Fr 09:00-17:00",
+     "phone": "+61 2 9518 9400",
+     "religion": "christian",
+     "service_times": "Mo-Fr 12:10",
+     "website": "https://sydneyunicatholics.org.au/"
+    }
+   },
+   {
+    "type": "node",
+    "id": 9931530589,
+    "lat": -33.8865089,
+    "lon": 151.1919831,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 9935140328,
+    "lat": -33.8814858,
+    "lon": 151.2047774,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "10",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 9935161344,
+    "lat": -33.8921911,
+    "lon": 151.1877107,
+    "tags": {
+     "amenity": "drinking_water",
+     "fountain": "bubbler"
+    }
+   },
+   {
+    "type": "node",
+    "id": 9996542235,
+    "lat": -33.8810114,
+    "lon": 151.1882796,
+    "tags": {
+     "addr:housenumber": "177",
+     "addr:postcode": "2037",
+     "addr:state": "NSW",
+     "addr:street": "Glebe Point Road",
+     "addr:suburb": "Glebe",
+     "amenity": "post_office",
+     "brand": "Australia Post",
+     "name": "Glebe CPA",
+     "operator": "Australia Post",
+     "operator:wikidata": "Q1142936"
+    }
+   },
+   {
+    "type": "node",
+    "id": 10053679938,
+    "lat": -33.8871206,
+    "lon": 151.2061491,
+    "tags": {
+     "access": "customers",
+     "amenity": "drinking_water",
+     "bottle": "no",
+     "fee": "no",
+     "fountain": "bubbler"
+    }
+   },
+   {
+    "type": "node",
+    "id": 10127314652,
+    "lat": -33.8803622,
+    "lon": 151.2049986,
+    "tags": {
+     "amenity": "drinking_water",
+     "dog": "yes",
+     "fountain": "bubbler"
+    }
+   },
+   {
+    "type": "node",
+    "id": 10165000972,
+    "lat": -33.8854699,
+    "lon": 151.1902046,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "12",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 10165740249,
+    "lat": -33.8854672,
+    "lon": 151.1902371,
+    "tags": {
+     "amenity": "drinking_water",
+     "bottle": "yes",
+     "dog": "yes",
+     "fountain": "bubbler"
+    }
+   },
+   {
+    "type": "node",
+    "id": 10316177662,
+    "lat": -33.8919245,
+    "lon": 151.2000353,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "3",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 10558762791,
+    "lat": -33.881292,
+    "lon": 151.2097163,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "4",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 10605114186,
+    "lat": -33.8847948,
+    "lon": 151.2098442,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "capacity": "2",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 10605114187,
+    "lat": -33.8847543,
+    "lon": 151.2097494,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "2",
+     "covered": "no",
+     "fee": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 10605114189,
+    "lat": -33.884779,
+    "lon": 151.2097993,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "2",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 10617200132,
+    "lat": -33.886555,
+    "lon": 151.2090749,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "4",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 10679626431,
+    "lat": -33.8867065,
+    "lon": 151.2089423,
+    "tags": {
+     "amenity": "drinking_water",
+     "fountain": "bubbler"
+    }
+   },
+   {
+    "type": "node",
+    "id": 10679626446,
+    "lat": -33.8830148,
+    "lon": 151.2125152,
+    "tags": {
+     "amenity": "drinking_water"
+    }
+   },
+   {
+    "type": "node",
+    "id": 10679626448,
+    "lat": -33.8872028,
+    "lon": 151.2100415,
+    "tags": {
+     "amenity": "drinking_water",
+     "fountain": "bubbler"
+    }
+   },
+   {
+    "type": "node",
+    "id": 10679626460,
+    "lat": -33.8865446,
+    "lon": 151.2085156,
+    "tags": {
+     "amenity": "drinking_water",
+     "fountain": "bubbler"
+    }
+   },
+   {
+    "type": "node",
+    "id": 10679626483,
+    "lat": -33.8869988,
+    "lon": 151.2100379,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "capacity": "6",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 10679626484,
+    "lat": -33.8849182,
+    "lon": 151.2101679,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "capacity": "2"
+    }
+   },
+   {
+    "type": "node",
+    "id": 10679626488,
+    "lat": -33.8849329,
+    "lon": 151.2102056,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "capacity": "2"
+    }
+   },
+   {
+    "type": "node",
+    "id": 10769891587,
+    "lat": -33.8845982,
+    "lon": 151.2113475,
+    "tags": {
+     "amenity": "drinking_water",
+     "fountain": "bubbler"
+    }
+   },
+   {
+    "type": "node",
+    "id": 10769891593,
+    "lat": -33.8831547,
+    "lon": 151.2033301,
+    "tags": {
+     "amenity": "pharmacy",
+     "brand": "Chemist Warehouse",
+     "brand:wikidata": "Q48782120",
+     "check_date": "2025-10-24",
+     "check_date:opening_hours": "2025-10-24",
+     "healthcare": "pharmacy",
+     "name": "Chemist Warehouse",
+     "opening_hours": "Mo-We 08:00-22:30; Th-Sa 08:00-23:00; Su 08:00-22:00"
+    }
+   },
+   {
+    "type": "node",
+    "id": 10778882791,
+    "lat": -33.8836496,
+    "lon": 151.2079629,
+    "tags": {
+     "access": "yes",
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "rack",
+     "capacity": "6",
+     "check_date": "2026-09-22",
+     "check_date:capacity": "2026-09-22",
+     "covered": "no",
+     "description": "Bicycle rack next to Central Station. Not secure - in a dark corner outdoors.",
+     "fee": "no",
+     "level": "0",
+     "lit": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 10803878103,
+    "lat": -33.8805921,
+    "lon": 151.2050905,
+    "tags": {
+     "amenity": "drinking_water",
+     "fountain": "bubbler"
+    }
+   },
+   {
+    "type": "node",
+    "id": 10823288705,
+    "lat": -33.8889051,
+    "lon": 151.1904314,
+    "tags": {
+     "access": "customers",
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "building",
+     "covered": "yes",
+     "fee": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 10895002020,
+    "lat": -33.8889082,
+    "lon": 151.2091796,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "6",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 10895002021,
+    "lat": -33.8915365,
+    "lon": 151.2022956,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "6",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 10936471817,
+    "lat": -33.8802159,
+    "lon": 151.208259,
+    "tags": {
+     "amenity": "drinking_water",
+     "bottle": "yes",
+     "dog": "yes",
+     "fountain": "bubbler"
+    }
+   },
+   {
+    "type": "node",
+    "id": 10948424179,
+    "lat": -33.8835849,
+    "lon": 151.2098728,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "2",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 10948424182,
+    "lat": -33.883909,
+    "lon": 151.2096271,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "8",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 10948424183,
+    "lat": -33.8841337,
+    "lon": 151.210388,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "6",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 10948424186,
+    "lat": -33.8845978,
+    "lon": 151.2109568,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "4",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 10948424190,
+    "lat": -33.8845287,
+    "lon": 151.2107774,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "4",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 10966504665,
+    "lat": -33.8808361,
+    "lon": 151.2049836,
+    "tags": {
+     "access": "yes",
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "2",
+     "check_date": "2026-09-19",
+     "check_date:capacity": "2026-09-19",
+     "covered": "no",
+     "fee": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 10970172163,
+    "lat": -33.8853138,
+    "lon": 151.2026916,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "10",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 10981819782,
+    "lat": -33.8849895,
+    "lon": 151.2139983,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "4",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 10982291433,
+    "lat": -33.8852429,
+    "lon": 151.2139489,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "4"
+    }
+   },
+   {
+    "type": "node",
+    "id": 11060801578,
+    "lat": -33.8855482,
+    "lon": 151.2010141,
+    "tags": {
+     "access": "yes",
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "4",
+     "covered": "no",
+     "fee": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 11068522216,
+    "lat": -33.8915551,
+    "lon": 151.2084508,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "4",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 11068522217,
+    "lat": -33.8946123,
+    "lon": 151.213637,
+    "tags": {
+     "amenity": "drinking_water"
+    }
+   },
+   {
+    "type": "node",
+    "id": 11068522227,
+    "lat": -33.8945936,
+    "lon": 151.2136312,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "4",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 11070635486,
+    "lat": -33.8862269,
+    "lon": 151.2011729,
+    "tags": {
+     "access": "yes",
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "6",
+     "covered": "yes"
+    }
+   },
+   {
+    "type": "node",
+    "id": 11076225322,
+    "lat": -33.8848885,
+    "lon": 151.196931,
+    "tags": {
+     "access": "yes",
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "22",
+     "covered": "yes"
+    }
+   },
+   {
+    "type": "node",
+    "id": 11076225327,
+    "lat": -33.8875895,
+    "lon": 151.1945863,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "capacity": "2"
+    }
+   },
+   {
+    "type": "node",
+    "id": 11076225329,
+    "lat": -33.8876894,
+    "lon": 151.1962777,
+    "tags": {
+     "access": "private",
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "rack",
+     "capacity": "4",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 11076225334,
+    "lat": -33.8863908,
+    "lon": 151.2005182,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "4",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 11076225352,
+    "lat": -33.8849651,
+    "lon": 151.1979707,
+    "tags": {
+     "access": "yes",
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "rack",
+     "capacity": "8",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 11076225353,
+    "lat": -33.8855533,
+    "lon": 151.1981309,
+    "tags": {
+     "access": "yes",
+     "amenity": "bicycle_parking",
+     "capacity": "1",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 11076225359,
+    "lat": -33.888082,
+    "lon": 151.1964061,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "q",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 11076264926,
+    "lat": -33.885028,
+    "lon": 151.2003647,
+    "tags": {
+     "access": "yes",
+     "amenity": "toilets",
+     "changing_table": "yes",
+     "fee": "no",
+     "female": "yes",
+     "level": "-1",
+     "male": "yes",
+     "toilets:disposal": "flush",
+     "toilets:handwashing": "yes",
+     "toilets:position": "seated;urinal",
+     "unisex": "yes",
+     "wheelchair": "yes"
+    }
+   },
+   {
+    "type": "node",
+    "id": 11090811940,
+    "lat": -33.8859256,
+    "lon": 151.2135141,
+    "tags": {
+     "access": "yes",
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "12",
+     "covered": "partly",
+     "fee": "yes"
+    }
+   },
+   {
+    "type": "node",
+    "id": 11121564955,
+    "lat": -33.8878149,
+    "lon": 151.1911753,
+    "tags": {
+     "amenity": "drinking_water",
+     "fountain": "bubbler"
+    }
+   },
+   {
+    "type": "node",
+    "id": 11121564956,
+    "lat": -33.8877647,
+    "lon": 151.1922283,
+    "tags": {
+     "amenity": "drinking_water",
+     "bottle": "no",
+     "dog": "yes",
+     "fountain": "bubbler"
+    }
+   },
+   {
+    "type": "node",
+    "id": 11123921095,
+    "lat": -33.8845309,
+    "lon": 151.1917391,
+    "tags": {
+     "amenity": "place_of_worship",
+     "check_date": "2026-05-09",
+     "name": "First Church of Christ, Scientist, Sydney",
+     "religion": "christian"
+    }
+   },
+   {
+    "type": "node",
+    "id": 11129258649,
+    "lat": -33.8895806,
+    "lon": 151.2026548,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "4",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 11129258651,
+    "lat": -33.8830823,
+    "lon": 151.199436,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "4",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 11166342053,
+    "lat": -33.8833908,
+    "lon": 151.1948736,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "12",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 11168845251,
+    "lat": -33.8921122,
+    "lon": 151.1975228,
+    "tags": {
+     "amenity": "toilets",
+     "fee": "no",
+     "level": "1",
+     "male": "yes",
+     "wheelchair": "limited"
+    }
+   },
+   {
+    "type": "node",
+    "id": 11168845252,
+    "lat": -33.8921261,
+    "lon": 151.1975206,
+    "tags": {
+     "amenity": "toilets",
+     "fee": "no",
+     "level": "1",
+     "unisex": "yes",
+     "wheelchair": "yes"
+    }
+   },
+   {
+    "type": "node",
+    "id": 11168845253,
+    "lat": -33.8921372,
+    "lon": 151.1975191,
+    "tags": {
+     "amenity": "toilets",
+     "fee": "no",
+     "female": "yes",
+     "level": "1",
+     "wheelchair": "limited"
+    }
+   },
+   {
+    "type": "node",
+    "id": 11168845254,
+    "lat": -33.8921485,
+    "lon": 151.197518,
+    "tags": {
+     "amenity": "toilets",
+     "changing_table": "yes",
+     "fee": "no",
+     "level": "1",
+     "unisex": "yes",
+     "wheelchair": "yes"
+    }
+   },
+   {
+    "type": "node",
+    "id": 11178491443,
+    "lat": -33.8890497,
+    "lon": 151.1987105,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "1"
+    }
+   },
+   {
+    "type": "node",
+    "id": 11178491449,
+    "lat": -33.8887861,
+    "lon": 151.1988188,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "10"
+    }
+   },
+   {
+    "type": "node",
+    "id": 11223530126,
+    "lat": -33.8937231,
+    "lon": 151.1907988,
+    "tags": {
+     "amenity": "toilets",
+     "fee": "no",
+     "female": "yes",
+     "male": "yes",
+     "toilets:disposal": "flush",
+     "toilets:handwashing": "yes",
+     "wheelchair": "yes"
+    }
+   },
+   {
+    "type": "node",
+    "id": 11223543045,
+    "lat": -33.8866934,
+    "lon": 151.1986902,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "capacity": "1"
+    }
+   },
+   {
+    "type": "node",
+    "id": 11223543054,
+    "lat": -33.891821,
+    "lon": 151.1938262,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "4",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 11223543058,
+    "lat": -33.8892263,
+    "lon": 151.1982085,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "6",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 11247522873,
+    "lat": -33.8926373,
+    "lon": 151.1984299,
+    "tags": {
+     "amenity": "drinking_water",
+     "bottle": "yes",
+     "level": "0"
+    }
+   },
+   {
+    "type": "node",
+    "id": 11247522876,
+    "lat": -33.8845096,
+    "lon": 151.1999441,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "4",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 11250417339,
+    "lat": -33.8921183,
+    "lon": 151.1976311,
+    "tags": {
+     "amenity": "drinking_water",
+     "fountain": "bubbler",
+     "level": "1"
+    }
+   },
+   {
+    "type": "node",
+    "id": 11250417340,
+    "lat": -33.8912709,
+    "lon": 151.1988531,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "6",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 11250417341,
+    "lat": -33.8907884,
+    "lon": 151.1980786,
+    "tags": {
+     "amenity": "drinking_water"
+    }
+   },
+   {
+    "type": "node",
+    "id": 11345413434,
+    "lat": -33.8889041,
+    "lon": 151.1969645,
+    "tags": {
+     "amenity": "drinking_water"
+    }
+   },
+   {
+    "type": "node",
+    "id": 11345670210,
+    "lat": -33.8856591,
+    "lon": 151.1890602,
+    "tags": {
+     "amenity": "toilets",
+     "female": "yes",
+     "toilets:disposal": "flush"
+    }
+   },
+   {
+    "type": "node",
+    "id": 11345670211,
+    "lat": -33.8854942,
+    "lon": 151.1888581,
+    "tags": {
+     "amenity": "toilets",
+     "fee": "no",
+     "male": "yes",
+     "toilets:disposal": "flush"
+    }
+   },
+   {
+    "type": "node",
+    "id": 11349823955,
+    "lat": -33.8877901,
+    "lon": 151.192213,
+    "tags": {
+     "amenity": "bbq",
+     "covered": "no",
+     "fuel": "electric"
+    }
+   },
+   {
+    "type": "node",
+    "id": 11349855463,
+    "lat": -33.8887306,
+    "lon": 151.1938885,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "8",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 11349932237,
+    "lat": -33.8859411,
+    "lon": 151.1904272,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "14",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 11350182021,
+    "lat": -33.8856239,
+    "lon": 151.1869459,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "capacity": "8"
+    }
+   },
+   {
+    "type": "node",
+    "id": 11350182024,
+    "lat": -33.8854998,
+    "lon": 151.1865849,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "14",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 11430197204,
+    "lat": -33.8854905,
+    "lon": 151.1999602,
+    "tags": {
+     "access": "yes",
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "26",
+     "covered": "no",
+     "fee": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 11499378564,
+    "lat": -33.8892821,
+    "lon": 151.2131968,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "4",
+     "check_date": "2024-11-07",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 11539360659,
+    "lat": -33.8847877,
+    "lon": 151.2000081,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "4",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 11539815778,
+    "lat": -33.8927302,
+    "lon": 151.1982262,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "28",
+     "covered": "no",
+     "level": "0"
+    }
+   },
+   {
+    "type": "node",
+    "id": 11549080623,
+    "lat": -33.8812933,
+    "lon": 151.2030695,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "6",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 11555371369,
+    "lat": -33.8940706,
+    "lon": 151.1918282,
+    "tags": {
+     "amenity": "toilets",
+     "fee": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 11644907436,
+    "lat": -33.8840978,
+    "lon": 151.2031427,
+    "tags": {
+     "amenity": "atm",
+     "level": "0"
+    }
+   },
+   {
+    "type": "node",
+    "id": 11668532282,
+    "lat": -33.8834069,
+    "lon": 151.1944338,
+    "tags": {
+     "addr:housenumber": "1",
+     "addr:street": "Bay Street",
+     "addr:suburb": "Glebe",
+     "amenity": "atm",
+     "branch": "Sydney Broadway Shopping Centre",
+     "brand": "BitRocket",
+     "cash_in": "yes",
+     "cash_out": "yes",
+     "check_date": "2025-12-12",
+     "currency:AUD": "yes",
+     "currency:XBT": "yes",
+     "drive_through": "no",
+     "image": "https://www.bitrocket.co/wp-content/uploads/2023/02/FC_20230213_0001.jpg",
+     "indoor": "yes",
+     "level": "1",
+     "manufacturer": "Genesis Coin",
+     "name": "BitRocket Bitcoin ATM",
+     "network": "Bitcoin",
+     "opening_hours": "Mo-Fr 07:00-24:00; Sa-Su 08:00-24:00",
+     "operator": "BitRocket",
+     "payment:cash": "yes",
+     "payment:onchain": "yes",
+     "phone": "+61 481 609 881",
+     "url": "https://coinatmradar.com/bitcoin_atm/62640/bitcoin-atm-genesis-coin-glebe-broadway-sydney-shopping-centre/",
+     "website": "https://www.bitrocket.co/locations/NSW/Sydney/Glebe/broadway-sydney/"
+    }
+   },
+   {
+    "type": "node",
+    "id": 11749863712,
+    "lat": -33.8944487,
+    "lon": 151.1957547,
+    "tags": {
+     "amenity": "toilets",
+     "toilets:disposal": "flush",
+     "wheelchair": "yes"
+    }
+   },
+   {
+    "type": "node",
+    "id": 11756894300,
+    "lat": -33.8816646,
+    "lon": 151.1957945,
+    "tags": {
+     "access": "yes",
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "8",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 11756894301,
+    "lat": -33.8815474,
+    "lon": 151.1960878,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "6",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 11799028247,
+    "lat": -33.8899937,
+    "lon": 151.1982805,
+    "tags": {
+     "amenity": "drinking_water",
+     "bottle": "yes",
+     "dog": "yes",
+     "fountain": "bubbler"
+    }
+   },
+   {
+    "type": "node",
+    "id": 11799139325,
+    "lat": -33.8896618,
+    "lon": 151.1932609,
+    "tags": {
+     "amenity": "drinking_water",
+     "bottle": "yes",
+     "fountain": "bottle_refill"
+    }
+   },
+   {
+    "type": "node",
+    "id": 11799184513,
+    "lat": -33.8890259,
+    "lon": 151.189594,
+    "tags": {
+     "amenity": "drinking_water",
+     "bottle": "yes"
+    }
+   },
+   {
+    "type": "node",
+    "id": 11865408780,
+    "lat": -33.8882887,
+    "lon": 151.1989347,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "2",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 11906771577,
+    "lat": -33.885056,
+    "lon": 151.1990119,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "capacity": "3",
+     "covered": "yes"
+    }
+   },
+   {
+    "type": "node",
+    "id": 11951679713,
+    "lat": -33.8828053,
+    "lon": 151.2055755,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "4",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 12091220359,
+    "lat": -33.8933005,
+    "lon": 151.1924219,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "rack",
+     "covered": "yes"
+    }
+   },
+   {
+    "type": "node",
+    "id": 12133270625,
+    "lat": -33.8858242,
+    "lon": 151.1960135,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "2",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 12162954255,
+    "lat": -33.8872565,
+    "lon": 151.1998616,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "2",
+     "check_date": "2026-05",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 12163032632,
+    "lat": -33.8918538,
+    "lon": 151.2124163,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "4",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 12163032633,
+    "lat": -33.8916924,
+    "lon": 151.21167,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "20",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 12179482867,
+    "lat": -33.8860451,
+    "lon": 151.2002457,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "2",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 12239973596,
+    "lat": -33.887044,
+    "lon": 151.1966026,
+    "tags": {
+     "amenity": "drinking_water",
+     "fountain": "bubbler"
+    }
+   },
+   {
+    "type": "node",
+    "id": 12247582335,
+    "lat": -33.8851435,
+    "lon": 151.1939974,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "10",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 12251641085,
+    "lat": -33.8891162,
+    "lon": 151.1957921,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "capacity": "1"
+    }
+   },
+   {
+    "type": "node",
+    "id": 12324795389,
+    "lat": -33.8843994,
+    "lon": 151.1990392,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "1",
+     "covered": "no",
+     "highway": "street_lamp"
+    }
+   },
+   {
+    "type": "node",
+    "id": 12327923220,
+    "lat": -33.8824052,
+    "lon": 151.2042777,
+    "tags": {
+     "amenity": "drinking_water",
+     "bottle": "no",
+     "dog": "yes",
+     "fountain": "bubbler"
+    }
+   },
+   {
+    "type": "node",
+    "id": 12328386932,
+    "lat": -33.8924993,
+    "lon": 151.2015454,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "2",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 12328386937,
+    "lat": -33.8919102,
+    "lon": 151.1997829,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "10",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 12345043696,
+    "lat": -33.8935988,
+    "lon": 151.1915583,
+    "tags": {
+     "amenity": "drinking_water",
+     "bottle": "yes",
+     "fountain": "bubbler"
+    }
+   },
+   {
+    "type": "node",
+    "id": 12409081876,
+    "lat": -33.8803125,
+    "lon": 151.2037785,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands"
+    }
+   },
+   {
+    "type": "node",
+    "id": 12483743283,
+    "lat": -33.8859463,
+    "lon": 151.1994115,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "4",
+     "lit": "yes"
+    }
+   },
+   {
+    "type": "node",
+    "id": 12573133856,
+    "lat": -33.8814366,
+    "lon": 151.2020492,
+    "tags": {
+     "amenity": "bicycle_parking"
+    }
+   },
+   {
+    "type": "node",
+    "id": 12619510901,
+    "lat": -33.890359,
+    "lon": 151.1937208,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "18",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 12619515101,
+    "lat": -33.8903045,
+    "lon": 151.1937267,
+    "tags": {
+     "access": "yes",
+     "amenity": "drinking_water",
+     "fountain": "bubbler"
+    }
+   },
+   {
+    "type": "node",
+    "id": 12624032043,
+    "lat": -33.885665,
+    "lon": 151.199384,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "capacity": "4"
+    }
+   },
+   {
+    "type": "node",
+    "id": 12624032045,
+    "lat": -33.885751,
+    "lon": 151.1993856,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "capacity": "2"
+    }
+   },
+   {
+    "type": "node",
+    "id": 12688691496,
+    "lat": -33.8811058,
+    "lon": 151.2062559,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "4",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 12688691497,
+    "lat": -33.8806557,
+    "lon": 151.2066536,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "6",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 12700725510,
+    "lat": -33.8931096,
+    "lon": 151.2053289,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "8",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 12715373241,
+    "lat": -33.8902081,
+    "lon": 151.2131316,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "4"
+    }
+   },
+   {
+    "type": "node",
+    "id": 12730130529,
+    "lat": -33.8810103,
+    "lon": 151.1974826,
+    "tags": {
+     "amenity": "bbq"
+    }
+   },
+   {
+    "type": "node",
+    "id": 12730130564,
+    "lat": -33.8814485,
+    "lon": 151.1983596,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "wall_loops",
+     "capacity": "5",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 12769475609,
+    "lat": -33.8852426,
+    "lon": 151.1998707,
+    "tags": {
+     "access": "permissive",
+     "amenity": "toilets",
+     "check_date": "2025-04",
+     "fee": "no",
+     "level": "0",
+     "opening_hours": "Mo-Fr 10:00-17:00;Sa-Su 09:00-17:00",
+     "toilets:handwashing": "yes"
+    }
+   },
+   {
+    "type": "node",
+    "id": 12778496639,
+    "lat": -33.8854501,
+    "lon": 151.2019538,
+    "tags": {
+     "access": "yes",
+     "amenity": "toilets",
+     "level": "0"
+    }
+   },
+   {
+    "type": "node",
+    "id": 12805305898,
+    "lat": -33.8928847,
+    "lon": 151.211604,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "6"
+    }
+   },
+   {
+    "type": "node",
+    "id": 12953739521,
+    "lat": -33.8834017,
+    "lon": 151.1970118,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "10",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 12953739530,
+    "lat": -33.8837525,
+    "lon": 151.1984488,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "1",
+     "colour": "green",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 12953739552,
+    "lat": -33.883388,
+    "lon": 151.1989085,
+    "tags": {
+     "access": "yes",
+     "amenity": "drinking_water",
+     "description": "Located inside the car park. Check car park opening hours.",
+     "level": "-1"
+    }
+   },
+   {
+    "type": "node",
+    "id": 12960559136,
+    "lat": -33.8851911,
+    "lon": 151.1981534,
+    "tags": {
+     "access": "no",
+     "amenity": "toilets",
+     "check_date": "2025-08",
+     "fee": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 12960559143,
+    "lat": -33.8858903,
+    "lon": 151.1995656,
+    "tags": {
+     "amenity": "drinking_water"
+    }
+   },
+   {
+    "type": "node",
+    "id": 12963884537,
+    "lat": -33.8904709,
+    "lon": 151.193152,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "12"
+    }
+   },
+   {
+    "type": "node",
+    "id": 12963884555,
+    "lat": -33.8901717,
+    "lon": 151.1935319,
+    "tags": {
+     "access": "yes",
+     "amenity": "bbq",
+     "covered": "no",
+     "fuel": "electric"
+    }
+   },
+   {
+    "type": "node",
+    "id": 12982313207,
+    "lat": -33.8803828,
+    "lon": 151.2038903,
+    "tags": {
+     "access": "yes",
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "floor",
+     "covered": "no",
+     "fee": "no",
+     "location": "street"
+    }
+   },
+   {
+    "type": "node",
+    "id": 12982370247,
+    "lat": -33.8847633,
+    "lon": 151.2000402,
+    "tags": {
+     "access": "yes",
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "floor",
+     "covered": "no",
+     "location": "street",
+     "start_date": "2025-06"
+    }
+   },
+   {
+    "type": "node",
+    "id": 13012888589,
+    "lat": -33.8848014,
+    "lon": 151.2008086,
+    "tags": {
+     "amenity": "bank",
+     "brand": "Westpac",
+     "brand:wikidata": "Q2031726",
+     "check_date": "2025-07",
+     "level": "0",
+     "name": "Westpac"
+    }
+   },
+   {
+    "type": "node",
+    "id": 13073422385,
+    "lat": -33.8806157,
+    "lon": 151.2125484,
+    "tags": {
+     "amenity": "drinking_water",
+     "fountain": "bubbler"
+    }
+   },
+   {
+    "type": "node",
+    "id": 13073451936,
+    "lat": -33.8824166,
+    "lon": 151.2044614,
+    "tags": {
+     "amenity": "drinking_water",
+     "bottle": "no",
+     "dog": "yes",
+     "fountain": "bubbler"
+    }
+   },
+   {
+    "type": "node",
+    "id": 13083264701,
+    "lat": -33.8908438,
+    "lon": 151.1914052,
+    "tags": {
+     "amenity": "bicycle_parking"
+    }
+   },
+   {
+    "type": "node",
+    "id": 13093017071,
+    "lat": -33.8812848,
+    "lon": 151.2047988,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "6",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 13093117078,
+    "lat": -33.8888039,
+    "lon": 151.2130784,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands"
+    }
+   },
+   {
+    "type": "node",
+    "id": 13174756949,
+    "lat": -33.8874722,
+    "lon": 151.2000828,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "1",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 13203706734,
+    "lat": -33.8867244,
+    "lon": 151.1988179,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "1"
+    }
+   },
+   {
+    "type": "node",
+    "id": 13203706740,
+    "lat": -33.8869329,
+    "lon": 151.1988379,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "1"
+    }
+   },
+   {
+    "type": "node",
+    "id": 13229296908,
+    "lat": -33.8863783,
+    "lon": 151.200394,
+    "tags": {
+     "access": "yes",
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "2",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 13229296909,
+    "lat": -33.8869602,
+    "lon": 151.2000012,
+    "tags": {
+     "access": "yes",
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "1",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 13229296910,
+    "lat": -33.8865025,
+    "lon": 151.2001052,
+    "tags": {
+     "access": "yes",
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "1",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 13229296913,
+    "lat": -33.8864154,
+    "lon": 151.2001254,
+    "tags": {
+     "access": "yes",
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "2",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 13229296914,
+    "lat": -33.8871323,
+    "lon": 151.1998921,
+    "tags": {
+     "access": "yes",
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "1",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 13229296917,
+    "lat": -33.8863809,
+    "lon": 151.2004102,
+    "tags": {
+     "access": "yes",
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "2",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 13229296919,
+    "lat": -33.8869411,
+    "lon": 151.199928,
+    "tags": {
+     "access": "yes",
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "1",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 13229296920,
+    "lat": -33.8863444,
+    "lon": 151.2000187,
+    "tags": {
+     "access": "yes",
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "1",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 13229296921,
+    "lat": -33.8863672,
+    "lon": 151.2003094,
+    "tags": {
+     "access": "yes",
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "2",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 13229296922,
+    "lat": -33.8864527,
+    "lon": 151.2001168,
+    "tags": {
+     "access": "yes",
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "1",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 13279332545,
+    "lat": -33.8831344,
+    "lon": 151.1913141,
+    "tags": {
+     "amenity": "pharmacy",
+     "brand": "Priceline Pharmacy",
+     "brand:wikidata": "Q7242652",
+     "check_date": "2025-11-04",
+     "healthcare": "pharmacy",
+     "name": "Priceline Pharmacy"
+    }
+   },
+   {
+    "type": "node",
+    "id": 13279332547,
+    "lat": -33.8831578,
+    "lon": 151.1913306,
+    "tags": {
+     "amenity": "atm",
+     "check_date": "2025-11-04"
+    }
+   },
+   {
+    "type": "node",
+    "id": 13307413294,
+    "lat": -33.8945276,
+    "lon": 151.1961814,
+    "tags": {
+     "amenity": "toilets",
+     "indoor": "yes"
+    }
+   },
+   {
+    "type": "node",
+    "id": 13323544332,
+    "lat": -33.8839519,
+    "lon": 151.2077637,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "30",
+     "check_date": "2026-09-22",
+     "check_date:capacity": "2026-09-22",
+     "covered": "no",
+     "level": "0"
+    }
+   },
+   {
+    "type": "node",
+    "id": 13327464091,
+    "lat": -33.8830853,
+    "lon": 151.1939032,
+    "tags": {
+     "amenity": "pharmacy",
+     "brand": "Priceline Pharmacy",
+     "brand:wikidata": "Q7242652",
+     "healthcare": "pharmacy",
+     "level": "3",
+     "name": "Priceline Pharmacy"
+    }
+   },
+   {
+    "type": "node",
+    "id": 13379145643,
+    "lat": -33.8807487,
+    "lon": 151.1961663,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "1",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 13621796067,
+    "lat": -33.8802063,
+    "lon": 151.2097768,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "1",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 13621807626,
+    "lat": -33.8800732,
+    "lon": 151.2098338,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "4",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 13660959475,
+    "lat": -33.8841985,
+    "lon": 151.2018756,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "1",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 13731709111,
+    "lat": -33.8879683,
+    "lon": 151.1951601,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands"
+    }
+   },
+   {
+    "type": "node",
+    "id": 13733723363,
+    "lat": -33.8874262,
+    "lon": 151.1997075,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "4",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 13733723364,
+    "lat": -33.8879683,
+    "lon": 151.19516,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands"
+    }
+   },
+   {
+    "type": "node",
+    "id": 13817057989,
+    "lat": -33.8817534,
+    "lon": 151.2033499,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "capacity": "4",
+     "covered": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 13817057996,
+    "lat": -33.8806513,
+    "lon": 151.2027263,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "capacity": "2"
+    }
+   },
+   {
+    "type": "node",
+    "id": 13913682710,
+    "lat": -33.8948458,
+    "lon": 151.1974485,
+    "tags": {
+     "access": "yes",
+     "amenity": "bbq",
+     "covered": "no",
+     "fuel": "electric"
+    }
+   },
+   {
+    "type": "node",
+    "id": 13963680309,
+    "lat": -33.8833587,
+    "lon": 151.2127143,
+    "tags": {
+     "addr:housenumber": "117",
+     "amenity": "place_of_worship",
+     "name": "Zizhulin Kwong-Im Temple",
+     "name:en": "Zizhulin Kwong-Im Temple",
+     "name:zh": "紫竹林 觀音禪寺",
+     "religion": "buddhist"
+    }
+   },
+   {
+    "type": "node",
+    "id": 13996638578,
+    "lat": -33.8848988,
+    "lon": 151.1948414,
+    "tags": {
+     "access": "yes",
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "floor",
+     "check_date": "2026-07-06",
+     "covered": "no",
+     "description": "On-road bicycle parking. Delineated by concrete kerb bump outs. No loops or yellow end bars.",
+     "fee": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 13997342335,
+    "lat": -33.8804405,
+    "lon": 151.2080987,
+    "tags": {
+     "amenity": "toilets",
+     "check_date": "2026-07-08",
+     "construction": "anenity",
+     "toilets:disposal": "flush"
+    }
+   },
+   {
+    "type": "node",
+    "id": 14021589875,
+    "lat": -33.884131,
+    "lon": 151.1965178,
+    "tags": {
+     "access": "yes",
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "floor",
+     "check_date": "2026-07-10",
+     "covered": "no",
+     "description": "On road bicycle parking with concrete curb end separator"
+    }
+   },
+   {
+    "type": "node",
+    "id": 14021589876,
+    "lat": -33.8839122,
+    "lon": 151.195065,
+    "tags": {
+     "access": "yes",
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "floor",
+     "check_date": "2026-07-10",
+     "covered": "no",
+     "description": "On road bicycle parking with concrete curb end separator"
+    }
+   },
+   {
+    "type": "node",
+    "id": 14179989463,
+    "lat": -33.8815127,
+    "lon": 151.2051369,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "floor",
+     "covered": "no",
+     "location": "on_road"
+    }
+   },
+   {
+    "type": "node",
+    "id": 14179998942,
+    "lat": -33.8863815,
+    "lon": 151.2094817,
+    "tags": {
+     "access": "permissive",
+     "amenity": "toilets",
+     "toilets:disposal": "flush"
+    }
+   },
+   {
+    "type": "node",
+    "id": 14202814010,
+    "lat": -33.8815076,
+    "lon": 151.2051317,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "4"
+    }
+   },
+   {
+    "type": "node",
+    "id": 14206191501,
+    "lat": -33.8836137,
+    "lon": 151.207995,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "14"
+    }
+   },
+   {
+    "type": "node",
+    "id": 14221149438,
+    "lat": -33.8864488,
+    "lon": 151.2018528,
+    "tags": {
+     "amenity": "bicycle_parking",
+     "capacity": "2"
+    }
+   },
+   {
+    "type": "way",
+    "id": 148341693,
+    "bounds": {
+     "minlat": -33.8821523,
+     "minlon": 151.2046717,
+     "maxlat": -33.8819363,
+     "maxlon": 151.2051016
+    },
+    "nodes": [
+     6567961385,
+     1614485819,
+     1614485874,
+     1614485854,
+     1614485856,
+     1614485862,
+     1614485821,
+     1614485881,
+     1614485830,
+     1614485826,
+     1614485828,
+     1614485864,
+     6567961385
+    ],
+    "geometry": [
+     {
+      "lat": -33.8821523,
+      "lon": 151.2050271
+     },
+     {
+      "lat": -33.8820806,
+      "lon": 151.2047208
+     },
+     {
+      "lat": -33.8820353,
+      "lon": 151.2047351
+     },
+     {
+      "lat": -33.8820199,
+      "lon": 151.2046717
+     },
+     {
+      "lat": -33.8819584,
+      "lon": 151.2046905
+     },
+     {
+      "lat": -33.8819725,
+      "lon": 151.2047565
+     },
+     {
+      "lat": -33.8819363,
+      "lon": 151.2047683
+     },
+     {
+      "lat": -33.8820087,
+      "lon": 151.205072
+     },
+     {
+      "lat": -33.8820432,
+      "lon": 151.2050618
+     },
+     {
+      "lat": -33.8820518,
+      "lon": 151.2051016
+     },
+     {
+      "lat": -33.8821301,
+      "lon": 151.2050754
+     },
+     {
+      "lat": -33.8821206,
+      "lon": 151.2050372
+     },
+     {
+      "lat": -33.8821523,
+      "lon": 151.2050271
+     }
+    ],
+    "tags": {
+     "addr:housenumber": "814A",
+     "addr:postcode": "2000",
+     "addr:state": "NSW",
+     "addr:street": "George Street",
+     "addr:suburb": "Haymarket",
+     "amenity": "place_of_worship",
+     "building": "church",
+     "building:levels": "3",
+     "check_date": "2025-07-17",
+     "denomination": "anglican",
+     "name": "Christ Church St Laurence",
+     "name:en": "Christ Church St Laurence",
+     "religion": "christian",
+     "source": "Bing",
+     "website": "https://ccsl.org.au/",
+     "wikidata": "Q5108827",
+     "wikipedia": "en:Christ Church St Laurence"
+    }
+   },
+   {
+    "type": "way",
+    "id": 258090606,
+    "bounds": {
+     "minlat": -33.8847829,
+     "minlon": 151.1981828,
+     "maxlat": -33.8844832,
+     "maxlon": 151.1983984
+    },
+    "nodes": [
+     2635013488,
+     2635013527,
+     2635013489,
+     4129172274,
+     2635013499,
+     2635013488
+    ],
+    "geometry": [
+     {
+      "lat": -33.8847829,
+      "lon": 151.198207
+     },
+     {
+      "lat": -33.8844942,
+      "lon": 151.1981828
+     },
+     {
+      "lat": -33.8844832,
+      "lon": 151.1983742
+     },
+     {
+      "lat": -33.8846779,
+      "lon": 151.1983908
+     },
+     {
+      "lat": -33.8847718,
+      "lon": 151.1983984
+     },
+     {
+      "lat": -33.8847829,
+      "lon": 151.198207
+     }
+    ],
+    "tags": {
+     "addr:housenumber": "104",
+     "addr:postcode": "2008",
+     "addr:state": "NSW",
+     "addr:street": "Broadway",
+     "addr:suburb": "Chippendale",
+     "amenity": "place_of_worship",
+     "building": "church",
+     "denomination": "roman_catholic",
+     "name": "St Benedict's Catholic Church",
+     "place_of_worship": "church",
+     "ref:dove": "14777",
+     "religion": "christian",
+     "source": "Bing",
+     "website": "https://www.stbenedicts.org.au/"
+    }
+   },
+   {
+    "type": "way",
+    "id": 358451401,
+    "bounds": {
+     "minlat": -33.8926204,
+     "minlon": 151.2069717,
+     "maxlat": -33.8923998,
+     "maxlon": 151.2073167
+    },
+    "nodes": [
+     3633690397,
+     4160497822,
+     4160497820,
+     3633690400,
+     3633690397
+    ],
+    "geometry": [
+     {
+      "lat": -33.8926204,
+      "lon": 151.2072796
+     },
+     {
+      "lat": -33.8925793,
+      "lon": 151.2069717
+     },
+     {
+      "lat": -33.8923998,
+      "lon": 151.2070059
+     },
+     {
+      "lat": -33.8924422,
+      "lon": 151.2073167
+     },
+     {
+      "lat": -33.8926204,
+      "lon": 151.2072796
+     }
+    ],
+    "tags": {
+     "addr:housenumber": "627",
+     "addr:postcode": "2016",
+     "addr:street": "Elizabeth Street",
+     "addr:suburb": "Redfern",
+     "amenity": "place_of_worship",
+     "building": "yes",
+     "denomination": "maronite",
+     "name": "St Maroun's Cathedral",
+     "religion": "christian",
+     "wikidata": "Q27925096"
+    }
+   },
+   {
+    "type": "way",
+    "id": 400070128,
+    "bounds": {
+     "minlat": -33.8825348,
+     "minlon": 151.2062297,
+     "maxlat": -33.8822917,
+     "maxlon": 151.2065287
+    },
+    "nodes": [
+     4027001720,
+     4027001713,
+     4027001693,
+     4027001701,
+     4027001720
+    ],
+    "geometry": [
+     {
+      "lat": -33.8825348,
+      "lon": 151.2064196
+     },
+     {
+      "lat": -33.8824315,
+      "lon": 151.2062297
+     },
+     {
+      "lat": -33.8822917,
+      "lon": 151.2063369
+     },
+     {
+      "lat": -33.8823959,
+      "lon": 151.2065287
+     },
+     {
+      "lat": -33.8825348,
+      "lon": 151.2064196
+     }
+    ],
+    "tags": {
+     "amenity": "toilets",
+     "changing_table": "yes",
+     "changing_table:access": "key",
+     "fee": "no",
+     "female": "yes",
+     "indoor": "room",
+     "level": "1",
+     "male": "yes",
+     "room": "toilets",
+     "unisex": "yes",
+     "wheelchair": "yes"
+    }
+   },
+   {
+    "type": "way",
+    "id": 400076264,
+    "bounds": {
+     "minlat": -33.8835222,
+     "minlon": 151.2072279,
+     "maxlat": -33.8833661,
+     "maxlon": 151.2074862
+    },
+    "nodes": [
+     4027064402,
+     4027141912,
+     4027064433,
+     4027064432,
+     4027062088,
+     4027064402
+    ],
+    "geometry": [
+     {
+      "lat": -33.8833967,
+      "lon": 151.2072279
+     },
+     {
+      "lat": -33.8834382,
+      "lon": 151.2073057
+     },
+     {
+      "lat": -33.8835222,
+      "lon": 151.2074626
+     },
+     {
+      "lat": -33.8834919,
+      "lon": 151.2074862
+     },
+     {
+      "lat": -33.8833661,
+      "lon": 151.2072516
+     },
+     {
+      "lat": -33.8833967,
+      "lon": 151.2072279
+     }
+    ],
+    "tags": {
+     "access": "customers",
+     "amenity": "toilets",
+     "female": "yes",
+     "level": "0",
+     "wheelchair": "yes"
+    }
+   },
+   {
+    "type": "way",
+    "id": 400089256,
+    "bounds": {
+     "minlat": -33.8836941,
+     "minlon": 151.207595,
+     "maxlat": -33.883563,
+     "maxlon": 151.2078075
+    },
+    "nodes": [
+     4027064434,
+     4027064435,
+     4027628739,
+     4027167692,
+     4027167691,
+     4027064434
+    ],
+    "geometry": [
+     {
+      "lat": -33.883664,
+      "lon": 151.2078075
+     },
+     {
+      "lat": -33.8836941,
+      "lon": 151.2077843
+     },
+     {
+      "lat": -33.8836521,
+      "lon": 151.2077055
+     },
+     {
+      "lat": -33.8835933,
+      "lon": 151.207595
+     },
+     {
+      "lat": -33.883563,
+      "lon": 151.2076185
+     },
+     {
+      "lat": -33.883664,
+      "lon": 151.2078075
+     }
+    ],
+    "tags": {
+     "access": "customers",
+     "amenity": "toilets",
+     "changing_table": "yes",
+     "level": "0",
+     "male": "yes",
+     "wheelchair": "yes"
+    }
+   },
+   {
+    "type": "way",
+    "id": 406390387,
+    "bounds": {
+     "minlat": -33.8871222,
+     "minlon": 151.205726,
+     "maxlat": -33.8870529,
+     "maxlon": 151.2060302
+    },
+    "nodes": [
+     9395906018,
+     2473098489,
+     4084607727,
+     9395906019,
+     9395906017,
+     9395896314,
+     9395896316,
+     9395896315,
+     9395906018
+    ],
+    "geometry": [
+     {
+      "lat": -33.8870696,
+      "lon": 151.2058268
+     },
+     {
+      "lat": -33.8871222,
+      "lon": 151.205726
+     },
+     {
+      "lat": -33.8871028,
+      "lon": 151.2060302
+     },
+     {
+      "lat": -33.8870529,
+      "lon": 151.2060265
+     },
+     {
+      "lat": -33.8870551,
+      "lon": 151.2058182
+     },
+     {
+      "lat": -33.8870577,
+      "lon": 151.2058232
+     },
+     {
+      "lat": -33.8870612,
+      "lon": 151.2058267
+     },
+     {
+      "lat": -33.8870655,
+      "lon": 151.2058278
+     },
+     {
+      "lat": -33.8870696,
+      "lon": 151.2058268
+     }
+    ],
+    "tags": {
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "stands",
+     "capacity": "58",
+     "covered": "no",
+     "operator": "City of Sydney Council"
+    }
+   },
+   {
+    "type": "way",
+    "id": 409347597,
+    "bounds": {
+     "minlat": -33.8940682,
+     "minlon": 151.1991818,
+     "maxlat": -33.8939179,
+     "maxlon": 151.1995506
+    },
+    "nodes": [
+     3132596565,
+     4112650325,
+     5738839678,
+     4112650326,
+     4112650324,
+     3132596565
+    ],
+    "geometry": [
+     {
+      "lat": -33.8939179,
+      "lon": 151.1992327
+     },
+     {
+      "lat": -33.8940181,
+      "lon": 151.1991818
+     },
+     {
+      "lat": -33.894029,
+      "lon": 151.1992519
+     },
+     {
+      "lat": -33.8940682,
+      "lon": 151.199505
+     },
+     {
+      "lat": -33.893968,
+      "lon": 151.1995506
+     },
+     {
+      "lat": -33.8939179,
+      "lon": 151.1992327
+     }
+    ],
+    "tags": {
+     "addr:housenumber": "118",
+     "addr:street": "Regent Street",
+     "amenity": "place_of_worship",
+     "building": "church",
+     "building:levels": "3",
+     "denomination": "uniting",
+     "layer": "1",
+     "name": "Uniting Church Tonga Parish",
+     "religion": "christian"
+    }
+   },
+   {
+    "type": "way",
+    "id": 414889489,
+    "bounds": {
+     "minlat": -33.8922113,
+     "minlon": 151.2086764,
+     "maxlat": -33.8920567,
+     "maxlon": 151.2090997
+    },
+    "nodes": [
+     4160321960,
+     5610500479,
+     5610500480,
+     4160321964,
+     5610500481,
+     5610500482,
+     5610500484,
+     5610500483,
+     4160321957,
+     5610500485,
+     5610500486,
+     5610500487,
+     5610500488,
+     5610500490,
+     5610500489,
+     4160321949,
+     4160321960
+    ],
+    "geometry": [
+     {
+      "lat": -33.8921731,
+      "lon": 151.2086764
+     },
+     {
+      "lat": -33.8922061,
+      "lon": 151.2089483
+     },
+     {
+      "lat": -33.8921965,
+      "lon": 151.2089512
+     },
+     {
+      "lat": -33.8922113,
+      "lon": 151.2090668
+     },
+     {
+      "lat": -33.8921709,
+      "lon": 151.2090761
+     },
+     {
+      "lat": -33.8921724,
+      "lon": 151.2090878
+     },
+     {
+      "lat": -33.8921185,
+      "lon": 151.2090997
+     },
+     {
+      "lat": -33.8921175,
+      "lon": 151.2090937
+     },
+     {
+      "lat": -33.8921053,
+      "lon": 151.2090962
+     },
+     {
+      "lat": -33.892099,
+      "lon": 151.2090536
+     },
+     {
+      "lat": -33.8921122,
+      "lon": 151.2090504
+     },
+     {
+      "lat": -33.8921012,
+      "lon": 151.2089706
+     },
+     {
+      "lat": -33.8920849,
+      "lon": 151.2089734
+     },
+     {
+      "lat": -33.8920638,
+      "lon": 151.2087892
+     },
+     {
+      "lat": -33.8920691,
+      "lon": 151.2087884
+     },
+     {
+      "lat": -33.8920567,
+      "lon": 151.2086995
+     },
+     {
+      "lat": -33.8921731,
+      "lon": 151.2086764
+     }
+    ],
+    "tags": {
+     "amenity": "place_of_worship",
+     "building": "church",
+     "building:levels": "1"
+    }
+   },
+   {
+    "type": "way",
+    "id": 427124900,
+    "bounds": {
+     "minlat": -33.8808778,
+     "minlon": 151.1871259,
+     "maxlat": -33.880546,
+     "maxlon": 151.1874021
+    },
+    "nodes": [
+     4263601367,
+     4263601371,
+     4263601370,
+     4263601373,
+     4263601374,
+     4263601378,
+     4263601379,
+     4263601377,
+     4263601376,
+     4263601375,
+     4263601372,
+     4263601369,
+     4263601368,
+     4263601366,
+     4263601367
+    ],
+    "geometry": [
+     {
+      "lat": -33.8806105,
+      "lon": 151.1871259
+     },
+     {
+      "lat": -33.8807775,
+      "lon": 151.1872533
+     },
+     {
+      "lat": -33.8807742,
+      "lon": 151.1872318
+     },
+     {
+      "lat": -33.8807898,
+      "lon": 151.187205
+     },
+     {
+      "lat": -33.8808154,
+      "lon": 151.1872023
+     },
+     {
+      "lat": -33.8808666,
+      "lon": 151.1872425
+     },
+     {
+      "lat": -33.8808778,
+      "lon": 151.1872707
+     },
+     {
+      "lat": -33.8808644,
+      "lon": 151.1873029
+     },
+     {
+      "lat": -33.8808377,
+      "lon": 151.1873109
+     },
+     {
+      "lat": -33.8808254,
+      "lon": 151.1873015
+     },
+     {
+      "lat": -33.8807775,
+      "lon": 151.1873901
+     },
+     {
+      "lat": -33.8807497,
+      "lon": 151.1873686
+     },
+     {
+      "lat": -33.8807308,
+      "lon": 151.1874021
+     },
+     {
+      "lat": -33.880546,
+      "lon": 151.1872573
+     },
+     {
+      "lat": -33.8806105,
+      "lon": 151.1871259
+     }
+    ],
+    "tags": {
+     "amenity": "place_of_worship",
+     "building": "church",
+     "denomination": "anglican",
+     "name": "Saint John's",
+     "religion": "christian"
+    }
+   },
+   {
+    "type": "way",
+    "id": 587377328,
+    "bounds": {
+     "minlat": -33.881921,
+     "minlon": 151.2104914,
+     "maxlat": -33.8818348,
+     "maxlon": 151.2107446
+    },
+    "nodes": [
+     5610749062,
+     5610749063,
+     5610749064,
+     5610749065,
+     5610749062
+    ],
+    "geometry": [
+     {
+      "lat": -33.8818426,
+      "lon": 151.2107446
+     },
+     {
+      "lat": -33.8818348,
+      "lon": 151.2104949
+     },
+     {
+      "lat": -33.8819132,
+      "lon": 151.2104914
+     },
+     {
+      "lat": -33.881921,
+      "lon": 151.210741
+     },
+     {
+      "lat": -33.8818426,
+      "lon": 151.2107446
+     }
+    ],
+    "tags": {
+     "alt_name": "Islamic Society Of New South Wales",
+     "amenity": "place_of_worship",
+     "building": "yes",
+     "building:levels": "3",
+     "name": "King Faisal Mosque",
+     "religion": "muslim",
+     "website": "https://www.islamicsocietynsw.org.au/"
+    }
+   },
+   {
+    "type": "way",
+    "id": 614635534,
+    "bounds": {
+     "minlat": -33.8843947,
+     "minlon": 151.1934739,
+     "maxlat": -33.8842098,
+     "maxlon": 151.1936089
+    },
+    "nodes": [
+     5813784838,
+     5813784840,
+     5813784841,
+     5813784842,
+     5813784838
+    ],
+    "geometry": [
+     {
+      "lat": -33.8843947,
+      "lon": 151.193489
+     },
+     {
+      "lat": -33.8843855,
+      "lon": 151.1936089
+     },
+     {
+      "lat": -33.8842098,
+      "lon": 151.1935933
+     },
+     {
+      "lat": -33.8842166,
+      "lon": 151.1934739
+     },
+     {
+      "lat": -33.8843947,
+      "lon": 151.193489
+     }
+    ],
+    "tags": {
+     "addr:floor": "4",
+     "addr:housenumber": "16",
+     "addr:street": "Grose Street",
+     "amenity": "place_of_worship",
+     "building": "church",
+     "building:levels": "2",
+     "denomination": "protestant",
+     "email": "church.sydney@gmail.com",
+     "name": "Immanuel Community Church Sydney",
+     "religion": "christian",
+     "website": "https://sydneyimmanuel.org.au/"
+    }
+   },
+   {
+    "type": "way",
+    "id": 655491313,
+    "bounds": {
+     "minlat": -33.8909082,
+     "minlon": 151.2073047,
+     "maxlat": -33.8906809,
+     "maxlon": 151.2076492
+    },
+    "nodes": [
+     6141431418,
+     6141431798,
+     6141430893,
+     6141431799,
+     6141431418
+    ],
+    "geometry": [
+     {
+      "lat": -33.8907242,
+      "lon": 151.2076492
+     },
+     {
+      "lat": -33.8909082,
+      "lon": 151.2076142
+     },
+     {
+      "lat": -33.8908677,
+      "lon": 151.2073047
+     },
+     {
+      "lat": -33.8906809,
+      "lon": 151.2073395
+     },
+     {
+      "lat": -33.8907242,
+      "lon": 151.2076492
+     }
+    ],
+    "tags": {
+     "addr:housenumber": "587",
+     "addr:postcode": "2016",
+     "addr:state": "NSW",
+     "addr:street": "Elizabeth Street",
+     "addr:suburb": "Redfern",
+     "amenity": "place_of_worship",
+     "building": "church",
+     "denomination": "anglican",
+     "name": "Church of Te Wairua Tapu",
+     "religion": "christian",
+     "source": "LPI Imagery Dec 2018",
+     "source:address": "LPI Base map Dec 2019",
+     "website": "https://tewairuatapu.com.au"
+    }
+   },
+   {
+    "type": "way",
+    "id": 717439902,
+    "bounds": {
+     "minlat": -33.8802677,
+     "minlon": 151.2023769,
+     "maxlat": -33.8802302,
+     "maxlon": 151.2024448
+    },
+    "nodes": [
+     6737737819,
+     6737737817,
+     6737737816,
+     6737737820,
+     6737737819
+    ],
+    "geometry": [
+     {
+      "lat": -33.8802454,
+      "lon": 151.2023769
+     },
+     {
+      "lat": -33.8802677,
+      "lon": 151.2023852
+     },
+     {
+      "lat": -33.8802526,
+      "lon": 151.2024448
+     },
+     {
+      "lat": -33.8802302,
+      "lon": 151.2024366
+     },
+     {
+      "lat": -33.8802454,
+      "lon": 151.2023769
+     }
+    ],
+    "tags": {
+     "access": "private",
+     "amenity": "toilets",
+     "fee": "no",
+     "female": "no",
+     "indoor": "room",
+     "level": "0",
+     "level:ref": "01",
+     "male": "no",
+     "toilets:disposal": "flush",
+     "unisex": "yes",
+     "wheelchair": "yes"
+    }
+   },
+   {
+    "type": "way",
+    "id": 717439904,
+    "bounds": {
+     "minlat": -33.8804083,
+     "minlon": 151.2022899,
+     "maxlat": -33.8803336,
+     "maxlon": 151.2023698
+    },
+    "nodes": [
+     6737737825,
+     6737737824,
+     6737737823,
+     6737737828,
+     6737737827,
+     6737737826,
+     6737737822,
+     6737737829,
+     6737737825
+    ],
+    "geometry": [
+     {
+      "lat": -33.8803336,
+      "lon": 151.20232
+     },
+     {
+      "lat": -33.8803487,
+      "lon": 151.2023591
+     },
+     {
+      "lat": -33.8803793,
+      "lon": 151.2023698
+     },
+     {
+      "lat": -33.8803816,
+      "lon": 151.2023624
+     },
+     {
+      "lat": -33.8803907,
+      "lon": 151.2023499
+     },
+     {
+      "lat": -33.8804036,
+      "lon": 151.202344
+     },
+     {
+      "lat": -33.8804083,
+      "lon": 151.2023438
+     },
+     {
+      "lat": -33.8803878,
+      "lon": 151.2022899
+     },
+     {
+      "lat": -33.8803336,
+      "lon": 151.20232
+     }
+    ],
+    "tags": {
+     "access": "private",
+     "amenity": "toilets",
+     "fee": "no",
+     "female": "yes",
+     "indoor": "room",
+     "level": "0",
+     "level:ref": "01",
+     "male": "yes",
+     "toilets:disposal": "flush",
+     "unisex": "no"
+    }
+   },
+   {
+    "type": "way",
+    "id": 717439909,
+    "bounds": {
+     "minlat": -33.8802444,
+     "minlon": 151.2018176,
+     "maxlat": -33.8801254,
+     "maxlon": 151.201908
+    },
+    "nodes": [
+     6737737840,
+     5344683782,
+     5344683783,
+     5344683784,
+     5344683785,
+     5344683786,
+     6737737838,
+     6737737839,
+     6737737841,
+     6737737840
+    ],
+    "geometry": [
+     {
+      "lat": -33.8801417,
+      "lon": 151.2018336
+     },
+     {
+      "lat": -33.8801527,
+      "lon": 151.2018381
+     },
+     {
+      "lat": -33.8801839,
+      "lon": 151.2018225
+     },
+     {
+      "lat": -33.8801897,
+      "lon": 151.2018392
+     },
+     {
+      "lat": -33.8802263,
+      "lon": 151.2018176
+     },
+     {
+      "lat": -33.8802444,
+      "lon": 151.2018616
+     },
+     {
+      "lat": -33.8801647,
+      "lon": 151.2019057
+     },
+     {
+      "lat": -33.8801583,
+      "lon": 151.201908
+     },
+     {
+      "lat": -33.8801254,
+      "lon": 151.2018991
+     },
+     {
+      "lat": -33.8801417,
+      "lon": 151.2018336
+     }
+    ],
+    "tags": {
+     "access": "private",
+     "amenity": "toilets",
+     "fee": "no",
+     "female": "yes",
+     "indoor": "room",
+     "level": "0",
+     "level:ref": "01",
+     "male": "yes",
+     "toilets:disposal": "flush",
+     "unisex": "no"
+    }
+   },
+   {
+    "type": "way",
+    "id": 829588958,
+    "bounds": {
+     "minlat": -33.8804526,
+     "minlon": 151.1860742,
+     "maxlat": -33.8803912,
+     "maxlon": 151.1861484
+    },
+    "nodes": [
+     5110232349,
+     7743010946,
+     7743010945,
+     7743010944,
+     5110232349
+    ],
+    "geometry": [
+     {
+      "lat": -33.8804116,
+      "lon": 151.1860742
+     },
+     {
+      "lat": -33.8804526,
+      "lon": 151.1861011
+     },
+     {
+      "lat": -33.880432,
+      "lon": 151.1861484
+     },
+     {
+      "lat": -33.8803912,
+      "lon": 151.186122
+     },
+     {
+      "lat": -33.8804116,
+      "lon": 151.1860742
+     }
+    ],
+    "tags": {
+     "access": "yes",
+     "addr:housenumber": "140",
+     "addr:postcode": "2037",
+     "addr:state": "NSW",
+     "addr:street": "Glebe Point Road",
+     "addr:suburb": "Glebe",
+     "ambulant": "yes",
+     "amenity": "toilets",
+     "baby_feeding": "no",
+     "building": "toilets",
+     "changing_table": "yes",
+     "changing_table:fee": "no",
+     "child": "no",
+     "contact:website": "https://www.toiletmap.gov.au/41133",
+     "drinking_water": "yes",
+     "fee": "no",
+     "female": "yes",
+     "gender_segregated": "yes",
+     "handwashing:creme": "no",
+     "handwashing:hand_cleaning_paste": "no",
+     "handwashing:hand_disinfection": "no",
+     "handwashing:soap": "yes",
+     "hot_water": "no",
+     "image": "https://commons.wikimedia.org/wiki/File:Public_toilets_DR_H_J_Foley_Rest_Park_Glebe_NSW_Australia.jpg",
+     "indoor": "no",
+     "lit": "yes",
+     "male": "yes",
+     "name": "Public Toilet Dr H J Foley Rest Park, Glebe",
+     "opening_hours": "sunrise-sunset",
+     "operator": "City of Sydney",
+     "operator:email": "council@cityofsydney.nsw.gov.au",
+     "operator:phone": "+61 2 9265 9333",
+     "operator:type": "government",
+     "operator:website": "https://www.cityofsydney.nsw.gov.au",
+     "operator:wikidata": "Q56477532",
+     "shower": "no",
+     "supervised": "no",
+     "toilets": "yes",
+     "toilets:access": "yes",
+     "toilets:disposal": "flush",
+     "toilets:handwashing": "yes",
+     "toilets:menstrual_products": "no",
+     "toilets:ostomy": "no",
+     "toilets:paper_supplied": "yes",
+     "toilets:position": "seated;urinal",
+     "toilets:wheelchair": "limited",
+     "unisex": "yes",
+     "waste": "sharps",
+     "website": "https://www.toiletmap.gov.au/41133",
+     "wheelchair": "limited",
+     "wheelchair:description": "Right-hand transfer & Ambulant facilities."
+    }
+   },
+   {
+    "type": "way",
+    "id": 836239572,
+    "bounds": {
+     "minlat": -33.8804893,
+     "minlon": 151.1881199,
+     "maxlat": -33.8802471,
+     "maxlon": 151.1883914
+    },
+    "nodes": [
+     7805104208,
+     7805104207,
+     7805104206,
+     7805104205,
+     7805104204,
+     7805104203,
+     7805104208
+    ],
+    "geometry": [
+     {
+      "lat": -33.8803006,
+      "lon": 151.1881199
+     },
+     {
+      "lat": -33.8804893,
+      "lon": 151.1882748
+     },
+     {
+      "lat": -33.8804233,
+      "lon": 151.1883914
+     },
+     {
+      "lat": -33.8802471,
+      "lon": 151.1882468
+     },
+     {
+      "lat": -33.8802813,
+      "lon": 151.1881865
+     },
+     {
+      "lat": -33.8802688,
+      "lon": 151.1881762
+     },
+     {
+      "lat": -33.8803006,
+      "lon": 151.1881199
+     }
+    ],
+    "tags": {
+     "amenity": "courthouse",
+     "building": "civic",
+     "historic": "yes",
+     "name": "Glebe Court House"
+    }
+   },
+   {
+    "type": "way",
+    "id": 947062159,
+    "bounds": {
+     "minlat": -33.8918539,
+     "minlon": 151.1993973,
+     "maxlat": -33.8917735,
+     "maxlon": 151.1994929
+    },
+    "nodes": [
+     7856197568,
+     9742287639,
+     8766527074,
+     9742287641,
+     9742287642,
+     8766527072,
+     7856197568
+    ],
+    "geometry": [
+     {
+      "lat": -33.8917735,
+      "lon": 151.1994337
+     },
+     {
+      "lat": -33.8917938,
+      "lon": 151.1994202
+     },
+     {
+      "lat": -33.891828,
+      "lon": 151.1993973
+     },
+     {
+      "lat": -33.8918539,
+      "lon": 151.1994573
+     },
+     {
+      "lat": -33.8917974,
+      "lon": 151.1994929
+     },
+     {
+      "lat": -33.8917859,
+      "lon": 151.199464
+     },
+     {
+      "lat": -33.8917735,
+      "lon": 151.1994337
+     }
+    ],
+    "tags": {
+     "access": "yes",
+     "amenity": "bicycle_parking",
+     "bicycle_parking": "shed",
+     "bike_ride": "yes",
+     "building": "yes",
+     "capacity": "32",
+     "level": "0",
+     "name": "Bike Shed - Redfern Station, Lawson St",
+     "operator": "Transport for NSW",
+     "operator:type": "government",
+     "operator:wikidata": "Q7834923",
+     "ref:operator_inventory": "201510SHD001"
+    }
+   },
+   {
+    "type": "way",
+    "id": 1241921154,
+    "bounds": {
+     "minlat": -33.892706,
+     "minlon": 151.1984802,
+     "maxlat": -33.8925988,
+     "maxlon": 151.1985393
+    },
+    "nodes": [
+     11170977225,
+     11170977224,
+     11539815418,
+     11539815419,
+     11170977225
+    ],
+    "geometry": [
+     {
+      "lat": -33.8925988,
+      "lon": 151.198489
+     },
+     {
+      "lat": -33.8926621,
+      "lon": 151.1984802
+     },
+     {
+      "lat": -33.892706,
+      "lon": 151.1985289
+     },
+     {
+      "lat": -33.8926023,
+      "lon": 151.1985393
+     },
+     {
+      "lat": -33.8925988,
+      "lon": 151.198489
+     }
+    ],
+    "tags": {
+     "access": "yes",
+     "amenity": "toilets",
+     "building": "yes",
+     "changing_table": "yes",
+     "toilets:disposal": "flush",
+     "unisex": "yes",
+     "wheelchair": "yes"
+    }
+   },
+   {
+    "type": "way",
+    "id": 1510948451,
+    "bounds": {
+     "minlat": -33.8931913,
+     "minlon": 151.2126638,
+     "maxlat": -33.8921178,
+     "maxlon": 151.2142031
+    },
+    "nodes": [
+     5608349198,
+     5608349197,
+     5608349200,
+     5608349184,
+     5608349208,
+     5608349185,
+     9776222183,
+     9776222182,
+     13811035664,
+     13811035668,
+     13811035670,
+     13811035669,
+     13811035667,
+     13811035666,
+     13811035665,
+     13811035656,
+     13811035663,
+     13811035641,
+     5608349191,
+     5608349192,
+     5608349241,
+     13811035679,
+     13811035640,
+     13811035639,
+     13811056219,
+     13811056218,
+     13811056200,
+     13811056162,
+     13811056137,
+     13811035638,
+     13811035637,
+     13811035636,
+     13811056136,
+     13811035635,
+     13811035634,
+     13811035693,
+     5608349198
+    ],
+    "geometry": [
+     {
+      "lat": -33.8922125,
+      "lon": 151.212781
+     },
+     {
+      "lat": -33.8921178,
+      "lon": 151.2127986
+     },
+     {
+      "lat": -33.8922034,
+      "lon": 151.2133719
+     },
+     {
+      "lat": -33.892213,
+      "lon": 151.2134457
+     },
+     {
+      "lat": -33.8922547,
+      "lon": 151.2137627
+     },
+     {
+      "lat": -33.8922638,
+      "lon": 151.2138273
+     },
+     {
+      "lat": -33.8922718,
+      "lon": 151.2138992
+     },
+     {
+      "lat": -33.8923186,
+      "lon": 151.2142031
+     },
+     {
+      "lat": -33.8931475,
+      "lon": 151.2139713
+     },
+     {
+      "lat": -33.8931332,
+      "lon": 151.2138717
+     },
+     {
+      "lat": -33.8931257,
+      "lon": 151.2138733
+     },
+     {
+      "lat": -33.8931092,
+      "lon": 151.2137589
+     },
+     {
+      "lat": -33.8931176,
+      "lon": 151.2137572
+     },
+     {
+      "lat": -33.8930948,
+      "lon": 151.2135987
+     },
+     {
+      "lat": -33.8931041,
+      "lon": 151.2135967
+     },
+     {
+      "lat": -33.8930993,
+      "lon": 151.2135634
+     },
+     {
+      "lat": -33.8931913,
+      "lon": 151.2135441
+     },
+     {
+      "lat": -33.8930673,
+      "lon": 151.2126638
+     },
+     {
+      "lat": -33.893058,
+      "lon": 151.2126662
+     },
+     {
+      "lat": -33.8929744,
+      "lon": 151.2126825
+     },
+     {
+      "lat": -33.8929637,
+      "lon": 151.2126852
+     },
+     {
+      "lat": -33.8929488,
+      "lon": 151.2126882
+     },
+     {
+      "lat": -33.8929381,
+      "lon": 151.2126904
+     },
+     {
+      "lat": -33.893014,
+      "lon": 151.2132335
+     },
+     {
+      "lat": -33.8929994,
+      "lon": 151.2132363
+     },
+     {
+      "lat": -33.8929903,
+      "lon": 151.213238
+     },
+     {
+      "lat": -33.892674,
+      "lon": 151.2132991
+     },
+     {
+      "lat": -33.8926508,
+      "lon": 151.2133035
+     },
+     {
+      "lat": -33.8926303,
+      "lon": 151.2133075
+     },
+     {
+      "lat": -33.8926177,
+      "lon": 151.2133099
+     },
+     {
+      "lat": -33.8925542,
+      "lon": 151.2128488
+     },
+     {
+      "lat": -33.8924912,
+      "lon": 151.2127921
+     },
+     {
+      "lat": -33.8923229,
+      "lon": 151.2128248
+     },
+     {
+      "lat": -33.8922867,
+      "lon": 151.2128318
+     },
+     {
+      "lat": -33.8922785,
+      "lon": 151.2127682
+     },
+     {
+      "lat": -33.8922455,
+      "lon": 151.2127746
+     },
+     {
+      "lat": -33.8922125,
+      "lon": 151.212781
+     }
+    ],
+    "tags": {
+     "amenity": "place_of_worship",
+     "facebook": "https://www.facebook.com/TheNSWEvergreenTaoistChurch/",
+     "landuse": "religious",
+     "name": "澳洲紐省青松觀",
+     "name:en": "NSW Evergreen Taoist Church",
+     "name:zh": "澳洲紐省青松觀",
+     "religion": "taoist",
+     "website": "http://www.nswevergreentaoist.org.au/",
+     "wikidata": "Q110771881"
+    }
+   },
+   {
+    "type": "way",
+    "id": 1510948456,
+    "bounds": {
+     "minlat": -33.89354,
+     "minlon": 151.213703,
+     "maxlat": -33.8934268,
+     "maxlon": 151.2138238
+    },
+    "nodes": [
+     13811035675,
+     13811035676,
+     13811035677,
+     13811035678,
+     13811035675
+    ],
+    "geometry": [
+     {
+      "lat": -33.893525,
+      "lon": 151.213703
+     },
+     {
+      "lat": -33.89354,
+      "lon": 151.2138023
+     },
+     {
+      "lat": -33.8934418,
+      "lon": 151.2138238
+     },
+     {
+      "lat": -33.8934268,
+      "lon": 151.2137246
+     },
+     {
+      "lat": -33.893525,
+      "lon": 151.213703
+     }
+    ],
+    "tags": {
+     "amenity": "place_of_worship",
+     "building": "yes",
+     "religion": "taoist"
+    }
+   }
+  ]
+ },
+ "query": "[out:json][timeout:90];\n(\n  node[\"amenity\"~\"^(bicycle_parking|place_of_worship|townhall|courthouse|post_office|bank|pharmacy|toilets|drinking_water|atm|bbq)$\"](-33.8955,151.186,-33.88,151.214);\n  way[\"amenity\"~\"^(bicycle_parking|place_of_worship|townhall|courthouse|post_office|bank|pharmacy|toilets|drinking_water|atm|bbq)$\"](-33.8955,151.186,-33.88,151.214);\n);\nout body geom;\n",
+ "description": "amenity POIs in tile 'darling-harbour' (values 40-50)",
+ "elementCount": 414,
+ "partial": false,
+ "remark": null,
+ "evidenceLayer": "source",
+ "whyNotMcp": "No MCP tool queries this tag, and all MCP tools use `out body;` which discards geometry."
+}

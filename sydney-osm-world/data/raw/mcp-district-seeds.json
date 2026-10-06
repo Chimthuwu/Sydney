@@ -1,0 +1,512 @@
+{
+ "kind": "district-seed-validation",
+ "sourceChannel": "osm-mcp",
+ "collectedAt": "2026-09-29T17:49:03+00:00",
+ "dataSource": "OpenStreetMap",
+ "license": "ODbL 1.0",
+ "payload": {
+  "seeds": [
+   {
+    "seed": {
+     "id": "cbd-core",
+     "name": "Sydney CBD",
+     "lat": -33.869,
+     "lon": 151.209,
+     "character": "commercial-tourist-core"
+    },
+    "origin": "cache",
+    "reverseGeocode": {
+     "displayName": "Theatre Royal Sydney, 108, King Street, Wynyard, Sydney, New South Wales, 2000, Australia",
+     "category": null,
+     "type": "theatre",
+     "address": {
+      "amenity": "Theatre Royal Sydney",
+      "house_number": "108",
+      "road": "King Street",
+      "neighbourhood": "Wynyard",
+      "suburb": "Sydney",
+      "city": "Sydney",
+      "state": "New South Wales",
+      "ISO3166-2-lvl4": "AU-NSW",
+      "postcode": "2000",
+      "country": "Australia",
+      "country_code": "au"
+     }
+    }
+   },
+   {
+    "seed": {
+     "id": "barangaroo",
+     "name": "Barangaroo",
+     "lat": -33.862,
+     "lon": 151.201,
+     "character": "waterfront-commercial"
+    },
+    "origin": "cache",
+    "reverseGeocode": {
+     "displayName": "Crown Sydney, Wulugul Walk, Barangaroo, Sydney, New South Wales, 2000, Australia",
+     "category": null,
+     "type": "casino",
+     "address": {
+      "amenity": "Crown Sydney",
+      "road": "Wulugul Walk",
+      "suburb": "Barangaroo",
+      "city": "Sydney",
+      "state": "New South Wales",
+      "ISO3166-2-lvl4": "AU-NSW",
+      "postcode": "2000",
+      "country": "Australia",
+      "country_code": "au"
+     }
+    }
+   },
+   {
+    "seed": {
+     "id": "the-rocks",
+     "name": "The Rocks",
+     "lat": -33.859,
+     "lon": 151.208,
+     "character": "historic-lowscale"
+    },
+    "origin": "cache",
+    "reverseGeocode": {
+     "displayName": "Argyle Street, The Rocks, Sydney, New South Wales, 2000, Australia",
+     "category": null,
+     "type": "telephone",
+     "address": {
+      "road": "Argyle Street",
+      "suburb": "The Rocks",
+      "city": "Sydney",
+      "state": "New South Wales",
+      "ISO3166-2-lvl4": "AU-NSW",
+      "postcode": "2000",
+      "country": "Australia",
+      "country_code": "au"
+     }
+    }
+   },
+   {
+    "seed": {
+     "id": "circular-quay",
+     "name": "Circular Quay",
+     "lat": -33.861,
+     "lon": 151.211,
+     "character": "transit-waterfront"
+    },
+    "origin": "cache",
+    "reverseGeocode": {
+     "displayName": "Subway, Cahill Walk, Quay Quarter, Sydney, New South Wales, 2000, Australia",
+     "category": null,
+     "type": "fast_food",
+     "address": {
+      "amenity": "Subway",
+      "road": "Cahill Walk",
+      "neighbourhood": "Quay Quarter",
+      "suburb": "Sydney",
+      "city": "Sydney",
+      "state": "New South Wales",
+      "ISO3166-2-lvl4": "AU-NSW",
+      "postcode": "2000",
+      "country": "Australia",
+      "country_code": "au"
+     }
+    }
+   },
+   {
+    "seed": {
+     "id": "walsh-bay",
+     "name": "Walsh Bay",
+     "lat": -33.856,
+     "lon": 151.2,
+     "character": "heritage-waterfront"
+    },
+    "origin": "cache",
+    "reverseGeocode": {
+     "displayName": "Sea Wall Lawn, Wulugul Walk, Barangaroo, Sydney, New South Wales, 2000, Australia",
+     "category": null,
+     "type": "events_venue",
+     "address": {
+      "amenity": "Sea Wall Lawn",
+      "road": "Wulugul Walk",
+      "suburb": "Barangaroo",
+      "city": "Sydney",
+      "state": "New South Wales",
+      "ISO3166-2-lvl4": "AU-NSW",
+      "postcode": "2000",
+      "country": "Australia",
+      "country_code": "au"
+     }
+    }
+   },
+   {
+    "seed": {
+     "id": "woolloomooloo",
+     "name": "Woolloomooloo",
+     "lat": -33.871,
+     "lon": 151.218,
+     "character": "waterfront-mixed"
+    },
+    "origin": "cache",
+    "reverseGeocode": {
+     "displayName": "Palmer Street, Woolloomooloo, Sydney, New South Wales, 2011, Australia",
+     "category": null,
+     "type": "bridge",
+     "address": {
+      "road": "Palmer Street",
+      "suburb": "Woolloomooloo",
+      "city": "Sydney",
+      "state": "New South Wales",
+      "ISO3166-2-lvl4": "AU-NSW",
+      "postcode": "2011",
+      "country": "Australia",
+      "country_code": "au"
+     }
+    }
+   },
+   {
+    "seed": {
+     "id": "darling-harbour",
+     "name": "Darling Harbour",
+     "lat": -33.871,
+     "lon": 151.196,
+     "character": "tourist-waterfront"
+    },
+    "origin": "cache",
+    "reverseGeocode": {
+     "displayName": "Edward Lane, Pyrmont, Sydney, New South Wales, 2009, Australia",
+     "category": null,
+     "type": "residential",
+     "address": {
+      "road": "Edward Lane",
+      "suburb": "Pyrmont",
+      "city": "Sydney",
+      "state": "New South Wales",
+      "ISO3166-2-lvl4": "AU-NSW",
+      "postcode": "2009",
+      "country": "Australia",
+      "country_code": "au"
+     }
+    }
+   },
+   {
+    "seed": {
+     "id": "pyrmont",
+     "name": "Pyrmont",
+     "lat": -33.866,
+     "lon": 151.195,
+     "character": "residential-dense"
+    },
+    "origin": "cache",
+    "reverseGeocode": {
+     "displayName": "Wharf Crescent, Pyrmont, Sydney, New South Wales, 2009, Australia",
+     "category": null,
+     "type": "parking",
+     "address": {
+      "road": "Wharf Crescent",
+      "suburb": "Pyrmont",
+      "city": "Sydney",
+      "state": "New South Wales",
+      "ISO3166-2-lvl4": "AU-NSW",
+      "postcode": "2009",
+      "country": "Australia",
+      "country_code": "au"
+     }
+    }
+   },
+   {
+    "seed": {
+     "id": "haymarket",
+     "name": "Haymarket",
+     "lat": -33.878,
+     "lon": 151.203,
+     "character": "market-commercial"
+    },
+    "origin": "cache",
+    "reverseGeocode": {
+     "displayName": "Meet Fresh, 81-83, Harbour Street, Chinatown, Haymarket, Sydney, New South Wales, 2000, Australia",
+     "category": null,
+     "type": "restaurant",
+     "address": {
+      "amenity": "Meet Fresh",
+      "house_number": "81-83",
+      "road": "Harbour Street",
+      "neighbourhood": "Chinatown",
+      "suburb": "Haymarket",
+      "city": "Sydney",
+      "state": "New South Wales",
+      "ISO3166-2-lvl4": "AU-NSW",
+      "postcode": "2000",
+      "country": "Australia",
+      "country_code": "au"
+     }
+    }
+   },
+   {
+    "seed": {
+     "id": "ultimo",
+     "name": "Ultimo",
+     "lat": -33.883,
+     "lon": 151.199,
+     "character": "university-mixed"
+    },
+    "origin": "cache",
+    "reverseGeocode": {
+     "displayName": "TAFE NSW Ultimo, 651-731, Harris Street, Ultimo, Sydney, New South Wales, 2007, Australia",
+     "category": null,
+     "type": "college",
+     "address": {
+      "amenity": "TAFE NSW Ultimo",
+      "house_number": "651-731",
+      "road": "Harris Street",
+      "suburb": "Ultimo",
+      "city": "Sydney",
+      "state": "New South Wales",
+      "ISO3166-2-lvl4": "AU-NSW",
+      "postcode": "2007",
+      "country": "Australia",
+      "country_code": "au"
+     }
+    }
+   },
+   {
+    "seed": {
+     "id": "kings-cross",
+     "name": "Kings Cross",
+     "lat": -33.874,
+     "lon": 151.225,
+     "character": "nightlife"
+    },
+    "origin": "cache",
+    "reverseGeocode": {
+     "displayName": "6A, Roslyn Street, Potts Point, Sydney, New South Wales, 2011, Australia",
+     "category": null,
+     "type": "house",
+     "address": {
+      "house_number": "6A",
+      "road": "Roslyn Street",
+      "suburb": "Potts Point",
+      "city": "Sydney",
+      "state": "New South Wales",
+      "ISO3166-2-lvl4": "AU-NSW",
+      "postcode": "2011",
+      "country": "Australia",
+      "country_code": "au"
+     }
+    }
+   },
+   {
+    "seed": {
+     "id": "potts-point",
+     "name": "Potts Point",
+     "lat": -33.859,
+     "lon": 151.223,
+     "character": "residential-waterfront"
+    },
+    "origin": "cache",
+    "reverseGeocode": {
+     "displayName": "Mrs Macquarie’s Point / Yurong, Mrs Macquaries Road, Sydney, New South Wales, 2000, Australia",
+     "category": null,
+     "type": "map",
+     "address": {
+      "information": "Mrs Macquarie’s Point / Yurong",
+      "road": "Mrs Macquaries Road",
+      "suburb": "Sydney",
+      "city": "Sydney",
+      "state": "New South Wales",
+      "ISO3166-2-lvl4": "AU-NSW",
+      "postcode": "2000",
+      "country": "Australia",
+      "country_code": "au"
+     }
+    }
+   },
+   {
+    "seed": {
+     "id": "surry-hills",
+     "name": "Surry Hills",
+     "lat": -33.888,
+     "lon": 151.212,
+     "character": "nightlife-residential"
+    },
+    "origin": "cache",
+    "reverseGeocode": {
+     "displayName": "483, Riley Street, Strawberry Hills, Surry Hills, Sydney, New South Wales, 2010, Australia",
+     "category": null,
+     "type": "retail",
+     "address": {
+      "house_number": "483",
+      "road": "Riley Street",
+      "neighbourhood": "Strawberry Hills",
+      "suburb": "Surry Hills",
+      "city": "Sydney",
+      "state": "New South Wales",
+      "ISO3166-2-lvl4": "AU-NSW",
+      "postcode": "2010",
+      "country": "Australia",
+      "country_code": "au"
+     }
+    }
+   },
+   {
+    "seed": {
+     "id": "kingsford",
+     "name": "Kingsford",
+     "lat": -33.884,
+     "lon": 151.225,
+     "character": "residential"
+    },
+    "origin": "cache",
+    "reverseGeocode": {
+     "displayName": "Five Ways, Paddington, Eastern Suburbs, Sydney, New South Wales, 2021, Australia",
+     "category": null,
+     "type": "pedestrian",
+     "address": {
+      "neighbourhood": "Five Ways",
+      "suburb": "Paddington",
+      "borough": "Eastern Suburbs",
+      "city": "Sydney",
+      "state": "New South Wales",
+      "ISO3166-2-lvl4": "AU-NSW",
+      "postcode": "2021",
+      "country": "Australia",
+      "country_code": "au"
+     }
+    }
+   },
+   {
+    "seed": {
+     "id": "darlinghurst",
+     "name": "Darlinghurst",
+     "lat": -33.879,
+     "lon": 151.218,
+     "character": "residential-institutional"
+    },
+    "origin": "cache",
+    "reverseGeocode": {
+     "displayName": "Lunatic Reception House, Forbes Street, Darlinghurst, Sydney, New South Wales, 2010, Australia",
+     "category": null,
+     "type": "board",
+     "address": {
+      "information": "Lunatic Reception House",
+      "road": "Forbes Street",
+      "suburb": "Darlinghurst",
+      "city": "Sydney",
+      "state": "New South Wales",
+      "ISO3166-2-lvl4": "AU-NSW",
+      "postcode": "2010",
+      "country": "Australia",
+      "country_code": "au"
+     }
+    }
+   },
+   {
+    "seed": {
+     "id": "redfern",
+     "name": "Redfern",
+     "lat": -33.893,
+     "lon": 151.22,
+     "character": "mixed"
+    },
+    "origin": "cache",
+    "reverseGeocode": {
+     "displayName": "Sydney Boys High School, 556, Cleveland Street, Moore Park, Sydney, New South Wales, 2021, Australia",
+     "category": null,
+     "type": "school",
+     "address": {
+      "amenity": "Sydney Boys High School",
+      "house_number": "556",
+      "road": "Cleveland Street",
+      "suburb": "Moore Park",
+      "city": "Sydney",
+      "state": "New South Wales",
+      "ISO3166-2-lvl4": "AU-NSW",
+      "postcode": "2021",
+      "country": "Australia",
+      "country_code": "au"
+     }
+    }
+   },
+   {
+    "seed": {
+     "id": "hyde-park",
+     "name": "Hyde Park",
+     "lat": -33.87,
+     "lon": 151.213,
+     "character": "park-anchor"
+    },
+    "origin": "cache",
+    "reverseGeocode": {
+     "displayName": "1, Prince Albert Road, Sydney, New South Wales, 2000, Australia",
+     "category": null,
+     "type": "loading_dock",
+     "address": {
+      "house_number": "1",
+      "road": "Prince Albert Road",
+      "suburb": "Sydney",
+      "city": "Sydney",
+      "state": "New South Wales",
+      "ISO3166-2-lvl4": "AU-NSW",
+      "postcode": "2000",
+      "country": "Australia",
+      "country_code": "au"
+     }
+    }
+   },
+   {
+    "seed": {
+     "id": "botanic-garden",
+     "name": "Royal Botanic Garden",
+     "lat": -33.864,
+     "lon": 151.216,
+     "character": "park-anchor"
+    },
+    "origin": "cache",
+    "reverseGeocode": {
+     "displayName": "Carrick Chambers Bridge, Sydney, New South Wales, 2000, Australia",
+     "category": null,
+     "type": "bench",
+     "address": {
+      "road": "Carrick Chambers Bridge",
+      "suburb": "Sydney",
+      "city": "Sydney",
+      "state": "New South Wales",
+      "ISO3166-2-lvl4": "AU-NSW",
+      "postcode": "2000",
+      "country": "Australia",
+      "country_code": "au"
+     }
+    }
+   },
+   {
+    "seed": {
+     "id": "centennial-park",
+     "name": "Centennial Park",
+     "lat": -33.881,
+     "lon": 151.233,
+     "character": "park-anchor"
+    },
+    "origin": "cache",
+    "reverseGeocode": {
+     "displayName": "Hampden Street, Five Ways, Paddington, Eastern Suburbs, Sydney, New South Wales, 2021, Australia",
+     "category": null,
+     "type": "residential",
+     "address": {
+      "road": "Hampden Street",
+      "neighbourhood": "Five Ways",
+      "suburb": "Paddington",
+      "borough": "Eastern Suburbs",
+      "city": "Sydney",
+      "state": "New South Wales",
+      "ISO3166-2-lvl4": "AU-NSW",
+      "postcode": "2021",
+      "country": "Australia",
+      "country_code": "au"
+     }
+    }
+   }
+  ]
+ },
+ "tool": "reverse_geocode",
+ "purpose": "Confirm the hand-picked district seed points really are what the config says they are.",
+ "evidenceLayer": "source"
+}

@@ -1,0 +1,26 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+
+# Environment
+.env.local
+.env
+
+# The vendored MCP server is a separate git repo; it is cloned by scripts/setup.sh
+# and is not committed here. The patch that we apply to it IS committed.
+open-streetmap-mcp/
+
+# HTTP response cache. Regenerated on demand; keeps the public OSM services
+# from being hammered on repeat runs. Delete to force a fresh collection.
+data/cache/
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Generated debug artefact (the data is embedded in debug-map.html).
+world/debug-data.json

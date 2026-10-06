@@ -1,0 +1,97 @@
+diff --git a/src/osm_mcp_server/server.py b/src/osm_mcp_server/server.py
+index daf4943..15d53cb 100644
+--- a/src/osm_mcp_server/server.py
++++ b/src/osm_mcp_server/server.py
+@@ -9,6 +9,16 @@ import math
+ from datetime import datetime
+ 
+ 
++# --- Sydney-OSM-World local patch (see patches/*.patch and docs/OSM-MCP.md) ---
++# 1. Overpass API (and other OSM services) reject requests without a descriptive
++#    User-Agent with HTTP 406. Upstream only sent a User-Agent to Nominatim.
++# 2. `search_category(subcategories=[...])` built invalid Overpass QL
++#    (`node[("amenity"="bar" or "amenity"="pub")]` -> HTTP 400 parse error).
++HTTP_HEADERS = {
++    "User-Agent": "Sydney-OSM-World/0.1 (OSM MCP world-building pipeline; +https://github.com/jagan-shanmugam/open-streetmap-mcp)"
++}
++
++
+ class OSMClient:
+     def __init__(self, base_url="https://api.openstreetmap.org/api/0.6"):
+         self.base_url = base_url
+@@ -16,7 +26,7 @@ class OSMClient:
+         self.cache = {}  # Simple in-memory cache
+     
+     async def connect(self):
+-        self.session = aiohttp.ClientSession()
++        self.session = aiohttp.ClientSession(headers=HTTP_HEADERS)
+         
+     async def disconnect(self):
+         if self.session:
+@@ -153,8 +163,10 @@ class OSMClient:
+         
+         # Build query for specified category and subcategories
+         if subcategories:
+-            subcategory_filters = " or ".join([f'"{category}"="{sub}"' for sub in subcategories])
+-            query_filter = f'({subcategory_filters})'
++            # Overpass QL: a bare "(k=v or k=v)" key filter is a parse error.
++            # Use a regex match on the category key instead.
++            subcategory_filters = "|".join([sub for sub in subcategories])
++            query_filter = f'"{category}"~"^({subcategory_filters})$"'
+         else:
+             query_filter = f'"{category}"'
+         
+@@ -742,7 +754,7 @@ async def get_place_resource(query: str) -> str:
+     Returns:
+         JSON string with place information
+     """
+-    async with aiohttp.ClientSession() as session:
++    async with aiohttp.ClientSession(headers=HTTP_HEADERS) as session:
+         nominatim_url = "https://nominatim.openstreetmap.org/search"
+         async with session.get(
+             nominatim_url,
+@@ -788,7 +800,7 @@ async def get_map_style(style: str, z: int, x: int, y: int) -> Tuple[bytes, str]
+     
+     tile_url = tile_servers[style].replace("{z}", str(z)).replace("{x}", str(x)).replace("{y}", str(y))
+     
+-    async with aiohttp.ClientSession() as session:
++    async with aiohttp.ClientSession(headers=HTTP_HEADERS) as session:
+         async with session.get(tile_url) as response:
+             if response.status == 200:
+                 tile_data = await response.read()
+@@ -866,7 +878,7 @@ async def find_schools_nearby(
+     
+     query = query.replace("{bbox}", f"{bbox[1]},{bbox[0]},{bbox[3]},{bbox[2]}")
+     
+-    async with aiohttp.ClientSession() as session:
++    async with aiohttp.ClientSession(headers=HTTP_HEADERS) as session:
+         async with session.post(overpass_url, data={"data": query}) as response:
+             if response.status == 200:
+                 data = await response.json()
+@@ -1111,7 +1123,7 @@ async def find_ev_charging_stations(
+     
+     query = query.replace("{bbox}", f"{bbox[1]},{bbox[0]},{bbox[3]},{bbox[2]}")
+     
+-    async with aiohttp.ClientSession() as session:
++    async with aiohttp.ClientSession(headers=HTTP_HEADERS) as session:
+         async with session.post(overpass_url, data={"data": query}) as response:
+             if response.status == 200:
+                 data = await response.json()
+@@ -1321,7 +1333,7 @@ async def analyze_neighborhood(
+         query = query.replace("{bbox}", f"{bbox[1]},{bbox[0]},{bbox[3]},{bbox[2]}")
+         
+         try:
+-            async with aiohttp.ClientSession() as session:
++            async with aiohttp.ClientSession(headers=HTTP_HEADERS) as session:
+                 async with session.post(overpass_url, data={"data": query}) as response:
+                     if response.status == 200:
+                         data = await response.json()
+@@ -1514,7 +1526,7 @@ async def find_parking_facilities(
+     
+     query = query.replace("{bbox}", f"{bbox[1]},{bbox[0]},{bbox[3]},{bbox[2]}")
+     
+-    async with aiohttp.ClientSession() as session:
++    async with aiohttp.ClientSession(headers=HTTP_HEADERS) as session:
+         async with session.post(overpass_url, data={"data": query}) as response:
+             if response.status == 200:
+                 data = await response.json()

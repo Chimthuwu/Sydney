@@ -1,0 +1,4901 @@
+{
+ "generatedAt": "2026-09-29T17:49:22+00:00",
+ "stats": {
+  "total": 464,
+  "named": 304,
+  "byKind": {
+   "light_rail": 300,
+   "subway_entrance": 85,
+   "rail_station": 40,
+   "ferry_terminal": 39
+  }
+ },
+ "namedStops": [
+  {
+   "id": "node/8099480",
+   "name": "Circular Quay 5A",
+   "kind": "ferry_terminal",
+   "center": [
+    -33.860538,
+    151.210615
+   ],
+   "local": {
+    "x": 241.783,
+    "y": 0.0,
+    "z": -1383.483
+   }
+  },
+  {
+   "id": "node/8099501",
+   "name": "Balmain East Wharf",
+   "kind": "ferry_terminal",
+   "center": [
+    -33.85683,
+    151.196242
+   ],
+   "local": {
+    "x": -1087.153,
+    "y": 0.0,
+    "z": -1795.199
+   }
+  },
+  {
+   "id": "node/8408936",
+   "name": "Circular Quay 4B",
+   "kind": "ferry_terminal",
+   "center": [
+    -33.860582,
+    151.210919
+   ],
+   "local": {
+    "x": 269.937,
+    "y": 0.0,
+    "z": -1378.642
+   }
+  },
+  {
+   "id": "node/8590354",
+   "name": "Circular Quay 3B",
+   "kind": "ferry_terminal",
+   "center": [
+    -33.86069,
+    151.211401
+   ],
+   "local": {
+    "x": 314.428,
+    "y": 0.0,
+    "z": -1366.696
+   }
+  },
+  {
+   "id": "node/13757737",
+   "name": "St James",
+   "kind": "subway_entrance",
+   "center": [
+    -33.870728,
+    151.210396
+   ],
+   "local": {
+    "x": 221.488,
+    "y": 0.0,
+    "z": -252.192
+   }
+  },
+  {
+   "id": "node/20959048",
+   "name": "Circular Quay 6A",
+   "kind": "ferry_terminal",
+   "center": [
+    -33.860504,
+    151.210115
+   ],
+   "local": {
+    "x": 195.58,
+    "y": 0.0,
+    "z": -1387.302
+   }
+  },
+  {
+   "id": "node/20959049",
+   "name": "Circular Quay 2B",
+   "kind": "ferry_terminal",
+   "center": [
+    -33.860678,
+    151.211949
+   ],
+   "local": {
+    "x": 365.152,
+    "y": 0.0,
+    "z": -1367.962
+   }
+  },
+  {
+   "id": "node/252058553",
+   "name": "Jefferys Street",
+   "kind": "ferry_terminal",
+   "center": [
+    -33.849978,
+    151.213994
+   ],
+   "local": {
+    "x": 554.195,
+    "y": 0.0,
+    "z": -2555.939
+   }
+  },
+  {
+   "id": "node/252058576",
+   "name": "Beulah Street Wharf",
+   "kind": "ferry_terminal",
+   "center": [
+    -33.85182,
+    151.217073
+   ],
+   "local": {
+    "x": 838.926,
+    "y": 0.0,
+    "z": -2351.385
+   }
+  },
+  {
+   "id": "node/458705369",
+   "name": "Darling Harbour Wharf 3",
+   "kind": "ferry_terminal",
+   "center": [
+    -33.86689,
+    151.200692
+   ],
+   "local": {
+    "x": -675.697,
+    "y": 0.0,
+    "z": -678.352
+   }
+  },
+  {
+   "id": "node/652403657",
+   "name": "St James",
+   "kind": "subway_entrance",
+   "center": [
+    -33.869672,
+    151.211554
+   ],
+   "local": {
+    "x": 328.593,
+    "y": 0.0,
+    "z": -369.485
+   }
+  },
+  {
+   "id": "node/652403709",
+   "name": "Town Hall",
+   "kind": "subway_entrance",
+   "center": [
+    -33.874219,
+    151.206679
+   ],
+   "local": {
+    "x": -122.158,
+    "y": 0.0,
+    "z": 135.355
+   }
+  },
+  {
+   "id": "node/652403729",
+   "name": "Town Hall",
+   "kind": "subway_entrance",
+   "center": [
+    -33.873947,
+    151.207031
+   ],
+   "local": {
+    "x": -89.557,
+    "y": 0.0,
+    "z": 105.125
+   }
+  },
+  {
+   "id": "node/1157347405",
+   "name": "Wynyard",
+   "kind": "subway_entrance",
+   "center": [
+    -33.865599,
+    151.205551
+   ],
+   "local": {
+    "x": -226.444,
+    "y": 0.0,
+    "z": -821.634
+   }
+  },
+  {
+   "id": "node/1277993018",
+   "name": "Town Hall",
+   "kind": "subway_entrance",
+   "center": [
+    -33.873541,
+    151.207088
+   ],
+   "local": {
+    "x": -84.37,
+    "y": 0.0,
+    "z": 60.028
+   }
+  },
+  {
+   "id": "node/1427601749",
+   "name": "Wynyard",
+   "kind": "subway_entrance",
+   "center": [
+    -33.865649,
+    151.204338
+   ],
+   "local": {
+    "x": -338.616,
+    "y": 0.0,
+    "z": -816.139
+   }
+  },
+  {
+   "id": "node/1431619029",
+   "name": "Museum",
+   "kind": "subway_entrance",
+   "center": [
+    -33.876755,
+    151.209235
+   ],
+   "local": {
+    "x": 114.179,
+    "y": 0.0,
+    "z": 416.868
+   }
+  },
+  {
+   "id": "node/1437139966",
+   "name": "Birchgrove",
+   "kind": "ferry_terminal",
+   "center": [
+    -33.84637,
+    151.186457
+   ],
+   "local": {
+    "x": -1991.9,
+    "y": 0.0,
+    "z": -2956.476
+   }
+  },
+  {
+   "id": "node/1460579895",
+   "name": "Maritime Museum (389 terminus)",
+   "kind": "rail_station",
+   "center": [
+    -33.869711,
+    151.198421
+   ],
+   "local": {
+    "x": -885.664,
+    "y": 0.0,
+    "z": -365.099
+   }
+  },
+  {
+   "id": "node/1499194252",
+   "name": "Darlinghurst Road",
+   "kind": "subway_entrance",
+   "center": [
+    -33.87429,
+    151.222882
+   ],
+   "local": {
+    "x": 1375.988,
+    "y": 0.0,
+    "z": 143.171
+   }
+  },
+  {
+   "id": "node/1499194256",
+   "name": "Kings Cross",
+   "kind": "rail_station",
+   "center": [
+    -33.874487,
+    151.222231
+   ],
+   "local": {
+    "x": 1315.778,
+    "y": 0.0,
+    "z": 165.131
+   }
+  },
+  {
+   "id": "node/1562157286",
+   "name": "Martin Place Exit 5: Elizabeth Street",
+   "kind": "subway_entrance",
+   "center": [
+    -33.867727,
+    151.210922
+   ],
+   "local": {
+    "x": 270.131,
+    "y": 0.0,
+    "z": -585.451
+   }
+  },
+  {
+   "id": "node/1692720118",
+   "name": "Circular Quay",
+   "kind": "rail_station",
+   "center": [
+    -33.861359,
+    151.210719
+   ],
+   "local": {
+    "x": 251.426,
+    "y": 0.0,
+    "z": -1292.347
+   }
+  },
+  {
+   "id": "node/1763901273",
+   "name": "Town Hall",
+   "kind": "rail_station",
+   "center": [
+    -33.873567,
+    151.20685
+   ],
+   "local": {
+    "x": -106.347,
+    "y": 0.0,
+    "z": 62.948
+   }
+  },
+  {
+   "id": "node/1829323375",
+   "name": "Milsons Point",
+   "kind": "rail_station",
+   "center": [
+    -33.845863,
+    151.211791
+   ],
+   "local": {
+    "x": 350.506,
+    "y": 0.0,
+    "z": -3012.774
+   }
+  },
+  {
+   "id": "node/1838532348",
+   "name": "McMahons Point Wharf",
+   "kind": "ferry_terminal",
+   "center": [
+    -33.848868,
+    151.206688
+   ],
+   "local": {
+    "x": -121.289,
+    "y": 0.0,
+    "z": -2679.082
+   }
+  },
+  {
+   "id": "node/1886265379",
+   "name": "Wynyard",
+   "kind": "rail_station",
+   "center": [
+    -33.86599,
+    151.20581
+   ],
+   "local": {
+    "x": -202.524,
+    "y": 0.0,
+    "z": -778.214
+   }
+  },
+  {
+   "id": "node/1937009879",
+   "name": "Garden Island",
+   "kind": "ferry_terminal",
+   "center": [
+    -33.858106,
+    151.229957
+   ],
+   "local": {
+    "x": 2030.179,
+    "y": 0.0,
+    "z": -1653.549
+   }
+  },
+  {
+   "id": "node/1973143274",
+   "name": "Mount St (501)",
+   "kind": "rail_station",
+   "center": [
+    -33.869924,
+    151.193306
+   ],
+   "local": {
+    "x": -1358.606,
+    "y": 0.0,
+    "z": -341.474
+   }
+  },
+  {
+   "id": "node/2798072837",
+   "name": "Casino Wharf",
+   "kind": "ferry_terminal",
+   "center": [
+    -33.866999,
+    151.196345
+   ],
+   "local": {
+    "x": -1077.592,
+    "y": 0.0,
+    "z": -666.262
+   }
+  },
+  {
+   "id": "node/2854169102",
+   "name": "Exit 3: Elizabeth Street",
+   "kind": "subway_entrance",
+   "center": [
+    -33.883519,
+    151.20803
+   ],
+   "local": {
+    "x": 2.746,
+    "y": 0.0,
+    "z": 1167.816
+   }
+  },
+  {
+   "id": "node/3093498722",
+   "name": "Town Hall",
+   "kind": "subway_entrance",
+   "center": [
+    -33.874103,
+    151.207008
+   ],
+   "local": {
+    "x": -91.72,
+    "y": 0.0,
+    "z": 122.41
+   }
+  },
+  {
+   "id": "node/3304182832",
+   "name": "Kirribilli",
+   "kind": "ferry_terminal",
+   "center": [
+    -33.84939,
+    151.220493
+   ],
+   "local": {
+    "x": 1155.064,
+    "y": 0.0,
+    "z": -2621.141
+   }
+  },
+  {
+   "id": "node/3921239287",
+   "name": "Milsons Point",
+   "kind": "subway_entrance",
+   "center": [
+    -33.845807,
+    151.212419
+   ],
+   "local": {
+    "x": 408.599,
+    "y": 0.0,
+    "z": -3019.002
+   }
+  },
+  {
+   "id": "node/4027001698",
+   "name": "Exit 1: Pitt Street",
+   "kind": "subway_entrance",
+   "center": [
+    -33.882401,
+    151.20587
+   ],
+   "local": {
+    "x": -196.921,
+    "y": 0.0,
+    "z": 1043.74
+   }
+  },
+  {
+   "id": "node/4027001708",
+   "name": "Exit 1: Grand Concourse",
+   "kind": "subway_entrance",
+   "center": [
+    -33.882407,
+    151.20655
+   ],
+   "local": {
+    "x": -134.076,
+    "y": 0.0,
+    "z": 1044.395
+   }
+  },
+  {
+   "id": "node/4027001728",
+   "name": "Exit 1: Grand Concourse",
+   "kind": "subway_entrance",
+   "center": [
+    -33.882684,
+    151.207056
+   ],
+   "local": {
+    "x": -87.264,
+    "y": 0.0,
+    "z": 1075.07
+   }
+  },
+  {
+   "id": "node/4027062064",
+   "name": "Exit 2: Eddy Ave",
+   "kind": "subway_entrance",
+   "center": [
+    -33.88328,
+    151.207136
+   ],
+   "local": {
+    "x": -79.904,
+    "y": 0.0,
+    "z": 1141.326
+   }
+  },
+  {
+   "id": "node/4027628772",
+   "name": "Exit 4: Eastern Stairs",
+   "kind": "subway_entrance",
+   "center": [
+    -33.883928,
+    151.208115
+   ],
+   "local": {
+    "x": 10.614,
+    "y": 0.0,
+    "z": 1213.245
+   }
+  },
+  {
+   "id": "node/4027628822",
+   "name": "Exit 6: Chalmers Street",
+   "kind": "subway_entrance",
+   "center": [
+    -33.885489,
+    151.206802
+   ],
+   "local": {
+    "x": -110.73,
+    "y": 0.0,
+    "z": 1386.558
+   }
+  },
+  {
+   "id": "node/4303762694",
+   "name": "Wynyard",
+   "kind": "subway_entrance",
+   "center": [
+    -33.865631,
+    151.206031
+   ],
+   "local": {
+    "x": -182.081,
+    "y": 0.0,
+    "z": -818.071
+   }
+  },
+  {
+   "id": "node/4303762695",
+   "name": "Wynyard",
+   "kind": "subway_entrance",
+   "center": [
+    -33.865723,
+    151.206257
+   ],
+   "local": {
+    "x": -161.148,
+    "y": 0.0,
+    "z": -807.901
+   }
+  },
+  {
+   "id": "node/4303762696",
+   "name": "Wynyard",
+   "kind": "subway_entrance",
+   "center": [
+    -33.865791,
+    151.206014
+   ],
+   "local": {
+    "x": -183.653,
+    "y": 0.0,
+    "z": -800.318
+   }
+  },
+  {
+   "id": "node/4424603475",
+   "name": "Milsons Point",
+   "kind": "subway_entrance",
+   "center": [
+    -33.845961,
+    151.211746
+   ],
+   "local": {
+    "x": 346.336,
+    "y": 0.0,
+    "z": -3001.849
+   }
+  },
+  {
+   "id": "node/4438512191",
+   "name": "Darling Harbour, King St Wharf 5",
+   "kind": "ferry_terminal",
+   "center": [
+    -33.867609,
+    151.200952
+   ],
+   "local": {
+    "x": -651.611,
+    "y": 0.0,
+    "z": -598.474
+   }
+  },
+  {
+   "id": "node/4661347098",
+   "name": "Wynyard",
+   "kind": "subway_entrance",
+   "center": [
+    -33.865233,
+    151.203815
+   ],
+   "local": {
+    "x": -386.935,
+    "y": 0.0,
+    "z": -862.312
+   }
+  },
+  {
+   "id": "node/4809857932",
+   "name": "Andrew Boy Charlton Pool (441 Terminus)",
+   "kind": "rail_station",
+   "center": [
+    -33.863176,
+    151.221443
+   ],
+   "local": {
+    "x": 1242.92,
+    "y": 0.0,
+    "z": -1090.624
+   }
+  },
+  {
+   "id": "node/4833087395",
+   "name": "Cremorne Point Wharf, Milson Rd",
+   "kind": "rail_station",
+   "center": [
+    -33.847328,
+    151.230482
+   ],
+   "local": {
+    "x": 2078.702,
+    "y": 0.0,
+    "z": -2850.13
+   }
+  },
+  {
+   "id": "node/5156306088",
+   "name": "Wynyard",
+   "kind": "subway_entrance",
+   "center": [
+    -33.865615,
+    151.205291
+   ],
+   "local": {
+    "x": -250.511,
+    "y": 0.0,
+    "z": -819.825
+   }
+  },
+  {
+   "id": "node/5156306089",
+   "name": "Wynyard",
+   "kind": "subway_entrance",
+   "center": [
+    -33.865619,
+    151.205216
+   ],
+   "local": {
+    "x": -257.371,
+    "y": 0.0,
+    "z": -819.392
+   }
+  },
+  {
+   "id": "node/5481665554",
+   "name": "Wynyard",
+   "kind": "subway_entrance",
+   "center": [
+    -33.865632,
+    151.205015
+   ],
+   "local": {
+    "x": -276.011,
+    "y": 0.0,
+    "z": -817.982
+   }
+  },
+  {
+   "id": "node/5601069117",
+   "name": "Balmain",
+   "kind": "ferry_terminal",
+   "center": [
+    -33.854531,
+    151.186301
+   ],
+   "local": {
+    "x": -2006.278,
+    "y": 0.0,
+    "z": -2050.455
+   }
+  },
+  {
+   "id": "node/5601069121",
+   "name": "Balmain Wharf, Yeend St",
+   "kind": "ferry_terminal",
+   "center": [
+    -33.853396,
+    151.188706
+   ],
+   "local": {
+    "x": -1783.958,
+    "y": 0.0,
+    "z": -2176.463
+   }
+  },
+  {
+   "id": "node/5601091629",
+   "name": "Pyrmont Bay Wharf",
+   "kind": "ferry_terminal",
+   "center": [
+    -33.868195,
+    151.198862
+   ],
+   "local": {
+    "x": -844.899,
+    "y": 0.0,
+    "z": -533.427
+   }
+  },
+  {
+   "id": "node/5601101452",
+   "name": "Darling Harbour Wharf 9",
+   "kind": "ferry_terminal",
+   "center": [
+    -33.868907,
+    151.201278
+   ],
+   "local": {
+    "x": -621.515,
+    "y": 0.0,
+    "z": -454.459
+   }
+  },
+  {
+   "id": "node/5601109475",
+   "name": "Darling Harbour Wharf 1",
+   "kind": "ferry_terminal",
+   "center": [
+    -33.866125,
+    151.200754
+   ],
+   "local": {
+    "x": -669.974,
+    "y": 0.0,
+    "z": -763.238
+   }
+  },
+  {
+   "id": "node/5692088720",
+   "name": "Wentworth Park",
+   "kind": "rail_station",
+   "center": [
+    -33.874391,
+    151.194041
+   ],
+   "local": {
+    "x": -1290.675,
+    "y": 0.0,
+    "z": 154.395
+   }
+  },
+  {
+   "id": "node/5692089421",
+   "name": "Bank Street",
+   "kind": "rail_station",
+   "center": [
+    -33.870937,
+    151.192438
+   ],
+   "local": {
+    "x": -1438.87,
+    "y": 0.0,
+    "z": -228.978
+   }
+  },
+  {
+   "id": "node/5692089422",
+   "name": "John Street Square",
+   "kind": "rail_station",
+   "center": [
+    -33.86743,
+    151.192036
+   ],
+   "local": {
+    "x": -1476.02,
+    "y": 0.0,
+    "z": -618.413
+   }
+  },
+  {
+   "id": "node/5692089423",
+   "name": "The Star",
+   "kind": "rail_station",
+   "center": [
+    -33.867661,
+    151.195292
+   ],
+   "local": {
+    "x": -1174.953,
+    "y": 0.0,
+    "z": -592.723
+   }
+  },
+  {
+   "id": "node/5692089424",
+   "name": "Pyrmont Bay",
+   "kind": "rail_station",
+   "center": [
+    -33.869426,
+    151.197578
+   ],
+   "local": {
+    "x": -963.589,
+    "y": 0.0,
+    "z": -396.818
+   }
+  },
+  {
+   "id": "node/5692089425",
+   "name": "Convention",
+   "kind": "rail_station",
+   "center": [
+    -33.872577,
+    151.19807
+   ],
+   "local": {
+    "x": -918.145,
+    "y": 0.0,
+    "z": -46.906
+   }
+  },
+  {
+   "id": "node/5692089426",
+   "name": "Exhibition Centre",
+   "kind": "rail_station",
+   "center": [
+    -33.877248,
+    151.199653
+   ],
+   "local": {
+    "x": -771.79,
+    "y": 0.0,
+    "z": 471.589
+   }
+  },
+  {
+   "id": "node/5692089427",
+   "name": "Paddy's Markets",
+   "kind": "rail_station",
+   "center": [
+    -33.879318,
+    151.202716
+   ],
+   "local": {
+    "x": -488.577,
+    "y": 0.0,
+    "z": 701.444
+   }
+  },
+  {
+   "id": "node/5692089432",
+   "name": "Capitol Square",
+   "kind": "rail_station",
+   "center": [
+    -33.879804,
+    151.205671
+   ],
+   "local": {
+    "x": -215.376,
+    "y": 0.0,
+    "z": 755.422
+   }
+  },
+  {
+   "id": "node/5692089433",
+   "name": "Central Grand Concourse",
+   "kind": "rail_station",
+   "center": [
+    -33.882409,
+    151.206723
+   ],
+   "local": {
+    "x": -118.099,
+    "y": 0.0,
+    "z": 1044.595
+   }
+  },
+  {
+   "id": "node/5800272329",
+   "name": "Wynyard",
+   "kind": "subway_entrance",
+   "center": [
+    -33.865822,
+    151.207155
+   ],
+   "local": {
+    "x": -78.138,
+    "y": 0.0,
+    "z": -796.866
+   }
+  },
+  {
+   "id": "node/5833641513",
+   "name": "White Bay Cruise Terminal",
+   "kind": "ferry_terminal",
+   "center": [
+    -33.861709,
+    151.186266
+   ],
+   "local": {
+    "x": -2009.514,
+    "y": 0.0,
+    "z": -1253.545
+   }
+  },
+  {
+   "id": "node/5837202912",
+   "name": "Barangaroo, Wharf 1, Sida A",
+   "kind": "ferry_terminal",
+   "center": [
+    -33.864172,
+    151.200423
+   ],
+   "local": {
+    "x": -700.55,
+    "y": 0.0,
+    "z": -980.048
+   }
+  },
+  {
+   "id": "node/5994772059",
+   "name": "Martin Place",
+   "kind": "subway_entrance",
+   "center": [
+    -33.867145,
+    151.210805
+   ],
+   "local": {
+    "x": 259.35,
+    "y": 0.0,
+    "z": -650.042
+   }
+  },
+  {
+   "id": "node/6086844048",
+   "name": "Fort Denison",
+   "kind": "ferry_terminal",
+   "center": [
+    -33.85455,
+    151.225432
+   ],
+   "local": {
+    "x": 1611.761,
+    "y": 0.0,
+    "z": -2048.346
+   }
+  },
+  {
+   "id": "node/6601585113",
+   "name": "Martin Place",
+   "kind": "rail_station",
+   "center": [
+    -33.867818,
+    151.210759
+   ],
+   "local": {
+    "x": 255.097,
+    "y": 0.0,
+    "z": -575.337
+   }
+  },
+  {
+   "id": "node/6804603708",
+   "name": "Darling Harbour, King St Wharf 7",
+   "kind": "ferry_terminal",
+   "center": [
+    -33.868256,
+    151.2012
+   ],
+   "local": {
+    "x": -628.746,
+    "y": 0.0,
+    "z": -526.677
+   }
+  },
+  {
+   "id": "node/7423997740",
+   "name": "Pirrama Park Wharf",
+   "kind": "ferry_terminal",
+   "center": [
+    -33.864636,
+    151.191004
+   ],
+   "local": {
+    "x": -1571.439,
+    "y": 0.0,
+    "z": -928.524
+   }
+  },
+  {
+   "id": "node/8151065419",
+   "name": "Darling Harbour, King St Wharf 6",
+   "kind": "ferry_terminal",
+   "center": [
+    -33.867879,
+    151.201158
+   ],
+   "local": {
+    "x": -632.583,
+    "y": 0.0,
+    "z": -568.509
+   }
+  },
+  {
+   "id": "node/8151065420",
+   "name": "Darling Harbour, King St Wharf 4",
+   "kind": "ferry_terminal",
+   "center": [
+    -33.867241,
+    151.201009
+   ],
+   "local": {
+    "x": -646.396,
+    "y": 0.0,
+    "z": -639.362
+   }
+  },
+  {
+   "id": "node/8151065421",
+   "name": "Darling Harbour, King St Wharf 2",
+   "kind": "ferry_terminal",
+   "center": [
+    -33.866485,
+    151.200926
+   ],
+   "local": {
+    "x": -654.08,
+    "y": 0.0,
+    "z": -723.293
+   }
+  },
+  {
+   "id": "node/8151065422",
+   "name": "Darling Harbour, King St Wharf 8",
+   "kind": "ferry_terminal",
+   "center": [
+    -33.86853,
+    151.201229
+   ],
+   "local": {
+    "x": -626.009,
+    "y": 0.0,
+    "z": -496.258
+   }
+  },
+  {
+   "id": "node/9518193591",
+   "name": "Barangaroo, Wharf 1, Side B",
+   "kind": "ferry_terminal",
+   "center": [
+    -33.864391,
+    151.200387
+   ],
+   "local": {
+    "x": -703.897,
+    "y": 0.0,
+    "z": -955.779
+   }
+  },
+  {
+   "id": "node/9518262819",
+   "name": "Barangaroo, Wharf 2, Side A",
+   "kind": "ferry_terminal",
+   "center": [
+    -33.864758,
+    151.200488
+   ],
+   "local": {
+    "x": -694.605,
+    "y": 0.0,
+    "z": -915.046
+   }
+  },
+  {
+   "id": "node/9518262820",
+   "name": "Barangaroo, Wharf 2, Side B",
+   "kind": "ferry_terminal",
+   "center": [
+    -33.864976,
+    151.200451
+   ],
+   "local": {
+    "x": -697.952,
+    "y": 0.0,
+    "z": -890.777
+   }
+  },
+  {
+   "id": "node/9607758653",
+   "name": "Town Hall Square Mall",
+   "kind": "subway_entrance",
+   "center": [
+    -33.873594,
+    151.206682
+   ],
+   "local": {
+    "x": -121.816,
+    "y": 0.0,
+    "z": 65.946
+   }
+  },
+  {
+   "id": "node/9627823417",
+   "name": "Museum",
+   "kind": "subway_entrance",
+   "center": [
+    -33.876639,
+    151.209801
+   ],
+   "local": {
+    "x": 166.52,
+    "y": 0.0,
+    "z": 404.034
+   }
+  },
+  {
+   "id": "node/9784704017",
+   "name": "Martin Place Exit 4: Phillip Street Elevator",
+   "kind": "subway_entrance",
+   "center": [
+    -33.867742,
+    151.211435
+   ],
+   "local": {
+    "x": 317.646,
+    "y": 0.0,
+    "z": -583.797
+   }
+  },
+  {
+   "id": "node/9784704022",
+   "name": "Martin Place Exit 3: Phillip Street North",
+   "kind": "subway_entrance",
+   "center": [
+    -33.867677,
+    151.211419
+   ],
+   "local": {
+    "x": 316.12,
+    "y": 0.0,
+    "z": -590.935
+   }
+  },
+  {
+   "id": "node/9784704091",
+   "name": "Martin Place Exit 2: Phillip Street South",
+   "kind": "subway_entrance",
+   "center": [
+    -33.867952,
+    151.211432
+   ],
+   "local": {
+    "x": 317.304,
+    "y": 0.0,
+    "z": -560.383
+   }
+  },
+  {
+   "id": "node/9784704092",
+   "name": "Martin Place Exit 1: Macquarie Street",
+   "kind": "subway_entrance",
+   "center": [
+    -33.867966,
+    151.211593
+   ],
+   "local": {
+    "x": 332.208,
+    "y": 0.0,
+    "z": -558.895
+   }
+  },
+  {
+   "id": "node/9787522977",
+   "name": "Town Hall",
+   "kind": "subway_entrance",
+   "center": [
+    -33.873213,
+    151.207133
+   ],
+   "local": {
+    "x": -80.144,
+    "y": 0.0,
+    "z": 23.636
+   }
+  },
+  {
+   "id": "node/9787522985",
+   "name": "Town Hall",
+   "kind": "subway_entrance",
+   "center": [
+    -33.873247,
+    151.206769
+   ],
+   "local": {
+    "x": -113.809,
+    "y": 0.0,
+    "z": 27.411
+   }
+  },
+  {
+   "id": "node/9837614154",
+   "name": "Victoria Street East",
+   "kind": "subway_entrance",
+   "center": [
+    -33.87403,
+    151.222486
+   ],
+   "local": {
+    "x": 1339.402,
+    "y": 0.0,
+    "z": 114.328
+   }
+  },
+  {
+   "id": "node/9840030292",
+   "name": "Victoria Street West",
+   "kind": "subway_entrance",
+   "center": [
+    -33.874257,
+    151.222208
+   ],
+   "local": {
+    "x": 1313.661,
+    "y": 0.0,
+    "z": 139.53
+   }
+  },
+  {
+   "id": "node/9840030304",
+   "name": "Kings Cross",
+   "kind": "subway_entrance",
+   "center": [
+    -33.874226,
+    151.222198
+   ],
+   "local": {
+    "x": 1312.783,
+    "y": 0.0,
+    "z": 136.155
+   }
+  },
+  {
+   "id": "node/10203868015",
+   "name": "Exit 2: Eddy Ave",
+   "kind": "subway_entrance",
+   "center": [
+    -33.883073,
+    151.207073
+   ],
+   "local": {
+    "x": -85.71,
+    "y": 0.0,
+    "z": 1118.257
+   }
+  },
+  {
+   "id": "node/10241244384",
+   "name": "Exit 7: Railway Sq",
+   "kind": "subway_entrance",
+   "center": [
+    -33.884013,
+    151.204316
+   ],
+   "local": {
+    "x": -340.585,
+    "y": 0.0,
+    "z": 1222.659
+   }
+  },
+  {
+   "id": "node/10241443665",
+   "name": "Exit 2: Eddy Ave",
+   "kind": "subway_entrance",
+   "center": [
+    -33.883091,
+    151.207059
+   ],
+   "local": {
+    "x": -87.032,
+    "y": 0.0,
+    "z": 1120.31
+   }
+  },
+  {
+   "id": "node/10859733874",
+   "name": "Exit 5: Chalmers Street",
+   "kind": "subway_entrance",
+   "center": [
+    -33.884869,
+    151.207399
+   ],
+   "local": {
+    "x": -55.55,
+    "y": 0.0,
+    "z": 1317.726
+   }
+  },
+  {
+   "id": "node/10859733875",
+   "name": "Exit 5: Chalmers Street",
+   "kind": "subway_entrance",
+   "center": [
+    -33.884767,
+    151.207461
+   ],
+   "local": {
+    "x": -49.864,
+    "y": 0.0,
+    "z": 1306.324
+   }
+  },
+  {
+   "id": "node/10859733882",
+   "name": "Exit 5: Chalmers Street",
+   "kind": "subway_entrance",
+   "center": [
+    -33.884835,
+    151.207422
+   ],
+   "local": {
+    "x": -53.442,
+    "y": 0.0,
+    "z": 1313.951
+   }
+  },
+  {
+   "id": "node/11374901486",
+   "name": "Gadigal Station",
+   "kind": "subway_entrance",
+   "center": [
+    -33.874621,
+    151.208446
+   ],
+   "local": {
+    "x": 41.246,
+    "y": 0.0,
+    "z": 179.974
+   }
+  },
+  {
+   "id": "node/11374901487",
+   "name": "Gadigal Station",
+   "kind": "subway_entrance",
+   "center": [
+    -33.873046,
+    151.208749
+   ],
+   "local": {
+    "x": 69.243,
+    "y": 0.0,
+    "z": 5.096
+   }
+  },
+  {
+   "id": "node/11445399049",
+   "name": "Hickson Road",
+   "kind": "subway_entrance",
+   "center": [
+    -33.859154,
+    151.20237
+   ],
+   "local": {
+    "x": -520.512,
+    "y": 0.0,
+    "z": -1537.189
+   }
+  },
+  {
+   "id": "node/11508357014",
+   "name": "Milsons Point Wharf",
+   "kind": "ferry_terminal",
+   "center": [
+    -33.849593,
+    151.210861
+   ],
+   "local": {
+    "x": 264.555,
+    "y": 0.0,
+    "z": -2598.615
+   }
+  },
+  {
+   "id": "node/11508362628",
+   "name": "Museum",
+   "kind": "subway_entrance",
+   "center": [
+    -33.874915,
+    151.209943
+   ],
+   "local": {
+    "x": 179.613,
+    "y": 0.0,
+    "z": 212.603
+   }
+  },
+  {
+   "id": "node/11518920220",
+   "name": "St James",
+   "kind": "subway_entrance",
+   "center": [
+    -33.870018,
+    151.211412
+   ],
+   "local": {
+    "x": 315.473,
+    "y": 0.0,
+    "z": -331.105
+   }
+  },
+  {
+   "id": "node/11518920225",
+   "name": "St James",
+   "kind": "subway_entrance",
+   "center": [
+    -33.869955,
+    151.211628
+   ],
+   "local": {
+    "x": 335.472,
+    "y": 0.0,
+    "z": -338.033
+   }
+  },
+  {
+   "id": "node/11524323764",
+   "name": "MetCentre",
+   "kind": "subway_entrance",
+   "center": [
+    -33.864431,
+    151.206764
+   ],
+   "local": {
+    "x": -114.253,
+    "y": 0.0,
+    "z": -951.372
+   }
+  },
+  {
+   "id": "node/11524323766",
+   "name": "MetCentre",
+   "kind": "subway_entrance",
+   "center": [
+    -33.864931,
+    151.207195
+   ],
+   "local": {
+    "x": -74.458,
+    "y": 0.0,
+    "z": -895.851
+   }
+  },
+  {
+   "id": "node/11524338693",
+   "name": "MetCentre",
+   "kind": "subway_entrance",
+   "center": [
+    -33.864943,
+    151.206524
+   ],
+   "local": {
+    "x": -136.499,
+    "y": 0.0,
+    "z": -894.53
+   }
+  },
+  {
+   "id": "node/11553917357",
+   "name": "Hunter Street",
+   "kind": "subway_entrance",
+   "center": [
+    -33.866429,
+    151.210542
+   ],
+   "local": {
+    "x": 235.033,
+    "y": 0.0,
+    "z": -729.521
+   }
+  },
+  {
+   "id": "node/11553917358",
+   "name": "Hunter Street",
+   "kind": "subway_entrance",
+   "center": [
+    -33.866398,
+    151.21014
+   ],
+   "local": {
+    "x": 197.91,
+    "y": 0.0,
+    "z": -732.963
+   }
+  },
+  {
+   "id": "node/11553918375",
+   "name": "Castlereagh Street South",
+   "kind": "subway_entrance",
+   "center": [
+    -33.868092,
+    151.209923
+   ],
+   "local": {
+    "x": 177.782,
+    "y": 0.0,
+    "z": -544.884
+   }
+  },
+  {
+   "id": "node/11553918376",
+   "name": "Elizabath Street South",
+   "kind": "subway_entrance",
+   "center": [
+    -33.868127,
+    151.210369
+   ],
+   "local": {
+    "x": 219.037,
+    "y": 0.0,
+    "z": -540.977
+   }
+  },
+  {
+   "id": "node/11724239847",
+   "name": "Circular Quay, Eastern Pontoon",
+   "kind": "ferry_terminal",
+   "center": [
+    -33.860077,
+    151.212551
+   ],
+   "local": {
+    "x": 420.794,
+    "y": 0.0,
+    "z": -1434.729
+   }
+  },
+  {
+   "id": "node/11786738762",
+   "name": "Circular Quay 6B",
+   "kind": "ferry_terminal",
+   "center": [
+    -33.860479,
+    151.209924
+   ],
+   "local": {
+    "x": 177.911,
+    "y": 0.0,
+    "z": -1390.055
+   }
+  },
+  {
+   "id": "node/12002010481",
+   "name": "Circular Quay 2A",
+   "kind": "ferry_terminal",
+   "center": [
+    -33.860676,
+    151.212135
+   ],
+   "local": {
+    "x": 382.359,
+    "y": 0.0,
+    "z": -1368.251
+   }
+  },
+  {
+   "id": "node/12002010521",
+   "name": "Circular Quay 5B",
+   "kind": "ferry_terminal",
+   "center": [
+    -33.860517,
+    151.210424
+   ],
+   "local": {
+    "x": 224.169,
+    "y": 0.0,
+    "z": -1385.914
+   }
+  },
+  {
+   "id": "node/12002010522",
+   "name": "Circular Quay 4A",
+   "kind": "ferry_terminal",
+   "center": [
+    -33.860601,
+    151.211097
+   ],
+   "local": {
+    "x": 286.376,
+    "y": 0.0,
+    "z": -1376.544
+   }
+  },
+  {
+   "id": "node/12064585083",
+   "name": "Circular Quay 3A",
+   "kind": "ferry_terminal",
+   "center": [
+    -33.860709,
+    151.21162
+   ],
+   "local": {
+    "x": 334.677,
+    "y": 0.0,
+    "z": -1364.498
+   }
+  },
+  {
+   "id": "node/12556311349",
+   "name": "King Street Coach Layover",
+   "kind": "rail_station",
+   "center": [
+    -33.86623,
+    151.201868
+   ],
+   "local": {
+    "x": -566.992,
+    "y": 0.0,
+    "z": -751.647
+   }
+  },
+  {
+   "id": "way/2654260",
+   "name": "Inner West Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.86878,
+    151.196308
+   ],
+   "local": {
+    "x": -1081.057,
+    "y": 0.0,
+    "z": -468.497
+   }
+  },
+  {
+   "id": "way/2761538",
+   "name": "Inner West Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.879008,
+    151.200758
+   ],
+   "local": {
+    "x": -669.558,
+    "y": 0.0,
+    "z": 667.024
+   }
+  },
+  {
+   "id": "way/2949708",
+   "name": "Inner West Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.880748,
+    151.207107
+   ],
+   "local": {
+    "x": -82.607,
+    "y": 0.0,
+    "z": 860.196
+   }
+  },
+  {
+   "id": "way/50940824",
+   "name": "Museum",
+   "kind": "rail_station",
+   "center": [
+    -33.876,
+    151.209928
+   ],
+   "local": {
+    "x": 178.271,
+    "y": 0.0,
+    "z": 333.008
+   }
+  },
+  {
+   "id": "way/83161281",
+   "name": "Inner West Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.879469,
+    151.204054
+   ],
+   "local": {
+    "x": -364.89,
+    "y": 0.0,
+    "z": 718.164
+   }
+  },
+  {
+   "id": "way/143528245",
+   "name": "Inner West Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.879992,
+    151.20642
+   ],
+   "local": {
+    "x": -146.085,
+    "y": 0.0,
+    "z": 776.267
+   }
+  },
+  {
+   "id": "way/172324388",
+   "name": "Glebe Railway Tunnel",
+   "kind": "light_rail",
+   "center": [
+    -33.875694,
+    151.180683
+   ],
+   "local": {
+    "x": -2525.767,
+    "y": 0.0,
+    "z": 299.094
+   }
+  },
+  {
+   "id": "way/236257777",
+   "name": "Inner West Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.88011,
+    151.207217
+   ],
+   "local": {
+    "x": -72.402,
+    "y": 0.0,
+    "z": 789.387
+   }
+  },
+  {
+   "id": "way/314054677",
+   "name": "Inner West Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.868746,
+    151.19633
+   ],
+   "local": {
+    "x": -1078.985,
+    "y": 0.0,
+    "z": -472.307
+   }
+  },
+  {
+   "id": "way/314054678",
+   "name": "Inner West Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.878981,
+    151.200784
+   ],
+   "local": {
+    "x": -667.163,
+    "y": 0.0,
+    "z": 664.044
+   }
+  },
+  {
+   "id": "way/314054708",
+   "name": "Glebe Railway Tunnel",
+   "kind": "light_rail",
+   "center": [
+    -33.875656,
+    151.180684
+   ],
+   "local": {
+    "x": -2525.599,
+    "y": 0.0,
+    "z": 294.89
+   }
+  },
+  {
+   "id": "way/407224854",
+   "name": "Inner West Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.879974,
+    151.206508
+   ],
+   "local": {
+    "x": -137.904,
+    "y": 0.0,
+    "z": 774.295
+   }
+  },
+  {
+   "id": "way/407224856",
+   "name": "Inner West Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.879527,
+    151.204208
+   ],
+   "local": {
+    "x": -350.602,
+    "y": 0.0,
+    "z": 724.633
+   }
+  },
+  {
+   "id": "way/410407937",
+   "name": "Inner West Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.875904,
+    151.198923
+   ],
+   "local": {
+    "x": -839.217,
+    "y": 0.0,
+    "z": 322.44
+   }
+  },
+  {
+   "id": "way/410407944",
+   "name": "Inner West Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.867014,
+    151.192829
+   ],
+   "local": {
+    "x": -1402.74,
+    "y": 0.0,
+    "z": -664.556
+   }
+  },
+  {
+   "id": "way/410408815",
+   "name": "Inner West Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.873955,
+    151.194286
+   ],
+   "local": {
+    "x": -1267.958,
+    "y": 0.0,
+    "z": 106.042
+   }
+  },
+  {
+   "id": "way/585998416",
+   "name": "Redfern",
+   "kind": "rail_station",
+   "center": [
+    -33.892186,
+    151.198719
+   ],
+   "local": {
+    "x": -858.138,
+    "y": 0.0,
+    "z": 2129.978
+   }
+  },
+  {
+   "id": "way/659304333",
+   "name": "CBD and South East Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.896225,
+    151.222192
+   ],
+   "local": {
+    "x": 1312.174,
+    "y": 0.0,
+    "z": 2578.483
+   }
+  },
+  {
+   "id": "way/659541191",
+   "name": "CBD and South East Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.891281,
+    151.22118
+   ],
+   "local": {
+    "x": 1218.578,
+    "y": 0.0,
+    "z": 2029.568
+   }
+  },
+  {
+   "id": "way/659541192",
+   "name": "CBD and South East Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.890384,
+    151.219683
+   ],
+   "local": {
+    "x": 1080.167,
+    "y": 0.0,
+    "z": 1930.006
+   }
+  },
+  {
+   "id": "way/659541193",
+   "name": "CBD and South East Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.889967,
+    151.217737
+   ],
+   "local": {
+    "x": 900.288,
+    "y": 0.0,
+    "z": 1883.671
+   }
+  },
+  {
+   "id": "way/659541194",
+   "name": "CBD and South East Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.88998,
+    151.217621
+   ],
+   "local": {
+    "x": 889.55,
+    "y": 0.0,
+    "z": 1885.166
+   }
+  },
+  {
+   "id": "way/659541195",
+   "name": "CBD and South East Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.889955,
+    151.217419
+   ],
+   "local": {
+    "x": 870.917,
+    "y": 0.0,
+    "z": 1882.288
+   }
+  },
+  {
+   "id": "way/659541197",
+   "name": "CBD and South East Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.889925,
+    151.217422
+   ],
+   "local": {
+    "x": 871.125,
+    "y": 0.0,
+    "z": 1878.985
+   }
+  },
+  {
+   "id": "way/659541202",
+   "name": "CBD and South East Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.880528,
+    151.205008
+   ],
+   "local": {
+    "x": -276.646,
+    "y": 0.0,
+    "z": 835.706
+   }
+  },
+  {
+   "id": "way/659541203",
+   "name": "CBD and South East Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.880638,
+    151.205076
+   ],
+   "local": {
+    "x": -270.353,
+    "y": 0.0,
+    "z": 847.996
+   }
+  },
+  {
+   "id": "way/659549701",
+   "name": "CBD and South East Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.884228,
+    151.207602
+   ],
+   "local": {
+    "x": -36.813,
+    "y": 0.0,
+    "z": 1246.486
+   }
+  },
+  {
+   "id": "way/659549702",
+   "name": "CBD and South East Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.884285,
+    151.207603
+   ],
+   "local": {
+    "x": -36.69,
+    "y": 0.0,
+    "z": 1252.832
+   }
+  },
+  {
+   "id": "way/659549703",
+   "name": "CBD and South East Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.887343,
+    151.210148
+   ],
+   "local": {
+    "x": 198.63,
+    "y": 0.0,
+    "z": 1592.406
+   }
+  },
+  {
+   "id": "way/659549704",
+   "name": "CBD and South East Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.888163,
+    151.211976
+   ],
+   "local": {
+    "x": 367.601,
+    "y": 0.0,
+    "z": 1683.355
+   }
+  },
+  {
+   "id": "way/663678980",
+   "name": "CBD and South East Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.885498,
+    151.20695
+   ],
+   "local": {
+    "x": -97.071,
+    "y": 0.0,
+    "z": 1387.565
+   }
+  },
+  {
+   "id": "way/663678981",
+   "name": "CBD and South East Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.885412,
+    151.206977
+   ],
+   "local": {
+    "x": -94.564,
+    "y": 0.0,
+    "z": 1378.02
+   }
+  },
+  {
+   "id": "way/663678983",
+   "name": "CBD and South East Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.883305,
+    151.208101
+   ],
+   "local": {
+    "x": 9.293,
+    "y": 0.0,
+    "z": 1144.025
+   }
+  },
+  {
+   "id": "way/663678986",
+   "name": "CBD and South East Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.883292,
+    151.20813
+   ],
+   "local": {
+    "x": 12.002,
+    "y": 0.0,
+    "z": 1142.663
+   }
+  },
+  {
+   "id": "way/679354513",
+   "name": "Central",
+   "kind": "rail_station",
+   "center": [
+    -33.883419,
+    151.206111
+   ],
+   "local": {
+    "x": -174.668,
+    "y": 0.0,
+    "z": 1156.756
+   }
+  },
+  {
+   "id": "way/692558977",
+   "name": "CBD and South East Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.861334,
+    151.20862
+   ],
+   "local": {
+    "x": 57.364,
+    "y": 0.0,
+    "z": -1295.195
+   }
+  },
+  {
+   "id": "way/700774593",
+   "name": "CBD and South East Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.870449,
+    151.207001
+   ],
+   "local": {
+    "x": -92.361,
+    "y": 0.0,
+    "z": -283.181
+   }
+  },
+  {
+   "id": "way/700774594",
+   "name": "CBD and South East Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.870138,
+    151.206985
+   ],
+   "local": {
+    "x": -93.803,
+    "y": 0.0,
+    "z": -317.702
+   }
+  },
+  {
+   "id": "way/701214526",
+   "name": "CBD and South East Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.875905,
+    151.206329
+   ],
+   "local": {
+    "x": -154.463,
+    "y": 0.0,
+    "z": 322.485
+   }
+  },
+  {
+   "id": "way/701216864",
+   "name": "CBD and South East Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.881547,
+    151.205476
+   ],
+   "local": {
+    "x": -233.343,
+    "y": 0.0,
+    "z": 948.871
+   }
+  },
+  {
+   "id": "way/702177271",
+   "name": "CBD and South East Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.890013,
+    151.217863
+   ],
+   "local": {
+    "x": 911.923,
+    "y": 0.0,
+    "z": 1888.766
+   }
+  },
+  {
+   "id": "way/702219812",
+   "name": "CBD and South East Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.867323,
+    151.207102
+   ],
+   "local": {
+    "x": -83.041,
+    "y": 0.0,
+    "z": -630.228
+   }
+  },
+  {
+   "id": "way/702219817",
+   "name": "CBD and South East Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.861449,
+    151.209183
+   ],
+   "local": {
+    "x": 109.412,
+    "y": 0.0,
+    "z": -1282.388
+   }
+  },
+  {
+   "id": "way/702219818",
+   "name": "CBD and South East Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.861424,
+    151.209614
+   ],
+   "local": {
+    "x": 149.2,
+    "y": 0.0,
+    "z": -1285.143
+   }
+  },
+  {
+   "id": "way/702219819",
+   "name": "CBD and South East Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.861384,
+    151.208834
+   ],
+   "local": {
+    "x": 77.097,
+    "y": 0.0,
+    "z": -1289.625
+   }
+  },
+  {
+   "id": "way/702219820",
+   "name": "CBD and South East Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.861384,
+    151.20883
+   ],
+   "local": {
+    "x": 76.78,
+    "y": 0.0,
+    "z": -1289.636
+   }
+  },
+  {
+   "id": "way/702219821",
+   "name": "CBD and South East Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.861502,
+    151.209548
+   ],
+   "local": {
+    "x": 143.113,
+    "y": 0.0,
+    "z": -1276.471
+   }
+  },
+  {
+   "id": "way/702219823",
+   "name": "CBD and South East Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.861491,
+    151.209649
+   ],
+   "local": {
+    "x": 152.443,
+    "y": 0.0,
+    "z": -1277.674
+   }
+  },
+  {
+   "id": "way/703376361",
+   "name": "CBD and South East Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.874127,
+    151.206872
+   ],
+   "local": {
+    "x": -104.338,
+    "y": 0.0,
+    "z": 125.123
+   }
+  },
+  {
+   "id": "way/705988356",
+   "name": "Up Sydney Metro City & Southwest",
+   "kind": "light_rail",
+   "center": [
+    -33.879635,
+    151.208427
+   ],
+   "local": {
+    "x": 39.52,
+    "y": 0.0,
+    "z": 736.601
+   }
+  },
+  {
+   "id": "way/707588615",
+   "name": "Down Sydney Metro City & Southwest",
+   "kind": "light_rail",
+   "center": [
+    -33.879811,
+    151.207961
+   ],
+   "local": {
+    "x": -3.604,
+    "y": 0.0,
+    "z": 756.105
+   }
+  },
+  {
+   "id": "way/711933499",
+   "name": "CBD and South East Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.874792,
+    151.20672
+   ],
+   "local": {
+    "x": -118.377,
+    "y": 0.0,
+    "z": 199.003
+   }
+  },
+  {
+   "id": "way/711933500",
+   "name": "CBD and South East Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.874791,
+    151.206721
+   ],
+   "local": {
+    "x": -118.274,
+    "y": 0.0,
+    "z": 198.805
+   }
+  },
+  {
+   "id": "way/712190480",
+   "name": "CBD and South East Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.88433,
+    151.20768
+   ],
+   "local": {
+    "x": -29.57,
+    "y": 0.0,
+    "z": 1257.864
+   }
+  },
+  {
+   "id": "way/712190481",
+   "name": "CBD and South East Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.884743,
+    151.207278
+   ],
+   "local": {
+    "x": -66.769,
+    "y": 0.0,
+    "z": 1303.689
+   }
+  },
+  {
+   "id": "way/712190482",
+   "name": "CBD and South East Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.884616,
+    151.207325
+   ],
+   "local": {
+    "x": -62.42,
+    "y": 0.0,
+    "z": 1289.569
+   }
+  },
+  {
+   "id": "way/712190483",
+   "name": "CBD and South East Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.884608,
+    151.207328
+   ],
+   "local": {
+    "x": -62.158,
+    "y": 0.0,
+    "z": 1288.727
+   }
+  },
+  {
+   "id": "way/712734144",
+   "name": "CBD and South East Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.892682,
+    151.221591
+   ],
+   "local": {
+    "x": 1256.662,
+    "y": 0.0,
+    "z": 2185.08
+   }
+  },
+  {
+   "id": "way/712734145",
+   "name": "CBD and South East Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.892682,
+    151.221591
+   ],
+   "local": {
+    "x": 1256.663,
+    "y": 0.0,
+    "z": 2185.092
+   }
+  },
+  {
+   "id": "way/712734146",
+   "name": "CBD and South East Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.894699,
+    151.221945
+   ],
+   "local": {
+    "x": 1289.351,
+    "y": 0.0,
+    "z": 2408.962
+   }
+  },
+  {
+   "id": "way/712734147",
+   "name": "CBD and South East Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.894309,
+    151.221906
+   ],
+   "local": {
+    "x": 1285.729,
+    "y": 0.0,
+    "z": 2365.736
+   }
+  },
+  {
+   "id": "way/712931268",
+   "name": "CBD and South East Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.891261,
+    151.221208
+   ],
+   "local": {
+    "x": 1221.169,
+    "y": 0.0,
+    "z": 2027.349
+   }
+  },
+  {
+   "id": "way/712931269",
+   "name": "CBD and South East Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.890299,
+    151.219445
+   ],
+   "local": {
+    "x": 1058.242,
+    "y": 0.0,
+    "z": 1920.554
+   }
+  },
+  {
+   "id": "way/713179814",
+   "name": "CBD and South East Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.89494,
+    151.221927
+   ],
+   "local": {
+    "x": 1287.729,
+    "y": 0.0,
+    "z": 2435.787
+   }
+  },
+  {
+   "id": "way/720896377",
+   "name": "CBD and South East Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.864554,
+    151.20744
+   ],
+   "local": {
+    "x": -51.807,
+    "y": 0.0,
+    "z": -937.687
+   }
+  },
+  {
+   "id": "way/720896378",
+   "name": "CBD and South East Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.862627,
+    151.207616
+   ],
+   "local": {
+    "x": -35.533,
+    "y": 0.0,
+    "z": -1151.562
+   }
+  },
+  {
+   "id": "way/720896379",
+   "name": "CBD and South East Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.861471,
+    151.208364
+   ],
+   "local": {
+    "x": 33.614,
+    "y": 0.0,
+    "z": -1279.993
+   }
+  },
+  {
+   "id": "way/739793099",
+   "name": "Chinatown",
+   "kind": "rail_station",
+   "center": [
+    -33.878538,
+    151.205562
+   ],
+   "local": {
+    "x": -225.43,
+    "y": 0.0,
+    "z": 614.778
+   }
+  },
+  {
+   "id": "way/739794651",
+   "name": "Haymarket",
+   "kind": "rail_station",
+   "center": [
+    -33.881428,
+    151.205276
+   ],
+   "local": {
+    "x": -251.852,
+    "y": 0.0,
+    "z": 935.623
+   }
+  },
+  {
+   "id": "way/739799799",
+   "name": "Moore Park",
+   "kind": "rail_station",
+   "center": [
+    -33.893776,
+    151.221819
+   ],
+   "local": {
+    "x": 1277.686,
+    "y": 0.0,
+    "z": 2306.533
+   }
+  },
+  {
+   "id": "way/740047982",
+   "name": "Surry Hills",
+   "kind": "rail_station",
+   "center": [
+    -33.888078,
+    151.211801
+   ],
+   "local": {
+    "x": 351.442,
+    "y": 0.0,
+    "z": 1673.95
+   }
+  },
+  {
+   "id": "way/740048069",
+   "name": "Circular Quay",
+   "kind": "rail_station",
+   "center": [
+    -33.861526,
+    151.210063
+   ],
+   "local": {
+    "x": 190.709,
+    "y": 0.0,
+    "z": -1273.819
+   }
+  },
+  {
+   "id": "way/740048665",
+   "name": "Town Hall",
+   "kind": "rail_station",
+   "center": [
+    -33.873792,
+    151.206886
+   ],
+   "local": {
+    "x": -103.017,
+    "y": 0.0,
+    "z": 87.919
+   }
+  },
+  {
+   "id": "way/740048666",
+   "name": "QVB",
+   "kind": "rail_station",
+   "center": [
+    -33.871635,
+    151.206951
+   ],
+   "local": {
+    "x": -96.959,
+    "y": 0.0,
+    "z": -151.595
+   }
+  },
+  {
+   "id": "way/740048667",
+   "name": "Wynyard",
+   "kind": "rail_station",
+   "center": [
+    -33.86673,
+    151.207152
+   ],
+   "local": {
+    "x": -78.369,
+    "y": 0.0,
+    "z": -696.124
+   }
+  },
+  {
+   "id": "way/740048668",
+   "name": "Bridge Street",
+   "kind": "rail_station",
+   "center": [
+    -33.864058,
+    151.207452
+   ],
+   "local": {
+    "x": -50.675,
+    "y": 0.0,
+    "z": -992.682
+   }
+  },
+  {
+   "id": "way/740050932",
+   "name": "Central Chalmers Street",
+   "kind": "rail_station",
+   "center": [
+    -33.884276,
+    151.207639
+   ],
+   "local": {
+    "x": -33.417,
+    "y": 0.0,
+    "z": 1251.804
+   }
+  },
+  {
+   "id": "way/740842633",
+   "name": "CBD and South East Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.877888,
+    151.20569
+   ],
+   "local": {
+    "x": -213.593,
+    "y": 0.0,
+    "z": 542.64
+   }
+  },
+  {
+   "id": "way/740842636",
+   "name": "CBD and South East Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.878684,
+    151.205509
+   ],
+   "local": {
+    "x": -230.286,
+    "y": 0.0,
+    "z": 631.066
+   }
+  },
+  {
+   "id": "way/809887964",
+   "name": "CBD and South East Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.889715,
+    151.215685
+   ],
+   "local": {
+    "x": 710.595,
+    "y": 0.0,
+    "z": 1855.665
+   }
+  },
+  {
+   "id": "way/907361357",
+   "name": "Inner West Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.879592,
+    151.205
+   ],
+   "local": {
+    "x": -277.408,
+    "y": 0.0,
+    "z": 731.825
+   }
+  },
+  {
+   "id": "way/907361358",
+   "name": "Inner West Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.879619,
+    151.204965
+   ],
+   "local": {
+    "x": -280.616,
+    "y": 0.0,
+    "z": 734.839
+   }
+  },
+  {
+   "id": "way/930479075",
+   "name": "CBD and South East Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.889175,
+    151.214021
+   ],
+   "local": {
+    "x": 556.673,
+    "y": 0.0,
+    "z": 1795.774
+   }
+  },
+  {
+   "id": "way/1011170381",
+   "name": "CBD and South East Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.881848,
+    151.205994
+   ],
+   "local": {
+    "x": -185.514,
+    "y": 0.0,
+    "z": 982.352
+   }
+  },
+  {
+   "id": "way/1011170382",
+   "name": "CBD and South East Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.881979,
+    151.206198
+   ],
+   "local": {
+    "x": -166.573,
+    "y": 0.0,
+    "z": 996.801
+   }
+  },
+  {
+   "id": "way/1011170383",
+   "name": "CBD and South East Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.881943,
+    151.206202
+   ],
+   "local": {
+    "x": -166.259,
+    "y": 0.0,
+    "z": 992.874
+   }
+  },
+  {
+   "id": "way/1011170384",
+   "name": "CBD and South East Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.88183,
+    151.206023
+   ],
+   "local": {
+    "x": -182.807,
+    "y": 0.0,
+    "z": 980.248
+   }
+  },
+  {
+   "id": "way/1011170389",
+   "name": "CBD and South East Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.882886,
+    151.207917
+   ],
+   "local": {
+    "x": -7.676,
+    "y": 0.0,
+    "z": 1097.546
+   }
+  },
+  {
+   "id": "way/1011170390",
+   "name": "CBD and South East Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.882445,
+    151.207108
+   ],
+   "local": {
+    "x": -82.471,
+    "y": 0.0,
+    "z": 1048.541
+   }
+  },
+  {
+   "id": "way/1011170391",
+   "name": "CBD and South East Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.882291,
+    151.206759
+   ],
+   "local": {
+    "x": -114.773,
+    "y": 0.0,
+    "z": 1031.45
+   }
+  },
+  {
+   "id": "way/1011170392",
+   "name": "CBD and South East Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.882924,
+    151.207917
+   ],
+   "local": {
+    "x": -7.701,
+    "y": 0.0,
+    "z": 1101.71
+   }
+  },
+  {
+   "id": "way/1086207081",
+   "name": "CBD and South East Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.890941,
+    151.220753
+   ],
+   "local": {
+    "x": 1179.143,
+    "y": 0.0,
+    "z": 1991.843
+   }
+  },
+  {
+   "id": "way/1086207082",
+   "name": "CBD and South East Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.890031,
+    151.218179
+   ],
+   "local": {
+    "x": 941.177,
+    "y": 0.0,
+    "z": 1890.787
+   }
+  },
+  {
+   "id": "way/1086207083",
+   "name": "CBD and South East Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.890059,
+    151.218175
+   ],
+   "local": {
+    "x": 940.761,
+    "y": 0.0,
+    "z": 1893.895
+   }
+  },
+  {
+   "id": "way/1086207084",
+   "name": "CBD and South East Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.892187,
+    151.221463
+   ],
+   "local": {
+    "x": 1244.752,
+    "y": 0.0,
+    "z": 2130.179
+   }
+  },
+  {
+   "id": "way/1086207085",
+   "name": "CBD and South East Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.890081,
+    151.218526
+   ],
+   "local": {
+    "x": 973.205,
+    "y": 0.0,
+    "z": 1896.338
+   }
+  },
+  {
+   "id": "way/1086207086",
+   "name": "CBD and South East Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.892352,
+    151.221537
+   ],
+   "local": {
+    "x": 1251.672,
+    "y": 0.0,
+    "z": 2148.404
+   }
+  },
+  {
+   "id": "way/1098989888",
+   "name": "CBD and South East Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.884795,
+    151.207266
+   ],
+   "local": {
+    "x": -67.824,
+    "y": 0.0,
+    "z": 1309.478
+   }
+  },
+  {
+   "id": "way/1098995174",
+   "name": "CBD and South East Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.894306,
+    151.221852
+   ],
+   "local": {
+    "x": 1280.745,
+    "y": 0.0,
+    "z": 2365.416
+   }
+  },
+  {
+   "id": "way/1100743909",
+   "name": "Up Sydney Metro City & Southwest",
+   "kind": "light_rail",
+   "center": [
+    -33.851646,
+    151.203545
+   ],
+   "local": {
+    "x": -411.945,
+    "y": 0.0,
+    "z": -2370.69
+   }
+  },
+  {
+   "id": "way/1100743910",
+   "name": "Down Sydney Metro City & Southwest",
+   "kind": "light_rail",
+   "center": [
+    -33.851721,
+    151.203351
+   ],
+   "local": {
+    "x": -429.848,
+    "y": 0.0,
+    "z": -2362.374
+   }
+  },
+  {
+   "id": "way/1105426650",
+   "name": "CBD and South East Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.885007,
+    151.207064
+   ],
+   "local": {
+    "x": -86.507,
+    "y": 0.0,
+    "z": 1333.006
+   }
+  },
+  {
+   "id": "way/1105426651",
+   "name": "CBD and South East Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.883827,
+    151.207959
+   ],
+   "local": {
+    "x": -3.769,
+    "y": 0.0,
+    "z": 1201.991
+   }
+  },
+  {
+   "id": "way/1105426652",
+   "name": "CBD and South East Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.885011,
+    151.207019
+   ],
+   "local": {
+    "x": -90.666,
+    "y": 0.0,
+    "z": 1333.46
+   }
+  },
+  {
+   "id": "way/1105426653",
+   "name": "CBD and South East Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.883683,
+    151.208026
+   ],
+   "local": {
+    "x": 2.395,
+    "y": 0.0,
+    "z": 1185.967
+   }
+  },
+  {
+   "id": "way/1115995149",
+   "name": "St James",
+   "kind": "rail_station",
+   "center": [
+    -33.870623,
+    151.211773
+   ],
+   "local": {
+    "x": 348.808,
+    "y": 0.0,
+    "z": -263.856
+   }
+  },
+  {
+   "id": "way/1218970173",
+   "name": "CBD and South East Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.883837,
+    151.208011
+   ],
+   "local": {
+    "x": 1.026,
+    "y": 0.0,
+    "z": 1203.161
+   }
+  },
+  {
+   "id": "way/1225858494",
+   "name": "CBD and South East Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.8938,
+    151.221849
+   ],
+   "local": {
+    "x": 1280.51,
+    "y": 0.0,
+    "z": 2309.251
+   }
+  },
+  {
+   "id": "way/1225858497",
+   "name": "CBD and South East Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.894329,
+    151.22194
+   ],
+   "local": {
+    "x": 1288.923,
+    "y": 0.0,
+    "z": 2367.983
+   }
+  },
+  {
+   "id": "way/1225858498",
+   "name": "CBD and South East Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.895048,
+    151.22204
+   ],
+   "local": {
+    "x": 1298.175,
+    "y": 0.0,
+    "z": 2447.795
+   }
+  },
+  {
+   "id": "way/1225858507",
+   "name": "CBD and South East Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.893608,
+    151.221699
+   ],
+   "local": {
+    "x": 1266.623,
+    "y": 0.0,
+    "z": 2287.893
+   }
+  },
+  {
+   "id": "way/1226648683",
+   "name": "CBD and South East Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.87374,
+    151.206927
+   ],
+   "local": {
+    "x": -99.172,
+    "y": 0.0,
+    "z": 82.127
+   }
+  },
+  {
+   "id": "way/1226649565",
+   "name": "CBD and South East Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.883839,
+    151.207904
+   ],
+   "local": {
+    "x": -8.876,
+    "y": 0.0,
+    "z": 1203.316
+   }
+  },
+  {
+   "id": "way/1234777367",
+   "name": "Sydney Metro City & Southwest",
+   "kind": "light_rail",
+   "center": [
+    -33.85834,
+    151.202548
+   ],
+   "local": {
+    "x": -504.134,
+    "y": 0.0,
+    "z": -1627.6
+   }
+  },
+  {
+   "id": "way/1234777368",
+   "name": "Sydney Metro City & Southwest",
+   "kind": "light_rail",
+   "center": [
+    -33.858339,
+    151.202548
+   ],
+   "local": {
+    "x": -504.128,
+    "y": 0.0,
+    "z": -1627.604
+   }
+  },
+  {
+   "id": "way/1234780895",
+   "name": "Glebe",
+   "kind": "rail_station",
+   "center": [
+    -33.87721,
+    151.187449
+   ],
+   "local": {
+    "x": -1900.172,
+    "y": 0.0,
+    "z": 467.383
+   }
+  },
+  {
+   "id": "way/1238809366",
+   "name": "CBD and South East Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.86219,
+    151.207783
+   ],
+   "local": {
+    "x": -20.092,
+    "y": 0.0,
+    "z": -1200.136
+   }
+  },
+  {
+   "id": "way/1238809367",
+   "name": "CBD and South East Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.861351,
+    151.208339
+   ],
+   "local": {
+    "x": 31.37,
+    "y": 0.0,
+    "z": -1293.323
+   }
+  },
+  {
+   "id": "way/1238809368",
+   "name": "CBD and South East Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.863436,
+    151.207529
+   ],
+   "local": {
+    "x": -43.578,
+    "y": 0.0,
+    "z": -1061.828
+   }
+  },
+  {
+   "id": "way/1238809369",
+   "name": "CBD and South East Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.865909,
+    151.207272
+   ],
+   "local": {
+    "x": -67.343,
+    "y": 0.0,
+    "z": -787.279
+   }
+  },
+  {
+   "id": "way/1238809370",
+   "name": "CBD and South East Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.861569,
+    151.208131
+   ],
+   "local": {
+    "x": 12.153,
+    "y": 0.0,
+    "z": -1269.119
+   }
+  },
+  {
+   "id": "way/1238809371",
+   "name": "CBD and South East Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.86251,
+    151.207617
+   ],
+   "local": {
+    "x": -35.428,
+    "y": 0.0,
+    "z": -1164.577
+   }
+  },
+  {
+   "id": "way/1238809372",
+   "name": "CBD and South East Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.864598,
+    151.207376
+   ],
+   "local": {
+    "x": -57.653,
+    "y": 0.0,
+    "z": -932.798
+   }
+  },
+  {
+   "id": "way/1238809374",
+   "name": "CBD and South East Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.88168,
+    151.205778
+   ],
+   "local": {
+    "x": -205.478,
+    "y": 0.0,
+    "z": 963.633
+   }
+  },
+  {
+   "id": "way/1238809375",
+   "name": "CBD and South East Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.882112,
+    151.206497
+   ],
+   "local": {
+    "x": -138.969,
+    "y": 0.0,
+    "z": 1011.58
+   }
+  },
+  {
+   "id": "way/1238809376",
+   "name": "CBD and South East Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.882669,
+    151.20752
+   ],
+   "local": {
+    "x": -44.353,
+    "y": 0.0,
+    "z": 1073.452
+   }
+  },
+  {
+   "id": "way/1238809377",
+   "name": "CBD and South East Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.88575,
+    151.207045
+   ],
+   "local": {
+    "x": -88.34,
+    "y": 0.0,
+    "z": 1415.491
+   }
+  },
+  {
+   "id": "way/1238809378",
+   "name": "CBD and South East Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.882676,
+    151.207466
+   ],
+   "local": {
+    "x": -49.381,
+    "y": 0.0,
+    "z": 1074.182
+   }
+  },
+  {
+   "id": "way/1238809379",
+   "name": "CBD and South East Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.881898,
+    151.206071
+   ],
+   "local": {
+    "x": -178.397,
+    "y": 0.0,
+    "z": 987.864
+   }
+  },
+  {
+   "id": "way/1238809380",
+   "name": "CBD and South East Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.881233,
+    151.204926
+   ],
+   "local": {
+    "x": -284.189,
+    "y": 0.0,
+    "z": 914.055
+   }
+  },
+  {
+   "id": "way/1238809381",
+   "name": "CBD and South East Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.86356,
+    151.207475
+   ],
+   "local": {
+    "x": -48.547,
+    "y": 0.0,
+    "z": -1048.081
+   }
+  },
+  {
+   "id": "way/1239389903",
+   "name": "Inner West Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.879116,
+    151.201039
+   ],
+   "local": {
+    "x": -643.574,
+    "y": 0.0,
+    "z": 679.041
+   }
+  },
+  {
+   "id": "way/1239389904",
+   "name": "Inner West Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.879806,
+    151.205722
+   ],
+   "local": {
+    "x": -210.608,
+    "y": 0.0,
+    "z": 755.595
+   }
+  },
+  {
+   "id": "way/1239389905",
+   "name": "Inner West Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.879832,
+    151.205702
+   ],
+   "local": {
+    "x": -212.469,
+    "y": 0.0,
+    "z": 758.45
+   }
+  },
+  {
+   "id": "way/1239389906",
+   "name": "Inner West Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.879709,
+    151.205335
+   ],
+   "local": {
+    "x": -246.43,
+    "y": 0.0,
+    "z": 744.866
+   }
+  },
+  {
+   "id": "way/1239389907",
+   "name": "Inner West Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.879678,
+    151.205347
+   ],
+   "local": {
+    "x": -245.265,
+    "y": 0.0,
+    "z": 741.387
+   }
+  },
+  {
+   "id": "way/1239389908",
+   "name": "Inner West Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.880311,
+    151.207217
+   ],
+   "local": {
+    "x": -72.423,
+    "y": 0.0,
+    "z": 811.633
+   }
+  },
+  {
+   "id": "way/1239859303",
+   "name": "CBD and South East Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.885833,
+    151.207236
+   ],
+   "local": {
+    "x": -70.67,
+    "y": 0.0,
+    "z": 1424.712
+   }
+  },
+  {
+   "id": "way/1239859304",
+   "name": "CBD and South East Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.889847,
+    151.216837
+   ],
+   "local": {
+    "x": 817.062,
+    "y": 0.0,
+    "z": 1870.393
+   }
+  },
+  {
+   "id": "way/1239859305",
+   "name": "CBD and South East Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.889887,
+    151.217139
+   ],
+   "local": {
+    "x": 844.963,
+    "y": 0.0,
+    "z": 1874.78
+   }
+  },
+  {
+   "id": "way/1239859306",
+   "name": "CBD and South East Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.889909,
+    151.217295
+   ],
+   "local": {
+    "x": 859.429,
+    "y": 0.0,
+    "z": 1877.198
+   }
+  },
+  {
+   "id": "way/1239859307",
+   "name": "CBD and South East Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.891636,
+    151.221376
+   ],
+   "local": {
+    "x": 1236.778,
+    "y": 0.0,
+    "z": 2068.943
+   }
+  },
+  {
+   "id": "way/1239859308",
+   "name": "CBD and South East Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.892965,
+    151.221675
+   ],
+   "local": {
+    "x": 1264.426,
+    "y": 0.0,
+    "z": 2216.544
+   }
+  },
+  {
+   "id": "way/1239859309",
+   "name": "CBD and South East Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.892976,
+    151.221632
+   ],
+   "local": {
+    "x": 1260.393,
+    "y": 0.0,
+    "z": 2217.773
+   }
+  },
+  {
+   "id": "way/1239859310",
+   "name": "CBD and South East Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.893194,
+    151.221735
+   ],
+   "local": {
+    "x": 1269.957,
+    "y": 0.0,
+    "z": 2241.877
+   }
+  },
+  {
+   "id": "way/1239859361",
+   "name": "CBD and South East Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.893201,
+    151.221647
+   ],
+   "local": {
+    "x": 1261.836,
+    "y": 0.0,
+    "z": 2242.664
+   }
+  },
+  {
+   "id": "way/1239859362",
+   "name": "CBD and South East Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.891488,
+    151.221306
+   ],
+   "local": {
+    "x": 1230.234,
+    "y": 0.0,
+    "z": 2052.481
+   }
+  },
+  {
+   "id": "way/1239859363",
+   "name": "CBD and South East Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.89011,
+    151.218516
+   ],
+   "local": {
+    "x": 972.317,
+    "y": 0.0,
+    "z": 1899.496
+   }
+  },
+  {
+   "id": "way/1239859364",
+   "name": "CBD and South East Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.88997,
+    151.21754
+   ],
+   "local": {
+    "x": 882.054,
+    "y": 0.0,
+    "z": 1883.97
+   }
+  },
+  {
+   "id": "way/1239859365",
+   "name": "CBD and South East Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.88994,
+    151.217302
+   ],
+   "local": {
+    "x": 860.02,
+    "y": 0.0,
+    "z": 1880.645
+   }
+  },
+  {
+   "id": "way/1245762679",
+   "name": "Down Sydney Metro City & Southwest",
+   "kind": "light_rail",
+   "center": [
+    -33.858283,
+    151.202473
+   ],
+   "local": {
+    "x": -511.044,
+    "y": 0.0,
+    "z": -1633.829
+   }
+  },
+  {
+   "id": "way/1245762680",
+   "name": "Up Sydney Metro City & Southwest",
+   "kind": "light_rail",
+   "center": [
+    -33.858129,
+    151.202604
+   ],
+   "local": {
+    "x": -498.887,
+    "y": 0.0,
+    "z": -1650.98
+   }
+  },
+  {
+   "id": "way/1245762681",
+   "name": "Down Sydney Metro City & Southwest",
+   "kind": "light_rail",
+   "center": [
+    -33.856097,
+    151.202347
+   ],
+   "local": {
+    "x": -522.697,
+    "y": 0.0,
+    "z": -1876.602
+   }
+  },
+  {
+   "id": "way/1245762682",
+   "name": "Up Sydney Metro City & Southwest",
+   "kind": "light_rail",
+   "center": [
+    -33.855991,
+    151.202499
+   ],
+   "local": {
+    "x": -508.647,
+    "y": 0.0,
+    "z": -1888.304
+   }
+  },
+  {
+   "id": "way/1252724821",
+   "name": "Up Sydney Metro City & Southwest",
+   "kind": "light_rail",
+   "center": [
+    -33.863141,
+    151.207286
+   ],
+   "local": {
+    "x": -66.06,
+    "y": 0.0,
+    "z": -1094.514
+   }
+  },
+  {
+   "id": "way/1252724822",
+   "name": "Down Sydney Metro City & Southwest",
+   "kind": "light_rail",
+   "center": [
+    -33.86303,
+    151.206173
+   ],
+   "local": {
+    "x": -168.893,
+    "y": 0.0,
+    "z": -1106.841
+   }
+  },
+  {
+   "id": "way/1252724823",
+   "name": "Up Sydney Metro City & Southwest",
+   "kind": "light_rail",
+   "center": [
+    -33.866757,
+    151.210671
+   ],
+   "local": {
+    "x": 246.917,
+    "y": 0.0,
+    "z": -693.088
+   }
+  },
+  {
+   "id": "way/1252724824",
+   "name": "Down Sydney Metro City & Southwest",
+   "kind": "light_rail",
+   "center": [
+    -33.866729,
+    151.209945
+   ],
+   "local": {
+    "x": 179.871,
+    "y": 0.0,
+    "z": -696.208
+   }
+  },
+  {
+   "id": "way/1252730264",
+   "name": "Down Sydney Metro City & Southwest",
+   "kind": "light_rail",
+   "center": [
+    -33.891972,
+    151.201187
+   ],
+   "local": {
+    "x": -629.966,
+    "y": 0.0,
+    "z": 2106.292
+   }
+  },
+  {
+   "id": "way/1252730265",
+   "name": "Down Sydney Metro City & Southwest",
+   "kind": "light_rail",
+   "center": [
+    -33.884501,
+    151.206234
+   ],
+   "local": {
+    "x": -163.319,
+    "y": 0.0,
+    "z": 1276.844
+   }
+  },
+  {
+   "id": "way/1252730266",
+   "name": "Up Sydney Metro City & Southwest",
+   "kind": "light_rail",
+   "center": [
+    -33.891415,
+    151.201383
+   ],
+   "local": {
+    "x": -611.801,
+    "y": 0.0,
+    "z": 2044.454
+   }
+  },
+  {
+   "id": "way/1252730267",
+   "name": "Up Sydney Metro City & Southwest",
+   "kind": "light_rail",
+   "center": [
+    -33.884412,
+    151.206097
+   ],
+   "local": {
+    "x": -175.94,
+    "y": 0.0,
+    "z": 1266.965
+   }
+  },
+  {
+   "id": "way/1261363035",
+   "name": "Barangaroo",
+   "kind": "rail_station",
+   "center": [
+    -33.859489,
+    151.202493
+   ],
+   "local": {
+    "x": -509.193,
+    "y": 0.0,
+    "z": -1500.023
+   }
+  },
+  {
+   "id": "way/1261363862",
+   "name": "Martin Place",
+   "kind": "rail_station",
+   "center": [
+    -33.867353,
+    151.210289
+   ],
+   "local": {
+    "x": 211.637,
+    "y": 0.0,
+    "z": -626.94
+   }
+  },
+  {
+   "id": "way/1261364180",
+   "name": "Gadigal",
+   "kind": "rail_station",
+   "center": [
+    -33.873686,
+    151.208571
+   ],
+   "local": {
+    "x": 52.827,
+    "y": 0.0,
+    "z": 76.131
+   }
+  },
+  {
+   "id": "way/1305382523",
+   "name": "Inner West Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.880246,
+    151.207907
+   ],
+   "local": {
+    "x": -8.594,
+    "y": 0.0,
+    "z": 804.498
+   }
+  },
+  {
+   "id": "way/1305382524",
+   "name": "Inner West Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.880111,
+    151.20699
+   ],
+   "local": {
+    "x": -93.349,
+    "y": 0.0,
+    "z": 789.468
+   }
+  },
+  {
+   "id": "way/1305382530",
+   "name": "Inner West Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.880223,
+    151.207186
+   ],
+   "local": {
+    "x": -75.307,
+    "y": 0.0,
+    "z": 801.851
+   }
+  },
+  {
+   "id": "way/1309014424",
+   "name": "Down Sydney Metro City & Southwest",
+   "kind": "light_rail",
+   "center": [
+    -33.860263,
+    151.202606
+   ],
+   "local": {
+    "x": -498.726,
+    "y": 0.0,
+    "z": -1414.041
+   }
+  },
+  {
+   "id": "way/1309014425",
+   "name": "Up Sydney Metro City & Southwest",
+   "kind": "light_rail",
+   "center": [
+    -33.860289,
+    151.20275
+   ],
+   "local": {
+    "x": -485.451,
+    "y": 0.0,
+    "z": -1411.215
+   }
+  },
+  {
+   "id": "way/1309014426",
+   "name": "Down Sydney Metro City & Southwest",
+   "kind": "light_rail",
+   "center": [
+    -33.843255,
+    151.204329
+   ],
+   "local": {
+    "x": -339.46,
+    "y": 0.0,
+    "z": -3302.296
+   }
+  },
+  {
+   "id": "way/1309014427",
+   "name": "Up Sydney Metro City & Southwest",
+   "kind": "light_rail",
+   "center": [
+    -33.843184,
+    151.20458
+   ],
+   "local": {
+    "x": -316.188,
+    "y": 0.0,
+    "z": -3310.132
+   }
+  },
+  {
+   "id": "way/1309014430",
+   "name": "Down Sydney Metro City & Southwest",
+   "kind": "light_rail",
+   "center": [
+    -33.867599,
+    151.209834
+   ],
+   "local": {
+    "x": 169.567,
+    "y": 0.0,
+    "z": -599.634
+   }
+  },
+  {
+   "id": "way/1309014431",
+   "name": "Up Sydney Metro City & Southwest",
+   "kind": "light_rail",
+   "center": [
+    -33.867633,
+    151.210556
+   ],
+   "local": {
+    "x": 236.327,
+    "y": 0.0,
+    "z": -595.798
+   }
+  },
+  {
+   "id": "way/1309014432",
+   "name": "Down Sydney Metro City & Southwest",
+   "kind": "light_rail",
+   "center": [
+    -33.870742,
+    151.208728
+   ],
+   "local": {
+    "x": 67.339,
+    "y": 0.0,
+    "z": -250.695
+   }
+  },
+  {
+   "id": "way/1309014433",
+   "name": "Up Sydney Metro City & Southwest",
+   "kind": "light_rail",
+   "center": [
+    -33.87043,
+    151.209828
+   ],
+   "local": {
+    "x": 169.026,
+    "y": 0.0,
+    "z": -285.372
+   }
+  },
+  {
+   "id": "way/1309014434",
+   "name": "Up Sydney Metro City & Southwest",
+   "kind": "light_rail",
+   "center": [
+    -33.883864,
+    151.206525
+   ],
+   "local": {
+    "x": -136.375,
+    "y": 0.0,
+    "z": 1206.147
+   }
+  },
+  {
+   "id": "way/1309014435",
+   "name": "Down Sydney Metro City & Southwest",
+   "kind": "light_rail",
+   "center": [
+    -33.883981,
+    151.206642
+   ],
+   "local": {
+    "x": -125.551,
+    "y": 0.0,
+    "z": 1219.09
+   }
+  },
+  {
+   "id": "way/1436644375",
+   "name": "CBD and South East Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.891575,
+    151.221326
+   ],
+   "local": {
+    "x": 1232.144,
+    "y": 0.0,
+    "z": 2062.185
+   }
+  },
+  {
+   "id": "way/1436644376",
+   "name": "CBD and South East Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.892685,
+    151.221574
+   ],
+   "local": {
+    "x": 1255.064,
+    "y": 0.0,
+    "z": 2185.383
+   }
+  },
+  {
+   "id": "way/1436644377",
+   "name": "CBD and South East Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.885612,
+    151.206997
+   ],
+   "local": {
+    "x": -92.732,
+    "y": 0.0,
+    "z": 1400.139
+   }
+  },
+  {
+   "id": "way/1467902906",
+   "name": "CBD and South East Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.861486,
+    151.210292
+   ],
+   "local": {
+    "x": 211.955,
+    "y": 0.0,
+    "z": -1278.275
+   }
+  },
+  {
+   "id": "way/1467902907",
+   "name": "CBD and South East Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.861549,
+    151.210285
+   ],
+   "local": {
+    "x": 211.271,
+    "y": 0.0,
+    "z": -1271.236
+   }
+  },
+  {
+   "id": "way/1467902908",
+   "name": "CBD and South East Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.861582,
+    151.210281
+   ],
+   "local": {
+    "x": 210.873,
+    "y": 0.0,
+    "z": -1267.6
+   }
+  },
+  {
+   "id": "way/1563023165",
+   "name": "Inner West Light Rail",
+   "kind": "light_rail",
+   "center": [
+    -33.880165,
+    151.207128
+   ],
+   "local": {
+    "x": -80.585,
+    "y": 0.0,
+    "z": 795.463
+   }
+  }
+ ],
+ "transportHubs": [
+  {
+   "id": "hub/-1,2",
+   "center": [
+    -33.881962,
+    151.20654
+   ],
+   "local": {
+    "x": -134.97,
+    "y": 0.0,
+    "z": 994.91
+   },
+   "stopCount": 30,
+   "stopNames": [
+    "CBD and South East Light Rail",
+    "Central",
+    "Central Grand Concourse",
+    "Exit 1: Grand Concourse",
+    "Exit 1: Pitt Street",
+    "Exit 2: Eddy Ave",
+    "Haymarket",
+    "Inner West Light Rail"
+   ],
+   "kinds": {
+    "light_rail": 21,
+    "subway_entrance": 6,
+    "rail_station": 3
+   },
+   "districtId": "haymarket",
+   "label": "CBD and South East Light Rail"
+  },
+  {
+   "id": "hub/-1,3",
+   "center": [
+    -33.884708,
+    151.207068
+   ],
+   "local": {
+    "x": -86.166,
+    "y": 0.0,
+    "z": 1299.788
+   },
+   "stopCount": 26,
+   "stopNames": [
+    "CBD and South East Light Rail",
+    "Central Chalmers Street",
+    "Down Sydney Metro City & Southwest",
+    "Exit 5: Chalmers Street",
+    "Exit 6: Chalmers Street",
+    "Exit 7: Railway Sq",
+    "Up Sydney Metro City & Southwest"
+   ],
+   "kinds": {
+    "light_rail": 20,
+    "subway_entrance": 5,
+    "rail_station": 1
+   },
+   "districtId": "surry-hills",
+   "label": "CBD and South East Light Rail"
+  },
+  {
+   "id": "hub/0,-4",
+   "center": [
+    -33.861113,
+    151.210038
+   ],
+   "local": {
+    "x": 188.437,
+    "y": 0.0,
+    "z": -1319.646
+   },
+   "stopCount": 25,
+   "stopNames": [
+    "CBD and South East Light Rail",
+    "Circular Quay",
+    "Circular Quay 2A",
+    "Circular Quay 2B",
+    "Circular Quay 3A",
+    "Circular Quay 3B",
+    "Circular Quay 4A",
+    "Circular Quay 4B"
+   ],
+   "kinds": {
+    "light_rail": 13,
+    "ferry_terminal": 10,
+    "rail_station": 2
+   },
+   "districtId": "circular-quay",
+   "label": "CBD and South East Light Rail"
+  },
+  {
+   "id": "hub/-1,-3",
+   "center": [
+    -33.864586,
+    151.20638
+   ],
+   "local": {
+    "x": -149.807,
+    "y": 0.0,
+    "z": -934.093
+   },
+   "stopCount": 21,
+   "stopNames": [
+    "Bridge Street",
+    "CBD and South East Light Rail",
+    "Down Sydney Metro City & Southwest",
+    "MetCentre",
+    "Up Sydney Metro City & Southwest",
+    "Wynyard"
+   ],
+   "kinds": {
+    "subway_entrance": 12,
+    "light_rail": 8,
+    "rail_station": 1
+   },
+   "districtId": "cbd-core",
+   "label": "Bridge Street"
+  },
+  {
+   "id": "hub/3,5",
+   "center": [
+    -33.892815,
+    151.221595
+   ],
+   "local": {
+    "x": 1257.02,
+    "y": 0.0,
+    "z": 2199.816
+   },
+   "stopCount": 20,
+   "stopNames": [
+    "CBD and South East Light Rail",
+    "Moore Park"
+   ],
+   "kinds": {
+    "light_rail": 19,
+    "rail_station": 1
+   },
+   "districtId": "redfern",
+   "label": "CBD and South East Light Rail"
+  },
+  {
+   "id": "hub/-1,1",
+   "center": [
+    -33.879573,
+    151.205833
+   ],
+   "local": {
+    "x": -200.386,
+    "y": 0.0,
+    "z": 729.701
+   },
+   "stopCount": 18,
+   "stopNames": [
+    "CBD and South East Light Rail",
+    "Capitol Square",
+    "Chinatown",
+    "Down Sydney Metro City & Southwest",
+    "Inner West Light Rail"
+   ],
+   "kinds": {
+    "light_rail": 16,
+    "rail_station": 2
+   },
+   "districtId": "haymarket",
+   "label": "CBD and South East Light Rail"
+  },
+  {
+   "id": "hub/2,4",
+   "center": [
+    -33.890076,
+    151.218085
+   ],
+   "local": {
+    "x": 932.496,
+    "y": 0.0,
+    "z": 1895.811
+   },
+   "stopCount": 17,
+   "stopNames": [
+    "CBD and South East Light Rail"
+   ],
+   "kinds": {
+    "light_rail": 17
+   },
+   "districtId": "redfern",
+   "label": "CBD and South East Light Rail"
+  },
+  {
+   "id": "hub/0,-2",
+   "center": [
+    -33.867446,
+    151.210665
+   ],
+   "local": {
+    "x": 246.371,
+    "y": 0.0,
+    "z": -616.548
+   },
+   "stopCount": 16,
+   "stopNames": [
+    "Castlereagh Street South",
+    "Down Sydney Metro City & Southwest",
+    "Elizabath Street South",
+    "Hunter Street",
+    "Martin Place",
+    "Martin Place Exit 1: Macquarie Street",
+    "Martin Place Exit 2: Phillip Street South",
+    "Martin Place Exit 3: Phillip Street North"
+   ],
+   "kinds": {
+    "subway_entrance": 10,
+    "light_rail": 4,
+    "rail_station": 2
+   },
+   "districtId": "cbd-core",
+   "label": "Castlereagh Street South"
+  },
+  {
+   "id": "hub/-1,0",
+   "center": [
+    -33.874041,
+    151.206835
+   ],
+   "local": {
+    "x": -107.683,
+    "y": 0.0,
+    "z": 115.603
+   },
+   "stopCount": 14,
+   "stopNames": [
+    "CBD and South East Light Rail",
+    "Town Hall",
+    "Town Hall Square Mall"
+   ],
+   "kinds": {
+    "subway_entrance": 7,
+    "light_rail": 5,
+    "rail_station": 2
+   },
+   "districtId": "haymarket",
+   "label": "CBD and South East Light Rail"
+  },
+  {
+   "id": "hub/-2,-2",
+   "center": [
+    -33.867415,
+    151.201107
+   ],
+   "local": {
+    "x": -637.363,
+    "y": 0.0,
+    "z": -620.023
+   },
+   "stopCount": 10,
+   "stopNames": [
+    "Darling Harbour Wharf 1",
+    "Darling Harbour Wharf 3",
+    "Darling Harbour Wharf 9",
+    "Darling Harbour, King St Wharf 2",
+    "Darling Harbour, King St Wharf 4",
+    "Darling Harbour, King St Wharf 5",
+    "Darling Harbour, King St Wharf 6",
+    "Darling Harbour, King St Wharf 7"
+   ],
+   "kinds": {
+    "ferry_terminal": 9,
+    "rail_station": 1
+   },
+   "districtId": "pyrmont",
+   "label": "Darling Harbour Wharf 1"
+  },
+  {
+   "id": "hub/0,-1",
+   "center": [
+    -33.87031,
+    151.21076
+   ],
+   "local": {
+    "x": 255.176,
+    "y": 0.0,
+    "z": -298.675
+   },
+   "stopCount": 7,
+   "stopNames": [
+    "Down Sydney Metro City & Southwest",
+    "St James",
+    "Up Sydney Metro City & Southwest"
+   ],
+   "kinds": {
+    "subway_entrance": 4,
+    "light_rail": 2,
+    "rail_station": 1
+   },
+   "districtId": "hyde-park",
+   "label": "Down Sydney Metro City & Southwest"
+  },
+  {
+   "id": "hub/-2,-5",
+   "center": [
+    -33.85753,
+    151.202503
+   ],
+   "local": {
+    "x": -508.237,
+    "y": 0.0,
+    "z": -1717.493
+   },
+   "stopCount": 6,
+   "stopNames": [
+    "Down Sydney Metro City & Southwest",
+    "Sydney Metro City & Southwest",
+    "Up Sydney Metro City & Southwest"
+   ],
+   "kinds": {
+    "light_rail": 6
+   },
+   "districtId": "walsh-bay",
+   "label": "Down Sydney Metro City & Southwest"
+  },
+  {
+   "id": "hub/3,0",
+   "center": [
+    -33.874258,
+    151.222401
+   ],
+   "local": {
+    "x": 1331.515,
+    "y": 0.0,
+    "z": 139.663
+   },
+   "stopCount": 5,
+   "stopNames": [
+    "Darlinghurst Road",
+    "Kings Cross",
+    "Victoria Street East",
+    "Victoria Street West"
+   ],
+   "kinds": {
+    "subway_entrance": 4,
+    "rail_station": 1
+   },
+   "districtId": "kings-cross",
+   "label": "Darlinghurst Road"
+  },
+  {
+   "id": "hub/-1,-2",
+   "center": [
+    -33.866355,
+    151.206898
+   ],
+   "local": {
+    "x": -101.872,
+    "y": 0.0,
+    "z": -737.748
+   },
+   "stopCount": 5,
+   "stopNames": [
+    "CBD and South East Light Rail",
+    "Wynyard"
+   ],
+   "kinds": {
+    "rail_station": 2,
+    "light_rail": 2,
+    "subway_entrance": 1
+   },
+   "districtId": "cbd-core",
+   "label": "CBD and South East Light Rail"
+  },
+  {
+   "id": "hub/-3,-2",
+   "center": [
+    -33.868076,
+    151.196627
+   ],
+   "local": {
+    "x": -1051.509,
+    "y": 0.0,
+    "z": -546.639
+   },
+   "stopCount": 5,
+   "stopNames": [
+    "Casino Wharf",
+    "Inner West Light Rail",
+    "Pyrmont Bay Wharf",
+    "The Star"
+   ],
+   "kinds": {
+    "ferry_terminal": 2,
+    "light_rail": 2,
+    "rail_station": 1
+   },
+   "districtId": "pyrmont",
+   "label": "Casino Wharf"
+  },
+  {
+   "id": "hub/-2,1",
+   "center": [
+    -33.878734,
+    151.20099
+   ],
+   "local": {
+    "x": -648.144,
+    "y": 0.0,
+    "z": 636.609
+   },
+   "stopCount": 5,
+   "stopNames": [
+    "Exhibition Centre",
+    "Inner West Light Rail",
+    "Paddy's Markets"
+   ],
+   "kinds": {
+    "light_rail": 3,
+    "rail_station": 2
+   },
+   "districtId": "haymarket",
+   "label": "Exhibition Centre"
+  },
+  {
+   "id": "hub/0,0",
+   "center": [
+    -33.874454,
+    151.209127
+   ],
+   "local": {
+    "x": 104.239,
+    "y": 0.0,
+    "z": 161.378
+   },
+   "stopCount": 5,
+   "stopNames": [
+    "Gadigal",
+    "Gadigal Station",
+    "Museum"
+   ],
+   "kinds": {
+    "subway_entrance": 3,
+    "rail_station": 2
+   },
+   "districtId": "cbd-core",
+   "label": "Gadigal"
+  },
+  {
+   "id": "hub/0,2",
+   "center": [
+    -33.88345,
+    151.208072
+   ],
+   "local": {
+    "x": 6.634,
+    "y": 0.0,
+    "z": 1160.128
+   },
+   "stopCount": 4,
+   "stopNames": [
+    "CBD and South East Light Rail",
+    "Exit 3: Elizabeth Street"
+   ],
+   "kinds": {
+    "light_rail": 3,
+    "subway_entrance": 1
+   },
+   "districtId": "surry-hills",
+   "label": "CBD and South East Light Rail"
+  },
+  {
+   "id": "hub/-2,-3",
+   "center": [
+    -33.864574,
+    151.200437
+   ],
+   "local": {
+    "x": -699.251,
+    "y": 0.0,
+    "z": -935.424
+   },
+   "stopCount": 4,
+   "stopNames": [
+    "Barangaroo, Wharf 1, Sida A",
+    "Barangaroo, Wharf 1, Side B",
+    "Barangaroo, Wharf 2, Side A",
+    "Barangaroo, Wharf 2, Side B"
+   ],
+   "kinds": {
+    "ferry_terminal": 4
+   },
+   "districtId": "barangaroo",
+   "label": "Barangaroo, Wharf 1, Sida A"
+  },
+  {
+   "id": "hub/-2,-4",
+   "center": [
+    -33.859799,
+    151.202555
+   ],
+   "local": {
+    "x": -503.467,
+    "y": 0.0,
+    "z": -1465.598
+   },
+   "stopCount": 4,
+   "stopNames": [
+    "Barangaroo",
+    "Down Sydney Metro City & Southwest",
+    "Hickson Road",
+    "Up Sydney Metro City & Southwest"
+   ],
+   "kinds": {
+    "light_rail": 2,
+    "subway_entrance": 1,
+    "rail_station": 1
+   },
+   "districtId": "barangaroo",
+   "label": "Barangaroo"
+  },
+  {
+   "id": "hub/3,6",
+   "center": [
+    -33.895228,
+    151.222026
+   ],
+   "local": {
+    "x": 1296.842,
+    "y": 0.0,
+    "z": 2467.745
+   },
+   "stopCount": 4,
+   "stopNames": [
+    "CBD and South East Light Rail"
+   ],
+   "kinds": {
+    "light_rail": 4
+   },
+   "districtId": "redfern",
+   "label": "CBD and South East Light Rail"
+  },
+  {
+   "id": "hub/0,1",
+   "center": [
+    -33.877676,
+    151.209154
+   ],
+   "local": {
+    "x": 106.73,
+    "y": 0.0,
+    "z": 519.165
+   },
+   "stopCount": 3,
+   "stopNames": [
+    "Museum",
+    "Up Sydney Metro City & Southwest"
+   ],
+   "kinds": {
+    "subway_entrance": 2,
+    "light_rail": 1
+   },
+   "districtId": "haymarket",
+   "label": "Museum"
+  },
+  {
+   "id": "hub/-3,-1",
+   "center": [
+    -33.870571,
+    151.198023
+   ],
+   "local": {
+    "x": -922.472,
+    "y": 0.0,
+    "z": -269.63
+   },
+   "stopCount": 3,
+   "stopNames": [
+    "Convention",
+    "Maritime Museum (389 terminus)",
+    "Pyrmont Bay"
+   ],
+   "kinds": {
+    "rail_station": 3
+   },
+   "districtId": "darling-harbour",
+   "label": "Convention"
+  },
+  {
+   "id": "hub/0,3",
+   "center": [
+    -33.885036,
+    151.208758
+   ],
+   "local": {
+    "x": 70.085,
+    "y": 0.0,
+    "z": 1336.233
+   },
+   "stopCount": 3,
+   "stopNames": [
+    "CBD and South East Light Rail",
+    "Exit 4: Eastern Stairs"
+   ],
+   "kinds": {
+    "light_rail": 2,
+    "subway_entrance": 1
+   },
+   "districtId": "surry-hills",
+   "label": "CBD and South East Light Rail"
+  },
+  {
+   "id": "hub/-1,-1",
+   "center": [
+    -33.870741,
+    151.206979
+   ],
+   "local": {
+    "x": -94.402,
+    "y": 0.0,
+    "z": -250.83
+   },
+   "stopCount": 3,
+   "stopNames": [
+    "CBD and South East Light Rail",
+    "QVB"
+   ],
+   "kinds": {
+    "light_rail": 2,
+    "rail_station": 1
+   },
+   "districtId": "cbd-core",
+   "label": "CBD and South East Light Rail"
+  }
+ ]
+}

@@ -1,0 +1,2510 @@
+{
+ "generatedAt": "2026-09-29T17:49:21+00:00",
+ "evidenceLayer": "ai-interpretation",
+ "warning": "Everything in this file is interpretation layered on top of the measured data. It is a starting point for a world designer, not geographic truth.",
+ "urbanPatterns": [
+  {
+   "pattern": "harbour-wrapped core",
+   "observation": "The CBD is bounded by water on three sides; the road network funnels through a small number of crossings.",
+   "evidence": {
+    "namedBridges": 58,
+    "largestWaterBodies": {
+     "water_body": 89,
+     "beach": 16,
+     "stream": 8,
+     "bay": 5,
+     "dock": 2,
+     "river": 1
+    }
+   }
+  },
+  {
+   "pattern": "radial arterials into a compressed core",
+   "observation": "Arterials converge on the CBD and drop to local/service streets inside the grid.",
+   "evidence": {
+    "arterialCount": 1641,
+    "serviceAndLocalWays": 3371
+   }
+  },
+  {
+   "pattern": "nightlife belt east and south of the core",
+   "observation": "Nightlife clusters are concentrated in the eastern inner suburbs, not in the CBD itself.",
+   "evidence": {
+    "clusterCount": 41,
+    "topClusterVenues": 40
+   }
+  },
+  {
+   "pattern": "green anchors rather than a green network",
+   "observation": "Open space is concentrated in a few large parks (Royal Botanic Garden, Hyde Park, Centennial Park) with little connective green space between them.",
+   "evidence": {
+    "largestParks": [
+     "Sydney Harbour National Park",
+     "Centennial Park",
+     "Moore Park Golf",
+     "Royal Botanic Garden",
+     null
+    ]
+   }
+  }
+ ],
+ "districtCandidates": [
+  {
+   "id": "cbd-core",
+   "realName": "Sydney CBD",
+   "measured": {
+    "arterialRoadKm": 7.39,
+    "allRoadKm": 19.75,
+    "parkAreaKm2": 0.012,
+    "venuesPerKm2": 863.4,
+    "nightlifePerKm2": 133.3
+   },
+   "counts": {
+    "venues": 1062,
+    "nightlifeVenues": 164,
+    "shops": 86,
+    "food": 261,
+    "lodging": 27,
+    "civic": 29,
+    "transport": 197,
+    "parks": 33,
+    "transitStops": 52,
+    "landmarks": 13,
+    "waterBodies": 4
+   },
+   "suggestedRole": [
+    "COMMERCIAL",
+    "MEDICAL",
+    "NIGHTLIFE",
+    "PARK",
+    "RESIDENTIAL",
+    "TOURIST",
+    "WATERFRONT"
+   ]
+  },
+  {
+   "id": "barangaroo",
+   "realName": "Barangaroo",
+   "measured": {
+    "arterialRoadKm": 2.84,
+    "allRoadKm": 10.55,
+    "parkAreaKm2": 0.019,
+    "venuesPerKm2": 494.2,
+    "nightlifePerKm2": 61.8
+   },
+   "counts": {
+    "venues": 296,
+    "nightlifeVenues": 37,
+    "shops": 15,
+    "food": 77,
+    "lodging": 5,
+    "civic": 15,
+    "transport": 83,
+    "parks": 41,
+    "transitStops": 16,
+    "landmarks": 5,
+    "waterBodies": 2
+   },
+   "suggestedRole": [
+    "COMMERCIAL",
+    "NIGHTLIFE",
+    "PARK",
+    "WATERFRONT"
+   ]
+  },
+  {
+   "id": "the-rocks",
+   "realName": "The Rocks",
+   "measured": {
+    "arterialRoadKm": 13.8,
+    "allRoadKm": 25.11,
+    "parkAreaKm2": 0.148,
+    "venuesPerKm2": 157.2,
+    "nightlifePerKm2": 35.6
+   },
+   "counts": {
+    "venues": 380,
+    "nightlifeVenues": 86,
+    "shops": 22,
+    "food": 81,
+    "lodging": 11,
+    "civic": 19,
+    "transport": 75,
+    "parks": 115,
+    "transitStops": 6,
+    "landmarks": 28,
+    "waterBodies": 2
+   },
+   "suggestedRole": [
+    "PARK",
+    "WATERFRONT"
+   ]
+  },
+  {
+   "id": "circular-quay",
+   "realName": "Circular Quay",
+   "measured": {
+    "arterialRoadKm": 0.74,
+    "allRoadKm": 12.27,
+    "parkAreaKm2": 0.082,
+    "venuesPerKm2": 328.8,
+    "nightlifePerKm2": 67.0
+   },
+   "counts": {
+    "venues": 314,
+    "nightlifeVenues": 64,
+    "shops": 17,
+    "food": 104,
+    "lodging": 6,
+    "civic": 8,
+    "transport": 43,
+    "parks": 41,
+    "transitStops": 37,
+    "landmarks": 14,
+    "waterBodies": 9
+   },
+   "suggestedRole": [
+    "COMMERCIAL",
+    "NIGHTLIFE",
+    "PARK",
+    "WATERFRONT"
+   ]
+  },
+  {
+   "id": "walsh-bay",
+   "realName": "Walsh Bay",
+   "measured": {
+    "arterialRoadKm": 2.35,
+    "allRoadKm": 2.83,
+    "parkAreaKm2": 0.365,
+    "venuesPerKm2": 45.8,
+    "nightlifePerKm2": 2.9
+   },
+   "counts": {
+    "venues": 187,
+    "nightlifeVenues": 12,
+    "shops": 3,
+    "food": 12,
+    "lodging": 0,
+    "civic": 4,
+    "transport": 60,
+    "parks": 104,
+    "transitStops": 15,
+    "landmarks": 21,
+    "waterBodies": 16
+   },
+   "suggestedRole": [
+    "PARK",
+    "WATERFRONT"
+   ]
+  },
+  {
+   "id": "woolloomooloo",
+   "realName": "Woolloomooloo",
+   "measured": {
+    "arterialRoadKm": 7.65,
+    "allRoadKm": 24.54,
+    "parkAreaKm2": 0.138,
+    "venuesPerKm2": 195.2,
+    "nightlifePerKm2": 51.3
+   },
+   "counts": {
+    "venues": 179,
+    "nightlifeVenues": 47,
+    "shops": 5,
+    "food": 35,
+    "lodging": 9,
+    "civic": 14,
+    "transport": 25,
+    "parks": 71,
+    "transitStops": 0,
+    "landmarks": 6,
+    "waterBodies": 6
+   },
+   "suggestedRole": [
+    "NIGHTLIFE",
+    "PARK",
+    "WATERFRONT"
+   ]
+  },
+  {
+   "id": "darling-harbour",
+   "realName": "Darling Harbour",
+   "measured": {
+    "arterialRoadKm": 8.79,
+    "allRoadKm": 30.75,
+    "parkAreaKm2": 0.233,
+    "venuesPerKm2": 138.3,
+    "nightlifePerKm2": 14.4
+   },
+   "counts": {
+    "venues": 241,
+    "nightlifeVenues": 25,
+    "shops": 15,
+    "food": 71,
+    "lodging": 7,
+    "civic": 11,
+    "transport": 38,
+    "parks": 71,
+    "transitStops": 98,
+    "landmarks": 13,
+    "waterBodies": 7
+   },
+   "suggestedRole": [
+    "PARK",
+    "WATERFRONT"
+   ]
+  },
+  {
+   "id": "pyrmont",
+   "realName": "Pyrmont",
+   "measured": {
+    "arterialRoadKm": 0.14,
+    "allRoadKm": 9.35,
+    "parkAreaKm2": 0.108,
+    "venuesPerKm2": 79.4,
+    "nightlifePerKm2": 10.1
+   },
+   "counts": {
+    "venues": 110,
+    "nightlifeVenues": 14,
+    "shops": 4,
+    "food": 33,
+    "lodging": 1,
+    "civic": 3,
+    "transport": 16,
+    "parks": 49,
+    "transitStops": 26,
+    "landmarks": 7,
+    "waterBodies": 2
+   },
+   "suggestedRole": [
+    "PARK",
+    "WATERFRONT"
+   ]
+  },
+  {
+   "id": "haymarket",
+   "realName": "Haymarket",
+   "measured": {
+    "arterialRoadKm": 9.25,
+    "allRoadKm": 34.26,
+    "parkAreaKm2": 0.072,
+    "venuesPerKm2": 525.7,
+    "nightlifePerKm2": 101.2
+   },
+   "counts": {
+    "venues": 951,
+    "nightlifeVenues": 183,
+    "shops": 78,
+    "food": 333,
+    "lodging": 42,
+    "civic": 33,
+    "transport": 138,
+    "parks": 77,
+    "transitStops": 103,
+    "landmarks": 15,
+    "waterBodies": 10
+   },
+   "suggestedRole": [
+    "CIVIC",
+    "COMMERCIAL",
+    "NIGHTLIFE",
+    "PARK",
+    "TOURIST",
+    "WATERFRONT"
+   ]
+  },
+  {
+   "id": "ultimo",
+   "realName": "Ultimo",
+   "measured": {
+    "arterialRoadKm": 17.97,
+    "allRoadKm": 66.38,
+    "parkAreaKm2": 0.299,
+    "venuesPerKm2": 241.1,
+    "nightlifePerKm2": 35.5
+   },
+   "counts": {
+    "venues": 1073,
+    "nightlifeVenues": 158,
+    "shops": 73,
+    "food": 262,
+    "lodging": 24,
+    "civic": 70,
+    "transport": 232,
+    "parks": 272,
+    "transitStops": 12,
+    "landmarks": 41,
+    "waterBodies": 2
+   },
+   "suggestedRole": [
+    "CIVIC",
+    "PARK",
+    "TOURIST",
+    "WATERFRONT"
+   ]
+  },
+  {
+   "id": "kings-cross",
+   "realName": "Kings Cross",
+   "measured": {
+    "arterialRoadKm": 5.12,
+    "allRoadKm": 27.47,
+    "parkAreaKm2": 0.155,
+    "venuesPerKm2": 293.6,
+    "nightlifePerKm2": 47.6
+   },
+   "counts": {
+    "venues": 574,
+    "nightlifeVenues": 93,
+    "shops": 29,
+    "food": 142,
+    "lodging": 28,
+    "civic": 31,
+    "transport": 51,
+    "parks": 70,
+    "transitStops": 5,
+    "landmarks": 5,
+    "waterBodies": 6
+   },
+   "suggestedRole": [
+    "CIVIC",
+    "NIGHTLIFE",
+    "PARK",
+    "TOURIST",
+    "WATERFRONT"
+   ]
+  },
+  {
+   "id": "potts-point",
+   "realName": "Potts Point",
+   "measured": {
+    "arterialRoadKm": 1.38,
+    "allRoadKm": 7.52,
+    "parkAreaKm2": 4.08,
+    "venuesPerKm2": 19.8,
+    "nightlifePerKm2": 3.8
+   },
+   "counts": {
+    "venues": 21,
+    "nightlifeVenues": 4,
+    "shops": 0,
+    "food": 1,
+    "lodging": 0,
+    "civic": 0,
+    "transport": 7,
+    "parks": 59,
+    "transitStops": 6,
+    "landmarks": 7,
+    "waterBodies": 6
+   },
+   "suggestedRole": [
+    "PARK",
+    "WATERFRONT"
+   ]
+  },
+  {
+   "id": "surry-hills",
+   "realName": "Surry Hills",
+   "measured": {
+    "arterialRoadKm": 10.59,
+    "allRoadKm": 43.1,
+    "parkAreaKm2": 0.191,
+    "venuesPerKm2": 175.8,
+    "nightlifePerKm2": 36.6
+   },
+   "counts": {
+    "venues": 523,
+    "nightlifeVenues": 109,
+    "shops": 35,
+    "food": 159,
+    "lodging": 7,
+    "civic": 35,
+    "transport": 99,
+    "parks": 77,
+    "transitStops": 39,
+    "landmarks": 13,
+    "waterBodies": 1
+   },
+   "suggestedRole": [
+    "CIVIC",
+    "PARK",
+    "WATERFRONT"
+   ]
+  },
+  {
+   "id": "kingsford",
+   "realName": "Kingsford",
+   "measured": {
+    "arterialRoadKm": 9.01,
+    "allRoadKm": 32.58,
+    "parkAreaKm2": 0.121,
+    "venuesPerKm2": 85.1,
+    "nightlifePerKm2": 10.9
+   },
+   "counts": {
+    "venues": 218,
+    "nightlifeVenues": 28,
+    "shops": 13,
+    "food": 42,
+    "lodging": 2,
+    "civic": 12,
+    "transport": 24,
+    "parks": 37,
+    "transitStops": 0,
+    "landmarks": 6,
+    "waterBodies": 0
+   },
+   "suggestedRole": [
+    "PARK",
+    "WATERFRONT"
+   ]
+  },
+  {
+   "id": "darlinghurst",
+   "realName": "Darlinghurst",
+   "measured": {
+    "arterialRoadKm": 11.9,
+    "allRoadKm": 32.36,
+    "parkAreaKm2": 0.034,
+    "venuesPerKm2": 335.7,
+    "nightlifePerKm2": 92.5
+   },
+   "counts": {
+    "venues": 526,
+    "nightlifeVenues": 145,
+    "shops": 30,
+    "food": 155,
+    "lodging": 11,
+    "civic": 30,
+    "transport": 50,
+    "parks": 51,
+    "transitStops": 0,
+    "landmarks": 8,
+    "waterBodies": 2
+   },
+   "suggestedRole": [
+    "CIVIC",
+    "COMMERCIAL",
+    "NIGHTLIFE",
+    "PARK",
+    "WATERFRONT"
+   ]
+  },
+  {
+   "id": "redfern",
+   "realName": "Redfern",
+   "measured": {
+    "arterialRoadKm": 7.81,
+    "allRoadKm": 28.05,
+    "parkAreaKm2": 2.841,
+    "venuesPerKm2": 57.5,
+    "nightlifePerKm2": 5.3
+   },
+   "counts": {
+    "venues": 108,
+    "nightlifeVenues": 10,
+    "shops": 3,
+    "food": 27,
+    "lodging": 0,
+    "civic": 12,
+    "transport": 29,
+    "parks": 47,
+    "transitStops": 41,
+    "landmarks": 2,
+    "waterBodies": 1
+   },
+   "suggestedRole": [
+    "PARK",
+    "WATERFRONT"
+   ]
+  },
+  {
+   "id": "hyde-park",
+   "realName": "Hyde Park",
+   "measured": {
+    "arterialRoadKm": 4.26,
+    "allRoadKm": 9.52,
+    "parkAreaKm2": 0.474,
+    "venuesPerKm2": 173.9,
+    "nightlifePerKm2": 2.6
+   },
+   "counts": {
+    "venues": 136,
+    "nightlifeVenues": 2,
+    "shops": 3,
+    "food": 19,
+    "lodging": 0,
+    "civic": 16,
+    "transport": 50,
+    "parks": 104,
+    "transitStops": 8,
+    "landmarks": 13,
+    "waterBodies": 18
+   },
+   "suggestedRole": [
+    "PARK",
+    "WATERFRONT"
+   ]
+  },
+  {
+   "id": "botanic-garden",
+   "realName": "Royal Botanic Garden",
+   "measured": {
+    "arterialRoadKm": 3.46,
+    "allRoadKm": 7.94,
+    "parkAreaKm2": 0.478,
+    "venuesPerKm2": 133.1,
+    "nightlifePerKm2": 9.5
+   },
+   "counts": {
+    "venues": 126,
+    "nightlifeVenues": 9,
+    "shops": 1,
+    "food": 7,
+    "lodging": 0,
+    "civic": 4,
+    "transport": 16,
+    "parks": 89,
+    "transitStops": 0,
+    "landmarks": 9,
+    "waterBodies": 18
+   },
+   "suggestedRole": [
+    "PARK",
+    "WATERFRONT"
+   ]
+  },
+  {
+   "id": "centennial-park",
+   "realName": "Centennial Park",
+   "measured": {
+    "arterialRoadKm": 7.06,
+    "allRoadKm": 24.85,
+    "parkAreaKm2": 0.106,
+    "venuesPerKm2": 68.3,
+    "nightlifePerKm2": 5.2
+   },
+   "counts": {
+    "venues": 132,
+    "nightlifeVenues": 10,
+    "shops": 3,
+    "food": 14,
+    "lodging": 3,
+    "civic": 10,
+    "transport": 22,
+    "parks": 77,
+    "transitStops": 0,
+    "landmarks": 1,
+    "waterBodies": 0
+   },
+   "suggestedRole": [
+    "PARK",
+    "WATERFRONT"
+   ]
+  }
+ ],
+ "nightlifeClusters": [
+  {
+   "id": "cluster/3,0",
+   "center": [
+    -33.874518,
+    151.223328
+   ],
+   "local": {
+    "x": 1417.214,
+    "y": 0.0,
+    "z": 168.533
+   },
+   "cellSizeM": 400.0,
+   "venueCount": 40,
+   "venuesPerKm2": 250.0,
+   "byCategory": {
+    "bar": 13,
+    "hotel": 7,
+    "hostel": 6,
+    "pub": 4,
+    "alcohol": 3,
+    "sauna": 2,
+    "wine": 2,
+    "cinema": 1,
+    "nightclub": 1,
+    "theatre": 1
+   },
+   "districtId": "kings-cross"
+  },
+  {
+   "id": "cluster/-1,1",
+   "center": [
+    -33.878377,
+    151.206208
+   ],
+   "local": {
+    "x": -165.704,
+    "y": 0.0,
+    "z": 596.9
+   },
+   "cellSizeM": 400.0,
+   "venueCount": 34,
+   "venuesPerKm2": 212.5,
+   "byCategory": {
+    "pub": 13,
+    "hotel": 10,
+    "amusement_arcade": 2,
+    "hostel": 2,
+    "alcohol": 2,
+    "bar": 1,
+    "nightclub": 1,
+    "theatre": 1,
+    "gallery": 1,
+    "beverages": 1
+   },
+   "districtId": "haymarket"
+  },
+  {
+   "id": "cluster/-1,0",
+   "center": [
+    -33.87507,
+    151.206137
+   ],
+   "local": {
+    "x": -172.23,
+    "y": 0.0,
+    "z": 229.828
+   },
+   "cellSizeM": 400.0,
+   "venueCount": 33,
+   "venuesPerKm2": 206.2,
+   "byCategory": {
+    "hotel": 9,
+    "pub": 7,
+    "bar": 5,
+    "hostel": 3,
+    "amusement_arcade": 3,
+    "alcohol": 2,
+    "nightclub": 1,
+    "cinema": 1,
+    "theatre": 1,
+    "wine": 1
+   },
+   "districtId": "haymarket"
+  },
+  {
+   "id": "cluster/-1,-1",
+   "center": [
+    -33.870905,
+    151.205693
+   ],
+   "local": {
+    "x": -213.341,
+    "y": 0.0,
+    "z": -232.575
+   },
+   "cellSizeM": 400.0,
+   "venueCount": 31,
+   "venuesPerKm2": 193.7,
+   "byCategory": {
+    "bar": 15,
+    "hotel": 7,
+    "pub": 5,
+    "theatre": 2,
+    "gallery": 1,
+    "alcohol": 1
+   },
+   "districtId": "cbd-core"
+  },
+  {
+   "id": "cluster/-1,-2",
+   "center": [
+    -33.867691,
+    151.20572
+   ],
+   "local": {
+    "x": -210.815,
+    "y": 0.0,
+    "z": -589.415
+   },
+   "cellSizeM": 400.0,
+   "venueCount": 29,
+   "venuesPerKm2": 181.2,
+   "byCategory": {
+    "bar": 15,
+    "pub": 7,
+    "hotel": 4,
+    "theatre": 2,
+    "alcohol": 1
+   },
+   "districtId": "cbd-core"
+  },
+  {
+   "id": "cluster/0,1",
+   "center": [
+    -33.878746,
+    151.210261
+   ],
+   "local": {
+    "x": 209.07,
+    "y": 0.0,
+    "z": 637.923
+   },
+   "cellSizeM": 400.0,
+   "venueCount": 26,
+   "venuesPerKm2": 162.5,
+   "byCategory": {
+    "bar": 11,
+    "hotel": 7,
+    "pub": 4,
+    "cinema": 1,
+    "hostel": 1,
+    "gallery": 1,
+    "alcohol": 1
+   },
+   "districtId": "haymarket"
+  },
+  {
+   "id": "cluster/-2,3",
+   "center": [
+    -33.885177,
+    151.20156
+   ],
+   "local": {
+    "x": -595.457,
+    "y": 0.0,
+    "z": 1351.855
+   },
+   "cellSizeM": 400.0,
+   "venueCount": 25,
+   "venuesPerKm2": 156.2,
+   "byCategory": {
+    "bar": 10,
+    "gallery": 5,
+    "hotel": 5,
+    "pub": 2,
+    "alcohol": 2,
+    "cinema": 1
+   },
+   "districtId": "ultimo"
+  },
+  {
+   "id": "cluster/1,1",
+   "center": [
+    -33.878915,
+    151.214886
+   ],
+   "local": {
+    "x": 636.683,
+    "y": 0.0,
+    "z": 656.677
+   },
+   "cellSizeM": 400.0,
+   "venueCount": 24,
+   "venuesPerKm2": 150.0,
+   "byCategory": {
+    "bar": 9,
+    "nightclub": 5,
+    "alcohol": 4,
+    "pub": 3,
+    "theatre": 1,
+    "sauna": 1,
+    "hotel": 1
+   },
+   "districtId": "darlinghurst"
+  },
+  {
+   "id": "cluster/0,-3",
+   "center": [
+    -33.863734,
+    151.20963
+   ],
+   "local": {
+    "x": 150.69,
+    "y": 0.0,
+    "z": -1028.743
+   },
+   "cellSizeM": 400.0,
+   "venueCount": 19,
+   "venuesPerKm2": 118.7,
+   "byCategory": {
+    "bar": 10,
+    "hotel": 6,
+    "pub": 1,
+    "nightclub": 1,
+    "alcohol": 1
+   },
+   "districtId": "circular-quay"
+  },
+  {
+   "id": "cluster/0,-4",
+   "center": [
+    -33.860191,
+    151.208928
+   ],
+   "local": {
+    "x": 85.798,
+    "y": 0.0,
+    "z": -1422.008
+   },
+   "cellSizeM": 400.0,
+   "venueCount": 18,
+   "venuesPerKm2": 112.5,
+   "byCategory": {
+    "bar": 8,
+    "pub": 4,
+    "gallery": 2,
+    "hotel": 2,
+    "alcohol": 2
+   },
+   "districtId": "the-rocks"
+  },
+  {
+   "id": "cluster/-1,2",
+   "center": [
+    -33.881821,
+    151.204727
+   ],
+   "local": {
+    "x": -302.627,
+    "y": 0.0,
+    "z": 979.297
+   },
+   "cellSizeM": 400.0,
+   "venueCount": 16,
+   "venuesPerKm2": 100.0,
+   "byCategory": {
+    "hostel": 6,
+    "bar": 3,
+    "hotel": 3,
+    "pub": 2,
+    "nightclub": 1,
+    "gallery": 1
+   },
+   "districtId": "haymarket"
+  },
+  {
+   "id": "cluster/1,2",
+   "center": [
+    -33.881403,
+    151.215646
+   ],
+   "local": {
+    "x": 706.914,
+    "y": 0.0,
+    "z": 932.898
+   },
+   "cellSizeM": 400.0,
+   "venueCount": 16,
+   "venuesPerKm2": 100.0,
+   "byCategory": {
+    "bar": 6,
+    "pub": 4,
+    "nightclub": 2,
+    "gallery": 2,
+    "hotel": 1,
+    "alcohol": 1
+   },
+   "districtId": "darlinghurst"
+  },
+  {
+   "id": "cluster/3,-1",
+   "center": [
+    -33.871595,
+    151.223603
+   ],
+   "local": {
+    "x": 1442.686,
+    "y": 0.0,
+    "z": -155.99
+   },
+   "cellSizeM": 400.0,
+   "venueCount": 16,
+   "venuesPerKm2": 100.0,
+   "byCategory": {
+    "hotel": 5,
+    "hostel": 5,
+    "gallery": 2,
+    "alcohol": 2,
+    "pub": 1,
+    "bar": 1
+   },
+   "districtId": "kings-cross"
+  },
+  {
+   "id": "cluster/1,0",
+   "center": [
+    -33.875177,
+    151.2151
+   ],
+   "local": {
+    "x": 656.453,
+    "y": 0.0,
+    "z": 241.705
+   },
+   "cellSizeM": 400.0,
+   "venueCount": 15,
+   "venuesPerKm2": 93.7,
+   "byCategory": {
+    "bar": 7,
+    "pub": 3,
+    "hotel": 3,
+    "nightclub": 1,
+    "gallery": 1
+   },
+   "districtId": "darlinghurst"
+  },
+  {
+   "id": "cluster/0,3",
+   "center": [
+    -33.885002,
+    151.209724
+   ],
+   "local": {
+    "x": 159.444,
+    "y": 0.0,
+    "z": 1332.465
+   },
+   "cellSizeM": 400.0,
+   "venueCount": 15,
+   "venuesPerKm2": 93.7,
+   "byCategory": {
+    "pub": 6,
+    "bar": 4,
+    "alcohol": 3,
+    "hotel": 2
+   },
+   "districtId": "surry-hills"
+  },
+  {
+   "id": "cluster/2,2",
+   "center": [
+    -33.882007,
+    151.218282
+   ],
+   "local": {
+    "x": 950.686,
+    "y": 0.0,
+    "z": 999.922
+   },
+   "cellSizeM": 400.0,
+   "venueCount": 14,
+   "venuesPerKm2": 87.5,
+   "byCategory": {
+    "bar": 4,
+    "pub": 3,
+    "gallery": 3,
+    "nightclub": 1,
+    "hotel": 1,
+    "sauna": 1,
+    "alcohol": 1
+   },
+   "districtId": "darlinghurst"
+  },
+  {
+   "id": "cluster/0,-2",
+   "center": [
+    -33.867964,
+    151.209603
+   ],
+   "local": {
+    "x": 148.199,
+    "y": 0.0,
+    "z": -559.086
+   },
+   "cellSizeM": 400.0,
+   "venueCount": 13,
+   "venuesPerKm2": 81.2,
+   "byCategory": {
+    "bar": 7,
+    "pub": 2,
+    "theatre": 2,
+    "hotel": 1,
+    "alcohol": 1
+   },
+   "districtId": "cbd-core"
+  },
+  {
+   "id": "cluster/-3,3",
+   "center": [
+    -33.884936,
+    151.197435
+   ],
+   "local": {
+    "x": -976.867,
+    "y": 0.0,
+    "z": 1325.096
+   },
+   "cellSizeM": 400.0,
+   "venueCount": 13,
+   "venuesPerKm2": 81.2,
+   "byCategory": {
+    "bar": 4,
+    "pub": 3,
+    "hostel": 2,
+    "hotel": 2,
+    "theatre": 1,
+    "gallery": 1
+   },
+   "districtId": "ultimo"
+  },
+  {
+   "id": "cluster/-2,-2",
+   "center": [
+    -33.867099,
+    151.202378
+   ],
+   "local": {
+    "x": -519.779,
+    "y": 0.0,
+    "z": -655.164
+   },
+   "cellSizeM": 400.0,
+   "venueCount": 12,
+   "venuesPerKm2": 75.0,
+   "byCategory": {
+    "pub": 4,
+    "bar": 3,
+    "hotel": 3,
+    "bowling_alley": 1,
+    "alcohol": 1
+   },
+   "districtId": "barangaroo"
+  },
+  {
+   "id": "cluster/-1,-3",
+   "center": [
+    -33.864308,
+    151.206423
+   ],
+   "local": {
+    "x": -145.84,
+    "y": 0.0,
+    "z": -965.02
+   },
+   "cellSizeM": 400.0,
+   "venueCount": 12,
+   "venuesPerKm2": 75.0,
+   "byCategory": {
+    "hotel": 6,
+    "bar": 3,
+    "pub": 2,
+    "alcohol": 1
+   },
+   "districtId": "circular-quay"
+  },
+  {
+   "id": "cluster/0,2",
+   "center": [
+    -33.88192,
+    151.210192
+   ],
+   "local": {
+    "x": 202.703,
+    "y": 0.0,
+    "z": 990.268
+   },
+   "cellSizeM": 400.0,
+   "venueCount": 12,
+   "venuesPerKm2": 75.0,
+   "byCategory": {
+    "bar": 5,
+    "gallery": 3,
+    "hostel": 2,
+    "pub": 1,
+    "hotel": 1
+   },
+   "districtId": "surry-hills"
+  },
+  {
+   "id": "cluster/-2,5",
+   "center": [
+    -33.892968,
+    151.20054
+   ],
+   "local": {
+    "x": -689.789,
+    "y": 0.0,
+    "z": 2216.887
+   },
+   "cellSizeM": 400.0,
+   "venueCount": 12,
+   "venuesPerKm2": 75.0,
+   "byCategory": {
+    "pub": 5,
+    "bar": 4,
+    "amusement_arcade": 1,
+    "hotel": 1,
+    "gallery": 1
+   },
+   "districtId": "ultimo"
+  },
+  {
+   "id": "cluster/0,-7",
+   "center": [
+    -33.848215,
+    151.210083
+   ],
+   "local": {
+    "x": 192.575,
+    "y": 0.0,
+    "z": -2751.611
+   },
+   "cellSizeM": 400.0,
+   "venueCount": 10,
+   "venuesPerKm2": 62.5,
+   "byCategory": {
+    "amusement_arcade": 8,
+    "bar": 1,
+    "sauna": 1
+   },
+   "districtId": "the-rocks"
+  },
+  {
+   "id": "cluster/-1,-4",
+   "center": [
+    -33.860357,
+    151.206814
+   ],
+   "local": {
+    "x": -109.678,
+    "y": 0.0,
+    "z": -1403.572
+   },
+   "cellSizeM": 400.0,
+   "venueCount": 9,
+   "venuesPerKm2": 56.2,
+   "byCategory": {
+    "pub": 3,
+    "hotel": 3,
+    "nightclub": 1,
+    "gallery": 1,
+    "hostel": 1
+   },
+   "districtId": "the-rocks"
+  },
+  {
+   "id": "cluster/1,3",
+   "center": [
+    -33.884955,
+    151.213885
+   ],
+   "local": {
+    "x": 544.126,
+    "y": 0.0,
+    "z": 1327.265
+   },
+   "cellSizeM": 400.0,
+   "venueCount": 9,
+   "venuesPerKm2": 56.2,
+   "byCategory": {
+    "pub": 5,
+    "bar": 3,
+    "gallery": 1
+   },
+   "districtId": "surry-hills"
+  }
+ ],
+ "transportHubs": [
+  {
+   "id": "hub/-1,2",
+   "center": [
+    -33.881962,
+    151.20654
+   ],
+   "local": {
+    "x": -134.97,
+    "y": 0.0,
+    "z": 994.91
+   },
+   "stopCount": 30,
+   "stopNames": [
+    "CBD and South East Light Rail",
+    "Central",
+    "Central Grand Concourse",
+    "Exit 1: Grand Concourse",
+    "Exit 1: Pitt Street",
+    "Exit 2: Eddy Ave",
+    "Haymarket",
+    "Inner West Light Rail"
+   ],
+   "kinds": {
+    "light_rail": 21,
+    "subway_entrance": 6,
+    "rail_station": 3
+   },
+   "districtId": "haymarket",
+   "label": "CBD and South East Light Rail"
+  },
+  {
+   "id": "hub/-1,3",
+   "center": [
+    -33.884708,
+    151.207068
+   ],
+   "local": {
+    "x": -86.166,
+    "y": 0.0,
+    "z": 1299.788
+   },
+   "stopCount": 26,
+   "stopNames": [
+    "CBD and South East Light Rail",
+    "Central Chalmers Street",
+    "Down Sydney Metro City & Southwest",
+    "Exit 5: Chalmers Street",
+    "Exit 6: Chalmers Street",
+    "Exit 7: Railway Sq",
+    "Up Sydney Metro City & Southwest"
+   ],
+   "kinds": {
+    "light_rail": 20,
+    "subway_entrance": 5,
+    "rail_station": 1
+   },
+   "districtId": "surry-hills",
+   "label": "CBD and South East Light Rail"
+  },
+  {
+   "id": "hub/0,-4",
+   "center": [
+    -33.861113,
+    151.210038
+   ],
+   "local": {
+    "x": 188.437,
+    "y": 0.0,
+    "z": -1319.646
+   },
+   "stopCount": 25,
+   "stopNames": [
+    "CBD and South East Light Rail",
+    "Circular Quay",
+    "Circular Quay 2A",
+    "Circular Quay 2B",
+    "Circular Quay 3A",
+    "Circular Quay 3B",
+    "Circular Quay 4A",
+    "Circular Quay 4B"
+   ],
+   "kinds": {
+    "light_rail": 13,
+    "ferry_terminal": 10,
+    "rail_station": 2
+   },
+   "districtId": "circular-quay",
+   "label": "CBD and South East Light Rail"
+  },
+  {
+   "id": "hub/-1,-3",
+   "center": [
+    -33.864586,
+    151.20638
+   ],
+   "local": {
+    "x": -149.807,
+    "y": 0.0,
+    "z": -934.093
+   },
+   "stopCount": 21,
+   "stopNames": [
+    "Bridge Street",
+    "CBD and South East Light Rail",
+    "Down Sydney Metro City & Southwest",
+    "MetCentre",
+    "Up Sydney Metro City & Southwest",
+    "Wynyard"
+   ],
+   "kinds": {
+    "subway_entrance": 12,
+    "light_rail": 8,
+    "rail_station": 1
+   },
+   "districtId": "cbd-core",
+   "label": "Bridge Street"
+  },
+  {
+   "id": "hub/3,5",
+   "center": [
+    -33.892815,
+    151.221595
+   ],
+   "local": {
+    "x": 1257.02,
+    "y": 0.0,
+    "z": 2199.816
+   },
+   "stopCount": 20,
+   "stopNames": [
+    "CBD and South East Light Rail",
+    "Moore Park"
+   ],
+   "kinds": {
+    "light_rail": 19,
+    "rail_station": 1
+   },
+   "districtId": "redfern",
+   "label": "CBD and South East Light Rail"
+  },
+  {
+   "id": "hub/-1,1",
+   "center": [
+    -33.879573,
+    151.205833
+   ],
+   "local": {
+    "x": -200.386,
+    "y": 0.0,
+    "z": 729.701
+   },
+   "stopCount": 18,
+   "stopNames": [
+    "CBD and South East Light Rail",
+    "Capitol Square",
+    "Chinatown",
+    "Down Sydney Metro City & Southwest",
+    "Inner West Light Rail"
+   ],
+   "kinds": {
+    "light_rail": 16,
+    "rail_station": 2
+   },
+   "districtId": "haymarket",
+   "label": "CBD and South East Light Rail"
+  },
+  {
+   "id": "hub/2,4",
+   "center": [
+    -33.890076,
+    151.218085
+   ],
+   "local": {
+    "x": 932.496,
+    "y": 0.0,
+    "z": 1895.811
+   },
+   "stopCount": 17,
+   "stopNames": [
+    "CBD and South East Light Rail"
+   ],
+   "kinds": {
+    "light_rail": 17
+   },
+   "districtId": "redfern",
+   "label": "CBD and South East Light Rail"
+  },
+  {
+   "id": "hub/0,-2",
+   "center": [
+    -33.867446,
+    151.210665
+   ],
+   "local": {
+    "x": 246.371,
+    "y": 0.0,
+    "z": -616.548
+   },
+   "stopCount": 16,
+   "stopNames": [
+    "Castlereagh Street South",
+    "Down Sydney Metro City & Southwest",
+    "Elizabath Street South",
+    "Hunter Street",
+    "Martin Place",
+    "Martin Place Exit 1: Macquarie Street",
+    "Martin Place Exit 2: Phillip Street South",
+    "Martin Place Exit 3: Phillip Street North"
+   ],
+   "kinds": {
+    "subway_entrance": 10,
+    "light_rail": 4,
+    "rail_station": 2
+   },
+   "districtId": "cbd-core",
+   "label": "Castlereagh Street South"
+  },
+  {
+   "id": "hub/-1,0",
+   "center": [
+    -33.874041,
+    151.206835
+   ],
+   "local": {
+    "x": -107.683,
+    "y": 0.0,
+    "z": 115.603
+   },
+   "stopCount": 14,
+   "stopNames": [
+    "CBD and South East Light Rail",
+    "Town Hall",
+    "Town Hall Square Mall"
+   ],
+   "kinds": {
+    "subway_entrance": 7,
+    "light_rail": 5,
+    "rail_station": 2
+   },
+   "districtId": "haymarket",
+   "label": "CBD and South East Light Rail"
+  },
+  {
+   "id": "hub/-2,-2",
+   "center": [
+    -33.867415,
+    151.201107
+   ],
+   "local": {
+    "x": -637.363,
+    "y": 0.0,
+    "z": -620.023
+   },
+   "stopCount": 10,
+   "stopNames": [
+    "Darling Harbour Wharf 1",
+    "Darling Harbour Wharf 3",
+    "Darling Harbour Wharf 9",
+    "Darling Harbour, King St Wharf 2",
+    "Darling Harbour, King St Wharf 4",
+    "Darling Harbour, King St Wharf 5",
+    "Darling Harbour, King St Wharf 6",
+    "Darling Harbour, King St Wharf 7"
+   ],
+   "kinds": {
+    "ferry_terminal": 9,
+    "rail_station": 1
+   },
+   "districtId": "pyrmont",
+   "label": "Darling Harbour Wharf 1"
+  },
+  {
+   "id": "hub/0,-1",
+   "center": [
+    -33.87031,
+    151.21076
+   ],
+   "local": {
+    "x": 255.176,
+    "y": 0.0,
+    "z": -298.675
+   },
+   "stopCount": 7,
+   "stopNames": [
+    "Down Sydney Metro City & Southwest",
+    "St James",
+    "Up Sydney Metro City & Southwest"
+   ],
+   "kinds": {
+    "subway_entrance": 4,
+    "light_rail": 2,
+    "rail_station": 1
+   },
+   "districtId": "hyde-park",
+   "label": "Down Sydney Metro City & Southwest"
+  },
+  {
+   "id": "hub/-2,-5",
+   "center": [
+    -33.85753,
+    151.202503
+   ],
+   "local": {
+    "x": -508.237,
+    "y": 0.0,
+    "z": -1717.493
+   },
+   "stopCount": 6,
+   "stopNames": [
+    "Down Sydney Metro City & Southwest",
+    "Sydney Metro City & Southwest",
+    "Up Sydney Metro City & Southwest"
+   ],
+   "kinds": {
+    "light_rail": 6
+   },
+   "districtId": "walsh-bay",
+   "label": "Down Sydney Metro City & Southwest"
+  },
+  {
+   "id": "hub/3,0",
+   "center": [
+    -33.874258,
+    151.222401
+   ],
+   "local": {
+    "x": 1331.515,
+    "y": 0.0,
+    "z": 139.663
+   },
+   "stopCount": 5,
+   "stopNames": [
+    "Darlinghurst Road",
+    "Kings Cross",
+    "Victoria Street East",
+    "Victoria Street West"
+   ],
+   "kinds": {
+    "subway_entrance": 4,
+    "rail_station": 1
+   },
+   "districtId": "kings-cross",
+   "label": "Darlinghurst Road"
+  },
+  {
+   "id": "hub/-1,-2",
+   "center": [
+    -33.866355,
+    151.206898
+   ],
+   "local": {
+    "x": -101.872,
+    "y": 0.0,
+    "z": -737.748
+   },
+   "stopCount": 5,
+   "stopNames": [
+    "CBD and South East Light Rail",
+    "Wynyard"
+   ],
+   "kinds": {
+    "rail_station": 2,
+    "light_rail": 2,
+    "subway_entrance": 1
+   },
+   "districtId": "cbd-core",
+   "label": "CBD and South East Light Rail"
+  },
+  {
+   "id": "hub/-3,-2",
+   "center": [
+    -33.868076,
+    151.196627
+   ],
+   "local": {
+    "x": -1051.509,
+    "y": 0.0,
+    "z": -546.639
+   },
+   "stopCount": 5,
+   "stopNames": [
+    "Casino Wharf",
+    "Inner West Light Rail",
+    "Pyrmont Bay Wharf",
+    "The Star"
+   ],
+   "kinds": {
+    "ferry_terminal": 2,
+    "light_rail": 2,
+    "rail_station": 1
+   },
+   "districtId": "pyrmont",
+   "label": "Casino Wharf"
+  },
+  {
+   "id": "hub/-2,1",
+   "center": [
+    -33.878734,
+    151.20099
+   ],
+   "local": {
+    "x": -648.144,
+    "y": 0.0,
+    "z": 636.609
+   },
+   "stopCount": 5,
+   "stopNames": [
+    "Exhibition Centre",
+    "Inner West Light Rail",
+    "Paddy's Markets"
+   ],
+   "kinds": {
+    "light_rail": 3,
+    "rail_station": 2
+   },
+   "districtId": "haymarket",
+   "label": "Exhibition Centre"
+  },
+  {
+   "id": "hub/0,0",
+   "center": [
+    -33.874454,
+    151.209127
+   ],
+   "local": {
+    "x": 104.239,
+    "y": 0.0,
+    "z": 161.378
+   },
+   "stopCount": 5,
+   "stopNames": [
+    "Gadigal",
+    "Gadigal Station",
+    "Museum"
+   ],
+   "kinds": {
+    "subway_entrance": 3,
+    "rail_station": 2
+   },
+   "districtId": "cbd-core",
+   "label": "Gadigal"
+  },
+  {
+   "id": "hub/0,2",
+   "center": [
+    -33.88345,
+    151.208072
+   ],
+   "local": {
+    "x": 6.634,
+    "y": 0.0,
+    "z": 1160.128
+   },
+   "stopCount": 4,
+   "stopNames": [
+    "CBD and South East Light Rail",
+    "Exit 3: Elizabeth Street"
+   ],
+   "kinds": {
+    "light_rail": 3,
+    "subway_entrance": 1
+   },
+   "districtId": "surry-hills",
+   "label": "CBD and South East Light Rail"
+  },
+  {
+   "id": "hub/-2,-3",
+   "center": [
+    -33.864574,
+    151.200437
+   ],
+   "local": {
+    "x": -699.251,
+    "y": 0.0,
+    "z": -935.424
+   },
+   "stopCount": 4,
+   "stopNames": [
+    "Barangaroo, Wharf 1, Sida A",
+    "Barangaroo, Wharf 1, Side B",
+    "Barangaroo, Wharf 2, Side A",
+    "Barangaroo, Wharf 2, Side B"
+   ],
+   "kinds": {
+    "ferry_terminal": 4
+   },
+   "districtId": "barangaroo",
+   "label": "Barangaroo, Wharf 1, Sida A"
+  },
+  {
+   "id": "hub/-2,-4",
+   "center": [
+    -33.859799,
+    151.202555
+   ],
+   "local": {
+    "x": -503.467,
+    "y": 0.0,
+    "z": -1465.598
+   },
+   "stopCount": 4,
+   "stopNames": [
+    "Barangaroo",
+    "Down Sydney Metro City & Southwest",
+    "Hickson Road",
+    "Up Sydney Metro City & Southwest"
+   ],
+   "kinds": {
+    "light_rail": 2,
+    "subway_entrance": 1,
+    "rail_station": 1
+   },
+   "districtId": "barangaroo",
+   "label": "Barangaroo"
+  }
+ ],
+ "interestingRoads": [
+  {
+   "id": "way/5011712",
+   "name": "Sydney Harbour Tunnel",
+   "category": "freeway",
+   "lengthM": 2307.1,
+   "bridge": false,
+   "tunnel": true,
+   "reasons": [
+    "tunnel",
+    "long-span",
+    "named",
+    "major-route"
+   ],
+   "center": [
+    -33.850031,
+    151.213329
+   ],
+   "districtId": "the-rocks"
+  },
+  {
+   "id": "way/5011620",
+   "name": "Sydney Harbour Tunnel",
+   "category": "freeway",
+   "lengthM": 2305.9,
+   "bridge": false,
+   "tunnel": true,
+   "reasons": [
+    "tunnel",
+    "long-span",
+    "named",
+    "major-route"
+   ],
+   "center": [
+    -33.84958,
+    151.213275
+   ],
+   "districtId": "the-rocks"
+  },
+  {
+   "id": "way/388949144",
+   "name": "Bradfield Highway",
+   "category": "freeway",
+   "lengthM": 1154.3,
+   "bridge": true,
+   "tunnel": false,
+   "reasons": [
+    "bridge",
+    "named",
+    "major-route"
+   ],
+   "center": [
+    -33.849434,
+    151.212453
+   ],
+   "districtId": "the-rocks"
+  },
+  {
+   "id": "way/171978153",
+   "name": "Bradfield Highway",
+   "category": "freeway",
+   "lengthM": 1148.8,
+   "bridge": true,
+   "tunnel": false,
+   "reasons": [
+    "bridge",
+    "named",
+    "major-route"
+   ],
+   "center": [
+    -33.849706,
+    151.212221
+   ],
+   "districtId": "the-rocks"
+  },
+  {
+   "id": "way/210207200",
+   "name": "Eastern Distributor",
+   "category": "freeway",
+   "lengthM": 995.8,
+   "bridge": false,
+   "tunnel": true,
+   "reasons": [
+    "tunnel",
+    "named",
+    "major-route"
+   ],
+   "center": [
+    -33.880854,
+    151.217017
+   ],
+   "districtId": "darlinghurst"
+  },
+  {
+   "id": "way/847868257",
+   "name": "Western Distributor",
+   "category": "freeway",
+   "lengthM": 779.6,
+   "bridge": true,
+   "tunnel": false,
+   "reasons": [
+    "bridge",
+    "named",
+    "major-route"
+   ],
+   "center": [
+    -33.869989,
+    151.188615
+   ],
+   "districtId": "darling-harbour"
+  },
+  {
+   "id": "way/847868258",
+   "name": "Western Distributor",
+   "category": "freeway",
+   "lengthM": 729.3,
+   "bridge": true,
+   "tunnel": false,
+   "reasons": [
+    "bridge",
+    "named",
+    "major-route"
+   ],
+   "center": [
+    -33.869791,
+    151.188378
+   ],
+   "districtId": "darling-harbour"
+  },
+  {
+   "id": "way/1452495983",
+   "name": "Cahill Expressway",
+   "category": "freeway",
+   "lengthM": 704.2,
+   "bridge": true,
+   "tunnel": false,
+   "reasons": [
+    "bridge",
+    "named",
+    "major-route"
+   ],
+   "center": [
+    -33.850088,
+    151.212163
+   ],
+   "districtId": "the-rocks"
+  },
+  {
+   "id": "way/26027605",
+   "name": "Cross City Tunnel",
+   "category": "freeway",
+   "lengthM": 664.6,
+   "bridge": false,
+   "tunnel": true,
+   "reasons": [
+    "tunnel",
+    "named",
+    "major-route"
+   ],
+   "center": [
+    -33.874474,
+    151.208572
+   ],
+   "districtId": "cbd-core"
+  },
+  {
+   "id": "way/26027694",
+   "name": "Cross City Tunnel",
+   "category": "freeway",
+   "lengthM": 587.8,
+   "bridge": false,
+   "tunnel": true,
+   "reasons": [
+    "tunnel",
+    "named",
+    "major-route"
+   ],
+   "center": [
+    -33.875729,
+    151.221788
+   ],
+   "districtId": "kings-cross"
+  },
+  {
+   "id": "way/210207202",
+   "name": "Eastern Distributor",
+   "category": "freeway",
+   "lengthM": 532.9,
+   "bridge": false,
+   "tunnel": true,
+   "reasons": [
+    "tunnel",
+    "named",
+    "major-route"
+   ],
+   "center": [
+    -33.874634,
+    151.217564
+   ],
+   "districtId": "woolloomooloo"
+  },
+  {
+   "id": "way/142518144",
+   "name": "Cahill Expressway",
+   "category": "freeway",
+   "lengthM": 532.0,
+   "bridge": true,
+   "tunnel": false,
+   "reasons": [
+    "bridge",
+    "named",
+    "major-route"
+   ],
+   "center": [
+    -33.850443,
+    151.212036
+   ],
+   "districtId": "the-rocks"
+  },
+  {
+   "id": "way/172801485",
+   "name": "Western Distributor",
+   "category": "freeway",
+   "lengthM": 498.5,
+   "bridge": true,
+   "tunnel": false,
+   "reasons": [
+    "bridge",
+    "named",
+    "major-route"
+   ],
+   "center": [
+    -33.865597,
+    151.203536
+   ],
+   "districtId": "barangaroo"
+  },
+  {
+   "id": "way/77527073",
+   "name": "Western Distributor",
+   "category": "freeway",
+   "lengthM": 470.9,
+   "bridge": true,
+   "tunnel": false,
+   "reasons": [
+    "bridge",
+    "named",
+    "major-route"
+   ],
+   "center": [
+    -33.865796,
+    151.203322
+   ],
+   "districtId": "barangaroo"
+  },
+  {
+   "id": "way/210207199",
+   "name": "Eastern Distributor",
+   "category": "freeway",
+   "lengthM": 448.0,
+   "bridge": false,
+   "tunnel": true,
+   "reasons": [
+    "tunnel",
+    "named",
+    "major-route"
+   ],
+   "center": [
+    -33.881338,
+    151.217049
+   ],
+   "districtId": "darlinghurst"
+  },
+  {
+   "id": "way/14083153",
+   "name": "Eastern Distributor",
+   "category": "freeway",
+   "lengthM": 447.1,
+   "bridge": false,
+   "tunnel": true,
+   "reasons": [
+    "tunnel",
+    "named",
+    "major-route"
+   ],
+   "center": [
+    -33.873798,
+    151.217708
+   ],
+   "districtId": "woolloomooloo"
+  },
+  {
+   "id": "way/245262884",
+   "name": "Western Distributor",
+   "category": "freeway",
+   "lengthM": 418.2,
+   "bridge": true,
+   "tunnel": false,
+   "reasons": [
+    "bridge",
+    "named",
+    "major-route"
+   ],
+   "center": [
+    -33.87415,
+    151.198995
+   ],
+   "districtId": "darling-harbour"
+  },
+  {
+   "id": "way/389141181",
+   "name": "Cross City Tunnel",
+   "category": "freeway",
+   "lengthM": 386.6,
+   "bridge": false,
+   "tunnel": true,
+   "reasons": [
+    "tunnel",
+    "named",
+    "major-route"
+   ],
+   "center": [
+    -33.875839,
+    151.223247
+   ],
+   "districtId": "kings-cross"
+  },
+  {
+   "id": "way/244269360",
+   "name": "Cross City Tunnel",
+   "category": "freeway",
+   "lengthM": 384.8,
+   "bridge": false,
+   "tunnel": true,
+   "reasons": [
+    "tunnel",
+    "named",
+    "major-route"
+   ],
+   "center": [
+    -33.874719,
+    151.219362
+   ],
+   "districtId": "woolloomooloo"
+  },
+  {
+   "id": "way/4354635",
+   "name": "Cahill Expressway",
+   "category": "freeway",
+   "lengthM": 376.6,
+   "bridge": false,
+   "tunnel": true,
+   "reasons": [
+    "tunnel",
+    "named",
+    "major-route"
+   ],
+   "center": [
+    -33.864803,
+    151.212972
+   ],
+   "districtId": "botanic-garden"
+  },
+  {
+   "id": "way/4989960",
+   "name": "Cahill Expressway",
+   "category": "freeway",
+   "lengthM": 368.2,
+   "bridge": false,
+   "tunnel": true,
+   "reasons": [
+    "tunnel",
+    "named",
+    "major-route"
+   ],
+   "center": [
+    -33.864798,
+    151.213079
+   ],
+   "districtId": "botanic-garden"
+  },
+  {
+   "id": "way/196950453",
+   "name": "Cross City Tunnel",
+   "category": "freeway",
+   "lengthM": 347.3,
+   "bridge": false,
+   "tunnel": true,
+   "reasons": [
+    "tunnel",
+    "named",
+    "major-route"
+   ],
+   "center": [
+    -33.873841,
+    151.212937
+   ],
+   "districtId": "hyde-park"
+  },
+  {
+   "id": "way/50887066",
+   "name": "Cross City Tunnel",
+   "category": "freeway",
+   "lengthM": 344.4,
+   "bridge": false,
+   "tunnel": true,
+   "reasons": [
+    "tunnel",
+    "named",
+    "major-route"
+   ],
+   "center": [
+    -33.874007,
+    151.215002
+   ],
+   "districtId": "woolloomooloo"
+  },
+  {
+   "id": "way/172288806",
+   "name": "Western Distributor",
+   "category": "freeway",
+   "lengthM": 333.6,
+   "bridge": true,
+   "tunnel": false,
+   "reasons": [
+    "bridge",
+    "named",
+    "major-route"
+   ],
+   "center": [
+    -33.871306,
+    151.192824
+   ],
+   "districtId": "darling-harbour"
+  },
+  {
+   "id": "way/837808969",
+   "name": "Eastern Distributor",
+   "category": "freeway",
+   "lengthM": 331.1,
+   "bridge": false,
+   "tunnel": true,
+   "reasons": [
+    "tunnel",
+    "named",
+    "major-route"
+   ],
+   "center": [
+    -33.878558,
+    151.217093
+   ],
+   "districtId": "darlinghurst"
+  },
+  {
+   "id": "way/172288805",
+   "name": "Western Distributor",
+   "category": "freeway",
+   "lengthM": 313.4,
+   "bridge": true,
+   "tunnel": false,
+   "reasons": [
+    "bridge",
+    "named",
+    "major-route"
+   ],
+   "center": [
+    -33.872265,
+    151.193507
+   ],
+   "districtId": "darling-harbour"
+  },
+  {
+   "id": "way/14082865",
+   "name": "Eastern Distributor",
+   "category": "freeway",
+   "lengthM": 291.4,
+   "bridge": false,
+   "tunnel": true,
+   "reasons": [
+    "tunnel",
+    "named",
+    "major-route"
+   ],
+   "center": [
+    -33.885573,
+    151.218094
+   ],
+   "districtId": "surry-hills"
+  },
+  {
+   "id": "way/46914884",
+   "name": "Western Distributor",
+   "category": "freeway",
+   "lengthM": 279.9,
+   "bridge": true,
+   "tunnel": false,
+   "reasons": [
+    "bridge",
+    "named",
+    "major-route"
+   ],
+   "center": [
+    -33.875028,
+    151.19629
+   ],
+   "districtId": "darling-harbour"
+  },
+  {
+   "id": "way/210207201",
+   "name": "Eastern Distributor",
+   "category": "freeway",
+   "lengthM": 277.4,
+   "bridge": false,
+   "tunnel": true,
+   "reasons": [
+    "tunnel",
+    "named",
+    "major-route"
+   ],
+   "center": [
+    -33.885873,
+    151.218071
+   ],
+   "districtId": "surry-hills"
+  },
+  {
+   "id": "way/3919480",
+   "name": "Western Distributor",
+   "category": "freeway",
+   "lengthM": 247.4,
+   "bridge": true,
+   "tunnel": false,
+   "reasons": [
+    "bridge",
+    "named",
+    "major-route"
+   ],
+   "center": [
+    -33.871183,
+    151.192228
+   ],
+   "districtId": "darling-harbour"
+  },
+  {
+   "id": "way/3508815",
+   "name": "Western Distributor",
+   "category": "freeway",
+   "lengthM": 239.0,
+   "bridge": true,
+   "tunnel": false,
+   "reasons": [
+    "bridge",
+    "named",
+    "major-route"
+   ],
+   "center": [
+    -33.874638,
+    151.195638
+   ],
+   "districtId": "darling-harbour"
+  },
+  {
+   "id": "way/179207160",
+   "name": "Western Distributor",
+   "category": "freeway",
+   "lengthM": 238.0,
+   "bridge": true,
+   "tunnel": false,
+   "reasons": [
+    "bridge",
+    "named",
+    "major-route"
+   ],
+   "center": [
+    -33.874571,
+    151.199063
+   ],
+   "districtId": "darling-harbour"
+  },
+  {
+   "id": "way/64624495",
+   "name": "Cahill Expressway",
+   "category": "freeway",
+   "lengthM": 229.3,
+   "bridge": true,
+   "tunnel": false,
+   "reasons": [
+    "bridge",
+    "named",
+    "major-route"
+   ],
+   "center": [
+    -33.84874,
+    151.212743
+   ],
+   "districtId": "the-rocks"
+  },
+  {
+   "id": "way/142598667",
+   "name": "Cross City Tunnel",
+   "category": "freeway",
+   "lengthM": 226.4,
+   "bridge": false,
+   "tunnel": true,
+   "reasons": [
+    "tunnel",
+    "named",
+    "major-route"
+   ],
+   "center": [
+    -33.872769,
+    151.206214
+   ],
+   "districtId": "cbd-core"
+  },
+  {
+   "id": "way/1530532873",
+   "name": "Cahill Expressway",
+   "category": "freeway",
+   "lengthM": 226.0,
+   "bridge": true,
+   "tunnel": false,
+   "reasons": [
+    "bridge",
+    "named",
+    "major-route"
+   ],
+   "center": [
+    -33.857005,
+    151.207881
+   ],
+   "districtId": "the-rocks"
+  },
+  {
+   "id": "way/50887067",
+   "name": "Cross City Tunnel",
+   "category": "freeway",
+   "lengthM": 214.9,
+   "bridge": false,
+   "tunnel": true,
+   "reasons": [
+    "tunnel",
+    "named",
+    "major-route"
+   ],
+   "center": [
+    -33.873305,
+    151.209643
+   ],
+   "districtId": "hyde-park"
+  },
+  {
+   "id": "way/389140309",
+   "name": "Cross City Tunnel",
+   "category": "freeway",
+   "lengthM": 212.5,
+   "bridge": false,
+   "tunnel": true,
+   "reasons": [
+    "tunnel",
+    "named",
+    "major-route"
+   ],
+   "center": [
+    -33.873837,
+    151.212566
+   ],
+   "districtId": "hyde-park"
+  },
+  {
+   "id": "way/234923865",
+   "name": "Western Distributor",
+   "category": "freeway",
+   "lengthM": 179.9,
+   "bridge": true,
+   "tunnel": false,
+   "reasons": [
+    "bridge",
+    "named",
+    "major-route"
+   ],
+   "center": [
+    -33.874236,
+    151.201627
+   ],
+   "districtId": "haymarket"
+  },
+  {
+   "id": "way/64624494",
+   "name": "Cahill Expressway",
+   "category": "freeway",
+   "lengthM": 178.9,
+   "bridge": true,
+   "tunnel": false,
+   "reasons": [
+    "bridge",
+    "named",
+    "major-route"
+   ],
+   "center": [
+    -33.845909,
+    151.212384
+   ],
+   "districtId": "the-rocks"
+  },
+  {
+   "id": "way/322859102",
+   "name": "Cahill Expressway",
+   "category": "freeway",
+   "lengthM": 178.6,
+   "bridge": true,
+   "tunnel": false,
+   "reasons": [
+    "bridge",
+    "named",
+    "major-route"
+   ],
+   "center": [
+    -33.845488,
+    151.212135
+   ],
+   "districtId": "the-rocks"
+  }
+ ],
+ "missionOpportunities": [
+  {
+   "opportunity": "harbour circuit",
+   "why": "Named bridges and a continuous waterfront give a natural loop with high visual value.",
+   "anchors": [
+    "Pier Street",
+    "Lawson Street",
+    "Cahill Expressway",
+    "Darling Drive",
+    "Wadey's Lane"
+   ]
+  },
+  {
+   "opportunity": "nightlife-to-waterfront contrast run",
+   "why": "Top nightlife cluster and the harbour are on opposite sides of the core, giving a natural high-contrast traversal.",
+   "anchors": [
+    {
+     "cluster": "cluster/3,0",
+     "district": "kings-cross"
+    },
+    {
+     "cluster": "cluster/-1,1",
+     "district": "haymarket"
+    },
+    {
+     "cluster": "cluster/-1,0",
+     "district": "haymarket"
+    }
+   ]
+  },
+  {
+   "opportunity": "transit-hub interception",
+   "why": "Transport hubs have dense stop clusters and are natural mission gateways.",
+   "anchors": [
+    {
+     "hub": "hub/-1,2",
+     "stops": 30
+    },
+    {
+     "hub": "hub/-1,3",
+     "stops": 26
+    },
+    {
+     "hub": "hub/0,-4",
+     "stops": 25
+    },
+    {
+     "hub": "hub/-1,-3",
+     "stops": 21
+    },
+    {
+     "hub": "hub/3,5",
+     "stops": 20
+    }
+   ]
+  }
+ ],
+ "gameplayLoops": [
+  "waterfront promenade loop (harbour -> bridge -> ferry terminal -> harbour)",
+  "nightlife out-and-back (inner suburb cluster -> CBD commercial -> return via arterial)",
+  "park-to-park traversal (large park anchor -> arterial -> next park anchor)",
+  "tunnel/bridge shortcut loop (arterial -> crossing -> inner grid)"
+ ]
+}

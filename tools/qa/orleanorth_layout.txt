@@ -1,0 +1,19 @@
+  // ALLOCATED by tools/qa/orleanorth_layout.mjs -- do not hand-edit.
+  // Chatboro is a live village inside this band (x -96..48, z -120..100, read
+  // from chatboro.js) and keeps all of its ground, including US-167 and
+  // Chatboro Main running through it. The first version of this district
+  // ignored that and put ten rects, the motel and the park on top of it.
+  const PARK = { x0: -244, x1: -200, z0: -24, z1: 20 };
+  const INDUSTRIAL = [
+    R(-244, -132, -210, -76),
+    R(-244, 92, -210, 130),
+    R(-130, -132, -96, -76),
+    R(-130, -20, -96, 36),
+    R(-130, 92, -96, 130),
+  ];
+  const EAST = [
+    R(22, 102, 56, 130),
+    R(60, -132, 94, -76),
+    R(60, -20, 94, 36),
+    R(60, 92, 94, 130),
+  ];

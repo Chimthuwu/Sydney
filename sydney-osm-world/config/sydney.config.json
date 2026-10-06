@@ -1,0 +1,209 @@
+{
+  "worldName": "Grand Theft Sydney (working title)",
+  "source": "OpenStreetMap (ODbL 1.0)",
+  "region": "Sydney, New South Wales, Australia",
+  "version": "0.1.0-prototype",
+
+  "scope": {
+    "note": "Prototype core area only. NOT metropolitan Sydney. Chosen because it contains every relationship the world spec needs: CBD grid, harbour edge, waterfront, nightlife belt (Surry Hills / Kings Cross), park anchors, rail spine, and the bridge/tunnel crossings that define Sydney's topology.",
+    "coreBbox": {
+      "south": -33.8955,
+      "west": 151.1860,
+      "north": -33.8450,
+      "east": 151.2350
+    },
+    "approxSizeKm": { "eastWest": 4.7, "northSouth": 5.6 },
+    "tiles": [
+      {
+        "id": "cbd",
+        "label": "Sydney CBD grid (Pyrmont - City - Surry Hills edge)",
+        "south": -33.8900, "west": 151.1880, "north": -33.8600, "east": 151.2160
+      },
+      {
+        "id": "barangaroo",
+        "label": "Barangaroo / Walsh Bay / northern CBD edge",
+        "south": -33.8700, "west": 151.1880, "north": -33.8450, "east": 151.2140
+      },
+      {
+        "id": "darling-harbour",
+        "label": "Darling Harbour / Pyrmont / Ultimo waterfront",
+        "south": -33.8955, "west": 151.1860, "north": -33.8800, "east": 151.2140
+      },
+      {
+        "id": "east-inner",
+        "label": "Surry Hills / Darlinghurst / Kings Cross / Potts Point",
+        "south": -33.8950, "west": 151.2050, "north": -33.8550, "east": 151.2350
+      }
+    ],
+    "buildingSampleBbox": {
+      "note": "Building footprints are only collected inside this small sample of the CBD. Building data in OSM Sydney is enormous and mostly un-heighted; a sample is enough to test schema and density, and to prove heights are usually absent.",
+      "south": -33.8790, "west": 151.2020, "north": -33.8660, "east": 151.2140
+    }
+  },
+
+  "origin": {
+    "label": "Sydney CBD core (near Central / Haymarket)",
+    "lat": -33.8730,
+    "lon": 151.2080
+  },
+
+  "layers": {
+    "roads": {
+      "backbone": {
+        "bbox": "coreBbox",
+        "description": "Arterials, trunk routes, links, bridges, tunnels - the traversal skeleton.",
+        "highway": ["motorway", "trunk", "primary", "secondary", "tertiary", "motorway_link", "trunk_link", "primary_link", "secondary_link", "tertiary_link", "living_street"]
+      },
+      "grid": {
+        "tiles": ["cbd", "east-inner"],
+        "description": "Dense inner-city street grid (residential / unclassified / pedestrian) for city blocks and NPC navigation.",
+        "highway": ["residential", "unclassified", "pedestrian", "service"]
+      },
+      "excludeHighway": ["footway", "path", "cycleway", "steps", "track", "construction", "proposed", "platform", "raceway"]
+    },
+
+    "water": {
+      "bbox": "coreBbox",
+      "description": "Harbour, bays, rivers, pools, beaches, coastline and waterway centrelines.",
+      "polygon": [
+        { "natural": "water" },
+        { "natural": "bay" },
+        { "natural": "strait" },
+        { "landuse": "reservoir" },
+        { "waterway": "riverbank" }
+      ],
+      "line": [
+        { "waterway": ["river", "stream", "canal", "dock"] },
+        { "natural": "coastline" }
+      ],
+      "beach": [{ "natural": "beach" }]
+    },
+
+    "parks": {
+      "bbox": "coreBbox",
+      "description": "Green space: parks, gardens, reserves, forests, grass, recreation grounds, cemeteries.",
+      "polygon": [
+        { "leisure": ["park", "garden", "nature_reserve", "recreation_ground", "pitch", "playground", "dog_park", "golf_course", "common"] },
+        { "landuse": ["forest", "grass", "village_green", "allotments", "orchard", "meadow", "cemetery", "brownfield"] },
+        { "boundary": "national_park" },
+        { "leisure": "stadium" }
+      ]
+    },
+
+    "transit": {
+      "bbox": "coreBbox",
+      "description": "Spatial transit nodes only - no timetables.",
+      "node": [
+        { "railway": ["station", "halt", "subway_entrance", "tram_stop", "light_rail", "ferry_terminal"] },
+        { "public_transport": "station" },
+        { "amenity": "ferry_terminal" },
+        { "station": "subway" }
+      ],
+      "way": [
+        { "railway": ["station", "light_rail", "subway"] },
+        { "public_transport": "station" },
+        { "amenity": "ferry_terminal" },
+        { "station": "subway" }
+      ]
+    },
+
+    "landmarks": {
+      "bbox": "coreBbox",
+      "description": "Structurally significant features: named bridges/tunnels, towers, museums, stadiums, universities, places of worship, squares, memorials.",
+      "way": [
+        { "bridge": "yes" },
+        { "tunnel": "yes" },
+        { "man_made": ["tower", "lighthouse", "pier", "breakwater", "dam", "mast"] },
+        { "tourism": ["attraction", "museum", "gallery", "theme_park", "zoo", "aquarium"] },
+        { "historic": "*" },
+        { "amenity": ["university", "college", "cathedral", "place_of_worship", "townhall", "theatre", "library", "stadium", "hospital", "casino", "marketplace"] },
+        { "building": ["cathedral", "temple", "cathedral_basilica", "stadium"] },
+        { "place": "square" },
+        { "memorial": "*" },
+        { "artwork_type": "*" }
+      ],
+      "node": [
+        { "man_made": ["tower", "lighthouse", "obelisk", "commemorative"] },
+        { "tourism": ["attraction", "museum", "gallery", "theme_park", "zoo", "aquarium", "artwork"] },
+        { "historic": "*" },
+        { "amenity": ["university", "college", "cathedral", "place_of_worship", "townhall", "theatre", "library", "stadium", "hospital", "casino", "marketplace", "fountain"] },
+        { "memorial": "*" },
+        { "place": ["square", "island"] }
+      ],
+      "namedOnly": true
+    },
+
+    "venues": {
+      "bbox": "coreBbox",
+      "description": "Tagged places that drive gameplay: nightlife, commerce, services.",
+      "amenity": [
+        "bar", "pub", "nightclub", "restaurant", "fast_food", "cafe", "ice_cream",
+        "beverages", "food_court", "marketplace",
+        "hotel", "hostel", "motel", "guest_house",
+        "casino", "gambling", "nightclub",
+        "cinema", "theatre", "music", "arts_centre", "nightclub",
+        "studio", "event_venue", "community_centre", "social_facility",
+        "police", "fire_station", "hospital", "clinic", "doctors", "pharmacy",
+        "school", "university", "college", "kindergarten", "library",
+        "fuel", "charging_station", "parking", "bicycle_parking",
+        "place_of_worship", "townhall", "courthouse", "post_office", "bank",
+        "pharmacy", "toilets", "drinking_water", "atm", "bbq"
+      ],
+      "shop": "*",
+      "tourism": ["hotel", "hostel", "motel", "gallery", "artwork", "theme_park"],
+      "leisure": ["nightclub", "casino", "dance", "dancing", "stripclub", "sauna", "bowling_alley", "amusement_arcade", "sports_centre", "stadium", "marina", "fishing", "golf_course", "swimming_pool", "fitness_centre", "adult_centre"]
+    }
+  },
+
+  "nightlife": {
+    "description": "OSM tag values that mark a venue as nightlife-relevant. No hours are invented; only what is tagged.",
+    "amenity": ["bar", "pub", "nightclub", "casino", "gambling", "beverages", "dancing", "music", "theatre", "cinema", "event_venue", "stripclub"],
+    "shop": ["alcohol", "beverages", "wine", "brewing", "liquor"],
+    "leisure": ["nightclub", "casino", "dance", "dancing", "stripclub", "sauna", "amusement_arcade", "bowling_alley"],
+    "tourism": ["hotel", "hostel", "motel", "gallery"]
+  },
+
+  "districtSeeds": [
+    { "id": "cbd-core",       "name": "Sydney CBD",              "lat": -33.8690, "lon": 151.2090, "character": "commercial-tourist-core" },
+    { "id": "barangaroo",     "name": "Barangaroo",              "lat": -33.8620, "lon": 151.2010, "character": "waterfront-commercial" },
+    { "id": "the-rocks",      "name": "The Rocks",               "lat": -33.8590, "lon": 151.2080, "character": "historic-lowscale" },
+    { "id": "circular-quay",  "name": "Circular Quay",           "lat": -33.8610, "lon": 151.2110, "character": "transit-waterfront" },
+    { "id": "walsh-bay",      "name": "Walsh Bay",               "lat": -33.8560, "lon": 151.2000, "character": "heritage-waterfront" },
+    { "id": "woolloomooloo",  "name": "Woolloomooloo",           "lat": -33.8710, "lon": 151.2180, "character": "waterfront-mixed" },
+    { "id": "darling-harbour","name": "Darling Harbour",         "lat": -33.8710, "lon": 151.1960, "character": "tourist-waterfront" },
+    { "id": "pyrmont",        "name": "Pyrmont",                 "lat": -33.8660, "lon": 151.1950, "character": "residential-dense" },
+    { "id": "haymarket",      "name": "Haymarket",               "lat": -33.8780, "lon": 151.2030, "character": "market-commercial" },
+    { "id": "ultimo",         "name": "Ultimo",                  "lat": -33.8830, "lon": 151.1990, "character": "university-mixed" },
+    { "id": "kings-cross",    "name": "Kings Cross",             "lat": -33.8740, "lon": 151.2250, "character": "nightlife" },
+    { "id": "potts-point",    "name": "Potts Point",             "lat": -33.8590, "lon": 151.2230, "character": "residential-waterfront" },
+    { "id": "surry-hills",    "name": "Surry Hills",             "lat": -33.8880, "lon": 151.2120, "character": "nightlife-residential" },
+    { "id": "kingsford",      "name": "Kingsford",               "lat": -33.8840, "lon": 151.2250, "character": "residential" },
+    { "id": "darlinghurst",   "name": "Darlinghurst",            "lat": -33.8790, "lon": 151.2180, "character": "residential-institutional" },
+    { "id": "redfern",        "name": "Redfern",                 "lat": -33.8930, "lon": 151.2200, "character": "mixed" },
+    { "id": "hyde-park",      "name": "Hyde Park",               "lat": -33.8700, "lon": 151.2130, "character": "park-anchor" },
+    { "id": "botanic-garden", "name": "Royal Botanic Garden",    "lat": -33.8640, "lon": 151.2160, "character": "park-anchor" },
+    { "id": "centennial-park", "name": "Centennial Park",         "lat": -33.8810, "lon": 151.2330, "character": "park-anchor" }
+  ],
+
+  "corridorRoutes": [
+    { "id": "cbd-to-barangaroo", "from": { "lat": -33.8720, "lon": 151.2030, "label": "CBD" }, "to": { "lat": -33.8620, "lon": 151.2010, "label": "Barangaroo" } },
+    { "id": "cbd-to-kings-cross", "from": { "lat": -33.8790, "lon": 151.2070, "label": "Central" }, "to": { "lat": -33.8740, "lon": 151.2250, "label": "Kings Cross" } },
+    { "id": "cbd-to-surry-hills", "from": { "lat": -33.8790, "lon": 151.2070, "label": "Central" }, "to": { "lat": -33.8880, "lon": 151.2120, "label": "Surry Hills" } },
+    { "id": "harbour-to-waterfront", "from": { "lat": -33.8710, "lon": 151.1960, "label": "Darling Harbour" }, "to": { "lat": -33.8610, "lon": 151.2110, "label": "Circular Quay" } }
+  ],
+
+  "projection": {
+    "method": "local equirectangular (ENU) tangent plane about config.origin, WGS84 approximation",
+    "units": "meters",
+    "axisConvention": "x = east (m), y = up (m, terrain only), z = south (m) i.e. north is -Z",
+    "threejs": "Three.js is Y-up; geometry is emitted on the XZ plane with X=east, Z=south, Y=height.",
+    "metersPerUnit": 1.0,
+    "note": "Over a ~6 km extent the equirectangular approximation is accurate to well under 0.1%; a full map projection is unnecessary at this scale."
+  },
+
+  "rateLimit": {
+    "overpassMinIntervalSeconds": 3,
+    "nominatimMinIntervalSeconds": 1.2,
+    "note": "Keeps us well inside the public Overpass/Nominatim usage policies (see ATTRIBUTION.md)."
+  }
+}

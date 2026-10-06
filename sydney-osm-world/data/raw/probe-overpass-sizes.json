@@ -1,0 +1,245 @@
+{
+ "collectedAt": "2026-09-29T11:41:56+00:00",
+ "coreBbox": {
+  "south": -33.8955,
+  "west": 151.186,
+  "north": -33.845,
+  "east": 151.235
+ },
+ "buildingSampleBbox": {
+  "note": "Building footprints are only collected inside this small sample of the CBD. Building data in OSM Sydney is enormous and mostly un-heighted; a sample is enough to test schema and density, and to prove heights are usually absent.",
+  "south": -33.879,
+  "west": 151.202,
+  "north": -33.866,
+  "east": 151.214
+ },
+ "probes": [
+  {
+   "label": "roads/backbone",
+   "query": "[out:json][timeout:90];\n(\n  way[\"highway\"~\"^(motorway|trunk|primary|secondary|tertiary|motorway_link|trunk_link|primary_link|secondary_link|tertiary_link|living_street)$\"](-33.8955,151.186,-33.845,151.235);\n);\nout count;\n",
+   "error": "Overpass query 'roads/backbone' failed: HTTP 504 from https://overpass-api.de/api/interpreter: <?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\"\n    \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">\n<html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\">\n<head>\n  <meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" lang=\"en\"/>\n  <title>OSM3S Response</title>\n</head>\n<body>\n\n<p>The data included in this document is fr"
+  },
+  {
+   "label": "roads/grid/cbd",
+   "query": "[out:json][timeout:90];\n(\n  way[\"highway\"~\"^(residential|unclassified|pedestrian|service)$\"](-33.89,151.188,-33.86,151.216);\n);\nout count;\n",
+   "error": "Overpass query 'roads/grid/cbd' failed: HTTP 504 from https://overpass-api.de/api/interpreter: <?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\"\n    \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">\n<html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\">\n<head>\n  <meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" lang=\"en\"/>\n  <title>OSM3S Response</title>\n</head>\n<body>\n\n<p>The data included in this document is fr"
+  },
+  {
+   "label": "roads/grid/east-inner",
+   "query": "[out:json][timeout:90];\n(\n  way[\"highway\"~\"^(residential|unclassified|pedestrian|service)$\"](-33.895,151.205,-33.855,151.235);\n);\nout count;\n",
+   "count": {
+    "nodes": "0",
+    "ways": "2431",
+    "relations": "0",
+    "total": "2431"
+   }
+  },
+  {
+   "label": "buildings/sample",
+   "query": "[out:json][timeout:90];\n(\n  way[\"building\"](-33.879,151.202,-33.866,151.214);\n);\nout count;\n",
+   "count": {
+    "nodes": "0",
+    "ways": "972",
+    "relations": "0",
+    "total": "972"
+   }
+  },
+  {
+   "label": "water/polygons",
+   "query": "[out:json][timeout:90];\n(\n  way[\"natural\"~\"^(w|a|t|e|r)$\"][\"natural\"~\"^(b|a|y)$\"][\"natural\"~\"^(s|t|r|a|i|t)$\"][\"landuse\"~\"^(r|e|s|e|r|v|o|i|r)$\"][\"waterway\"~\"^(r|i|v|e|r|b|a|n|k)$\"](-33.8955,151.186,-33.845,151.235);\n  relation[\"natural\"~\"^(w|a|t|e|r)$\"][\"natural\"~\"^(b|a|y)$\"][\"natural\"~\"^(s|t|r|a|i|t)$\"][\"landuse\"~\"^(r|e|s|e|r|v|o|i|r)$\"][\"waterway\"~\"^(r|i|v|e|r|b|a|n|k)$\"](-33.8955,151.186,-33.845,151.235);\n);\nout count;\n",
+   "count": {
+    "nodes": "0",
+    "ways": "0",
+    "relations": "0",
+    "total": "0"
+   }
+  },
+  {
+   "label": "water/lines",
+   "query": "[out:json][timeout:90];\n(\n  way[\"waterway\"~\"^(river|stream|canal|dock)$\"][\"natural\"~\"^(c|o|a|s|t|l|i|n|e)$\"](-33.8955,151.186,-33.845,151.235);\n);\nout count;\n",
+   "count": {
+    "nodes": "0",
+    "ways": "0",
+    "relations": "0",
+    "total": "0"
+   }
+  },
+  {
+   "label": "water/beaches",
+   "query": "[out:json][timeout:90];\n(\n  way[\"natural\"~\"^(b|e|a|c|h)$\"](-33.8955,151.186,-33.845,151.235);\n  node[\"natural\"~\"^(b|e|a|c|h)$\"](-33.8955,151.186,-33.845,151.235);\n);\nout count;\n",
+   "count": {
+    "nodes": "0",
+    "ways": "0",
+    "relations": "0",
+    "total": "0"
+   }
+  },
+  {
+   "label": "parks/areas",
+   "query": "[out:json][timeout:90];\n(\n  way[\"leisure\"~\"^(park|garden|nature_reserve|recreation_ground|pitch|playground|dog_park|golf_course|common)$\"][\"landuse\"~\"^(forest|grass|village_green|allotments|orchard|meadow|cemetery|brownfield)$\"][\"boundary\"~\"^(n|a|t|i|o|n|a|l|_|p|a|r|k)$\"][\"leisure\"~\"^(s|t|a|d|i|u|m)$\"](-33.8955,151.186,-33.845,151.235);\n  relation[\"leisure\"~\"^(park|garden|nature_reserve|recreation_ground|pitch|playground|dog_park|golf_course|common)$\"][\"landuse\"~\"^(forest|grass|village_green|allotments|orchard|meadow|cemetery|brownfield)$\"][\"boundary\"~\"^(n|a|t|i|o|n|a|l|_|p|a|r|k)$\"][\"leisure\"~\"^(s|t|a|d|i|u|m)$\"](-33.8955,151.186,-33.845,151.235);\n);\nout count;\n",
+   "error": "Overpass query 'parks/areas' failed: HTTP 504 from https://overpass-api.de/api/interpreter: <?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\"\n    \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">\n<html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\">\n<head>\n  <meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" lang=\"en\"/>\n  <title>OSM3S Response</title>\n</head>\n<body>\n\n<p>The data included in this document is fr"
+  },
+  {
+   "label": "transit/nodes",
+   "query": "[out:json][timeout:90];\n(\n  node[\"railway\"~\"^(station|halt|subway_entrance|tram_stop|light_rail|ferry_terminal)$\"][\"public_transport\"~\"^(s|t|a|t|i|o|n)$\"][\"amenity\"~\"^(f|e|r|r|y|_|t|e|r|m|i|n|a|l)$\"][\"station\"~\"^(s|u|b|w|a|y)$\"](-33.8955,151.186,-33.845,151.235);\n);\nout count;\n",
+   "count": {
+    "nodes": "0",
+    "ways": "0",
+    "relations": "0",
+    "total": "0"
+   }
+  },
+  {
+   "label": "transit/ways",
+   "query": "[out:json][timeout:90];\n(\n  way[\"railway\"~\"^(station|light_rail|subway)$\"][\"public_transport\"~\"^(s|t|a|t|i|o|n)$\"][\"amenity\"~\"^(f|e|r|r|y|_|t|e|r|m|i|n|a|l)$\"][\"station\"~\"^(s|u|b|w|a|y)$\"](-33.8955,151.186,-33.845,151.235);\n);\nout count;\n",
+   "count": {
+    "nodes": "0",
+    "ways": "0",
+    "relations": "0",
+    "total": "0"
+   }
+  },
+  {
+   "label": "landmarks/ways",
+   "query": "[out:json][timeout:90];\n(\n  way[\"bridge\"~\"^(y|e|s)$\"][\"tunnel\"~\"^(y|e|s)$\"][\"man_made\"~\"^(tower|lighthouse|pier|breakwater|dam|mast)$\"][\"tourism\"~\"^(attraction|museum|gallery|theme_park|zoo|aquarium)$\"][\"historic\"][\"amenity\"~\"^(university|college|cathedral|place_of_worship|townhall|theatre|library|stadium|hospital|casino|marketplace)$\"][\"building\"~\"^(cathedral|temple|cathedral_basilica|stadium)$\"][\"place\"~\"^(s|q|u|a|r|e)$\"][\"memorial\"][\"artwork_type\"][\"name\"](-33.8955,151.186,-33.845,151.235);\n);\nout count;\n",
+   "count": {
+    "nodes": "0",
+    "ways": "0",
+    "relations": "0",
+    "total": "0"
+   }
+  },
+  {
+   "label": "landmarks/nodes",
+   "query": "[out:json][timeout:90];\n(\n  node[\"man_made\"~\"^(tower|lighthouse|obelisk|commemorative)$\"][\"tourism\"~\"^(attraction|museum|gallery|theme_park|zoo|aquarium|artwork)$\"][\"historic\"][\"amenity\"~\"^(university|college|cathedral|place_of_worship|townhall|theatre|library|stadium|hospital|casino|marketplace|fountain)$\"][\"memorial\"][\"place\"~\"^(square|island)$\"][\"name\"](-33.8955,151.186,-33.845,151.235);\n);\nout count;\n",
+   "count": {
+    "nodes": "0",
+    "ways": "0",
+    "relations": "0",
+    "total": "0"
+   }
+  },
+  {
+   "label": "venues/amenity",
+   "query": "[out:json][timeout:90];\n(\n  node[\"amenity\"~\"^(bar|pub|nightclub|restaurant|fast_food|cafe|ice_cream|beverages|food_court|marketplace|hotel|hostel|motel|guest_house|casino|gambling|nightclub|cinema|theatre|music|arts_centre|nightclub|studio|event_venue|community_centre|social_facility|police|fire_station|hospital|clinic|doctors|pharmacy|school|university|college|kindergarten|library|fuel|charging_station|parking|bicycle_parking|place_of_worship|townhall|courthouse|post_office|bank|pharmacy|toilets|drinking_water|atm|bbq)$\"](-33.8955,151.186,-33.845,151.235);\n  way[\"amenity\"~\"^(bar|pub|nightclub|restaurant|fast_food|cafe|ice_cream|beverages|food_court|marketplace|hotel|hostel|motel|guest_house|casino|gambling|nightclub|cinema|theatre|music|arts_centre|nightclub|studio|event_venue|community_centre|social_facility|police|fire_station|hospital|clinic|doctors|pharmacy|school|university|college|kindergarten|library|fuel|charging_station|parking|bicycle_parking|place_of_worship|townhall|courthouse|post_office|bank|pharmacy|toilets|drinking_water|atm|bbq)$\"](-33.8955,151.186,-33.845,151.235);\n);\nout count;\n",
+   "count": {
+    "nodes": "3938",
+    "ways": "624",
+    "relations": "0",
+    "total": "4562"
+   }
+  },
+  {
+   "label": "venues/shop",
+   "query": "[out:json][timeout:90];\n(\n  node[\"shop\"](-33.8955,151.186,-33.845,151.235);\n  way[\"shop\"](-33.8955,151.186,-33.845,151.235);\n);\nout count;\n",
+   "error": "Overpass query 'venues/shop' failed: HTTP 504 from https://overpass-api.de/api/interpreter: <?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\"\n    \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">\n<html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\">\n<head>\n  <meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" lang=\"en\"/>\n  <title>OSM3S Response</title>\n</head>\n<body>\n\n<p>The data included in this document is fr"
+  },
+  {
+   "label": "venues/tourism+leisure",
+   "query": "[out:json][timeout:90];\n(\n  node[\"tourism\"~\"^(hotel|hostel|motel|gallery|artwork|theme_park)$\"][\"leisure\"~\"^(nightclub|casino|dance|dancing|stripclub|sauna|bowling_alley|amusement_arcade|sports_centre|stadium|marina|fishing|golf_course|swimming_pool|fitness_centre|adult_centre)$\"](-33.8955,151.186,-33.845,151.235);\n  way[\"tourism\"~\"^(hotel|hostel|motel|gallery|artwork|theme_park)$\"][\"leisure\"~\"^(nightclub|casino|dance|dancing|stripclub|sauna|bowling_alley|amusement_arcade|sports_centre|stadium|marina|fishing|golf_course|swimming_pool|fitness_centre|adult_centre)$\"](-33.8955,151.186,-33.845,151.235);\n);\nout count;\n",
+   "error": "Overpass query 'venues/tourism+leisure' failed: HTTP 504 from https://overpass-api.de/api/interpreter: <?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\"\n    \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">\n<html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\">\n<head>\n  <meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" lang=\"en\"/>\n  <title>OSM3S Response</title>\n</head>\n<body>\n\n<p>The data included in this document is fr"
+  }
+ ],
+ "overpassCalls": [
+  {
+   "label": "roads/backbone",
+   "status": "error",
+   "error": "HTTP 504 from https://overpass-api.de/api/interpreter: <?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\"\n    \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">\n<html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\">\n<head>\n  <meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" lang=\"en\"/>\n  <title>OSM3S Response</title>\n</head>\n<body>\n\n<p>The data included in this document is fr",
+   "attempts": 3
+  },
+  {
+   "label": "roads/grid/cbd",
+   "status": "error",
+   "error": "HTTP 504 from https://overpass-api.de/api/interpreter: <?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\"\n    \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">\n<html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\">\n<head>\n  <meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" lang=\"en\"/>\n  <title>OSM3S Response</title>\n</head>\n<body>\n\n<p>The data included in this document is fr",
+   "attempts": 3
+  },
+  {
+   "label": "roads/grid/east-inner",
+   "endpoint": "https://overpass-api.de/api/interpreter",
+   "attempt": 1,
+   "status": "ok",
+   "elements": 1
+  },
+  {
+   "label": "buildings/sample",
+   "endpoint": "https://overpass-api.de/api/interpreter",
+   "attempt": 2,
+   "status": "ok",
+   "elements": 1
+  },
+  {
+   "label": "water/polygons",
+   "endpoint": "https://overpass-api.de/api/interpreter",
+   "attempt": 1,
+   "status": "ok",
+   "elements": 1
+  },
+  {
+   "label": "water/lines",
+   "endpoint": "https://overpass-api.de/api/interpreter",
+   "attempt": 2,
+   "status": "ok",
+   "elements": 1
+  },
+  {
+   "label": "water/beaches",
+   "endpoint": "https://overpass-api.de/api/interpreter",
+   "attempt": 1,
+   "status": "ok",
+   "elements": 1
+  },
+  {
+   "label": "parks/areas",
+   "status": "error",
+   "error": "HTTP 504 from https://overpass-api.de/api/interpreter: <?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\"\n    \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">\n<html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\">\n<head>\n  <meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" lang=\"en\"/>\n  <title>OSM3S Response</title>\n</head>\n<body>\n\n<p>The data included in this document is fr",
+   "attempts": 3
+  },
+  {
+   "label": "transit/nodes",
+   "endpoint": "https://overpass-api.de/api/interpreter",
+   "attempt": 1,
+   "status": "ok",
+   "elements": 1
+  },
+  {
+   "label": "transit/ways",
+   "endpoint": "https://overpass-api.de/api/interpreter",
+   "attempt": 2,
+   "status": "ok",
+   "elements": 1
+  },
+  {
+   "label": "landmarks/ways",
+   "endpoint": "https://overpass-api.de/api/interpreter",
+   "attempt": 2,
+   "status": "ok",
+   "elements": 1
+  },
+  {
+   "label": "landmarks/nodes",
+   "endpoint": "https://overpass-api.de/api/interpreter",
+   "attempt": 1,
+   "status": "ok",
+   "elements": 1
+  },
+  {
+   "label": "venues/amenity",
+   "endpoint": "https://overpass-api.de/api/interpreter",
+   "attempt": 2,
+   "status": "ok",
+   "elements": 1
+  },
+  {
+   "label": "venues/shop",
+   "status": "error",
+   "error": "HTTP 504 from https://overpass-api.de/api/interpreter: <?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\"\n    \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">\n<html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\">\n<head>\n  <meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" lang=\"en\"/>\n  <title>OSM3S Response</title>\n</head>\n<body>\n\n<p>The data included in this document is fr",
+   "attempts": 3
+  },
+  {
+   "label": "venues/tourism+leisure",
+   "status": "error",
+   "error": "HTTP 504 from https://overpass-api.de/api/interpreter: <?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\"\n    \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">\n<html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\">\n<head>\n  <meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" lang=\"en\"/>\n  <title>OSM3S Response</title>\n</head>\n<body>\n\n<p>The data included in this document is fr",
+   "attempts": 3
+  }
+ ]
+}

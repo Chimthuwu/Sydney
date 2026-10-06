@@ -1,0 +1,8631 @@
+{
+ "kind": "venues-amenity-darling-harbour-1",
+ "sourceChannel": "overpass-api",
+ "collectedAt": "2026-09-29T17:49:03+00:00",
+ "dataSource": "OpenStreetMap",
+ "license": "ODbL 1.0",
+ "payload": {
+  "elements": [
+   {
+    "type": "node",
+    "id": 18825499,
+    "lat": -33.887697,
+    "lon": 151.2017056,
+    "tags": {
+     "amenity": "fuel",
+     "check_date": "2025-08",
+     "name": "Budget Petrol Chippendale"
+    }
+   },
+   {
+    "type": "node",
+    "id": 265917440,
+    "lat": -33.8925377,
+    "lon": 151.2032207,
+    "tags": {
+     "addr:housenumber": "118A",
+     "addr:street": "Redfern Street",
+     "amenity": "pharmacy",
+     "dispensing": "yes",
+     "email": "goldcrosspharmacy@gmail.com",
+     "healthcare": "pharmacy",
+     "name": "Gold Cross",
+     "phone": "+61 2 9698 2155",
+     "website": "https://www.compoundingchemists.com.au/"
+    }
+   },
+   {
+    "type": "node",
+    "id": 315489585,
+    "lat": -33.8820105,
+    "lon": 151.2024621,
+    "tags": {
+     "access": "yes",
+     "amenity": "parking",
+     "fee": "yes",
+     "parking": "multi-storey"
+    }
+   },
+   {
+    "type": "node",
+    "id": 315489586,
+    "lat": -33.8816963,
+    "lon": 151.203212,
+    "tags": {
+     "access": "yes",
+     "amenity": "parking"
+    }
+   },
+   {
+    "type": "node",
+    "id": 638151118,
+    "lat": -33.8836415,
+    "lon": 151.1914479,
+    "tags": {
+     "amenity": "parking",
+     "parking": "lane"
+    }
+   },
+   {
+    "type": "node",
+    "id": 1252086564,
+    "lat": -33.8895222,
+    "lon": 151.1912029,
+    "tags": {
+     "amenity": "library",
+     "name": "SciTech Library",
+     "website": "https://www.library.sydney.edu.au/visit/scitech-library"
+    }
+   },
+   {
+    "type": "node",
+    "id": 1814411330,
+    "lat": -33.8944527,
+    "lon": 151.2049826,
+    "tags": {
+     "amenity": "parking",
+     "layer": "-1",
+     "parking": "underground"
+    }
+   },
+   {
+    "type": "node",
+    "id": 1833116179,
+    "lat": -33.8845719,
+    "lon": 151.1970464,
+    "tags": {
+     "amenity": "university",
+     "check_date": "2025-07-22",
+     "name": "University of Notre Dame Australia",
+     "source": "local survey"
+    }
+   },
+   {
+    "type": "node",
+    "id": 1846293693,
+    "lat": -33.8867972,
+    "lon": 151.1908655,
+    "tags": {
+     "access": "permit",
+     "amenity": "parking",
+     "layer": "-1",
+     "parking": "underground"
+    }
+   },
+   {
+    "type": "node",
+    "id": 2072559633,
+    "lat": -33.8819172,
+    "lon": 151.1890831,
+    "tags": {
+     "amenity": "kindergarten",
+     "name": "Amigoss Preschool and Long Day Care"
+    }
+   },
+   {
+    "type": "node",
+    "id": 2897958455,
+    "lat": -33.8832566,
+    "lon": 151.1932616,
+    "tags": {
+     "amenity": "parking",
+     "parking": "multi-storey"
+    }
+   },
+   {
+    "type": "node",
+    "id": 2897958456,
+    "lat": -33.8835773,
+    "lon": 151.193283,
+    "tags": {
+     "access": "yes",
+     "amenity": "parking",
+     "check_date": "2025-01-05",
+     "parking": "multi-storey"
+    }
+   },
+   {
+    "type": "node",
+    "id": 3609960853,
+    "lat": -33.8836163,
+    "lon": 151.1964366,
+    "tags": {
+     "addr:housenumber": "82",
+     "addr:street": "Mountain Street",
+     "amenity": "doctors",
+     "healthcare": "doctor",
+     "name": "Ultimo Medical Practice",
+     "note": "100% Bulk Bill",
+     "opening_hours": "Mo-Fr 09:00-19:00; Sa 10:00-16:00",
+     "wheelchair": "yes"
+    }
+   },
+   {
+    "type": "node",
+    "id": 3977545469,
+    "lat": -33.8829488,
+    "lon": 151.1939376,
+    "tags": {
+     "amenity": "pharmacy",
+     "brand": "Priceline Pharmacy",
+     "brand:wikidata": "Q7242652",
+     "brand:wikipedia": "en:Priceline (Australia)",
+     "check_date": "2025-06-21",
+     "dispensing": "yes",
+     "healthcare": "pharmacy",
+     "level": "3",
+     "name": "Priceline Pharmacy",
+     "website": "https://www.priceline.com.au/"
+    }
+   },
+   {
+    "type": "node",
+    "id": 4131466928,
+    "lat": -33.8877253,
+    "lon": 151.2018319,
+    "tags": {
+     "access": "private",
+     "amenity": "parking"
+    }
+   },
+   {
+    "type": "node",
+    "id": 5102401433,
+    "lat": -33.8954798,
+    "lon": 151.2028151,
+    "tags": {
+     "access": "private",
+     "amenity": "parking"
+    }
+   },
+   {
+    "type": "node",
+    "id": 5110919561,
+    "lat": -33.8829096,
+    "lon": 151.1946948,
+    "tags": {
+     "access": "yes",
+     "amenity": "parking",
+     "fee": "yes",
+     "parking": "multi-storey"
+    }
+   },
+   {
+    "type": "node",
+    "id": 5237774303,
+    "lat": -33.880422,
+    "lon": 151.2044516,
+    "tags": {
+     "addr:housenumber": "75-77",
+     "addr:street": "Ultimo Road",
+     "amenity": "pharmacy",
+     "healthcare": "pharmacy",
+     "name": "Chinese Ginsengs & Herbs Co.",
+     "name:vi": "Trung Hoa Sâm Nhung Dược Hàng"
+    }
+   },
+   {
+    "type": "node",
+    "id": 5240187414,
+    "lat": -33.8805566,
+    "lon": 151.2052108,
+    "tags": {
+     "addr:housenumber": "768",
+     "addr:street": "George Street",
+     "amenity": "clinic",
+     "healthcare": "clinic",
+     "name": "Leslie Chan Herbalist"
+    }
+   },
+   {
+    "type": "node",
+    "id": 5346228123,
+    "lat": -33.8819559,
+    "lon": 151.2036667,
+    "tags": {
+     "addr:housenumber": "10",
+     "addr:street": "Quay Street",
+     "amenity": "school",
+     "name": "ABILITY Education",
+     "name:zh": "ABILITY 語言學校"
+    }
+   },
+   {
+    "type": "node",
+    "id": 5438383393,
+    "lat": -33.8829291,
+    "lon": 151.1946269,
+    "tags": {
+     "access": "yes",
+     "amenity": "charging_station",
+     "brand": "Tesla Supercharger",
+     "brand:website": "https://www.tesla.com/supercharger",
+     "brand:wikidata": "Q17089620",
+     "brand:wikipedia": "en:Tesla Supercharger",
+     "capacity": "8",
+     "description": "Tesla Supercharger",
+     "fee": "yes",
+     "frequency": "0",
+     "motorcar": "designated",
+     "name": "Tesla Supercharger",
+     "network": "Supercharger",
+     "network:website": "https://www.tesla.com/supercharger",
+     "network:wikidata": "Q17089620",
+     "opening_hours": "24/7",
+     "operator": "Tesla",
+     "operator:wikidata": "Q478214",
+     "ref:tesla": "broadwaynswsupercharger",
+     "short_name": "Tesla",
+     "socket:tesla_supercharger": "8",
+     "website": "https://www.tesla.com/findus/location/supercharger/broadwaynswsupercharger"
+    }
+   },
+   {
+    "type": "node",
+    "id": 5608349138,
+    "lat": -33.8909943,
+    "lon": 151.2127676,
+    "tags": {
+     "amenity": "clinic",
+     "healthcare": "clinic",
+     "name": "Surry Hills Medical Centre"
+    }
+   },
+   {
+    "type": "node",
+    "id": 5608349154,
+    "lat": -33.8917085,
+    "lon": 151.2127857,
+    "tags": {
+     "amenity": "pharmacy",
+     "brand": "Chemist Warehouse",
+     "brand:wikidata": "Q48782120",
+     "check_date": "2026-05-02",
+     "dispensing": "yes",
+     "healthcare": "pharmacy",
+     "name": "Chemist Warehouse"
+    }
+   },
+   {
+    "type": "node",
+    "id": 5608349182,
+    "lat": -33.8918137,
+    "lon": 151.2138573,
+    "tags": {
+     "amenity": "doctors",
+     "check_date": "2026-03-21",
+     "healthcare": "doctor",
+     "name": "Doctor Krishnan Surgery"
+    }
+   },
+   {
+    "type": "node",
+    "id": 5610439528,
+    "lat": -33.8900099,
+    "lon": 151.2132364,
+    "tags": {
+     "amenity": "pharmacy",
+     "dispensing": "yes",
+     "healthcare": "pharmacy",
+     "name": "Surry Hills Pharmacy",
+     "wheelchair": "yes"
+    }
+   },
+   {
+    "type": "node",
+    "id": 5744800021,
+    "lat": -33.8815244,
+    "lon": 151.2051747,
+    "tags": {
+     "amenity": "nightclub",
+     "check_date:opening_hours": "2025-06-14",
+     "level": "-1",
+     "name": "Schirrmo’s Bar",
+     "opening_hours:signed": "no"
+    }
+   },
+   {
+    "type": "node",
+    "id": 5870566297,
+    "lat": -33.8816257,
+    "lon": 151.2000409,
+    "tags": {
+     "amenity": "library",
+     "check_date": "2023-11-24",
+     "name": "TAFE NSW Ultimo Library",
+     "opening_hours": "Mo-Th 08:45-20:30; Fr 08:45-18:00; Sa 12:00-16:00",
+     "wheelchair": "yes"
+    }
+   },
+   {
+    "type": "node",
+    "id": 6273392861,
+    "lat": -33.883441,
+    "lon": 151.2086893,
+    "tags": {
+     "amenity": "pharmacy",
+     "check_date": "2026-09",
+     "healthcare": "pharmacy",
+     "name": "Caremore Centennial Pharmacy",
+     "opening_hours": "Mo-Fr 08:00-18:00;Sa 09:00-13:00"
+    }
+   },
+   {
+    "type": "node",
+    "id": 6359584354,
+    "lat": -33.883136,
+    "lon": 151.1913756,
+    "tags": {
+     "addr:housenumber": "53",
+     "addr:postcode": "2037",
+     "addr:state": "NSW",
+     "addr:street": "Glebe Point Road",
+     "addr:suburb": "Glebe",
+     "amenity": "clinic",
+     "check_date": "2025-11-04",
+     "healthcare": "clinic",
+     "healthcare:speciality": "general;physiotherapy",
+     "name": "Glebe Medical Centre",
+     "opening_hours": "Mo-Fr 07:30-19:00; Sa-Su 09:00-13:00"
+    }
+   },
+   {
+    "type": "node",
+    "id": 6914023373,
+    "lat": -33.8925296,
+    "lon": 151.1919601,
+    "tags": {
+     "amenity": "arts_centre"
+    }
+   },
+   {
+    "type": "node",
+    "id": 7027487385,
+    "lat": -33.8852991,
+    "lon": 151.2006523,
+    "tags": {
+     "addr:housenumber": "28",
+     "addr:postcode": "2008",
+     "addr:street": "Broadway",
+     "amenity": "clinic",
+     "check_date": "2026-09",
+     "healthcare": "clinic",
+     "name": "Myhealth Medical Centre Central Park",
+     "opening_hours": "Mo-Fr 09:00-17:30; Sa 09:00-16:00",
+     "phone": "+61 2 8197 1888",
+     "website": "https://www.myhealth.net.au/central-park/"
+    }
+   },
+   {
+    "type": "node",
+    "id": 7844970902,
+    "lat": -33.8925772,
+    "lon": 151.2033051,
+    "tags": {
+     "addr:housenumber": "1118B",
+     "addr:street": "Redfern Street",
+     "amenity": "clinic",
+     "healthcare": "clinic",
+     "name": "Redfern Medical Centre"
+    }
+   },
+   {
+    "type": "node",
+    "id": 8624636073,
+    "lat": -33.8847977,
+    "lon": 151.200349,
+    "tags": {
+     "amenity": "pharmacy",
+     "brand": "Priceline Pharmacy",
+     "brand:wikidata": "Q7242652",
+     "brand:wikipedia": "en:Priceline (Australia)",
+     "check_date": "2025-08",
+     "dispensing": "yes",
+     "healthcare": "pharmacy",
+     "level": "-1",
+     "name": "Priceline Pharmacy",
+     "opening_hours": "Mo-Fr 08:00-22:00;Sa-Su 09:00-21:00"
+    }
+   },
+   {
+    "type": "node",
+    "id": 10650874269,
+    "lat": -33.8856162,
+    "lon": 151.2120367,
+    "tags": {
+     "access": "private",
+     "amenity": "parking",
+     "parking": "surface"
+    }
+   },
+   {
+    "type": "node",
+    "id": 10679626486,
+    "lat": -33.8869472,
+    "lon": 151.2124109,
+    "tags": {
+     "amenity": "community_centre",
+     "check_date": "2026-04-20",
+     "name": "The Boys and Girls Brigade Building"
+    }
+   },
+   {
+    "type": "node",
+    "id": 10769891593,
+    "lat": -33.8831547,
+    "lon": 151.2033301,
+    "tags": {
+     "amenity": "pharmacy",
+     "brand": "Chemist Warehouse",
+     "brand:wikidata": "Q48782120",
+     "check_date": "2025-10-24",
+     "check_date:opening_hours": "2025-10-24",
+     "healthcare": "pharmacy",
+     "name": "Chemist Warehouse",
+     "opening_hours": "Mo-We 08:00-22:30; Th-Sa 08:00-23:00; Su 08:00-22:00"
+    }
+   },
+   {
+    "type": "node",
+    "id": 10828994296,
+    "lat": -33.8836903,
+    "lon": 151.2092298,
+    "tags": {
+     "addr:postcode": "2010",
+     "addr:state": "NSW",
+     "addr:suburb": "Surry Hills",
+     "amenity": "university",
+     "contact:facebook": "SwinburneOpenEducation",
+     "contact:instagram": "swinburneopenedu",
+     "contact:linkedin": "swinburne-open-education",
+     "fixme": "Does this exist?",
+     "image": "https://local-platform.s3.us-east-2.amazonaws.com/intake_location/logo/205409/hlRR6XpKU7hK0TA3LuRa8DzX76Okj4zcAFDLOetj.jpg",
+     "language:en": "yes",
+     "name": "Swinburne Open Education",
+     "phone:AU": "1300 635 480",
+     "website": "https://www.swinburneopen.edu.au/"
+    }
+   },
+   {
+    "type": "node",
+    "id": 10892395240,
+    "lat": -33.886071,
+    "lon": 151.2091153,
+    "tags": {
+     "addr:housenumber": "55",
+     "addr:street": "Holt Street",
+     "amenity": "parking",
+     "brand": "Wilson Parking",
+     "brand:wikidata": "Q28448427",
+     "covered": "yes",
+     "fee": "yes",
+     "layer": "-1",
+     "name": "Wilson Parking",
+     "operator": "Wilson Parking",
+     "operator:type": "private",
+     "operator:wikidata": "Q28448427",
+     "parking": "underground",
+     "website": "https://www.wilsonparking.com.au/parking-locations/new-south-wales/cbd-sydney-south/55-holt-st-car-park/"
+    }
+   },
+   {
+    "type": "node",
+    "id": 11166907846,
+    "lat": -33.8847557,
+    "lon": 151.2007701,
+    "tags": {
+     "access": "yes",
+     "amenity": "library",
+     "check_date": "2025-08-16",
+     "email": "library_sy@jpf.go.jp",
+     "internet_access": "wlan",
+     "level": "4",
+     "name": "Japan Foundation Library",
+     "opening_hours": "Mo-Fr 10:00-18:00,Sa 11:00-16:00",
+     "operator": "Japan Foundation",
+     "operator:type": "government",
+     "phone": "+61 2 8239 0055",
+     "website": "https://sydney.jpf.go.jp/library/"
+    }
+   },
+   {
+    "type": "node",
+    "id": 11890769245,
+    "lat": -33.8892964,
+    "lon": 151.2021251,
+    "tags": {
+     "access": "customers",
+     "access:note": "Odd Assembly parking only",
+     "amenity": "parking",
+     "capacity": "unknown",
+     "parking": "surface"
+    }
+   },
+   {
+    "type": "node",
+    "id": 12139004742,
+    "lat": -33.8918184,
+    "lon": 151.2008361,
+    "tags": {
+     "amenity": "studio",
+     "name": "The Actors Pulse"
+    }
+   },
+   {
+    "type": "node",
+    "id": 12240017208,
+    "lat": -33.8866761,
+    "lon": 151.2017178,
+    "tags": {
+     "addr:housenumber": "79",
+     "addr:street": "Regent Street",
+     "amenity": "studio",
+     "name": "Studio Bazzi",
+     "website": "https://www.wassimbazzi.com"
+    }
+   },
+   {
+    "type": "node",
+    "id": 12251641089,
+    "lat": -33.8893762,
+    "lon": 151.1973034,
+    "tags": {
+     "amenity": "community_centre",
+     "name": "The Settlement Neighbourhood Centre",
+     "opening_hours": "Mo-Fr 10:00-18:00; \"After School Drop-In: Mo-Fr 14:30-18:00; Holiday\""
+    }
+   },
+   {
+    "type": "node",
+    "id": 12259742203,
+    "lat": -33.8883455,
+    "lon": 151.1990218,
+    "tags": {
+     "addr:housenumber": "126",
+     "addr:street": "Abercrombie Street",
+     "amenity": "studio",
+     "check_date": "2025-10",
+     "name": "Peach Black",
+     "website": "https://peachblackgallery.com/"
+    }
+   },
+   {
+    "type": "node",
+    "id": 12324818780,
+    "lat": -33.884579,
+    "lon": 151.1968448,
+    "tags": {
+     "access": "private",
+     "amenity": "parking",
+     "capacity": "5",
+     "parking": "surface"
+    }
+   },
+   {
+    "type": "node",
+    "id": 12495355540,
+    "lat": -33.8930709,
+    "lon": 151.186992,
+    "tags": {
+     "access": "private",
+     "amenity": "parking",
+     "layer": "-1",
+     "parking": "underground"
+    }
+   },
+   {
+    "type": "node",
+    "id": 12543852694,
+    "lat": -33.8871636,
+    "lon": 151.1982097,
+    "tags": {
+     "addr:housenumber": "14",
+     "addr:street": "Myrtle Street",
+     "amenity": "studio",
+     "name": "Cutting Edge",
+     "studio": "video",
+     "website": "https://www.cuttingedge.com.au/"
+    }
+   },
+   {
+    "type": "node",
+    "id": 12543852695,
+    "lat": -33.8886653,
+    "lon": 151.1958619,
+    "tags": {
+     "addr:housenumber": "43-53",
+     "addr:street": "Vine Street",
+     "amenity": "studio",
+     "name": "Vine St Studios",
+     "studio": "video",
+     "website": "http://www.vinestreetstudios.com.au/"
+    }
+   },
+   {
+    "type": "node",
+    "id": 12688744701,
+    "lat": -33.8868692,
+    "lon": 151.1985256,
+    "tags": {
+     "addr:housenumber": "69",
+     "addr:street": "Abercrombie Street",
+     "amenity": "studio",
+     "check_date": "2025-06",
+     "name": "There",
+     "website": "https://therestudio.com"
+    }
+   },
+   {
+    "type": "node",
+    "id": 12953739529,
+    "lat": -33.8837525,
+    "lon": 151.1980703,
+    "tags": {
+     "amenity": "kindergarten",
+     "check_date": "2025-06",
+     "name": "Golden Wattle Early Education"
+    }
+   },
+   {
+    "type": "node",
+    "id": 12955621597,
+    "lat": -33.881185,
+    "lon": 151.2038963,
+    "tags": {
+     "amenity": "parking",
+     "brand": "Wilson Parking",
+     "brand:wikidata": "Q28448427",
+     "fee": "yes",
+     "name": "Wilson Parking",
+     "operator": "Wilson Parking",
+     "operator:type": "private",
+     "operator:wikidata": "Q28448427"
+    }
+   },
+   {
+    "type": "node",
+    "id": 12955635002,
+    "lat": -33.8811872,
+    "lon": 151.203863,
+    "tags": {
+     "amenity": "parking",
+     "layer": "-1",
+     "parking": "underground"
+    }
+   },
+   {
+    "type": "node",
+    "id": 12955635003,
+    "lat": -33.8858575,
+    "lon": 151.1959481,
+    "tags": {
+     "amenity": "studio",
+     "check_date": "2025-06",
+     "name": "The Audition Room",
+     "studio": "photo"
+    }
+   },
+   {
+    "type": "node",
+    "id": 12989293270,
+    "lat": -33.8865376,
+    "lon": 151.1953259,
+    "tags": {
+     "access": "private",
+     "amenity": "parking",
+     "capacity": "2",
+     "parking": "street_side"
+    }
+   },
+   {
+    "type": "node",
+    "id": 13020534890,
+    "lat": -33.8891092,
+    "lon": 151.2005502,
+    "tags": {
+     "amenity": "studio",
+     "name": "Woodburn Creatives"
+    }
+   },
+   {
+    "type": "node",
+    "id": 13095740738,
+    "lat": -33.8883929,
+    "lon": 151.2012646,
+    "tags": {
+     "addr:housenumber": "137-139",
+     "addr:street": "Regent Street",
+     "amenity": "social_facility",
+     "name": "The Haymarket Centre",
+     "phone": "+61 2 9197 9701",
+     "social_facility": "shelter",
+     "social_facility:for": "homeless",
+     "website": "https://www.haymarket.org.au/get-help/the-haymarket-centre/"
+    }
+   },
+   {
+    "type": "node",
+    "id": 13154557719,
+    "lat": -33.8891985,
+    "lon": 151.1984718,
+    "tags": {
+     "amenity": "studio",
+     "check_date": "2025-09",
+     "name": "SCCO Studio",
+     "website": "https://scco.studio"
+    }
+   },
+   {
+    "type": "node",
+    "id": 13174756953,
+    "lat": -33.8944682,
+    "lon": 151.1992792,
+    "tags": {
+     "amenity": "studio",
+     "check_date": "2025-09",
+     "name": "Sydney Creative"
+    }
+   },
+   {
+    "type": "node",
+    "id": 13189781093,
+    "lat": -33.8866189,
+    "lon": 151.2015387,
+    "tags": {
+     "addr:housenumber": "39",
+     "addr:street": "Wellington Street",
+     "amenity": "studio",
+     "check_date": "2025-09",
+     "name": "Andpeople",
+     "website": "https://www.andpeople.com"
+    }
+   },
+   {
+    "type": "node",
+    "id": 13233851016,
+    "lat": -33.8836301,
+    "lon": 151.2001082,
+    "tags": {
+     "addr:housenumber": "61",
+     "addr:postcode": "2007",
+     "addr:state": "NSW",
+     "addr:street": "Broadway",
+     "addr:suburb": "Ultimo",
+     "addr:unit": "UTS building 2, Level 7,8,9",
+     "amenity": "library",
+     "internet_access": "wlan",
+     "internet_access:fee": "customers",
+     "name": "UTS Library",
+     "opening_hours": "Mo-Fr 08:00-22:00",
+     "operator": "University of Technology Sydney",
+     "operator:type": "university",
+     "wheelchair": "yes"
+    }
+   },
+   {
+    "type": "node",
+    "id": 13279332545,
+    "lat": -33.8831344,
+    "lon": 151.1913141,
+    "tags": {
+     "amenity": "pharmacy",
+     "brand": "Priceline Pharmacy",
+     "brand:wikidata": "Q7242652",
+     "check_date": "2025-11-04",
+     "healthcare": "pharmacy",
+     "name": "Priceline Pharmacy"
+    }
+   },
+   {
+    "type": "node",
+    "id": 13327464091,
+    "lat": -33.8830853,
+    "lon": 151.1939032,
+    "tags": {
+     "amenity": "pharmacy",
+     "brand": "Priceline Pharmacy",
+     "brand:wikidata": "Q7242652",
+     "healthcare": "pharmacy",
+     "level": "3",
+     "name": "Priceline Pharmacy"
+    }
+   },
+   {
+    "type": "node",
+    "id": 13660959476,
+    "lat": -33.8855508,
+    "lon": 151.2018192,
+    "tags": {
+     "amenity": "parking",
+     "capacity": "2",
+     "check_date": "2026-03-19",
+     "description": "Loading zone ticket 08:00-18:00, 4p ticket 06:00-22:00",
+     "fixme": "Add parking tags",
+     "parking": "street_side"
+    }
+   },
+   {
+    "type": "node",
+    "id": 13660959487,
+    "lat": -33.885316,
+    "lon": 151.2017622,
+    "tags": {
+     "amenity": "parking",
+     "capacity": "2",
+     "check_date": "2026-03-19",
+     "description": "Loading zone ticket 08:00-18:00, 4p ticket 06:00-22:00",
+     "fixme": "Add parking tags",
+     "parking": "street_side"
+    }
+   },
+   {
+    "type": "node",
+    "id": 13660959492,
+    "lat": -33.8849501,
+    "lon": 151.201672,
+    "tags": {
+     "amenity": "parking",
+     "capacity": "2",
+     "check_date": "2026-03-19",
+     "description": "P15 minute 08:00-18:00, 4p 06:00-22:00",
+     "fixme": "Add parking tags",
+     "parking": "street_side"
+    }
+   },
+   {
+    "type": "node",
+    "id": 13848730754,
+    "lat": -33.8934245,
+    "lon": 151.1971654,
+    "tags": {
+     "addr:housenumber": "6",
+     "addr:street": "Cornwallis Street",
+     "amenity": "clinic",
+     "healthcare": "clinic",
+     "healthcare:speciality": "community;general",
+     "lgbtq": "primary",
+     "name": "Kaleido Health Centre",
+     "opening_hours": "Mo-Fr 08:00-17:00",
+     "operator": "ACON Health",
+     "operator:wikidata": "Q136402862",
+     "phone": "+61 2 8323 7378",
+     "website": "https://kaleidohealth.org.au/"
+    }
+   },
+   {
+    "type": "node",
+    "id": 13973495166,
+    "lat": -33.8875515,
+    "lon": 151.2011314,
+    "tags": {
+     "addr:housenumber": "56",
+     "amenity": "studio",
+     "check_date": "2026-06",
+     "description": "A nexus studios company",
+     "name": "MightyNick"
+    }
+   },
+   {
+    "type": "node",
+    "id": 14000457541,
+    "lat": -33.884817,
+    "lon": 151.2139932,
+    "tags": {
+     "amenity": "social_facility",
+     "check_date": "2026-07-09",
+     "name": "Oasis Youth Services",
+     "operator": "The Salvation Army"
+    }
+   },
+   {
+    "type": "node",
+    "id": 14028707709,
+    "lat": -33.8910878,
+    "lon": 151.1987105,
+    "tags": {
+     "amenity": "school",
+     "name": "Key College",
+     "operator": "Youth Off the Streets",
+     "school:gender": "mixed",
+     "website": "https://youthoffthestreets.com.au/alternative-high-schools/key-college-redfern/"
+    }
+   },
+   {
+    "type": "way",
+    "id": 4338539,
+    "bounds": {
+     "minlat": -33.8833634,
+     "minlon": 151.1975533,
+     "maxlat": -33.880948,
+     "maxlon": 151.201065
+    },
+    "nodes": [
+     1587090470,
+     3606298189,
+     9907038788,
+     3606298171,
+     3606298170,
+     12730130566,
+     26409148,
+     1587090477,
+     9907038789,
+     1587090509,
+     1587090470
+    ],
+    "geometry": [
+     {
+      "lat": -33.8820387,
+      "lon": 151.1975533
+     },
+     {
+      "lat": -33.8815747,
+      "lon": 151.1987227
+     },
+     {
+      "lat": -33.8815411,
+      "lon": 151.1988074
+     },
+     {
+      "lat": -33.8811658,
+      "lon": 151.1997534
+     },
+     {
+      "lat": -33.8810766,
+      "lon": 151.1999781
+     },
+     {
+      "lat": -33.881052,
+      "lon": 151.2000402
+     },
+     {
+      "lat": -33.880948,
+      "lon": 151.2003024
+     },
+     {
+      "lat": -33.8822726,
+      "lon": 151.201065
+     },
+     {
+      "lat": -33.8826249,
+      "lon": 151.2001772
+     },
+     {
+      "lat": -33.8833634,
+      "lon": 151.1983159
+     },
+     {
+      "lat": -33.8820387,
+      "lon": 151.1975533
+     }
+    ],
+    "tags": {
+     "addr:housenumber": "651-731",
+     "addr:street": "Harris Street",
+     "amenity": "college",
+     "name": "TAFE NSW Ultimo",
+     "operator": "TAFE NSW",
+     "operator:type": "government",
+     "operator:wikidata": "Q7669247",
+     "wikidata": "Q7659985"
+    }
+   },
+   {
+    "type": "way",
+    "id": 24415904,
+    "bounds": {
+     "minlat": -33.8948357,
+     "minlon": 151.1904905,
+     "maxlat": -33.8934891,
+     "maxlon": 151.1927135
+    },
+    "nodes": [
+     265079177,
+     12345043695,
+     265079180,
+     265079181,
+     265079182,
+     265079177
+    ],
+    "geometry": [
+     {
+      "lat": -33.8940734,
+      "lon": 151.1904905
+     },
+     {
+      "lat": -33.8935779,
+      "lon": 151.1920773
+     },
+     {
+      "lat": -33.8934891,
+      "lon": 151.1923616
+     },
+     {
+      "lat": -33.8942372,
+      "lon": 151.1927135
+     },
+     {
+      "lat": -33.8948357,
+      "lon": 151.190851
+     },
+     {
+      "lat": -33.8940734,
+      "lon": 151.1904905
+     }
+    ],
+    "tags": {
+     "addr:housenumber": "245",
+     "addr:street": "Wilson Street",
+     "amenity": "arts_centre",
+     "building": "industrial",
+     "check_date": "2026-02-12",
+     "check_date:opening_hours": "2026-02-12",
+     "name": "Carriageworks",
+     "opening_hours": "Mo-Tu off; We-Su 10:00-17:00",
+     "source": "yahoo",
+     "website": "https://carriageworks.com.au/",
+     "wikidata": "Q16247182",
+     "wikipedia": "en:Carriageworks"
+    }
+   },
+   {
+    "type": "way",
+    "id": 46205383,
+    "bounds": {
+     "minlat": -33.888622,
+     "minlon": 151.1944764,
+     "maxlat": -33.8881583,
+     "maxlon": 151.1950183
+    },
+    "nodes": [
+     589218831,
+     589218835,
+     589218838,
+     589218842,
+     589218845,
+     589218849,
+     589218853,
+     589218859,
+     589218866,
+     589218874,
+     4385322861,
+     589218879,
+     589218831
+    ],
+    "geometry": [
+     {
+      "lat": -33.8881583,
+      "lon": 151.1946565
+     },
+     {
+      "lat": -33.8881952,
+      "lon": 151.1947801
+     },
+     {
+      "lat": -33.8881785,
+      "lon": 151.1948208
+     },
+     {
+      "lat": -33.8882366,
+      "lon": 151.1950183
+     },
+     {
+      "lat": -33.888622,
+      "lon": 151.1948578
+     },
+     {
+      "lat": -33.8885134,
+      "lon": 151.1944764
+     },
+     {
+      "lat": -33.8884729,
+      "lon": 151.1944945
+     },
+     {
+      "lat": -33.8884417,
+      "lon": 151.1944798
+     },
+     {
+      "lat": -33.8884422,
+      "lon": 151.1945097
+     },
+     {
+      "lat": -33.8884287,
+      "lon": 151.1945156
+     },
+     {
+      "lat": -33.8884318,
+      "lon": 151.1945314
+     },
+     {
+      "lat": -33.8884353,
+      "lon": 151.1945491
+     },
+     {
+      "lat": -33.8881583,
+      "lon": 151.1946565
+     }
+    ],
+    "tags": {
+     "access": "yes",
+     "amenity": "parking",
+     "building": "yes",
+     "building:levels": "6",
+     "fee": "yes",
+     "name": "Shepherd Street Car Park",
+     "parking": "multi-storey",
+     "source": "nearmap",
+     "source:name": "sign"
+    }
+   },
+   {
+    "type": "way",
+    "id": 46218393,
+    "bounds": {
+     "minlat": -33.8922128,
+     "minlon": 151.1921373,
+     "maxlat": -33.8919555,
+     "maxlon": 151.1924343
+    },
+    "nodes": [
+     589439674,
+     589439677,
+     4115291435,
+     4115291434,
+     589439680,
+     589439683,
+     589439687,
+     589439689,
+     589439674
+    ],
+    "geometry": [
+     {
+      "lat": -33.8922128,
+      "lon": 151.1921637
+     },
+     {
+      "lat": -33.8921338,
+      "lon": 151.1924174
+     },
+     {
+      "lat": -33.8920283,
+      "lon": 151.1923697
+     },
+     {
+      "lat": -33.8920082,
+      "lon": 151.1924343
+     },
+     {
+      "lat": -33.8919555,
+      "lon": 151.1924105
+     },
+     {
+      "lat": -33.8920303,
+      "lon": 151.1921701
+     },
+     {
+      "lat": -33.8921302,
+      "lon": 151.1922153
+     },
+     {
+      "lat": -33.8921544,
+      "lon": 151.1921373
+     },
+     {
+      "lat": -33.8922128,
+      "lon": 151.1921637
+     }
+    ],
+    "tags": {
+     "access": "private",
+     "amenity": "parking",
+     "parking": "surface"
+    }
+   },
+   {
+    "type": "way",
+    "id": 46380603,
+    "bounds": {
+     "minlat": -33.8865704,
+     "minlon": 151.1888885,
+     "maxlat": -33.8864302,
+     "maxlon": 151.1893458
+    },
+    "nodes": [
+     592653112,
+     592653113,
+     592653114,
+     592653116,
+     592653117,
+     592653112
+    ],
+    "geometry": [
+     {
+      "lat": -33.8864869,
+      "lon": 151.1888885
+     },
+     {
+      "lat": -33.8865704,
+      "lon": 151.1888979
+     },
+     {
+      "lat": -33.8865192,
+      "lon": 151.1893458
+     },
+     {
+      "lat": -33.8864302,
+      "lon": 151.1893311
+     },
+     {
+      "lat": -33.8864814,
+      "lon": 151.1888885
+     },
+     {
+      "lat": -33.8864869,
+      "lon": 151.1888885
+     }
+    ],
+    "tags": {
+     "access": "private",
+     "amenity": "parking",
+     "parking": "surface",
+     "source": "nearmap"
+    }
+   },
+   {
+    "type": "way",
+    "id": 46380741,
+    "bounds": {
+     "minlat": -33.8867933,
+     "minlon": 151.1882399,
+     "maxlat": -33.886574,
+     "maxlon": 151.1887134
+    },
+    "nodes": [
+     592653340,
+     11309003591,
+     11309003590,
+     11309003589,
+     11309003588,
+     11309003587,
+     592653352,
+     11309003580,
+     11309003581,
+     11309003582,
+     11309003584,
+     11309003586,
+     11309003585,
+     592653356,
+     592653358,
+     592653359,
+     5736970992,
+     592653340
+    ],
+    "geometry": [
+     {
+      "lat": -33.8865983,
+      "lon": 151.1882399
+     },
+     {
+      "lat": -33.8865897,
+      "lon": 151.1883198
+     },
+     {
+      "lat": -33.886644,
+      "lon": 151.188328
+     },
+     {
+      "lat": -33.8866425,
+      "lon": 151.188338
+     },
+     {
+      "lat": -33.8866085,
+      "lon": 151.1883339
+     },
+     {
+      "lat": -33.8866008,
+      "lon": 151.1883602
+     },
+     {
+      "lat": -33.886574,
+      "lon": 151.188623
+     },
+     {
+      "lat": -33.8865791,
+      "lon": 151.1886351
+     },
+     {
+      "lat": -33.886585,
+      "lon": 151.1886467
+     },
+     {
+      "lat": -33.8866006,
+      "lon": 151.1886557
+     },
+     {
+      "lat": -33.8867181,
+      "lon": 151.1886735
+     },
+     {
+      "lat": -33.8867359,
+      "lon": 151.1886828
+     },
+     {
+      "lat": -33.8867438,
+      "lon": 151.1886987
+     },
+     {
+      "lat": -33.8867503,
+      "lon": 151.1887134
+     },
+     {
+      "lat": -33.8867933,
+      "lon": 151.188391
+     },
+     {
+      "lat": -33.8867089,
+      "lon": 151.188315
+     },
+     {
+      "lat": -33.8866564,
+      "lon": 151.1882493
+     },
+     {
+      "lat": -33.8865983,
+      "lon": 151.1882399
+     }
+    ],
+    "tags": {
+     "access": "private",
+     "amenity": "parking",
+     "parking": "surface",
+     "source": "nearmap"
+    }
+   },
+   {
+    "type": "way",
+    "id": 46503287,
+    "bounds": {
+     "minlat": -33.8859498,
+     "minlon": 151.1865705,
+     "maxlat": -33.8856158,
+     "maxlon": 151.1869618
+    },
+    "nodes": [
+     594315452,
+     594315455,
+     594315458,
+     594315459,
+     594315464,
+     594315467,
+     594315471,
+     594315475,
+     594315476,
+     594315483,
+     5852573792,
+     5852573791,
+     5852573790,
+     594315489,
+     594315494,
+     594315496,
+     594315497,
+     594315452
+    ],
+    "geometry": [
+     {
+      "lat": -33.8856158,
+      "lon": 151.1865997
+     },
+     {
+      "lat": -33.8856203,
+      "lon": 151.1868571
+     },
+     {
+      "lat": -33.8856748,
+      "lon": 151.1868531
+     },
+     {
+      "lat": -33.8856926,
+      "lon": 151.1868545
+     },
+     {
+      "lat": -33.8857004,
+      "lon": 151.1869041
+     },
+     {
+      "lat": -33.8857213,
+      "lon": 151.1869313
+     },
+     {
+      "lat": -33.8857216,
+      "lon": 151.1869618
+     },
+     {
+      "lat": -33.8859498,
+      "lon": 151.1869497
+     },
+     {
+      "lat": -33.8859438,
+      "lon": 151.1869014
+     },
+     {
+      "lat": -33.8858535,
+      "lon": 151.1869003
+     },
+     {
+      "lat": -33.8858482,
+      "lon": 151.186702
+     },
+     {
+      "lat": -33.8858247,
+      "lon": 151.1867008
+     },
+     {
+      "lat": -33.8858261,
+      "lon": 151.1866372
+     },
+     {
+      "lat": -33.8857873,
+      "lon": 151.1866353
+     },
+     {
+      "lat": -33.8857889,
+      "lon": 151.1865728
+     },
+     {
+      "lat": -33.8857471,
+      "lon": 151.1865705
+     },
+     {
+      "lat": -33.8856837,
+      "lon": 151.1865943
+     },
+     {
+      "lat": -33.8856158,
+      "lon": 151.1865997
+     }
+    ],
+    "tags": {
+     "access": "private",
+     "amenity": "parking",
+     "check_date": "2023-11-15",
+     "parking": "surface"
+    }
+   },
+   {
+    "type": "way",
+    "id": 48878171,
+    "bounds": {
+     "minlat": -33.8805192,
+     "minlon": 151.2123014,
+     "maxlat": -33.8793025,
+     "maxlon": 151.2138011
+    },
+    "nodes": [
+     2623061613,
+     4700303017,
+     2623061614,
+     4700303023,
+     4160496626,
+     5365643570,
+     5365643569,
+     4160496633,
+     4160496630,
+     4700303021,
+     4700303015,
+     4700303016,
+     2623061613
+    ],
+    "geometry": [
+     {
+      "lat": -33.8794686,
+      "lon": 151.2126174
+     },
+     {
+      "lat": -33.8794722,
+      "lon": 151.2126733
+     },
+     {
+      "lat": -33.8793025,
+      "lon": 151.2127788
+     },
+     {
+      "lat": -33.8793202,
+      "lon": 151.2128311
+     },
+     {
+      "lat": -33.8796589,
+      "lon": 151.2138011
+     },
+     {
+      "lat": -33.8800172,
+      "lon": 151.2137277
+     },
+     {
+      "lat": -33.8802286,
+      "lon": 151.2136803
+     },
+     {
+      "lat": -33.8805192,
+      "lon": 151.2136232
+     },
+     {
+      "lat": -33.8802717,
+      "lon": 151.2123014
+     },
+     {
+      "lat": -33.8801029,
+      "lon": 151.2123366
+     },
+     {
+      "lat": -33.8794537,
+      "lon": 151.2124859
+     },
+     {
+      "lat": -33.8794896,
+      "lon": 151.2125715
+     },
+     {
+      "lat": -33.8794686,
+      "lon": 151.2126174
+     }
+    ],
+    "tags": {
+     "amenity": "police",
+     "name": "Sydney Police Centre",
+     "operator": "NSW Police Force",
+     "operator:wikidata": "Q7011763",
+     "phone": "+61 2 9265 4144",
+     "police": "offices"
+    }
+   },
+   {
+    "type": "way",
+    "id": 100352482,
+    "bounds": {
+     "minlat": -33.8851407,
+     "minlon": 151.2087505,
+     "maxlat": -33.8844801,
+     "maxlon": 151.2091078
+    },
+    "nodes": [
+     1160153561,
+     1160153562,
+     1160153563,
+     1160153564,
+     1160153568,
+     1160153570,
+     1160153572,
+     1160153561
+    ],
+    "geometry": [
+     {
+      "lat": -33.8851407,
+      "lon": 151.2090826
+     },
+     {
+      "lat": -33.8851246,
+      "lon": 151.2091078
+     },
+     {
+      "lat": -33.8846189,
+      "lon": 151.2090631
+     },
+     {
+      "lat": -33.884578,
+      "lon": 151.2090311
+     },
+     {
+      "lat": -33.8844801,
+      "lon": 151.2087803
+     },
+     {
+      "lat": -33.8845048,
+      "lon": 151.2087505
+     },
+     {
+      "lat": -33.8850637,
+      "lon": 151.208762
+     },
+     {
+      "lat": -33.8851407,
+      "lon": 151.2090826
+     }
+    ],
+    "tags": {
+     "access": "customers",
+     "amenity": "parking",
+     "fee": "yes",
+     "fixme": "Can public customers access this car park",
+     "lit": "yes",
+     "operator:type": "private",
+     "parking": "surface",
+     "surface": "asphalt"
+    }
+   },
+   {
+    "type": "way",
+    "id": 145267774,
+    "bounds": {
+     "minlat": -33.8806973,
+     "minlon": 151.1955461,
+     "maxlat": -33.8798358,
+     "maxlon": 151.1963863
+    },
+    "nodes": [
+     1587074950,
+     1587075087,
+     1587075055,
+     1587075053,
+     1587075070,
+     5814580847,
+     1587075093,
+     1587074950
+    ],
+    "geometry": [
+     {
+      "lat": -33.8802297,
+      "lon": 151.1955461
+     },
+     {
+      "lat": -33.8801003,
+      "lon": 151.1958732
+     },
+     {
+      "lat": -33.8799354,
+      "lon": 151.1957841
+     },
+     {
+      "lat": -33.8798358,
+      "lon": 151.1960257
+     },
+     {
+      "lat": -33.8804584,
+      "lon": 151.1963863
+     },
+     {
+      "lat": -33.8804961,
+      "lon": 151.196365
+     },
+     {
+      "lat": -33.8806973,
+      "lon": 151.1958759
+     },
+     {
+      "lat": -33.8802297,
+      "lon": 151.1955461
+     }
+    ],
+    "tags": {
+     "amenity": "parking",
+     "building": "parking",
+     "building:levels": "2",
+     "parking": "multi-storey",
+     "source": "Bing"
+    }
+   },
+   {
+    "type": "way",
+    "id": 172426196,
+    "bounds": {
+     "minlat": -33.8862836,
+     "minlon": 151.1935951,
+     "maxlat": -33.8858477,
+     "maxlon": 151.1939056
+    },
+    "nodes": [
+     2170430654,
+     1833321091,
+     1833321092,
+     2170430626,
+     1833321080,
+     7227543531,
+     7227543532,
+     7227543533,
+     2170430654
+    ],
+    "geometry": [
+     {
+      "lat": -33.8858757,
+      "lon": 151.1937959
+     },
+     {
+      "lat": -33.8859082,
+      "lon": 151.1939056
+     },
+     {
+      "lat": -33.8862836,
+      "lon": 151.1937428
+     },
+     {
+      "lat": -33.8862514,
+      "lon": 151.1936266
+     },
+     {
+      "lat": -33.8862427,
+      "lon": 151.1935951
+     },
+     {
+      "lat": -33.8858937,
+      "lon": 151.1937445
+     },
+     {
+      "lat": -33.8858769,
+      "lon": 151.1936888
+     },
+     {
+      "lat": -33.8858477,
+      "lon": 151.1937014
+     },
+     {
+      "lat": -33.8858757,
+      "lon": 151.1937959
+     }
+    ],
+    "tags": {
+     "access": "customers",
+     "amenity": "parking",
+     "capacity": "23",
+     "fee": "no",
+     "maxstay": "2 hours",
+     "note": "For use of pool and park visitors",
+     "operator": "City of Sydney",
+     "parking": "surface",
+     "surface": "paving_stones"
+    }
+   },
+   {
+    "type": "way",
+    "id": 173156845,
+    "bounds": {
+     "minlat": -33.8816833,
+     "minlon": 151.1951839,
+     "maxlat": -33.8812482,
+     "maxlon": 151.1959008
+    },
+    "nodes": [
+     1839837120,
+     1839837114,
+     1839837086,
+     1839837022,
+     11756894304,
+     1839837052,
+     1839837079,
+     1839837120
+    ],
+    "geometry": [
+     {
+      "lat": -33.881298,
+      "lon": 151.1951839
+     },
+     {
+      "lat": -33.8812613,
+      "lon": 151.1956834
+     },
+     {
+      "lat": -33.8812528,
+      "lon": 151.1958136
+     },
+     {
+      "lat": -33.8812482,
+      "lon": 151.1958568
+     },
+     {
+      "lat": -33.8812707,
+      "lon": 151.1958594
+     },
+     {
+      "lat": -33.8816273,
+      "lon": 151.1959008
+     },
+     {
+      "lat": -33.8816833,
+      "lon": 151.1952295
+     },
+     {
+      "lat": -33.881298,
+      "lon": 151.1951839
+     }
+    ],
+    "tags": {
+     "amenity": "school",
+     "name": "International Grammar School",
+     "source": "Bing"
+    }
+   },
+   {
+    "type": "way",
+    "id": 173569259,
+    "bounds": {
+     "minlat": -33.8877541,
+     "minlon": 151.1984969,
+     "maxlat": -33.8876896,
+     "maxlon": 151.1987362
+    },
+    "nodes": [
+     7263702146,
+     7263702145,
+     1843600738,
+     7263702144,
+     7263702146
+    ],
+    "geometry": [
+     {
+      "lat": -33.8876994,
+      "lon": 151.1984969
+     },
+     {
+      "lat": -33.8876896,
+      "lon": 151.1987329
+     },
+     {
+      "lat": -33.8877442,
+      "lon": 151.1987362
+     },
+     {
+      "lat": -33.8877541,
+      "lon": 151.1985002
+     },
+     {
+      "lat": -33.8876994,
+      "lon": 151.1984969
+     }
+    ],
+    "tags": {
+     "access": "private",
+     "addr:housenumber": "101-103",
+     "addr:street": "Abercrombie Street",
+     "amenity": "parking"
+    }
+   },
+   {
+    "type": "way",
+    "id": 173588134,
+    "bounds": {
+     "minlat": -33.8898412,
+     "minlon": 151.204606,
+     "maxlat": -33.8896275,
+     "maxlon": 151.2048438
+    },
+    "nodes": [
+     1843770386,
+     1843770379,
+     1843770382,
+     1843770380,
+     1843770396,
+     1843770386
+    ],
+    "geometry": [
+     {
+      "lat": -33.8896275,
+      "lon": 151.2046325
+     },
+     {
+      "lat": -33.8896474,
+      "lon": 151.2048438
+     },
+     {
+      "lat": -33.8898412,
+      "lon": 151.2048173
+     },
+     {
+      "lat": -33.8898213,
+      "lon": 151.204606
+     },
+     {
+      "lat": -33.8897181,
+      "lon": 151.2046201
+     },
+     {
+      "lat": -33.8896275,
+      "lon": 151.2046325
+     }
+    ],
+    "tags": {
+     "access": "customers",
+     "amenity": "parking",
+     "capacity": "9",
+     "capacity:disabled": "1",
+     "fee": "no",
+     "parking": "surface"
+    }
+   },
+   {
+    "type": "way",
+    "id": 175998069,
+    "bounds": {
+     "minlat": -33.8923261,
+     "minlon": 151.1867354,
+     "maxlat": -33.8913658,
+     "maxlon": 151.1880933
+    },
+    "nodes": [
+     1865609864,
+     14177317027,
+     1865609860,
+     1865609865,
+     1865609862,
+     5300089100,
+     5300089112,
+     5300089111,
+     5300089110,
+     1865609856,
+     1865609858,
+     1865609857,
+     1865609855,
+     1865609863,
+     1865609859,
+     1865609853,
+     1865609861,
+     5299141627,
+     5299141630,
+     5299141629,
+     5299141628,
+     1865609854,
+     5299141631,
+     5299141635,
+     5299141632,
+     14177317026,
+     1865609864
+    ],
+    "geometry": [
+     {
+      "lat": -33.8916754,
+      "lon": 151.1870876
+     },
+     {
+      "lat": -33.8917685,
+      "lon": 151.1867354
+     },
+     {
+      "lat": -33.8923224,
+      "lon": 151.1869456
+     },
+     {
+      "lat": -33.8923261,
+      "lon": 151.1869633
+     },
+     {
+      "lat": -33.892286,
+      "lon": 151.1870665
+     },
+     {
+      "lat": -33.8922292,
+      "lon": 151.1871859
+     },
+     {
+      "lat": -33.8921615,
+      "lon": 151.1872903
+     },
+     {
+      "lat": -33.8921335,
+      "lon": 151.1873292
+     },
+     {
+      "lat": -33.8920518,
+      "lon": 151.1874355
+     },
+     {
+      "lat": -33.8919743,
+      "lon": 151.1875104
+     },
+     {
+      "lat": -33.8919278,
+      "lon": 151.1875218
+     },
+     {
+      "lat": -33.8918001,
+      "lon": 151.1874756
+     },
+     {
+      "lat": -33.8917695,
+      "lon": 151.1875788
+     },
+     {
+      "lat": -33.8918627,
+      "lon": 151.1876094
+     },
+     {
+      "lat": -33.8917875,
+      "lon": 151.1876728
+     },
+     {
+      "lat": -33.8917934,
+      "lon": 151.1876878
+     },
+     {
+      "lat": -33.8917945,
+      "lon": 151.1877112
+     },
+     {
+      "lat": -33.8914522,
+      "lon": 151.1880847
+     },
+     {
+      "lat": -33.8914389,
+      "lon": 151.1880933
+     },
+     {
+      "lat": -33.8914246,
+      "lon": 151.1880911
+     },
+     {
+      "lat": -33.8914115,
+      "lon": 151.188084
+     },
+     {
+      "lat": -33.8913987,
+      "lon": 151.1880659
+     },
+     {
+      "lat": -33.8913658,
+      "lon": 151.188063
+     },
+     {
+      "lat": -33.8913838,
+      "lon": 151.1876046
+     },
+     {
+      "lat": -33.8913931,
+      "lon": 151.1873678
+     },
+     {
+      "lat": -33.8913986,
+      "lon": 151.1869905
+     },
+     {
+      "lat": -33.8916754,
+      "lon": 151.1870876
+     }
+    ],
+    "tags": {
+     "addr:housenumber": "1",
+     "addr:street": "King Street",
+     "amenity": "college",
+     "contact:facebook": "https://www.facebook.com/mooretheologicalcollege/",
+     "contact:instagram": "https://www.instagram.com/mooretheologicalcollege/",
+     "email": "enquiries@moore.edu.au",
+     "internet_access": "wlan",
+     "internet_access:fee": "customers",
+     "name": "Moore Theological College",
+     "phone": "+61 2 9577 9999",
+     "website": "https://moore.edu.au/",
+     "wikidata": "Q6908243",
+     "wikipedia": "en:Moore Theological College"
+    }
+   },
+   {
+    "type": "way",
+    "id": 205131040,
+    "bounds": {
+     "minlat": -33.8908469,
+     "minlon": 151.1910626,
+     "maxlat": -33.8903354,
+     "maxlon": 151.1917787
+    },
+    "nodes": [
+     2151088019,
+     2151087980,
+     2151088002,
+     2151088169,
+     2151088019
+    ],
+    "geometry": [
+     {
+      "lat": -33.890597,
+      "lon": 151.1910626
+     },
+     {
+      "lat": -33.8908469,
+      "lon": 151.1912505
+     },
+     {
+      "lat": -33.8906391,
+      "lon": 151.1917787
+     },
+     {
+      "lat": -33.8903354,
+      "lon": 151.191525
+     },
+     {
+      "lat": -33.890597,
+      "lon": 151.1910626
+     }
+    ],
+    "tags": {
+     "amenity": "parking"
+    }
+   },
+   {
+    "type": "way",
+    "id": 239531448,
+    "bounds": {
+     "minlat": -33.8895969,
+     "minlon": 151.2053655,
+     "maxlat": -33.8885857,
+     "maxlon": 151.2061767
+    },
+    "nodes": [
+     26377489,
+     2490250462,
+     10944217075,
+     10944217089,
+     10944217088,
+     1934765236,
+     2473100070,
+     2473100069,
+     26377489
+    ],
+    "geometry": [
+     {
+      "lat": -33.8894606,
+      "lon": 151.2053655
+     },
+     {
+      "lat": -33.8885857,
+      "lon": 151.2056425
+     },
+     {
+      "lat": -33.8886091,
+      "lon": 151.2057496
+     },
+     {
+      "lat": -33.888706,
+      "lon": 151.2059227
+     },
+     {
+      "lat": -33.8886303,
+      "lon": 151.2059384
+     },
+     {
+      "lat": -33.8886625,
+      "lon": 151.2061767
+     },
+     {
+      "lat": -33.8895969,
+      "lon": 151.2060346
+     },
+     {
+      "lat": -33.8895085,
+      "lon": 151.2054148
+     },
+     {
+      "lat": -33.8894606,
+      "lon": 151.2053655
+     }
+    ],
+    "tags": {
+     "addr:housenumber": "244",
+     "addr:postcode": "2010",
+     "addr:state": "NSW",
+     "addr:street": "Cleveland Street",
+     "addr:suburb": "Surry Hills",
+     "amenity": "school",
+     "contact:email": "innersydney-h.school@det.nsw.edu.au",
+     "contact:phone": "+61 2 9578 2020",
+     "fee": "no",
+     "grades": "7-12",
+     "isced:level": "2-3",
+     "name": "Inner Sydney High School",
+     "operator": "NSW Department of Education",
+     "operator:type": "government",
+     "operator:wikidata": "Q5260271",
+     "school:enrolment": "816",
+     "school:gender": "mixed",
+     "school:selective": "no",
+     "school:specialty": "comprehensive",
+     "school:type": "secondary",
+     "start_date": "2020-01-28",
+     "website": "https://innersydney-h.schools.nsw.gov.au/"
+    }
+   },
+   {
+    "type": "way",
+    "id": 247979696,
+    "bounds": {
+     "minlat": -33.8840235,
+     "minlon": 151.1902775,
+     "maxlat": -33.8830278,
+     "maxlon": 151.1914765
+    },
+    "nodes": [
+     2548266931,
+     2548266923,
+     2635002280,
+     2635002279,
+     2635002300,
+     2548266926,
+     2635002303,
+     2548266929,
+     9282094267,
+     2548266931
+    ],
+    "geometry": [
+     {
+      "lat": -33.8830278,
+      "lon": 151.1908549
+     },
+     {
+      "lat": -33.8835927,
+      "lon": 151.1902775
+     },
+     {
+      "lat": -33.8837438,
+      "lon": 151.1905047
+     },
+     {
+      "lat": -33.8838453,
+      "lon": 151.1906573
+     },
+     {
+      "lat": -33.8839263,
+      "lon": 151.190779
+     },
+     {
+      "lat": -33.8840235,
+      "lon": 151.1909157
+     },
+     {
+      "lat": -33.8839691,
+      "lon": 151.1909719
+     },
+     {
+      "lat": -33.8834601,
+      "lon": 151.1914765
+     },
+     {
+      "lat": -33.8833732,
+      "lon": 151.1913516
+     },
+     {
+      "lat": -33.8830278,
+      "lon": 151.1908549
+     }
+    ],
+    "tags": {
+     "addr:postcode": "2037",
+     "addr:suburb": "Glebe",
+     "alt_name": "Glebe Public School",
+     "amenity": "school",
+     "contact:email": "glebe-p.school@det.nsw.edu.au",
+     "contact:fax": "+61 2 9552 1703",
+     "contact:phone": "+61 2 9660 4549",
+     "fee": "no",
+     "grades": "0-6",
+     "isced:level": "1",
+     "name": "Glebe Primary School",
+     "operator": "NSW Department of Education",
+     "operator:type": "government",
+     "operator:wikidata": "Q5260271",
+     "school:enrolment": "259",
+     "school:gender": "mixed",
+     "school:selective": "no",
+     "school:specialty": "comprehensive",
+     "school:type": "primary",
+     "start_date": "1858-11-01",
+     "website": "https://www.glebe-p.schools.nsw.edu.au/"
+    }
+   },
+   {
+    "type": "way",
+    "id": 283869567,
+    "bounds": {
+     "minlat": -33.8862429,
+     "minlon": 151.2126598,
+     "maxlat": -33.8861004,
+     "maxlon": 151.2128964
+    },
+    "nodes": [
+     2876832052,
+     2876832053,
+     2876832054,
+     2876832055,
+     2876832056,
+     2876832052
+    ],
+    "geometry": [
+     {
+      "lat": -33.8862429,
+      "lon": 151.212869
+     },
+     {
+      "lat": -33.8861379,
+      "lon": 151.2128964
+     },
+     {
+      "lat": -33.8861004,
+      "lon": 151.2126871
+     },
+     {
+      "lat": -33.8862054,
+      "lon": 151.2126598
+     },
+     {
+      "lat": -33.8862228,
+      "lon": 151.2127569
+     },
+     {
+      "lat": -33.8862429,
+      "lon": 151.212869
+     }
+    ],
+    "tags": {
+     "addr:housenumber": "1",
+     "addr:postcode": "2010",
+     "addr:street": "Collins Street",
+     "addr:suburb": "Surry Hills",
+     "amenity": "school",
+     "building": "school",
+     "contact:email": "syddisted-d.school@det.nsw.edu.au",
+     "contact:fax": "+61 2 9207 6303",
+     "contact:phone": "+61 2 9207 6300",
+     "fee": "no",
+     "grades": "0-6",
+     "isced:level": "1",
+     "name": "Sydney Distance Education Primary School",
+     "operator": "NSW Department of Education",
+     "operator:type": "government",
+     "operator:wikidata": "Q5260271",
+     "school:enrolment": "202",
+     "school:gender": "mixed",
+     "school:selective": "no",
+     "school:specialty": "comprehensive",
+     "school:type": "primary",
+     "start_date": "1991-01-29",
+     "website": "https://www.syddisted-d.schools.nsw.edu.au/"
+    }
+   },
+   {
+    "type": "way",
+    "id": 286149310,
+    "bounds": {
+     "minlat": -33.8864726,
+     "minlon": 151.2026737,
+     "maxlat": -33.8848743,
+     "maxlon": 151.2034561
+    },
+    "nodes": [
+     10219024617,
+     10218990416,
+     2897981112,
+     10218990415,
+     1576442115,
+     10219024786,
+     1576442132,
+     4129336810,
+     2897981114,
+     4129336815,
+     10219024620,
+     409184741,
+     2897981115,
+     10219024618,
+     10219024619,
+     4129336819,
+     2897981116,
+     2897981117,
+     4129336806,
+     8555690201,
+     4129336800,
+     4129336798,
+     2897981118,
+     10211151241,
+     2897981119,
+     4129336789,
+     10219024617
+    ],
+    "geometry": [
+     {
+      "lat": -33.8848837,
+      "lon": 151.2032678
+     },
+     {
+      "lat": -33.8850086,
+      "lon": 151.203356
+     },
+     {
+      "lat": -33.885059,
+      "lon": 151.2034157
+     },
+     {
+      "lat": -33.8851037,
+      "lon": 151.2034415
+     },
+     {
+      "lat": -33.8851637,
+      "lon": 151.2034561
+     },
+     {
+      "lat": -33.8854716,
+      "lon": 151.2034288
+     },
+     {
+      "lat": -33.8855897,
+      "lon": 151.2034095
+     },
+     {
+      "lat": -33.8858671,
+      "lon": 151.2033079
+     },
+     {
+      "lat": -33.8859861,
+      "lon": 151.203258
+     },
+     {
+      "lat": -33.886267,
+      "lon": 151.2030815
+     },
+     {
+      "lat": -33.8863867,
+      "lon": 151.202992
+     },
+     {
+      "lat": -33.8864726,
+      "lon": 151.2028753
+     },
+     {
+      "lat": -33.8864231,
+      "lon": 151.20272
+     },
+     {
+      "lat": -33.8863539,
+      "lon": 151.2026873
+     },
+     {
+      "lat": -33.886273,
+      "lon": 151.2026737
+     },
+     {
+      "lat": -33.8861828,
+      "lon": 151.2026855
+     },
+     {
+      "lat": -33.8861044,
+      "lon": 151.2027611
+     },
+     {
+      "lat": -33.8859008,
+      "lon": 151.2028528
+     },
+     {
+      "lat": -33.8856049,
+      "lon": 151.2029867
+     },
+     {
+      "lat": -33.8855002,
+      "lon": 151.203032
+     },
+     {
+      "lat": -33.8854334,
+      "lon": 151.2030677
+     },
+     {
+      "lat": -33.8852321,
+      "lon": 151.2031344
+     },
+     {
+      "lat": -33.8850201,
+      "lon": 151.2031852
+     },
+     {
+      "lat": -33.8849737,
+      "lon": 151.2032021
+     },
+     {
+      "lat": -33.8849031,
+      "lon": 151.2032277
+     },
+     {
+      "lat": -33.8848743,
+      "lon": 151.2032404
+     },
+     {
+      "lat": -33.8848837,
+      "lon": 151.2032678
+     }
+    ],
+    "tags": {
+     "access": "no",
+     "amenity": "parking",
+     "bus": "designated",
+     "capacity": "25",
+     "depot": "bus",
+     "description": "Railway Square Bus Layup Area"
+    }
+   },
+   {
+    "type": "way",
+    "id": 320612648,
+    "bounds": {
+     "minlat": -33.8950913,
+     "minlon": 151.2012312,
+     "maxlat": -33.8948165,
+     "maxlon": 151.2015235
+    },
+    "nodes": [
+     3272117971,
+     3272117972,
+     3272117973,
+     3272117974,
+     3272117971
+    ],
+    "geometry": [
+     {
+      "lat": -33.8948165,
+      "lon": 151.2012755
+     },
+     {
+      "lat": -33.8950568,
+      "lon": 151.2012312
+     },
+     {
+      "lat": -33.8950913,
+      "lon": 151.2014759
+     },
+     {
+      "lat": -33.8948446,
+      "lon": 151.2015235
+     },
+     {
+      "lat": -33.8948165,
+      "lon": 151.2012755
+     }
+    ],
+    "tags": {
+     "addr:housenumber": "166-180",
+     "addr:postcode": "2016",
+     "addr:street": "George Street",
+     "amenity": "arts_centre",
+     "building": "yes",
+     "building:levels": "2",
+     "name": "National Centre of Indigenous Excellence"
+    }
+   },
+   {
+    "type": "way",
+    "id": 335295824,
+    "bounds": {
+     "minlat": -33.8921383,
+     "minlon": 151.1997788,
+     "maxlat": -33.8919068,
+     "maxlon": 151.2000915
+    },
+    "nodes": [
+     9892523943,
+     5293236825,
+     3424137925,
+     5293236845,
+     5293236844,
+     3424137926,
+     5293236824,
+     3424137940,
+     9892523943
+    ],
+    "geometry": [
+     {
+      "lat": -33.8919068,
+      "lon": 151.1998462
+     },
+     {
+      "lat": -33.8919198,
+      "lon": 151.1998962
+     },
+     {
+      "lat": -33.8919774,
+      "lon": 151.2000915
+     },
+     {
+      "lat": -33.8920207,
+      "lon": 151.2000728
+     },
+     {
+      "lat": -33.8920549,
+      "lon": 151.2000594
+     },
+     {
+      "lat": -33.8921383,
+      "lon": 151.2000229
+     },
+     {
+      "lat": -33.8920806,
+      "lon": 151.1998274
+     },
+     {
+      "lat": -33.8920636,
+      "lon": 151.1997788
+     },
+     {
+      "lat": -33.8919068,
+      "lon": 151.1998462
+     }
+    ],
+    "tags": {
+     "addr:housenumber": "1B",
+     "addr:postcode": "2016",
+     "addr:state": "NSW",
+     "addr:street": "Lawson Square",
+     "addr:suburb": "Redfern",
+     "amenity": "police",
+     "building": "yes",
+     "fax": "+61 2 8303 5333",
+     "name": "Redfern Police Station",
+     "opening_hours": "24/7",
+     "operator": "NSW Police Force",
+     "operator:wikidata": "Q7011763",
+     "phone": "+61 2 8303 5199",
+     "website": "https://www.police.nsw.gov.au/about_us/regions_commands_districts/central_metro_region/south_sydney/redfern_police_station"
+    }
+   },
+   {
+    "type": "way",
+    "id": 376176099,
+    "bounds": {
+     "minlat": -33.8955222,
+     "minlon": 151.2001401,
+     "maxlat": -33.8953577,
+     "maxlon": 151.2002914
+    },
+    "nodes": [
+     3796324962,
+     3796324963,
+     3796324964,
+     12096968544,
+     3796324962
+    ],
+    "geometry": [
+     {
+      "lat": -33.8953577,
+      "lon": 151.2001401
+     },
+     {
+      "lat": -33.8955222,
+      "lon": 151.2001411
+     },
+     {
+      "lat": -33.8954969,
+      "lon": 151.2002914
+     },
+     {
+      "lat": -33.8953584,
+      "lon": 151.200288
+     },
+     {
+      "lat": -33.8953577,
+      "lon": 151.2001401
+     }
+    ],
+    "tags": {
+     "amenity": "community_centre",
+     "building": "yes",
+     "name": "The Salvation Army Centre",
+     "operator": "The Salvation Army",
+     "operator:wikidata": "Q188307"
+    }
+   },
+   {
+    "type": "way",
+    "id": 411017200,
+    "bounds": {
+     "minlat": -33.8865118,
+     "minlon": 151.1974661,
+     "maxlat": -33.8864595,
+     "maxlon": 151.1976538
+    },
+    "nodes": [
+     4127556961,
+     4127556960,
+     4127556957,
+     4127556959,
+     4127556961
+    ],
+    "geometry": [
+     {
+      "lat": -33.8865118,
+      "lon": 151.1974698
+     },
+     {
+      "lat": -33.886506,
+      "lon": 151.1976538
+     },
+     {
+      "lat": -33.8864595,
+      "lon": 151.1976508
+     },
+     {
+      "lat": -33.8864655,
+      "lon": 151.1974661
+     },
+     {
+      "lat": -33.8865118,
+      "lon": 151.1974698
+     }
+    ],
+    "tags": {
+     "access": "private",
+     "amenity": "parking",
+     "capacity": "6",
+     "parking:capacity": "7"
+    }
+   },
+   {
+    "type": "way",
+    "id": 411164642,
+    "bounds": {
+     "minlat": -33.8877148,
+     "minlon": 151.1962683,
+     "maxlat": -33.8875787,
+     "maxlon": 151.1965099
+    },
+    "nodes": [
+     4128947975,
+     4128947982,
+     4128948294,
+     4128947979,
+     4128947975
+    ],
+    "geometry": [
+     {
+      "lat": -33.8875787,
+      "lon": 151.1962998
+     },
+     {
+      "lat": -33.8876549,
+      "lon": 151.1962683
+     },
+     {
+      "lat": -33.8877148,
+      "lon": 151.1964656
+     },
+     {
+      "lat": -33.8876363,
+      "lon": 151.1965099
+     },
+     {
+      "lat": -33.8875787,
+      "lon": 151.1962998
+     }
+    ],
+    "tags": {
+     "addr:housenumber": "64",
+     "addr:postcode": "2008",
+     "addr:state": "NSW",
+     "addr:street": "Pine Street",
+     "addr:suburb": "Chippendale",
+     "amenity": "arts_centre",
+     "building": "yes",
+     "name": "Pine Street Creative Arts Centre",
+     "operator": "City of Sydney",
+     "website": "https://www.cityofsydney.nsw.gov.au/community-centres/pine-street-creative-arts-centre"
+    }
+   },
+   {
+    "type": "way",
+    "id": 411175117,
+    "bounds": {
+     "minlat": -33.8874523,
+     "minlon": 151.197018,
+     "maxlat": -33.8873945,
+     "maxlon": 151.1973438
+    },
+    "nodes": [
+     4129008048,
+     4129008052,
+     4129027949,
+     4129008051,
+     4129008046,
+     4129008048
+    ],
+    "geometry": [
+     {
+      "lat": -33.8874075,
+      "lon": 151.197018
+     },
+     {
+      "lat": -33.8874523,
+      "lon": 151.1970488
+     },
+     {
+      "lat": -33.8874452,
+      "lon": 151.1971988
+     },
+     {
+      "lat": -33.8874384,
+      "lon": 151.1973438
+     },
+     {
+      "lat": -33.8873945,
+      "lon": 151.1973046
+     },
+     {
+      "lat": -33.8874075,
+      "lon": 151.197018
+     }
+    ],
+    "tags": {
+     "amenity": "parking",
+     "capacity": "10",
+     "parking": "lane",
+     "parking:lane": "diagonal"
+    }
+   },
+   {
+    "type": "way",
+    "id": 411175118,
+    "bounds": {
+     "minlat": -33.8874268,
+     "minlon": 151.1975789,
+     "maxlat": -33.887368,
+     "maxlon": 151.1980234
+    },
+    "nodes": [
+     4129008044,
+     4129008049,
+     4129008047,
+     4129008042,
+     4129008044
+    ],
+    "geometry": [
+     {
+      "lat": -33.8873876,
+      "lon": 151.1975789
+     },
+     {
+      "lat": -33.8874268,
+      "lon": 151.1976172
+     },
+     {
+      "lat": -33.8874089,
+      "lon": 151.1980234
+     },
+     {
+      "lat": -33.887368,
+      "lon": 151.197987
+     },
+     {
+      "lat": -33.8873876,
+      "lon": 151.1975789
+     }
+    ],
+    "tags": {
+     "amenity": "parking",
+     "capacity": "12",
+     "parking": "lane",
+     "parking:lane": "diagonal"
+    }
+   },
+   {
+    "type": "way",
+    "id": 411186128,
+    "bounds": {
+     "minlat": -33.8854192,
+     "minlon": 151.1974626,
+     "maxlat": -33.8844677,
+     "maxlon": 151.1985758
+    },
+    "nodes": [
+     4129172265,
+     4129172267,
+     3731494906,
+     4129172272,
+     4129172271,
+     4129172276,
+     4129172275,
+     4129172280,
+     4129172279,
+     2635013536,
+     2635013483,
+     4129175189,
+     4129175200,
+     3731499434,
+     3731499432,
+     3731499439,
+     2635013491,
+     2635013470,
+     2635013439,
+     2635013499,
+     2635013488,
+     2635013527,
+     4129172263,
+     4129172265
+    ],
+    "geometry": [
+     {
+      "lat": -33.884488,
+      "lon": 151.1974931
+     },
+     {
+      "lat": -33.88452,
+      "lon": 151.1974626
+     },
+     {
+      "lat": -33.8846631,
+      "lon": 151.1974734
+     },
+     {
+      "lat": -33.8846528,
+      "lon": 151.1977277
+     },
+     {
+      "lat": -33.8846429,
+      "lon": 151.1979282
+     },
+     {
+      "lat": -33.8847027,
+      "lon": 151.1979339
+     },
+     {
+      "lat": -33.8846972,
+      "lon": 151.1980313
+     },
+     {
+      "lat": -33.8848482,
+      "lon": 151.1980428
+     },
+     {
+      "lat": -33.8848431,
+      "lon": 151.1981381
+     },
+     {
+      "lat": -33.8850952,
+      "lon": 151.1981608
+     },
+     {
+      "lat": -33.8852612,
+      "lon": 151.1981732
+     },
+     {
+      "lat": -33.885257,
+      "lon": 151.1982595
+     },
+     {
+      "lat": -33.8854192,
+      "lon": 151.1982764
+     },
+     {
+      "lat": -33.8854157,
+      "lon": 151.198318
+     },
+     {
+      "lat": -33.8854127,
+      "lon": 151.1984256
+     },
+     {
+      "lat": -33.8854102,
+      "lon": 151.1984661
+     },
+     {
+      "lat": -33.8854076,
+      "lon": 151.1985758
+     },
+     {
+      "lat": -33.8848307,
+      "lon": 151.198531
+     },
+     {
+      "lat": -33.8848351,
+      "lon": 151.1984103
+     },
+     {
+      "lat": -33.8847718,
+      "lon": 151.1983984
+     },
+     {
+      "lat": -33.8847829,
+      "lon": 151.198207
+     },
+     {
+      "lat": -33.8844942,
+      "lon": 151.1981828
+     },
+     {
+      "lat": -33.8844677,
+      "lon": 151.1981803
+     },
+     {
+      "lat": -33.884488,
+      "lon": 151.1974931
+     }
+    ],
+    "tags": {
+     "addr:housenumber": "104;112-126",
+     "addr:street": "Broadway",
+     "amenity": "university",
+     "check_date": "2026-09-16",
+     "name": "University of Notre Dame"
+    }
+   },
+   {
+    "type": "way",
+    "id": 411511868,
+    "bounds": {
+     "minlat": -33.8854396,
+     "minlon": 151.2022469,
+     "maxlat": -33.8851752,
+     "maxlon": 151.2026626
+    },
+    "nodes": [
+     4131610259,
+     4131610254,
+     3731499118,
+     10201236482,
+     10201236483,
+     3731499435,
+     4131610259
+    ],
+    "geometry": [
+     {
+      "lat": -33.8852644,
+      "lon": 151.2022469
+     },
+     {
+      "lat": -33.8851752,
+      "lon": 151.2025937
+     },
+     {
+      "lat": -33.8853469,
+      "lon": 151.2026626
+     },
+     {
+      "lat": -33.8853768,
+      "lon": 151.2025364
+     },
+     {
+      "lat": -33.8854082,
+      "lon": 151.2024035
+     },
+     {
+      "lat": -33.8854396,
+      "lon": 151.2022706
+     },
+     {
+      "lat": -33.8852644,
+      "lon": 151.2022469
+     }
+    ],
+    "tags": {
+     "addr:street": "Regent Street",
+     "amenity": "university",
+     "building": "office",
+     "building:levels": "6",
+     "education": "university",
+     "name": "Curtin University Sydney",
+     "source": "NSW LPI Base Map;NSW LPI Imagery;knowledge"
+    }
+   },
+   {
+    "type": "way",
+    "id": 411621079,
+    "bounds": {
+     "minlat": -33.8888444,
+     "minlon": 151.1961126,
+     "maxlat": -33.8887375,
+     "maxlon": 151.1962873
+    },
+    "nodes": [
+     4132512223,
+     4132512225,
+     4132512221,
+     4132512219,
+     9281964173,
+     4132512223
+    ],
+    "geometry": [
+     {
+      "lat": -33.8888051,
+      "lon": 151.1961126
+     },
+     {
+      "lat": -33.8888444,
+      "lon": 151.1961409
+     },
+     {
+      "lat": -33.8887753,
+      "lon": 151.1962873
+     },
+     {
+      "lat": -33.8887375,
+      "lon": 151.196263
+     },
+     {
+      "lat": -33.888792,
+      "lon": 151.1961418
+     },
+     {
+      "lat": -33.8888051,
+      "lon": 151.1961126
+     }
+    ],
+    "tags": {
+     "access": "yes",
+     "amenity": "parking",
+     "capacity": "5",
+     "check_date": "2025-06",
+     "fee": "yes",
+     "orientation": "perpendicular",
+     "parking": "street_side",
+     "surface": "asphalt"
+    }
+   },
+   {
+    "type": "way",
+    "id": 414889386,
+    "bounds": {
+     "minlat": -33.8949104,
+     "minlon": 151.2035183,
+     "maxlat": -33.8942902,
+     "maxlon": 151.2036877
+    },
+    "nodes": [
+     4160323001,
+     4160323101,
+     4160323098,
+     4160322997,
+     4160323001
+    ],
+    "geometry": [
+     {
+      "lat": -33.8942992,
+      "lon": 151.2036384
+     },
+     {
+      "lat": -33.8949104,
+      "lon": 151.2035183
+     },
+     {
+      "lat": -33.8949002,
+      "lon": 151.203566
+     },
+     {
+      "lat": -33.8942902,
+      "lon": 151.2036877
+     },
+     {
+      "lat": -33.8942992,
+      "lon": 151.2036384
+     }
+    ],
+    "tags": {
+     "access": "yes",
+     "amenity": "parking",
+     "orientation": "diagonal",
+     "parking": "street_side"
+    }
+   },
+   {
+    "type": "way",
+    "id": 414889387,
+    "bounds": {
+     "minlat": -33.89588,
+     "minlon": 151.2078504,
+     "maxlat": -33.894935,
+     "maxlon": 151.2080815
+    },
+    "nodes": [
+     4160323105,
+     4160323106,
+     4160323266,
+     4160323263,
+     4160323105
+    ],
+    "geometry": [
+     {
+      "lat": -33.894935,
+      "lon": 151.2080815
+     },
+     {
+      "lat": -33.894949,
+      "lon": 151.2080322
+     },
+     {
+      "lat": -33.89588,
+      "lon": 151.2078504
+     },
+     {
+      "lat": -33.8958557,
+      "lon": 151.2079089
+     },
+     {
+      "lat": -33.894935,
+      "lon": 151.2080815
+     }
+    ],
+    "tags": {
+     "amenity": "parking",
+     "capacity": "34",
+     "orientation": "diagonal",
+     "parking": "street_side"
+    }
+   },
+   {
+    "type": "way",
+    "id": 414889390,
+    "bounds": {
+     "minlat": -33.894109,
+     "minlon": 151.2035733,
+     "maxlat": -33.8938622,
+     "maxlon": 151.2036719
+    },
+    "nodes": [
+     4160322902,
+     4160322904,
+     4160322959,
+     4160322947,
+     4160322902
+    ],
+    "geometry": [
+     {
+      "lat": -33.8938622,
+      "lon": 151.2036719
+     },
+     {
+      "lat": -33.8938724,
+      "lon": 151.2036241
+     },
+     {
+      "lat": -33.894109,
+      "lon": 151.2035733
+     },
+     {
+      "lat": -33.8940821,
+      "lon": 151.2036349
+     },
+     {
+      "lat": -33.8938622,
+      "lon": 151.2036719
+     }
+    ],
+    "tags": {
+     "amenity": "parking",
+     "orientation": "diagonal",
+     "parking": "street_side"
+    }
+   },
+   {
+    "type": "way",
+    "id": 414889395,
+    "bounds": {
+     "minlat": -33.8932601,
+     "minlon": 151.202474,
+     "maxlat": -33.8929829,
+     "maxlon": 151.2026835
+    },
+    "nodes": [
+     4160322766,
+     4160322803,
+     4160322806,
+     4160322767,
+     4160322766
+    ],
+    "geometry": [
+     {
+      "lat": -33.8929829,
+      "lon": 151.2025263
+     },
+     {
+      "lat": -33.8932399,
+      "lon": 151.202474
+     },
+     {
+      "lat": -33.8932601,
+      "lon": 151.2026319
+     },
+     {
+      "lat": -33.8930034,
+      "lon": 151.2026835
+     },
+     {
+      "lat": -33.8929829,
+      "lon": 151.2025263
+     }
+    ],
+    "tags": {
+     "access": "private",
+     "amenity": "parking"
+    }
+   },
+   {
+    "type": "way",
+    "id": 414889397,
+    "bounds": {
+     "minlat": -33.8944047,
+     "minlon": 151.20065,
+     "maxlat": -33.8942189,
+     "maxlon": 151.2009703
+    },
+    "nodes": [
+     4160322987,
+     4160322993,
+     4160323027,
+     4160323013,
+     4160322987
+    ],
+    "geometry": [
+     {
+      "lat": -33.8942189,
+      "lon": 151.2006793
+     },
+     {
+      "lat": -33.8942595,
+      "lon": 151.2009703
+     },
+     {
+      "lat": -33.8944047,
+      "lon": 151.2009409
+     },
+     {
+      "lat": -33.8943641,
+      "lon": 151.20065
+     },
+     {
+      "lat": -33.8942189,
+      "lon": 151.2006793
+     }
+    ],
+    "tags": {
+     "access": "private",
+     "amenity": "parking",
+     "capacity": "17",
+     "capacity:disabled": "2",
+     "parking": "surface"
+    }
+   },
+   {
+    "type": "way",
+    "id": 414889398,
+    "bounds": {
+     "minlat": -33.8955284,
+     "minlon": 151.2032991,
+     "maxlat": -33.8951089,
+     "maxlon": 151.2034238
+    },
+    "nodes": [
+     4160323187,
+     4160323121,
+     4160323123,
+     4160323191,
+     4160323187
+    ],
+    "geometry": [
+     {
+      "lat": -33.8955156,
+      "lon": 151.2033468
+     },
+     {
+      "lat": -33.8951089,
+      "lon": 151.2034238
+     },
+     {
+      "lat": -33.895123,
+      "lon": 151.2033776
+     },
+     {
+      "lat": -33.8955284,
+      "lon": 151.2032991
+     },
+     {
+      "lat": -33.8955156,
+      "lon": 151.2033468
+     }
+    ],
+    "tags": {
+     "amenity": "parking",
+     "orientation": "diagonal",
+     "parking": "street_side"
+    }
+   },
+   {
+    "type": "way",
+    "id": 414889401,
+    "bounds": {
+     "minlat": -33.8954115,
+     "minlon": 151.2000443,
+     "maxlat": -33.8945655,
+     "maxlon": 151.2002288
+    },
+    "nodes": [
+     4160323051,
+     4160323056,
+     4160323146,
+     4160323170,
+     4160323166,
+     4160323145,
+     4160323051
+    ],
+    "geometry": [
+     {
+      "lat": -33.8945655,
+      "lon": 151.2002288
+     },
+     {
+      "lat": -33.8945771,
+      "lon": 151.2001739
+     },
+     {
+      "lat": -33.8952477,
+      "lon": 151.2000455
+     },
+     {
+      "lat": -33.8954115,
+      "lon": 151.2000443
+     },
+     {
+      "lat": -33.8953785,
+      "lon": 151.2000969
+     },
+     {
+      "lat": -33.8952322,
+      "lon": 151.2000934
+     },
+     {
+      "lat": -33.8945655,
+      "lon": 151.2002288
+     }
+    ],
+    "tags": {
+     "amenity": "parking",
+     "orientation": "diagonal",
+     "parking": "street_side"
+    }
+   },
+   {
+    "type": "way",
+    "id": 414889403,
+    "bounds": {
+     "minlat": -33.8938503,
+     "minlon": 151.2004853,
+     "maxlat": -33.8935039,
+     "maxlon": 151.2011444
+    },
+    "nodes": [
+     4160322877,
+     4160322886,
+     4160322838,
+     4160322840,
+     4160322837,
+     4160322877
+    ],
+    "geometry": [
+     {
+      "lat": -33.8937686,
+      "lon": 151.2004853
+     },
+     {
+      "lat": -33.8938503,
+      "lon": 151.2010926
+     },
+     {
+      "lat": -33.893585,
+      "lon": 151.2011444
+     },
+     {
+      "lat": -33.8935388,
+      "lon": 151.2008014
+     },
+     {
+      "lat": -33.8935039,
+      "lon": 151.2005368
+     },
+     {
+      "lat": -33.8937686,
+      "lon": 151.2004853
+     }
+    ],
+    "tags": {
+     "access": "yes",
+     "amenity": "parking",
+     "fee": "no",
+     "maxstay": "2 hours",
+     "parking": "surface"
+    }
+   },
+   {
+    "type": "way",
+    "id": 414889492,
+    "bounds": {
+     "minlat": -33.89363,
+     "minlon": 151.2074015,
+     "maxlat": -33.8934052,
+     "maxlon": 151.208182
+    },
+    "nodes": [
+     4160322826,
+     4160322832,
+     4160322820,
+     4160322830,
+     4160322852,
+     4160322847,
+     4160322853,
+     4160322850,
+     4160322846,
+     4160322826
+    ],
+    "geometry": [
+     {
+      "lat": -33.8934408,
+      "lon": 151.2074283
+     },
+     {
+      "lat": -33.8934742,
+      "lon": 151.2077234
+     },
+     {
+      "lat": -33.8934052,
+      "lon": 151.2077368
+     },
+     {
+      "lat": -33.8934608,
+      "lon": 151.208182
+     },
+     {
+      "lat": -33.8936256,
+      "lon": 151.2081525
+     },
+     {
+      "lat": -33.8935766,
+      "lon": 151.2077556
+     },
+     {
+      "lat": -33.89363,
+      "lon": 151.2077127
+     },
+     {
+      "lat": -33.8936122,
+      "lon": 151.2076644
+     },
+     {
+      "lat": -33.8935766,
+      "lon": 151.2074015
+     },
+     {
+      "lat": -33.8934408,
+      "lon": 151.2074283
+     }
+    ],
+    "tags": {
+     "addr:housenumber": "47",
+     "addr:street": "Redfern Street",
+     "amenity": "social_facility",
+     "name": "Annie Green Court",
+     "operator": "Mission Australia",
+     "operator:type": "religious",
+     "phone": "+61 2 9305 9100",
+     "social_facility": "nursing_home",
+     "social_facility:for": "senior",
+     "website": "https://www.missionaustralia.com.au/servicedirectory/204-aged-care/annie-green-court",
+     "wheelchair": "yes"
+    }
+   },
+   {
+    "type": "way",
+    "id": 414910220,
+    "bounds": {
+     "minlat": -33.8925931,
+     "minlon": 151.2063888,
+     "maxlat": -33.8919848,
+     "maxlon": 151.2065494
+    },
+    "nodes": [
+     4160497821,
+     4160497823,
+     4160497812,
+     4160497811,
+     4160497821
+    ],
+    "geometry": [
+     {
+      "lat": -33.8925762,
+      "lon": 151.2064396
+     },
+     {
+      "lat": -33.8925931,
+      "lon": 151.2063888
+     },
+     {
+      "lat": -33.892,
+      "lon": 151.2064996
+     },
+     {
+      "lat": -33.8919848,
+      "lon": 151.2065494
+     },
+     {
+      "lat": -33.8925762,
+      "lon": 151.2064396
+     }
+    ],
+    "tags": {
+     "amenity": "parking",
+     "orientation": "diagonal",
+     "parking": "street_side"
+    }
+   },
+   {
+    "type": "way",
+    "id": 414910221,
+    "bounds": {
+     "minlat": -33.8888961,
+     "minlon": 151.2092496,
+     "maxlat": -33.8888071,
+     "maxlon": 151.2097441
+    },
+    "nodes": [
+     4160496668,
+     4160496673,
+     4160496675,
+     4160496672,
+     4160496668
+    ],
+    "geometry": [
+     {
+      "lat": -33.8888071,
+      "lon": 151.2092555
+     },
+     {
+      "lat": -33.8888536,
+      "lon": 151.2092496
+     },
+     {
+      "lat": -33.8888961,
+      "lon": 151.2097382
+     },
+     {
+      "lat": -33.8888496,
+      "lon": 151.2097441
+     },
+     {
+      "lat": -33.8888071,
+      "lon": 151.2092555
+     }
+    ],
+    "tags": {
+     "amenity": "parking",
+     "capacity": "18",
+     "orientation": "perpendicular",
+     "parking": "street_side"
+    }
+   },
+   {
+    "type": "way",
+    "id": 414910222,
+    "bounds": {
+     "minlat": -33.8929483,
+     "minlon": 151.2063156,
+     "maxlat": -33.8927854,
+     "maxlon": 151.2063908
+    },
+    "nodes": [
+     4160497832,
+     4160497831,
+     4160497829,
+     4160497830,
+     4160497832
+    ],
+    "geometry": [
+     {
+      "lat": -33.8929483,
+      "lon": 151.2063156
+     },
+     {
+      "lat": -33.8929314,
+      "lon": 151.2063613
+     },
+     {
+      "lat": -33.8927854,
+      "lon": 151.2063908
+     },
+     {
+      "lat": -33.8927939,
+      "lon": 151.206343
+     },
+     {
+      "lat": -33.8929483,
+      "lon": 151.2063156
+     }
+    ],
+    "tags": {
+     "amenity": "parking",
+     "orientation": "diagonal",
+     "parking": "street_side"
+    }
+   },
+   {
+    "type": "way",
+    "id": 414910224,
+    "bounds": {
+     "minlat": -33.8912171,
+     "minlon": 151.2066555,
+     "maxlat": -33.8905087,
+     "maxlon": 151.2068419
+    },
+    "nodes": [
+     4160497805,
+     4160497802,
+     4160497801,
+     4160497804,
+     4160497805
+    ],
+    "geometry": [
+     {
+      "lat": -33.8912171,
+      "lon": 151.2066555
+     },
+     {
+      "lat": -33.8905202,
+      "lon": 151.2067988
+     },
+     {
+      "lat": -33.8905087,
+      "lon": 151.2068419
+     },
+     {
+      "lat": -33.8912094,
+      "lon": 151.2067064
+     },
+     {
+      "lat": -33.8912171,
+      "lon": 151.2066555
+     }
+    ],
+    "tags": {
+     "amenity": "parking",
+     "orientation": "diagonal",
+     "parking": "street_side"
+    }
+   },
+   {
+    "type": "way",
+    "id": 414910226,
+    "bounds": {
+     "minlat": -33.891757,
+     "minlon": 151.2066449,
+     "maxlat": -33.8914954,
+     "maxlon": 151.2067435
+    },
+    "nodes": [
+     4160497806,
+     4160497807,
+     4160497810,
+     4160497808,
+     4160497806
+    ],
+    "geometry": [
+     {
+      "lat": -33.8914954,
+      "lon": 151.2067435
+     },
+     {
+      "lat": -33.8914971,
+      "lon": 151.2066937
+     },
+     {
+      "lat": -33.891757,
+      "lon": 151.2066449
+     },
+     {
+      "lat": -33.8917477,
+      "lon": 151.2066906
+     },
+     {
+      "lat": -33.8914954,
+      "lon": 151.2067435
+     }
+    ],
+    "tags": {
+     "amenity": "parking",
+     "orientation": "diagonal",
+     "parking": "street_side"
+    }
+   },
+   {
+    "type": "way",
+    "id": 441148036,
+    "bounds": {
+     "minlat": -33.8815901,
+     "minlon": 151.1963769,
+     "maxlat": -33.8811804,
+     "maxlon": 151.1970126
+    },
+    "nodes": [
+     4389219229,
+     4389219221,
+     4389219235,
+     4389219233,
+     4389219220,
+     4389219229
+    ],
+    "geometry": [
+     {
+      "lat": -33.8813585,
+      "lon": 151.1963769
+     },
+     {
+      "lat": -33.8811804,
+      "lon": 151.1968463
+     },
+     {
+      "lat": -33.8814966,
+      "lon": 151.1970126
+     },
+     {
+      "lat": -33.8815562,
+      "lon": 151.1968688
+     },
+     {
+      "lat": -33.8815901,
+      "lon": 151.1965003
+     },
+     {
+      "lat": -33.8813585,
+      "lon": 151.1963769
+     }
+    ],
+    "tags": {
+     "amenity": "fuel",
+     "brand": "Shell",
+     "brand:wikidata": "Q110716465",
+     "landuse": "retail",
+     "name": "Coles Express",
+     "operator": "Coles Group",
+     "operator:wikidata": "Q1339055",
+     "website": "https://www.colesexpress.com.au/"
+    }
+   },
+   {
+    "type": "way",
+    "id": 502800201,
+    "bounds": {
+     "minlat": -33.8919469,
+     "minlon": 151.1999959,
+     "maxlat": -33.8918351,
+     "maxlon": 151.2004106
+    },
+    "nodes": [
+     4931721087,
+     4931721088,
+     4931721089,
+     4931721090,
+     4931721087
+    ],
+    "geometry": [
+     {
+      "lat": -33.8918351,
+      "lon": 151.1999959
+     },
+     {
+      "lat": -33.8918978,
+      "lon": 151.2003905
+     },
+     {
+      "lat": -33.8919469,
+      "lon": 151.2004106
+     },
+     {
+      "lat": -33.8918838,
+      "lon": 151.2000177
+     },
+     {
+      "lat": -33.8918351,
+      "lon": 151.1999959
+     }
+    ],
+    "tags": {
+     "access": "private",
+     "amenity": "parking",
+     "capacity": "12",
+     "operator": "NSW Police Force",
+     "parking": "street_side"
+    }
+   },
+   {
+    "type": "way",
+    "id": 521509018,
+    "bounds": {
+     "minlat": -33.8934842,
+     "minlon": 151.2033388,
+     "maxlat": -33.8934044,
+     "maxlon": 151.2036663
+    },
+    "nodes": [
+     5081278293,
+     5081278294,
+     5081278295,
+     5081278296,
+     5081278293
+    ],
+    "geometry": [
+     {
+      "lat": -33.8934044,
+      "lon": 151.2033388
+     },
+     {
+      "lat": -33.8934451,
+      "lon": 151.2033613
+     },
+     {
+      "lat": -33.8934842,
+      "lon": 151.2036295
+     },
+     {
+      "lat": -33.8934485,
+      "lon": 151.2036663
+     },
+     {
+      "lat": -33.8934044,
+      "lon": 151.2033388
+     }
+    ],
+    "tags": {
+     "amenity": "parking",
+     "capacity": "9",
+     "fee": "no",
+     "operator": "City of Sydney Council",
+     "orientation": "diagonal",
+     "park_ride": "no",
+     "parking": "street_side",
+     "supervised": "no"
+    }
+   },
+   {
+    "type": "way",
+    "id": 521509019,
+    "bounds": {
+     "minlat": -33.8948051,
+     "minlon": 151.2042275,
+     "maxlat": -33.8944927,
+     "maxlon": 151.2043636
+    },
+    "nodes": [
+     5080233835,
+     5081278297,
+     5081278298,
+     5081278299,
+     5080233826,
+     5080233827,
+     5081278300,
+     5080233835
+    ],
+    "geometry": [
+     {
+      "lat": -33.8947999,
+      "lon": 151.2042649
+     },
+     {
+      "lat": -33.8948051,
+      "lon": 151.2043023
+     },
+     {
+      "lat": -33.8945034,
+      "lon": 151.2043636
+     },
+     {
+      "lat": -33.8944927,
+      "lon": 151.2042873
+     },
+     {
+      "lat": -33.89465,
+      "lon": 151.2042554
+     },
+     {
+      "lat": -33.8947559,
+      "lon": 151.2042348
+     },
+     {
+      "lat": -33.8947951,
+      "lon": 151.2042275
+     },
+     {
+      "lat": -33.8947999,
+      "lon": 151.2042649
+     }
+    ],
+    "tags": {
+     "access": "private",
+     "addr:housenumber": "18-34",
+     "addr:postcode": "2016",
+     "addr:state": "NSW",
+     "addr:street": "Douglas Street",
+     "addr:suburb": "Redfern",
+     "amenity": "parking",
+     "operator": "SDN Brighter Futures Central Sydney",
+     "parking": "surface",
+     "supervised": "yes"
+    }
+   },
+   {
+    "type": "way",
+    "id": 523713018,
+    "bounds": {
+     "minlat": -33.8956034,
+     "minlon": 151.2049277,
+     "maxlat": -33.8952816,
+     "maxlon": 151.2050535
+    },
+    "nodes": [
+     5097868221,
+     5097868222,
+     5097868223,
+     5097868224,
+     5097868221
+    ],
+    "geometry": [
+     {
+      "lat": -33.8956034,
+      "lon": 151.2049277
+     },
+     {
+      "lat": -33.8955808,
+      "lon": 151.2049885
+     },
+     {
+      "lat": -33.8952816,
+      "lon": 151.2050535
+     },
+     {
+      "lat": -33.8953007,
+      "lon": 151.2049843
+     },
+     {
+      "lat": -33.8956034,
+      "lon": 151.2049277
+     }
+    ],
+    "tags": {
+     "amenity": "parking",
+     "operator": "City of Sydney Council",
+     "orientation": "diagonal",
+     "parking": "street_side"
+    }
+   },
+   {
+    "type": "way",
+    "id": 523713019,
+    "bounds": {
+     "minlat": -33.8951329,
+     "minlon": 151.2050178,
+     "maxlat": -33.894875,
+     "maxlon": 151.2051273
+    },
+    "nodes": [
+     5097868225,
+     5097868226,
+     5097868227,
+     5097868228,
+     5097868225
+    ],
+    "geometry": [
+     {
+      "lat": -33.8951329,
+      "lon": 151.2050178
+     },
+     {
+      "lat": -33.8951108,
+      "lon": 151.2050795
+     },
+     {
+      "lat": -33.894875,
+      "lon": 151.2051273
+     },
+     {
+      "lat": -33.894898,
+      "lon": 151.2050635
+     },
+     {
+      "lat": -33.8951329,
+      "lon": 151.2050178
+     }
+    ],
+    "tags": {
+     "amenity": "parking",
+     "operator": "City of Sydney Council",
+     "orientation": "diagonal",
+     "parking": "street_side"
+    }
+   },
+   {
+    "type": "way",
+    "id": 523713020,
+    "bounds": {
+     "minlat": -33.8947342,
+     "minlon": 151.2050967,
+     "maxlat": -33.8945861,
+     "maxlon": 151.2051802
+    },
+    "nodes": [
+     5097868229,
+     5097868230,
+     5097868231,
+     5097868232,
+     5097868229
+    ],
+    "geometry": [
+     {
+      "lat": -33.8947342,
+      "lon": 151.2050967
+     },
+     {
+      "lat": -33.8947125,
+      "lon": 151.2051635
+     },
+     {
+      "lat": -33.8945861,
+      "lon": 151.2051802
+     },
+     {
+      "lat": -33.894606,
+      "lon": 151.2051218
+     },
+     {
+      "lat": -33.8947342,
+      "lon": 151.2050967
+     }
+    ],
+    "tags": {
+     "amenity": "parking",
+     "operator": "City of Sydney Council",
+     "orientation": "diagonal",
+     "parking": "street_side"
+    }
+   },
+   {
+    "type": "way",
+    "id": 523713021,
+    "bounds": {
+     "minlat": -33.894438,
+     "minlon": 151.2051534,
+     "maxlat": -33.8937134,
+     "maxlon": 151.2053455
+    },
+    "nodes": [
+     5097868233,
+     5097868234,
+     5097868235,
+     5097868236,
+     5097868233
+    ],
+    "geometry": [
+     {
+      "lat": -33.8937282,
+      "lon": 151.2052908
+     },
+     {
+      "lat": -33.8937134,
+      "lon": 151.2053455
+     },
+     {
+      "lat": -33.8944124,
+      "lon": 151.205228
+     },
+     {
+      "lat": -33.894438,
+      "lon": 151.2051534
+     },
+     {
+      "lat": -33.8937282,
+      "lon": 151.2052908
+     }
+    ],
+    "tags": {
+     "amenity": "parking",
+     "operator": "City of Sydney Council",
+     "orientation": "diagonal",
+     "parking": "street_side"
+    }
+   },
+   {
+    "type": "way",
+    "id": 524278849,
+    "bounds": {
+     "minlat": -33.8808548,
+     "minlon": 151.2057291,
+     "maxlat": -33.8802274,
+     "maxlon": 151.2059863
+    },
+    "nodes": [
+     5102311998,
+     5302648266,
+     5102312000,
+     5102312001,
+     5102311998
+    ],
+    "geometry": [
+     {
+      "lat": -33.8802274,
+      "lon": 151.2059326
+     },
+     {
+      "lat": -33.8802392,
+      "lon": 151.2059863
+     },
+     {
+      "lat": -33.8808548,
+      "lon": 151.2057804
+     },
+     {
+      "lat": -33.8808401,
+      "lon": 151.2057291
+     },
+     {
+      "lat": -33.8802274,
+      "lon": 151.2059326
+     }
+    ],
+    "tags": {
+     "access": "yes",
+     "amenity": "parking",
+     "fee": "yes",
+     "operator": "City of Sydney",
+     "parking": "surface"
+    }
+   },
+   {
+    "type": "way",
+    "id": 548918541,
+    "bounds": {
+     "minlat": -33.8834758,
+     "minlon": 151.202801,
+     "maxlat": -33.8828584,
+     "maxlon": 151.2034163
+    },
+    "nodes": [
+     5302648437,
+     5302648458,
+     5302648463,
+     5302648471,
+     5302648470,
+     5302648466,
+     5302648459,
+     5302648455,
+     5302648456,
+     5813592716,
+     5813592717,
+     5813592718,
+     5813592715,
+     5302648462,
+     5302648457,
+     5302648437
+    ],
+    "geometry": [
+     {
+      "lat": -33.8831094,
+      "lon": 151.2034163
+     },
+     {
+      "lat": -33.8832422,
+      "lon": 151.2032635
+     },
+     {
+      "lat": -33.8832801,
+      "lon": 151.2032199
+     },
+     {
+      "lat": -33.8832923,
+      "lon": 151.2032059
+     },
+     {
+      "lat": -33.8833096,
+      "lon": 151.203186
+     },
+     {
+      "lat": -33.8833216,
+      "lon": 151.2031722
+     },
+     {
+      "lat": -33.8833524,
+      "lon": 151.2031367
+     },
+     {
+      "lat": -33.8834758,
+      "lon": 151.2029947
+     },
+     {
+      "lat": -33.8830979,
+      "lon": 151.2028141
+     },
+     {
+      "lat": -33.8830741,
+      "lon": 151.2028415
+     },
+     {
+      "lat": -33.8830366,
+      "lon": 151.202801
+     },
+     {
+      "lat": -33.8829924,
+      "lon": 151.2028532
+     },
+     {
+      "lat": -33.8830316,
+      "lon": 151.2028978
+     },
+     {
+      "lat": -33.8829792,
+      "lon": 151.2029648
+     },
+     {
+      "lat": -33.8828584,
+      "lon": 151.2031173
+     },
+     {
+      "lat": -33.8831094,
+      "lon": 151.2034163
+     }
+    ],
+    "tags": {
+     "addr:housenumber": "827-837",
+     "addr:street": "George Street",
+     "amenity": "college",
+     "building": "college",
+     "building:levels": "8",
+     "name": "TAFE NSW Marcus Clarke Building",
+     "operator": "TAFE NSW",
+     "operator:type": "government",
+     "operator:wikidata": "Q7669247"
+    }
+   },
+   {
+    "type": "way",
+    "id": 586486349,
+    "bounds": {
+     "minlat": -33.8894999,
+     "minlon": 151.2072517,
+     "maxlat": -33.8893159,
+     "maxlon": 151.2074675
+    },
+    "nodes": [
+     5603655782,
+     5603655783,
+     5603655784,
+     5603655785,
+     5603655786,
+     5603655787,
+     5603655782
+    ],
+    "geometry": [
+     {
+      "lat": -33.8893159,
+      "lon": 151.2073427
+     },
+     {
+      "lat": -33.889333,
+      "lon": 151.2074675
+     },
+     {
+      "lat": -33.8894999,
+      "lon": 151.2074359
+     },
+     {
+      "lat": -33.8894773,
+      "lon": 151.2072517
+     },
+     {
+      "lat": -33.8893762,
+      "lon": 151.207273
+     },
+     {
+      "lat": -33.8893841,
+      "lon": 151.2073332
+     },
+     {
+      "lat": -33.8893159,
+      "lon": 151.2073427
+     }
+    ],
+    "tags": {
+     "amenity": "parking"
+    }
+   },
+   {
+    "type": "way",
+    "id": 587069243,
+    "bounds": {
+     "minlat": -33.8899796,
+     "minlon": 151.2115241,
+     "maxlat": -33.8898012,
+     "maxlon": 151.2118355
+    },
+    "nodes": [
+     5608348870,
+     5608348871,
+     5608348872,
+     5608348873,
+     5608348874,
+     5608348875,
+     5608348870
+    ],
+    "geometry": [
+     {
+      "lat": -33.8899796,
+      "lon": 151.2118019
+     },
+     {
+      "lat": -33.8899196,
+      "lon": 151.2118355
+     },
+     {
+      "lat": -33.8899001,
+      "lon": 151.2117801
+     },
+     {
+      "lat": -33.8898695,
+      "lon": 151.2117365
+     },
+     {
+      "lat": -33.8898012,
+      "lon": 151.2115652
+     },
+     {
+      "lat": -33.8898737,
+      "lon": 151.2115241
+     },
+     {
+      "lat": -33.8899796,
+      "lon": 151.2118019
+     }
+    ],
+    "tags": {
+     "amenity": "parking"
+    }
+   },
+   {
+    "type": "way",
+    "id": 587069274,
+    "bounds": {
+     "minlat": -33.8922638,
+     "minlon": 151.2134457,
+     "maxlat": -33.8920502,
+     "maxlon": 151.2138634
+    },
+    "nodes": [
+     5608349183,
+     5608349184,
+     5608349208,
+     5608349185,
+     5608349186,
+     5608349187,
+     5608349183
+    ],
+    "geometry": [
+     {
+      "lat": -33.8920502,
+      "lon": 151.2134732
+     },
+     {
+      "lat": -33.892213,
+      "lon": 151.2134457
+     },
+     {
+      "lat": -33.8922547,
+      "lon": 151.2137627
+     },
+     {
+      "lat": -33.8922638,
+      "lon": 151.2138273
+     },
+     {
+      "lat": -33.8921173,
+      "lon": 151.2138634
+     },
+     {
+      "lat": -33.892103,
+      "lon": 151.2138505
+     },
+     {
+      "lat": -33.8920502,
+      "lon": 151.2134732
+     }
+    ],
+    "tags": {
+     "amenity": "parking"
+    }
+   },
+   {
+    "type": "way",
+    "id": 587220141,
+    "bounds": {
+     "minlat": -33.8907604,
+     "minlon": 151.2139162,
+     "maxlat": -33.8905612,
+     "maxlon": 151.2142028
+    },
+    "nodes": [
+     5609320345,
+     5609320346,
+     5609320347,
+     5609320348,
+     5609320345
+    ],
+    "geometry": [
+     {
+      "lat": -33.8905926,
+      "lon": 151.2142028
+     },
+     {
+      "lat": -33.8907604,
+      "lon": 151.2141706
+     },
+     {
+      "lat": -33.8907272,
+      "lon": 151.2139162
+     },
+     {
+      "lat": -33.8905612,
+      "lon": 151.2139573
+     },
+     {
+      "lat": -33.8905926,
+      "lon": 151.2142028
+     }
+    ],
+    "tags": {
+     "amenity": "parking"
+    }
+   },
+   {
+    "type": "way",
+    "id": 587788409,
+    "bounds": {
+     "minlat": -33.8881566,
+     "minlon": 151.2121415,
+     "maxlat": -33.8878037,
+     "maxlon": 151.212429
+    },
+    "nodes": [
+     5614459038,
+     5614459039,
+     6591454910,
+     6591454909,
+     6591454908,
+     5614459040,
+     5614459041,
+     5614459042,
+     5614459038
+    ],
+    "geometry": [
+     {
+      "lat": -33.8881566,
+      "lon": 151.2123266
+     },
+     {
+      "lat": -33.8880958,
+      "lon": 151.2123714
+     },
+     {
+      "lat": -33.8879888,
+      "lon": 151.2122787
+     },
+     {
+      "lat": -33.887972,
+      "lon": 151.2123104
+     },
+     {
+      "lat": -33.88787,
+      "lon": 151.2123388
+     },
+     {
+      "lat": -33.8878436,
+      "lon": 151.212429
+     },
+     {
+      "lat": -33.8878037,
+      "lon": 151.2122007
+     },
+     {
+      "lat": -33.8880699,
+      "lon": 151.2121415
+     },
+     {
+      "lat": -33.8881566,
+      "lon": 151.2123266
+     }
+    ],
+    "tags": {
+     "access": "customers",
+     "amenity": "parking",
+     "fee": "no",
+     "parking": "surface"
+    }
+   },
+   {
+    "type": "way",
+    "id": 600907465,
+    "bounds": {
+     "minlat": -33.8932,
+     "minlon": 151.1889285,
+     "maxlat": -33.8923936,
+     "maxlon": 151.1899102
+    },
+    "nodes": [
+     2525269857,
+     5712528422,
+     5712528421,
+     5712528420,
+     2525269857
+    ],
+    "geometry": [
+     {
+      "lat": -33.8932,
+      "lon": 151.1891241
+     },
+     {
+      "lat": -33.892634,
+      "lon": 151.1889285
+     },
+     {
+      "lat": -33.8923936,
+      "lon": 151.1896312
+     },
+     {
+      "lat": -33.8929457,
+      "lon": 151.1899102
+     },
+     {
+      "lat": -33.8932,
+      "lon": 151.1891241
+     }
+    ],
+    "tags": {
+     "addr:postcode": "2008",
+     "amenity": "school",
+     "contact:email": "darlington-p.school@det.nsw.edu.au",
+     "contact:fax": "+61 2 9550 4587",
+     "contact:phone": "+61 2 9516 2300",
+     "fee": "no",
+     "grades": "0-6",
+     "isced:level": "1",
+     "name": "Darlington Public School",
+     "operator": "NSW Department of Education",
+     "operator:type": "government",
+     "operator:wikidata": "Q5260271",
+     "school:enrolment": "234",
+     "school:gender": "mixed",
+     "school:selective": "no",
+     "school:specialty": "comprehensive",
+     "school:type": "primary",
+     "source:boundary": "LPI Base Map June 2018",
+     "start_date": "1878-03-01",
+     "website": "https://www.darlington-p.schools.nsw.edu.au/"
+    }
+   },
+   {
+    "type": "way",
+    "id": 600907466,
+    "bounds": {
+     "minlat": -33.8922199,
+     "minlon": 151.1847228,
+     "maxlat": -33.8914336,
+     "maxlon": 151.1860371
+    },
+    "nodes": [
+     5585624109,
+     5712528427,
+     5712528426,
+     5712528425,
+     5712528424,
+     5712528423,
+     5585624109
+    ],
+    "geometry": [
+     {
+      "lat": -33.8914336,
+      "lon": 151.1855529
+     },
+     {
+      "lat": -33.8917546,
+      "lon": 151.185675
+     },
+     {
+      "lat": -33.89169,
+      "lon": 151.1859405
+     },
+     {
+      "lat": -33.8919527,
+      "lon": 151.1860371
+     },
+     {
+      "lat": -33.8922199,
+      "lon": 151.1850098
+     },
+     {
+      "lat": -33.891454,
+      "lon": 151.1847228
+     },
+     {
+      "lat": -33.8914336,
+      "lon": 151.1855529
+     }
+    ],
+    "tags": {
+     "addr:postcode": "2042",
+     "addr:suburb": "Newtown",
+     "amenity": "school",
+     "contact:email": "newtownn-p.school@det.nsw.edu.au",
+     "contact:fax": "+61 2 9550 4607",
+     "contact:phone": "+61 2 9517 1110",
+     "fee": "no",
+     "grades": "0-6",
+     "isced:level": "1",
+     "name": "Newtown North Public School",
+     "operator": "NSW Department of Education",
+     "operator:type": "government",
+     "operator:wikidata": "Q5260271",
+     "school:enrolment": "283",
+     "school:gender": "mixed",
+     "school:selective": "no",
+     "school:specialty": "comprehensive",
+     "school:type": "primary",
+     "source:boundary": "LPI Base Map June 2018",
+     "start_date": "1883-01-01",
+     "website": "https://www.newtownn-p.schools.nsw.edu.au/"
+    }
+   },
+   {
+    "type": "way",
+    "id": 603031092,
+    "bounds": {
+     "minlat": -33.8814087,
+     "minlon": 151.1860987,
+     "maxlat": -33.8807795,
+     "maxlon": 151.1867599
+    },
+    "nodes": [
+     5725891437,
+     5725891436,
+     5725891435,
+     5725891434,
+     5725891433,
+     5725891432,
+     7157725035,
+     7157725034,
+     7157725031,
+     7157725030,
+     5725891437
+    ],
+    "geometry": [
+     {
+      "lat": -33.8812483,
+      "lon": 151.1867599
+     },
+     {
+      "lat": -33.8810022,
+      "lon": 151.1865681
+     },
+     {
+      "lat": -33.8807795,
+      "lon": 151.1863925
+     },
+     {
+      "lat": -33.8809366,
+      "lon": 151.1860987
+     },
+     {
+      "lat": -33.8814087,
+      "lon": 151.1864622
+     },
+     {
+      "lat": -33.8813742,
+      "lon": 151.1865266
+     },
+     {
+      "lat": -33.88135,
+      "lon": 151.1865714
+     },
+     {
+      "lat": -33.8813181,
+      "lon": 151.1866287
+     },
+     {
+      "lat": -33.8812967,
+      "lon": 151.1866702
+     },
+     {
+      "lat": -33.8812711,
+      "lon": 151.1867162
+     },
+     {
+      "lat": -33.8812483,
+      "lon": 151.1867599
+     }
+    ],
+    "tags": {
+     "addr:housenumber": "75",
+     "addr:street": "St Johns Road",
+     "alt_name": "Fire and Rescue NSW Station 018 Glebe",
+     "amenity": "fire_station",
+     "branch": "Glebe",
+     "name": "Glebe Fire Station",
+     "operator": "Fire and Rescue NSW",
+     "operator:wikidata": "Q5451532",
+     "phone": "+61 2 9660 7156",
+     "source": "fire.nsw.gov.au",
+     "source:addr": "webpage",
+     "website": "https://www.fire.nsw.gov.au/page.php?id=9210&station=119"
+    }
+   },
+   {
+    "type": "way",
+    "id": 603944746,
+    "bounds": {
+     "minlat": -33.882896,
+     "minlon": 151.201089,
+     "maxlat": -33.8815258,
+     "maxlon": 151.2023141
+    },
+    "nodes": [
+     1546558122,
+     5731692003,
+     5731692004,
+     5731692005,
+     5731692006,
+     1546558118,
+     1546558121,
+     1546558120,
+     1546558127,
+     1546558126,
+     1546558128,
+     5731692007,
+     1928515767,
+     5302648515,
+     5302648516,
+     5731691995,
+     1546558131,
+     1546558124,
+     1546558123,
+     5731692008,
+     5731692523,
+     5731692522,
+     5731692521,
+     5731692020,
+     5731692019,
+     5731692018,
+     5731692017,
+     5731692016,
+     5731692525,
+     5731692524,
+     5731692015,
+     5731692014,
+     5731692013,
+     5731692012,
+     5731692011,
+     5731692010,
+     5731692526,
+     5731692009,
+     1546558122
+    ],
+    "geometry": [
+     {
+      "lat": -33.8816347,
+      "lon": 151.201089
+     },
+     {
+      "lat": -33.8815311,
+      "lon": 151.2013421
+     },
+     {
+      "lat": -33.8815703,
+      "lon": 151.2013638
+     },
+     {
+      "lat": -33.8815674,
+      "lon": 151.201395
+     },
+     {
+      "lat": -33.8815379,
+      "lon": 151.2013916
+     },
+     {
+      "lat": -33.8815258,
+      "lon": 151.2015418
+     },
+     {
+      "lat": -33.8816126,
+      "lon": 151.2015529
+     },
+     {
+      "lat": -33.8815626,
+      "lon": 151.2016818
+     },
+     {
+      "lat": -33.8822152,
+      "lon": 151.2020592
+     },
+     {
+      "lat": -33.8821883,
+      "lon": 151.2021287
+     },
+     {
+      "lat": -33.8825903,
+      "lon": 151.2023141
+     },
+     {
+      "lat": -33.882601,
+      "lon": 151.2022874
+     },
+     {
+      "lat": -33.8826498,
+      "lon": 151.2023134
+     },
+     {
+      "lat": -33.8826925,
+      "lon": 151.202203
+     },
+     {
+      "lat": -33.8827531,
+      "lon": 151.2020462
+     },
+     {
+      "lat": -33.8828106,
+      "lon": 151.2019025
+     },
+     {
+      "lat": -33.882896,
+      "lon": 151.2016798
+     },
+     {
+      "lat": -33.8820343,
+      "lon": 151.2011788
+     },
+     {
+      "lat": -33.8819884,
+      "lon": 151.2012941
+     },
+     {
+      "lat": -33.8818602,
+      "lon": 151.2012198
+     },
+     {
+      "lat": -33.8818656,
+      "lon": 151.2012056
+     },
+     {
+      "lat": -33.8818756,
+      "lon": 151.2012036
+     },
+     {
+      "lat": -33.8818826,
+      "lon": 151.2011984
+     },
+     {
+      "lat": -33.8818878,
+      "lon": 151.2011909
+     },
+     {
+      "lat": -33.8818907,
+      "lon": 151.2011817
+     },
+     {
+      "lat": -33.881891,
+      "lon": 151.2011718
+     },
+     {
+      "lat": -33.8818886,
+      "lon": 151.2011624
+     },
+     {
+      "lat": -33.8818838,
+      "lon": 151.2011544
+     },
+     {
+      "lat": -33.8818771,
+      "lon": 151.2011487
+     },
+     {
+      "lat": -33.8818692,
+      "lon": 151.201146
+     },
+     {
+      "lat": -33.8818609,
+      "lon": 151.2011465
+     },
+     {
+      "lat": -33.8818533,
+      "lon": 151.2011502
+     },
+     {
+      "lat": -33.8818471,
+      "lon": 151.2011567
+     },
+     {
+      "lat": -33.8818429,
+      "lon": 151.2011653
+     },
+     {
+      "lat": -33.8818414,
+      "lon": 151.201175
+     },
+     {
+      "lat": -33.8818425,
+      "lon": 151.2011848
+     },
+     {
+      "lat": -33.8818468,
+      "lon": 151.2011952
+     },
+     {
+      "lat": -33.8818418,
+      "lon": 151.2012091
+     },
+     {
+      "lat": -33.8816347,
+      "lon": 151.201089
+     }
+    ],
+    "tags": {
+     "addr:housenumber": "700",
+     "amenity": "studio",
+     "building": "office",
+     "building:levels": "8",
+     "name": "Australian Broadcasting Corporation Ultimo Centre",
+     "roof:shape": "flat",
+     "studio": "video"
+    }
+   },
+   {
+    "type": "way",
+    "id": 604486351,
+    "bounds": {
+     "minlat": -33.8890754,
+     "minlon": 151.2004101,
+     "maxlat": -33.8889622,
+     "maxlon": 151.2006177
+    },
+    "nodes": [
+     5735709213,
+     5735709214,
+     5735709215,
+     5735709216,
+     5735709213
+    ],
+    "geometry": [
+     {
+      "lat": -33.8889622,
+      "lon": 151.2004243
+     },
+     {
+      "lat": -33.8890518,
+      "lon": 151.2004101
+     },
+     {
+      "lat": -33.8890754,
+      "lon": 151.2006004
+     },
+     {
+      "lat": -33.8889867,
+      "lon": 151.2006177
+     },
+     {
+      "lat": -33.8889622,
+      "lon": 151.2004243
+     }
+    ],
+    "tags": {
+     "access": "private",
+     "amenity": "parking",
+     "parking": "surface"
+    }
+   },
+   {
+    "type": "way",
+    "id": 604686892,
+    "bounds": {
+     "minlat": -33.8919249,
+     "minlon": 151.1860011,
+     "maxlat": -33.8914226,
+     "maxlon": 151.1866318
+    },
+    "nodes": [
+     5736970986,
+     5736970987,
+     5736970988,
+     5736970989,
+     5736970990,
+     5736970991,
+     5736970986
+    ],
+    "geometry": [
+     {
+      "lat": -33.8914226,
+      "lon": 151.1862794
+     },
+     {
+      "lat": -33.891428,
+      "lon": 151.1864971
+     },
+     {
+      "lat": -33.8917756,
+      "lon": 151.1866318
+     },
+     {
+      "lat": -33.8919249,
+      "lon": 151.1860724
+     },
+     {
+      "lat": -33.8917409,
+      "lon": 151.1860011
+     },
+     {
+      "lat": -33.8916437,
+      "lon": 151.1863651
+     },
+     {
+      "lat": -33.8914226,
+      "lon": 151.1862794
+     }
+    ],
+    "tags": {
+     "access": "private",
+     "amenity": "parking",
+     "capacity": "50",
+     "fee": "no",
+     "parking": "surface"
+    }
+   },
+   {
+    "type": "way",
+    "id": 605193691,
+    "bounds": {
+     "minlat": -33.8903571,
+     "minlon": 151.2021883,
+     "maxlat": -33.8902471,
+     "maxlon": 151.2024999
+    },
+    "nodes": [
+     5740592729,
+     5740592724,
+     5740592735,
+     5740592734,
+     5740592729
+    ],
+    "geometry": [
+     {
+      "lat": -33.8902858,
+      "lon": 151.2024999
+     },
+     {
+      "lat": -33.8903571,
+      "lon": 151.2024887
+     },
+     {
+      "lat": -33.8903189,
+      "lon": 151.2021883
+     },
+     {
+      "lat": -33.8902471,
+      "lon": 151.2022009
+     },
+     {
+      "lat": -33.8902858,
+      "lon": 151.2024999
+     }
+    ],
+    "tags": {
+     "access": "private",
+     "amenity": "parking"
+    }
+   },
+   {
+    "type": "way",
+    "id": 606589165,
+    "bounds": {
+     "minlat": -33.8873618,
+     "minlon": 151.2067532,
+     "maxlat": -33.887084,
+     "maxlon": 151.2070472
+    },
+    "nodes": [
+     5416309589,
+     5416309582,
+     5416309587,
+     5416309588,
+     5416309589
+    ],
+    "geometry": [
+     {
+      "lat": -33.887084,
+      "lon": 151.2068008
+     },
+     {
+      "lat": -33.8871188,
+      "lon": 151.2070472
+     },
+     {
+      "lat": -33.8873618,
+      "lon": 151.2069953
+     },
+     {
+      "lat": -33.8873262,
+      "lon": 151.2067532
+     },
+     {
+      "lat": -33.887084,
+      "lon": 151.2068008
+     }
+    ],
+    "tags": {
+     "addr:housenumber": "136",
+     "addr:postcode": "2010",
+     "addr:state": "NSW",
+     "addr:street": "Chalmers Lane",
+     "addr:suburb": "Surry Hills",
+     "amenity": "college",
+     "name": "Academy of Music and Performing Arts (AMPA)"
+    }
+   },
+   {
+    "type": "way",
+    "id": 614765146,
+    "bounds": {
+     "minlat": -33.8817261,
+     "minlon": 151.197591,
+     "maxlat": -33.8813608,
+     "maxlon": 151.197944
+    },
+    "nodes": [
+     5814580780,
+     5814580781,
+     5814580782,
+     5814580783,
+     5814580784,
+     5814580785,
+     5814580786,
+     5814580787,
+     5814580788,
+     5814580789,
+     5814580780
+    ],
+    "geometry": [
+     {
+      "lat": -33.8817261,
+      "lon": 151.1977784
+     },
+     {
+      "lat": -33.8816626,
+      "lon": 151.197944
+     },
+     {
+      "lat": -33.8815735,
+      "lon": 151.1978943
+     },
+     {
+      "lat": -33.881566,
+      "lon": 151.1979139
+     },
+     {
+      "lat": -33.8814752,
+      "lon": 151.1978632
+     },
+     {
+      "lat": -33.8814951,
+      "lon": 151.1978112
+     },
+     {
+      "lat": -33.8813714,
+      "lon": 151.1977422
+     },
+     {
+      "lat": -33.8813934,
+      "lon": 151.197685
+     },
+     {
+      "lat": -33.8813608,
+      "lon": 151.1976668
+     },
+     {
+      "lat": -33.8813899,
+      "lon": 151.197591
+     },
+     {
+      "lat": -33.8817261,
+      "lon": 151.1977784
+     }
+    ],
+    "tags": {
+     "amenity": "kindergarten",
+     "building": "yes",
+     "building:levels": "1",
+     "check_date": "2026-05-02",
+     "name": "Magic Pudding Child Care Centre",
+     "roof:shape": "hipped"
+    }
+   },
+   {
+    "type": "way",
+    "id": 673246138,
+    "bounds": {
+     "minlat": -33.882422,
+     "minlon": 151.1957426,
+     "maxlat": -33.88222,
+     "maxlon": 151.1960435
+    },
+    "nodes": [
+     2635013482,
+     6304741662,
+     6304741663,
+     2635013444,
+     2635013482
+    ],
+    "geometry": [
+     {
+      "lat": -33.882422,
+      "lon": 151.1957716
+     },
+     {
+      "lat": -33.882253,
+      "lon": 151.1957426
+     },
+     {
+      "lat": -33.88222,
+      "lon": 151.1960115
+     },
+     {
+      "lat": -33.8824012,
+      "lon": 151.1960435
+     },
+     {
+      "lat": -33.882422,
+      "lon": 151.1957716
+     }
+    ],
+    "tags": {
+     "addr:housenumber": "33",
+     "addr:postcode": "2007",
+     "addr:state": "NSW",
+     "addr:street": "Mountain Street",
+     "addr:suburb": "Ultimo",
+     "amenity": "school",
+     "building": "yes",
+     "building:levels": "5",
+     "check_date": "2025-06-21",
+     "name": "Academy of Interactive Entertainment",
+     "short_name": "AIE",
+     "website": "https://aie.edu.au"
+    }
+   },
+   {
+    "type": "way",
+    "id": 740583654,
+    "bounds": {
+     "minlat": -33.8916031,
+     "minlon": 151.1915046,
+     "maxlat": -33.8914672,
+     "maxlon": 151.1918169
+    },
+    "nodes": [
+     6933675507,
+     6933675508,
+     6933675509,
+     6933675510,
+     6933675507
+    ],
+    "geometry": [
+     {
+      "lat": -33.8915671,
+      "lon": 151.1915046
+     },
+     {
+      "lat": -33.8914672,
+      "lon": 151.191801
+     },
+     {
+      "lat": -33.8915032,
+      "lon": 151.1918169
+     },
+     {
+      "lat": -33.8916031,
+      "lon": 151.1915223
+     },
+     {
+      "lat": -33.8915671,
+      "lon": 151.1915046
+     }
+    ],
+    "tags": {
+     "amenity": "parking"
+    }
+   },
+   {
+    "type": "way",
+    "id": 740583656,
+    "bounds": {
+     "minlat": -33.8911332,
+     "minlon": 151.1900005,
+     "maxlat": -33.8909161,
+     "maxlon": 151.1902433
+    },
+    "nodes": [
+     6933675515,
+     6933675516,
+     6933675517,
+     6933675518,
+     6933675515
+    ],
+    "geometry": [
+     {
+      "lat": -33.8909161,
+      "lon": 151.1901453
+     },
+     {
+      "lat": -33.8910219,
+      "lon": 151.1902433
+     },
+     {
+      "lat": -33.8911332,
+      "lon": 151.1901306
+     },
+     {
+      "lat": -33.8910531,
+      "lon": 151.1900005
+     },
+     {
+      "lat": -33.8909161,
+      "lon": 151.1901453
+     }
+    ],
+    "tags": {
+     "amenity": "parking"
+    }
+   },
+   {
+    "type": "way",
+    "id": 740583657,
+    "bounds": {
+     "minlat": -33.8909929,
+     "minlon": 151.1912619,
+     "maxlat": -33.8908573,
+     "maxlon": 151.1915638
+    },
+    "nodes": [
+     6933675519,
+     6933675520,
+     6933675521,
+     6933675522,
+     6933675519
+    ],
+    "geometry": [
+     {
+      "lat": -33.890947,
+      "lon": 151.1912619
+     },
+     {
+      "lat": -33.8908573,
+      "lon": 151.1915425
+     },
+     {
+      "lat": -33.8909031,
+      "lon": 151.1915638
+     },
+     {
+      "lat": -33.8909929,
+      "lon": 151.1912831
+     },
+     {
+      "lat": -33.890947,
+      "lon": 151.1912619
+     }
+    ],
+    "tags": {
+     "amenity": "parking"
+    }
+   },
+   {
+    "type": "way",
+    "id": 740583658,
+    "bounds": {
+     "minlat": -33.8891298,
+     "minlon": 151.1924557,
+     "maxlat": -33.8889129,
+     "maxlon": 151.1928233
+    },
+    "nodes": [
+     6933675523,
+     6933675524,
+     6933675525,
+     6933675526,
+     6933675523
+    ],
+    "geometry": [
+     {
+      "lat": -33.8889129,
+      "lon": 151.1927875
+     },
+     {
+      "lat": -33.8889615,
+      "lon": 151.1928233
+     },
+     {
+      "lat": -33.8891298,
+      "lon": 151.1924915
+     },
+     {
+      "lat": -33.8890811,
+      "lon": 151.1924557
+     },
+     {
+      "lat": -33.8889129,
+      "lon": 151.1927875
+     }
+    ],
+    "tags": {
+     "amenity": "parking",
+     "parking": "lane"
+    }
+   },
+   {
+    "type": "way",
+    "id": 740583659,
+    "bounds": {
+     "minlat": -33.887979,
+     "minlon": 151.1890044,
+     "maxlat": -33.8875788,
+     "maxlon": 151.1891254
+    },
+    "nodes": [
+     6933675527,
+     6933675528,
+     6933675529,
+     6933675530,
+     9092919866,
+     9092919863,
+     9092919862,
+     9092919859,
+     9092919858,
+     9092919855,
+     9092919854,
+     9092919851,
+     6933675527
+    ],
+    "geometry": [
+     {
+      "lat": -33.8875845,
+      "lon": 151.1890044
+     },
+     {
+      "lat": -33.8875788,
+      "lon": 151.1890669
+     },
+     {
+      "lat": -33.8879717,
+      "lon": 151.1891254
+     },
+     {
+      "lat": -33.887979,
+      "lon": 151.189067
+     },
+     {
+      "lat": -33.8879472,
+      "lon": 151.189061
+     },
+     {
+      "lat": -33.8879101,
+      "lon": 151.1890539
+     },
+     {
+      "lat": -33.8878498,
+      "lon": 151.1890454
+     },
+     {
+      "lat": -33.8878105,
+      "lon": 151.1890398
+     },
+     {
+      "lat": -33.8877793,
+      "lon": 151.1890354
+     },
+     {
+      "lat": -33.8877402,
+      "lon": 151.1890298
+     },
+     {
+      "lat": -33.8876799,
+      "lon": 151.1890213
+     },
+     {
+      "lat": -33.8876341,
+      "lon": 151.189014
+     },
+     {
+      "lat": -33.8875845,
+      "lon": 151.1890044
+     }
+    ],
+    "tags": {
+     "access": "yes",
+     "amenity": "parking",
+     "fee": "yes",
+     "parking": "surface"
+    }
+   },
+   {
+    "type": "way",
+    "id": 747156376,
+    "bounds": {
+     "minlat": -33.8855291,
+     "minlon": 151.1876397,
+     "maxlat": -33.8854304,
+     "maxlon": 151.1879903
+    },
+    "nodes": [
+     6991140114,
+     6991140115,
+     6991140116,
+     9467496967,
+     6991140117,
+     6991140114
+    ],
+    "geometry": [
+     {
+      "lat": -33.8854701,
+      "lon": 151.1876397
+     },
+     {
+      "lat": -33.8854304,
+      "lon": 151.1879751
+     },
+     {
+      "lat": -33.8854945,
+      "lon": 151.1879903
+     },
+     {
+      "lat": -33.8855207,
+      "lon": 151.1877309
+     },
+     {
+      "lat": -33.8855291,
+      "lon": 151.1876478
+     },
+     {
+      "lat": -33.8854701,
+      "lon": 151.1876397
+     }
+    ],
+    "tags": {
+     "amenity": "parking",
+     "parking": "street_side"
+    }
+   },
+   {
+    "type": "way",
+    "id": 853583358,
+    "bounds": {
+     "minlat": -33.8803598,
+     "minlon": 151.1883538,
+     "maxlat": -33.8801076,
+     "maxlon": 151.18862
+    },
+    "nodes": [
+     638157321,
+     7805267076,
+     7805267077,
+     7805267072,
+     638157321
+    ],
+    "geometry": [
+     {
+      "lat": -33.8803598,
+      "lon": 151.188506
+     },
+     {
+      "lat": -33.8802963,
+      "lon": 151.18862
+     },
+     {
+      "lat": -33.8801076,
+      "lon": 151.1884678
+     },
+     {
+      "lat": -33.8801711,
+      "lon": 151.1883538
+     },
+     {
+      "lat": -33.8803598,
+      "lon": 151.188506
+     }
+    ],
+    "tags": {
+     "addr:housenumber": "1-3",
+     "addr:street": "Talfourd Street",
+     "amenity": "police",
+     "building": "yes",
+     "name": "Glebe Police Station",
+     "operator": "NSW Police Force",
+     "operator:wikidata": "Q7011763",
+     "operator:wikipedia": "en:New South Wales Police Force",
+     "phone": "+61 2 9552 8099",
+     "source": "police.nsw.gov.au",
+     "wikidata": "Q81758772"
+    }
+   },
+   {
+    "type": "way",
+    "id": 866162434,
+    "bounds": {
+     "minlat": -33.8883759,
+     "minlon": 151.189321,
+     "maxlat": -33.888313,
+     "maxlon": 151.1895798
+    },
+    "nodes": [
+     8073434282,
+     8073434283,
+     8073434284,
+     8073434285,
+     8073434282
+    ],
+    "geometry": [
+     {
+      "lat": -33.8883535,
+      "lon": 151.1895798
+     },
+     {
+      "lat": -33.888313,
+      "lon": 151.1895215
+     },
+     {
+      "lat": -33.8883384,
+      "lon": 151.189321
+     },
+     {
+      "lat": -33.8883759,
+      "lon": 151.1893713
+     },
+     {
+      "lat": -33.8883535,
+      "lon": 151.1895798
+     }
+    ],
+    "tags": {
+     "access": "private",
+     "amenity": "parking",
+     "parking": "street_side"
+    }
+   },
+   {
+    "type": "way",
+    "id": 969631000,
+    "bounds": {
+     "minlat": -33.8845583,
+     "minlon": 151.1871088,
+     "maxlat": -33.8845084,
+     "maxlon": 151.1874299
+    },
+    "nodes": [
+     8972854381,
+     8972854382,
+     8972854383,
+     8972854384,
+     8972854381
+    ],
+    "geometry": [
+     {
+      "lat": -33.8845084,
+      "lon": 151.1871099
+     },
+     {
+      "lat": -33.8845526,
+      "lon": 151.1871088
+     },
+     {
+      "lat": -33.8845583,
+      "lon": 151.1874287
+     },
+     {
+      "lat": -33.8845141,
+      "lon": 151.1874299
+     },
+     {
+      "lat": -33.8845084,
+      "lon": 151.1871099
+     }
+    ],
+    "tags": {
+     "amenity": "parking",
+     "parking": "street_side"
+    }
+   },
+   {
+    "type": "way",
+    "id": 969639282,
+    "bounds": {
+     "minlat": -33.8860774,
+     "minlon": 151.2134835,
+     "maxlat": -33.8858353,
+     "maxlon": 151.2137892
+    },
+    "nodes": [
+     4370861003,
+     8972922324,
+     8972922325,
+     8972922326,
+     4370861003
+    ],
+    "geometry": [
+     {
+      "lat": -33.8858353,
+      "lon": 151.2135277
+     },
+     {
+      "lat": -33.8858677,
+      "lon": 151.2137892
+     },
+     {
+      "lat": -33.8860774,
+      "lon": 151.2137464
+     },
+     {
+      "lat": -33.8860382,
+      "lon": 151.2134835
+     },
+     {
+      "lat": -33.8858353,
+      "lon": 151.2135277
+     }
+    ],
+    "tags": {
+     "amenity": "library",
+     "building": "civic",
+     "name": "Surry Hills Library",
+     "opening_hours": "Mo-Fr 10:00-18:00; Sa,Su 10:00-16:00; PH off",
+     "operator": "City of Sydney",
+     "source": "survey",
+     "toilets": "yes",
+     "website": "https://www.cityofsydney.nsw.gov.au/libraries/surry-hills-library",
+     "wikidata": "Q66446671"
+    }
+   },
+   {
+    "type": "way",
+    "id": 1009740035,
+    "bounds": {
+     "minlat": -33.8890869,
+     "minlon": 151.2105248,
+     "maxlat": -33.8890091,
+     "maxlon": 151.2108852
+    },
+    "nodes": [
+     9316598886,
+     9316598885,
+     9316598884,
+     9316598883,
+     9316598886
+    ],
+    "geometry": [
+     {
+      "lat": -33.8890502,
+      "lon": 151.2105248
+     },
+     {
+      "lat": -33.8890869,
+      "lon": 151.210879
+     },
+     {
+      "lat": -33.8890457,
+      "lon": 151.2108852
+     },
+     {
+      "lat": -33.8890091,
+      "lon": 151.210531
+     },
+     {
+      "lat": -33.8890502,
+      "lon": 151.2105248
+     }
+    ],
+    "tags": {
+     "amenity": "parking",
+     "orientation": "perpendicular",
+     "parking": "street_side"
+    }
+   },
+   {
+    "type": "way",
+    "id": 1009740036,
+    "bounds": {
+     "minlat": -33.8890304,
+     "minlon": 151.2099119,
+     "maxlat": -33.8889565,
+     "maxlon": 151.2103364
+    },
+    "nodes": [
+     9316598890,
+     9316598889,
+     9316598888,
+     9316598887,
+     9316598890
+    ],
+    "geometry": [
+     {
+      "lat": -33.8889945,
+      "lon": 151.2099119
+     },
+     {
+      "lat": -33.8890304,
+      "lon": 151.2103317
+     },
+     {
+      "lat": -33.8889923,
+      "lon": 151.2103364
+     },
+     {
+      "lat": -33.8889565,
+      "lon": 151.2099166
+     },
+     {
+      "lat": -33.8889945,
+      "lon": 151.2099119
+     }
+    ],
+    "tags": {
+     "amenity": "parking",
+     "orientation": "perpendicular",
+     "parking": "street_side"
+    }
+   },
+   {
+    "type": "way",
+    "id": 1036678179,
+    "bounds": {
+     "minlat": -33.892948,
+     "minlon": 151.1800423,
+     "maxlat": -33.8848397,
+     "maxlon": 151.1950117
+    },
+    "nodes": [
+     9550747031,
+     10131610761,
+     9550747018,
+     9550713005,
+     9550712988,
+     9550747030,
+     9550713009,
+     9550712999,
+     9550712980,
+     9550747022,
+     9550713002,
+     9550712992,
+     9550747025,
+     9550713013,
+     9550712995,
+     9550712983,
+     9550747017,
+     11342669692,
+     11342669691,
+     9550713004,
+     9550712987,
+     9550747029,
+     9550713008,
+     9550712998,
+     9550747034,
+     9550747021,
+     12827439140,
+     9550713001,
+     9550712991,
+     12827439136,
+     9550747024,
+     1865396312,
+     1865396314,
+     1865396313,
+     1865396315,
+     9550713015,
+     9550713003,
+     9550712985,
+     9550747027,
+     9550747028,
+     9550713016,
+     9550712997,
+     9550712986,
+     9550747020,
+     11079129256,
+     11740876108,
+     9550713007,
+     11740876109,
+     9550712990,
+     9550747033,
+     9550713011,
+     9550712993,
+     1614394819,
+     1614394812,
+     1614394670,
+     1614394717,
+     1614394822,
+     9550712984,
+     9550747019,
+     9550713006,
+     9550712989,
+     9550747032,
+     9550713010,
+     9550713000,
+     9550712981,
+     9550747023,
+     9550747031
+    ],
+    "geometry": [
+     {
+      "lat": -33.8879584,
+      "lon": 151.1931235
+     },
+     {
+      "lat": -33.8880783,
+      "lon": 151.1940823
+     },
+     {
+      "lat": -33.8881899,
+      "lon": 151.1949742
+     },
+     {
+      "lat": -33.8882344,
+      "lon": 151.1950117
+     },
+     {
+      "lat": -33.8912803,
+      "lon": 151.1937833
+     },
+     {
+      "lat": -33.8913471,
+      "lon": 151.1937028
+     },
+     {
+      "lat": -33.8917657,
+      "lon": 151.1923885
+     },
+     {
+      "lat": -33.8921131,
+      "lon": 151.1925441
+     },
+     {
+      "lat": -33.892948,
+      "lon": 151.1899129
+     },
+     {
+      "lat": -33.892398,
+      "lon": 151.1896393
+     },
+     {
+      "lat": -33.8920195,
+      "lon": 151.1894596
+     },
+     {
+      "lat": -33.8913761,
+      "lon": 151.191372
+     },
+     {
+      "lat": -33.8910933,
+      "lon": 151.1912486
+     },
+     {
+      "lat": -33.8908751,
+      "lon": 151.1912245
+     },
+     {
+      "lat": -33.8919861,
+      "lon": 151.1879897
+     },
+     {
+      "lat": -33.8919283,
+      "lon": 151.1879522
+     },
+     {
+      "lat": -33.891218,
+      "lon": 151.18873
+     },
+     {
+      "lat": -33.8911835,
+      "lon": 151.1884305
+     },
+     {
+      "lat": -33.8911838,
+      "lon": 151.1881229
+     },
+     {
+      "lat": -33.8911989,
+      "lon": 151.1875733
+     },
+     {
+      "lat": -33.8913828,
+      "lon": 151.187582
+     },
+     {
+      "lat": -33.8915208,
+      "lon": 151.1876598
+     },
+     {
+      "lat": -33.8926919,
+      "lon": 151.1832851
+     },
+     {
+      "lat": -33.8919995,
+      "lon": 151.1830276
+     },
+     {
+      "lat": -33.8917279,
+      "lon": 151.1839959
+     },
+     {
+      "lat": -33.8913115,
+      "lon": 151.183835
+     },
+     {
+      "lat": -33.8913101,
+      "lon": 151.1829217
+     },
+     {
+      "lat": -33.8913099,
+      "lon": 151.182793
+     },
+     {
+      "lat": -33.891289,
+      "lon": 151.1827734
+     },
+     {
+      "lat": -33.8912209,
+      "lon": 151.1827503
+     },
+     {
+      "lat": -33.8904143,
+      "lon": 151.1824775
+     },
+     {
+      "lat": -33.88996,
+      "lon": 151.1845431
+     },
+     {
+      "lat": -33.8894815,
+      "lon": 151.184398
+     },
+     {
+      "lat": -33.8895106,
+      "lon": 151.1842568
+     },
+     {
+      "lat": -33.8888653,
+      "lon": 151.1840697
+     },
+     {
+      "lat": -33.8882857,
+      "lon": 151.1838993
+     },
+     {
+      "lat": -33.8881476,
+      "lon": 151.1830196
+     },
+     {
+      "lat": -33.8889905,
+      "lon": 151.1820307
+     },
+     {
+      "lat": -33.8889492,
+      "lon": 151.1820154
+     },
+     {
+      "lat": -33.8871145,
+      "lon": 151.1800477
+     },
+     {
+      "lat": -33.8866692,
+      "lon": 151.1805949
+     },
+     {
+      "lat": -33.886117,
+      "lon": 151.1800423
+     },
+     {
+      "lat": -33.8849858,
+      "lon": 151.1859915
+     },
+     {
+      "lat": -33.8848856,
+      "lon": 151.1868283
+     },
+     {
+      "lat": -33.8848715,
+      "lon": 151.1869187
+     },
+     {
+      "lat": -33.8848403,
+      "lon": 151.1875178
+     },
+     {
+      "lat": -33.8848397,
+      "lon": 151.1877973
+     },
+     {
+      "lat": -33.8848472,
+      "lon": 151.1883503
+     },
+     {
+      "lat": -33.884853,
+      "lon": 151.1887755
+     },
+     {
+      "lat": -33.8848757,
+      "lon": 151.1894818
+     },
+     {
+      "lat": -33.8848916,
+      "lon": 151.1901508
+     },
+     {
+      "lat": -33.8849103,
+      "lon": 151.191301
+     },
+     {
+      "lat": -33.884867,
+      "lon": 151.1916234
+     },
+     {
+      "lat": -33.8856777,
+      "lon": 151.1916776
+     },
+     {
+      "lat": -33.8857896,
+      "lon": 151.1910583
+     },
+     {
+      "lat": -33.8862359,
+      "lon": 151.1910803
+     },
+     {
+      "lat": -33.886751,
+      "lon": 151.1909748
+     },
+     {
+      "lat": -33.8872993,
+      "lon": 151.1909616
+     },
+     {
+      "lat": -33.8878225,
+      "lon": 151.1910662
+     },
+     {
+      "lat": -33.8883458,
+      "lon": 151.1912432
+     },
+     {
+      "lat": -33.8885551,
+      "lon": 151.1913505
+     },
+     {
+      "lat": -33.8886063,
+      "lon": 151.1913425
+     },
+     {
+      "lat": -33.8888289,
+      "lon": 151.1914551
+     },
+     {
+      "lat": -33.8882456,
+      "lon": 151.1926004
+     },
+     {
+      "lat": -33.8879851,
+      "lon": 151.1930054
+     },
+     {
+      "lat": -33.887945,
+      "lon": 151.1930752
+     },
+     {
+      "lat": -33.8879584,
+      "lon": 151.1931235
+     }
+    ],
+    "tags": {
+     "alt_name": "Sydney University",
+     "amenity": "university",
+     "name": "The University of Sydney",
+     "name:de": "Universität Sydney",
+     "name:id": "Universitas Sydney",
+     "name:ms": "Universiti Sydney",
+     "name:vi": "Đại học Sydney",
+     "name:zh": "悉尼大学",
+     "short_name": "USyd",
+     "source:boundary": "DCS Base Map",
+     "website": "https://www.sydney.edu.au/",
+     "wikidata": "Q487556",
+     "wikipedia": "en:University of Sydney"
+    }
+   },
+   {
+    "type": "way",
+    "id": 1064477999,
+    "bounds": {
+     "minlat": -33.8920049,
+     "minlon": 151.2129854,
+     "maxlat": -33.8916721,
+     "maxlon": 151.2135385
+    },
+    "nodes": [
+     9776222149,
+     9776222157,
+     9776222150,
+     9776222158,
+     9776222151,
+     9776222152,
+     9776222149
+    ],
+    "geometry": [
+     {
+      "lat": -33.8917449,
+      "lon": 151.2135385
+     },
+     {
+      "lat": -33.8917702,
+      "lon": 151.2135331
+     },
+     {
+      "lat": -33.8920049,
+      "lon": 151.2134834
+     },
+     {
+      "lat": -33.8919936,
+      "lon": 151.2134058
+     },
+     {
+      "lat": -33.8919322,
+      "lon": 151.2129854
+     },
+     {
+      "lat": -33.8916721,
+      "lon": 151.2130405
+     },
+     {
+      "lat": -33.8917449,
+      "lon": 151.2135385
+     }
+    ],
+    "tags": {
+     "amenity": "fuel",
+     "brand": "BP",
+     "brand:wikidata": "Q152057",
+     "name": "BP",
+     "website": "https://map.bp.com/en-AU/AU/gas-station/redfern/bp-redfern-cleveland-st/0965"
+    }
+   },
+   {
+    "type": "way",
+    "id": 1064478000,
+    "bounds": {
+     "minlat": -33.8918967,
+     "minlon": 151.2131047,
+     "maxlat": -33.891702,
+     "maxlon": 151.2131983
+    },
+    "nodes": [
+     4104779828,
+     9776222153,
+     9776222154,
+     9776222155,
+     4104779828
+    ],
+    "geometry": [
+     {
+      "lat": -33.891702,
+      "lon": 151.2131384
+     },
+     {
+      "lat": -33.8917124,
+      "lon": 151.2131983
+     },
+     {
+      "lat": -33.8918967,
+      "lon": 151.2131624
+     },
+     {
+      "lat": -33.8918849,
+      "lon": 151.2131047
+     },
+     {
+      "lat": -33.891702,
+      "lon": 151.2131384
+     }
+    ],
+    "tags": {
+     "amenity": "parking",
+     "parking": "surface"
+    }
+   },
+   {
+    "type": "way",
+    "id": 1064478001,
+    "bounds": {
+     "minlat": -33.8920049,
+     "minlon": 151.2134058,
+     "maxlat": -33.8917605,
+     "maxlon": 151.2135331
+    },
+    "nodes": [
+     9776222156,
+     9776222157,
+     9776222150,
+     9776222158,
+     9776222156
+    ],
+    "geometry": [
+     {
+      "lat": -33.8917605,
+      "lon": 151.2134561
+     },
+     {
+      "lat": -33.8917702,
+      "lon": 151.2135331
+     },
+     {
+      "lat": -33.8920049,
+      "lon": 151.2134834
+     },
+     {
+      "lat": -33.8919936,
+      "lon": 151.2134058
+     },
+     {
+      "lat": -33.8917605,
+      "lon": 151.2134561
+     }
+    ],
+    "tags": {
+     "amenity": "parking",
+     "parking": "surface"
+    }
+   },
+   {
+    "type": "way",
+    "id": 1069665536,
+    "bounds": {
+     "minlat": -33.8837564,
+     "minlon": 151.1925158,
+     "maxlat": -33.8835843,
+     "maxlon": 151.1928791
+    },
+    "nodes": [
+     5813784761,
+     5813784765,
+     5813784764,
+     5813784752,
+     5813784751,
+     5813784755,
+     5813784754,
+     5813784758,
+     5813784757,
+     5813784762,
+     5813784761
+    ],
+    "geometry": [
+     {
+      "lat": -33.8836001,
+      "lon": 151.1925158
+     },
+     {
+      "lat": -33.8837564,
+      "lon": 151.1927639
+     },
+     {
+      "lat": -33.8836614,
+      "lon": 151.1928791
+     },
+     {
+      "lat": -33.8836362,
+      "lon": 151.192876
+     },
+     {
+      "lat": -33.8836439,
+      "lon": 151.1927567
+     },
+     {
+      "lat": -33.8836033,
+      "lon": 151.1927533
+     },
+     {
+      "lat": -33.8836099,
+      "lon": 151.1926441
+     },
+     {
+      "lat": -33.8835843,
+      "lon": 151.1926419
+     },
+     {
+      "lat": -33.8835903,
+      "lon": 151.1925584
+     },
+     {
+      "lat": -33.8835969,
+      "lon": 151.1925591
+     },
+     {
+      "lat": -33.8836001,
+      "lon": 151.1925158
+     }
+    ],
+    "tags": {
+     "amenity": "parking"
+    }
+   },
+   {
+    "type": "way",
+    "id": 1101047938,
+    "bounds": {
+     "minlat": -33.8881984,
+     "minlon": 151.1883168,
+     "maxlat": -33.8880457,
+     "maxlon": 151.188547
+    },
+    "nodes": [
+     582932983,
+     582933315,
+     582933321,
+     582932985,
+     582932983
+    ],
+    "geometry": [
+     {
+      "lat": -33.888068,
+      "lon": 151.1883168
+     },
+     {
+      "lat": -33.8881984,
+      "lon": 151.1883341
+     },
+     {
+      "lat": -33.8881755,
+      "lon": 151.188547
+     },
+     {
+      "lat": -33.8880457,
+      "lon": 151.1885287
+     },
+     {
+      "lat": -33.888068,
+      "lon": 151.1883168
+     }
+    ],
+    "tags": {
+     "amenity": "parking"
+    }
+   },
+   {
+    "type": "way",
+    "id": 1101047939,
+    "bounds": {
+     "minlat": -33.8886497,
+     "minlon": 151.1892503,
+     "maxlat": -33.8885238,
+     "maxlon": 151.1896176
+    },
+    "nodes": [
+     2151087958,
+     2151088033,
+     2151088163,
+     2151087984,
+     2151087958
+    ],
+    "geometry": [
+     {
+      "lat": -33.8885238,
+      "lon": 151.1896034
+     },
+     {
+      "lat": -33.8886093,
+      "lon": 151.1896176
+     },
+     {
+      "lat": -33.8886497,
+      "lon": 151.1892645
+     },
+     {
+      "lat": -33.8885642,
+      "lon": 151.1892503
+     },
+     {
+      "lat": -33.8885238,
+      "lon": 151.1896034
+     }
+    ],
+    "tags": {
+     "amenity": "parking"
+    }
+   },
+   {
+    "type": "way",
+    "id": 1102574026,
+    "bounds": {
+     "minlat": -33.8909954,
+     "minlon": 151.1904798,
+     "maxlat": -33.8908877,
+     "maxlon": 151.1907093
+    },
+    "nodes": [
+     10089409131,
+     10089409132,
+     10089409133,
+     10089409134,
+     10089409131
+    ],
+    "geometry": [
+     {
+      "lat": -33.8909569,
+      "lon": 151.1904798
+     },
+     {
+      "lat": -33.8909954,
+      "lon": 151.190498
+     },
+     {
+      "lat": -33.8909242,
+      "lon": 151.1907093
+     },
+     {
+      "lat": -33.8908877,
+      "lon": 151.1906897
+     },
+     {
+      "lat": -33.8909569,
+      "lon": 151.1904798
+     }
+    ],
+    "tags": {
+     "amenity": "parking"
+    }
+   },
+   {
+    "type": "way",
+    "id": 1102574027,
+    "bounds": {
+     "minlat": -33.8910634,
+     "minlon": 151.1905654,
+     "maxlat": -33.8909128,
+     "maxlon": 151.1909134
+    },
+    "nodes": [
+     10089409137,
+     10089409138,
+     10089409139,
+     10089409140,
+     10089409137
+    ],
+    "geometry": [
+     {
+      "lat": -33.8909128,
+      "lon": 151.1908977
+     },
+     {
+      "lat": -33.8909487,
+      "lon": 151.1909134
+     },
+     {
+      "lat": -33.8910634,
+      "lon": 151.1905861
+     },
+     {
+      "lat": -33.8910234,
+      "lon": 151.1905654
+     },
+     {
+      "lat": -33.8909128,
+      "lon": 151.1908977
+     }
+    ],
+    "tags": {
+     "amenity": "parking"
+    }
+   },
+   {
+    "type": "way",
+    "id": 1117102566,
+    "bounds": {
+     "minlat": -33.8875363,
+     "minlon": 151.2039518,
+     "maxlat": -33.8870991,
+     "maxlon": 151.2045399
+    },
+    "nodes": [
+     10216759293,
+     10216759294,
+     1934737652,
+     10216759295,
+     10216759296,
+     10216759297,
+     10216759293
+    ],
+    "geometry": [
+     {
+      "lat": -33.8872165,
+      "lon": 151.2045399
+     },
+     {
+      "lat": -33.8875363,
+      "lon": 151.2040621
+     },
+     {
+      "lat": -33.8874902,
+      "lon": 151.2040092
+     },
+     {
+      "lat": -33.8874403,
+      "lon": 151.2039518
+     },
+     {
+      "lat": -33.8870991,
+      "lon": 151.2043771
+     },
+     {
+      "lat": -33.8871072,
+      "lon": 151.2044358
+     },
+     {
+      "lat": -33.8872165,
+      "lon": 151.2045399
+     }
+    ],
+    "tags": {
+     "access": "no",
+     "amenity": "parking",
+     "parking": "surface",
+     "surface": "asphalt"
+    }
+   },
+   {
+    "type": "way",
+    "id": 1140701089,
+    "bounds": {
+     "minlat": -33.8933905,
+     "minlon": 151.2021357,
+     "maxlat": -33.893268,
+     "maxlon": 151.2024663
+    },
+    "nodes": [
+     10628434275,
+     10628434274,
+     10628434273,
+     10628434272,
+     10628434271,
+     10628434270,
+     10628434275
+    ],
+    "geometry": [
+     {
+      "lat": -33.8933031,
+      "lon": 151.2024448
+     },
+     {
+      "lat": -33.8933398,
+      "lon": 151.2024663
+     },
+     {
+      "lat": -33.8933905,
+      "lon": 151.2024562
+     },
+     {
+      "lat": -33.8933521,
+      "lon": 151.2021357
+     },
+     {
+      "lat": -33.8932886,
+      "lon": 151.2021457
+     },
+     {
+      "lat": -33.893268,
+      "lon": 151.2021766
+     },
+     {
+      "lat": -33.8933031,
+      "lon": 151.2024448
+     }
+    ],
+    "tags": {
+     "addr:housenumber": "113",
+     "addr:postcode": "2016",
+     "addr:state": "NSW",
+     "addr:street": "George Street",
+     "addr:suburb": "Redfern",
+     "alt_name": "Redfern Fire Station (010)",
+     "amenity": "fire_station",
+     "branch": "Redfern",
+     "name": "Redfern Fire Station",
+     "operator": "Fire and Rescue NSW",
+     "operator:wikidata": "Q5451532",
+     "phone": "+61 2 9698 1161"
+    }
+   },
+   {
+    "type": "way",
+    "id": 1204078683,
+    "bounds": {
+     "minlat": -33.8853393,
+     "minlon": 151.1881878,
+     "maxlat": -33.885242,
+     "maxlon": 151.1884944
+    },
+    "nodes": [
+     11160180412,
+     11160180413,
+     11160180414,
+     11160180415,
+     11160180412
+    ],
+    "geometry": [
+     {
+      "lat": -33.8852737,
+      "lon": 151.1881878
+     },
+     {
+      "lat": -33.885242,
+      "lon": 151.1884843
+     },
+     {
+      "lat": -33.8853077,
+      "lon": 151.1884944
+     },
+     {
+      "lat": -33.8853393,
+      "lon": 151.188198
+     },
+     {
+      "lat": -33.8852737,
+      "lon": 151.1881878
+     }
+    ],
+    "tags": {
+     "amenity": "parking",
+     "parking": "street_side"
+    }
+   },
+   {
+    "type": "way",
+    "id": 1204078684,
+    "bounds": {
+     "minlat": -33.8854441,
+     "minlon": 151.1882185,
+     "maxlat": -33.8853781,
+     "maxlon": 151.1884615
+    },
+    "nodes": [
+     11160180416,
+     11160180417,
+     11160180418,
+     11160180419,
+     11160180416
+    ],
+    "geometry": [
+     {
+      "lat": -33.885405,
+      "lon": 151.1882185
+     },
+     {
+      "lat": -33.8853781,
+      "lon": 151.1884546
+     },
+     {
+      "lat": -33.8854199,
+      "lon": 151.1884615
+     },
+     {
+      "lat": -33.8854441,
+      "lon": 151.188225
+     },
+     {
+      "lat": -33.885405,
+      "lon": 151.1882185
+     }
+    ],
+    "tags": {
+     "amenity": "parking",
+     "parking": "street_side"
+    }
+   },
+   {
+    "type": "way",
+    "id": 1240096933,
+    "bounds": {
+     "minlat": -33.8858304,
+     "minlon": 151.2062337,
+     "maxlat": -33.8855847,
+     "maxlon": 151.2065505
+    },
+    "nodes": [
+     11521333954,
+     11521333955,
+     11521333956,
+     11521333957,
+     11521333954
+    ],
+    "geometry": [
+     {
+      "lat": -33.8855847,
+      "lon": 151.2063138
+     },
+     {
+      "lat": -33.8856696,
+      "lon": 151.2062337
+     },
+     {
+      "lat": -33.8858304,
+      "lon": 151.2063983
+     },
+     {
+      "lat": -33.8857235,
+      "lon": 151.2065505
+     },
+     {
+      "lat": -33.8855847,
+      "lon": 151.2063138
+     }
+    ],
+    "tags": {
+     "access": "private",
+     "amenity": "parking",
+     "parking": "surface"
+    }
+   },
+   {
+    "type": "way",
+    "id": 1241921153,
+    "bounds": {
+     "minlat": -33.8926949,
+     "minlon": 151.1990027,
+     "maxlat": -33.8922645,
+     "maxlon": 151.1993455
+    },
+    "nodes": [
+     10074185947,
+     11539815468,
+     11539815413,
+     11539815446,
+     11539815414,
+     3925673861,
+     3925673862,
+     10074185942,
+     10074185947
+    ],
+    "geometry": [
+     {
+      "lat": -33.892657,
+      "lon": 151.1990027
+     },
+     {
+      "lat": -33.892676,
+      "lon": 151.1990554
+     },
+     {
+      "lat": -33.8926949,
+      "lon": 151.1991081
+     },
+     {
+      "lat": -33.892338,
+      "lon": 151.1993309
+     },
+     {
+      "lat": -33.8923146,
+      "lon": 151.1993455
+     },
+     {
+      "lat": -33.8922958,
+      "lon": 151.1993038
+     },
+     {
+      "lat": -33.8922645,
+      "lon": 151.1992339
+     },
+     {
+      "lat": -33.8923876,
+      "lon": 151.1991561
+     },
+     {
+      "lat": -33.892657,
+      "lon": 151.1990027
+     }
+    ],
+    "tags": {
+     "access": "private",
+     "amenity": "parking",
+     "name": "TfNSW Staff",
+     "parking": "surface"
+    }
+   },
+   {
+    "type": "way",
+    "id": 1241921178,
+    "bounds": {
+     "minlat": -33.891585,
+     "minlon": 151.1996686,
+     "maxlat": -33.8910327,
+     "maxlon": 151.2002166
+    },
+    "nodes": [
+     11539815815,
+     11539815816,
+     11539815817,
+     11539815818,
+     11539815819,
+     11539815820,
+     11539815821,
+     11539815826,
+     11539815822,
+     11539815823,
+     11539815824,
+     11539815815
+    ],
+    "geometry": [
+     {
+      "lat": -33.8915751,
+      "lon": 151.1996686
+     },
+     {
+      "lat": -33.891585,
+      "lon": 151.1997402
+     },
+     {
+      "lat": -33.8915072,
+      "lon": 151.199819
+     },
+     {
+      "lat": -33.8914665,
+      "lon": 151.1998113
+     },
+     {
+      "lat": -33.8913094,
+      "lon": 151.1999505
+     },
+     {
+      "lat": -33.891184,
+      "lon": 151.2001217
+     },
+     {
+      "lat": -33.89104,
+      "lon": 151.2002166
+     },
+     {
+      "lat": -33.8910327,
+      "lon": 151.2002023
+     },
+     {
+      "lat": -33.8910358,
+      "lon": 151.2001562
+     },
+     {
+      "lat": -33.8912688,
+      "lon": 151.1999269
+     },
+     {
+      "lat": -33.8914822,
+      "lon": 151.1997171
+     },
+     {
+      "lat": -33.8915751,
+      "lon": 151.1996686
+     }
+    ],
+    "tags": {
+     "access": "private",
+     "amenity": "parking",
+     "name": "TfNSW Staff",
+     "parking": "street_side"
+    }
+   },
+   {
+    "type": "way",
+    "id": 1252294309,
+    "bounds": {
+     "minlat": -33.8803833,
+     "minlon": 151.2012264,
+     "maxlat": -33.8792026,
+     "maxlon": 151.2017905
+    },
+    "nodes": [
+     11640522743,
+     11640522744,
+     11640522745,
+     11640522746,
+     11640522747,
+     11640522748,
+     11640522749,
+     11640522750,
+     11640522751,
+     11640522752,
+     11640522753,
+     11640522754,
+     11640522755,
+     11640522756,
+     11640522757,
+     11640522758,
+     11640522759,
+     11640522760,
+     11640522761,
+     11640522762,
+     11640522763,
+     11640522764,
+     11640522765,
+     11640522743
+    ],
+    "geometry": [
+     {
+      "lat": -33.8802545,
+      "lon": 151.2016702
+     },
+     {
+      "lat": -33.8803833,
+      "lon": 151.2017406
+     },
+     {
+      "lat": -33.8803689,
+      "lon": 151.2017905
+     },
+     {
+      "lat": -33.8802899,
+      "lon": 151.2017825
+     },
+     {
+      "lat": -33.8802304,
+      "lon": 151.2017865
+     },
+     {
+      "lat": -33.8801633,
+      "lon": 151.2017867
+     },
+     {
+      "lat": -33.880101,
+      "lon": 151.2017759
+     },
+     {
+      "lat": -33.88003,
+      "lon": 151.2017521
+     },
+     {
+      "lat": -33.8799025,
+      "lon": 151.2016933
+     },
+     {
+      "lat": -33.8794996,
+      "lon": 151.2015048
+     },
+     {
+      "lat": -33.8793035,
+      "lon": 151.2014136
+     },
+     {
+      "lat": -33.8792098,
+      "lon": 151.2013625
+     },
+     {
+      "lat": -33.8792026,
+      "lon": 151.2013468
+     },
+     {
+      "lat": -33.8792128,
+      "lon": 151.2012536
+     },
+     {
+      "lat": -33.8792112,
+      "lon": 151.2012264
+     },
+     {
+      "lat": -33.8793394,
+      "lon": 151.2012798
+     },
+     {
+      "lat": -33.8793302,
+      "lon": 151.2013037
+     },
+     {
+      "lat": -33.8797559,
+      "lon": 151.2015024
+     },
+     {
+      "lat": -33.8798524,
+      "lon": 151.2015416
+     },
+     {
+      "lat": -33.8799653,
+      "lon": 151.2015895
+     },
+     {
+      "lat": -33.8800642,
+      "lon": 151.2016163
+     },
+     {
+      "lat": -33.8801624,
+      "lon": 151.2016524
+     },
+     {
+      "lat": -33.8802498,
+      "lon": 151.2016825
+     },
+     {
+      "lat": -33.8802545,
+      "lon": 151.2016702
+     }
+    ],
+    "tags": {
+     "access": "no",
+     "amenity": "parking",
+     "bus": "designated",
+     "capacity": "11",
+     "name": "Bus Bay"
+    }
+   },
+   {
+    "type": "way",
+    "id": 1269415364,
+    "bounds": {
+     "minlat": -33.8800319,
+     "minlon": 151.2042891,
+     "maxlat": -33.8798285,
+     "maxlon": 151.2044714
+    },
+    "nodes": [
+     11790142770,
+     11790142775,
+     11790142776,
+     11790142777,
+     11790142778,
+     11790142771,
+     11790142770
+    ],
+    "geometry": [
+     {
+      "lat": -33.8800319,
+      "lon": 151.2042891
+     },
+     {
+      "lat": -33.8798343,
+      "lon": 151.2044407
+     },
+     {
+      "lat": -33.8798289,
+      "lon": 151.2044514
+     },
+     {
+      "lat": -33.8798285,
+      "lon": 151.2044649
+     },
+     {
+      "lat": -33.8798293,
+      "lon": 151.2044714
+     },
+     {
+      "lat": -33.8800279,
+      "lon": 151.2043196
+     },
+     {
+      "lat": -33.8800319,
+      "lon": 151.2042891
+     }
+    ],
+    "tags": {
+     "amenity": "parking",
+     "parking": "street_side"
+    }
+   },
+   {
+    "type": "way",
+    "id": 1269415365,
+    "bounds": {
+     "minlat": -33.8803354,
+     "minlon": 151.2045404,
+     "maxlat": -33.8802597,
+     "maxlon": 151.2047718
+    },
+    "nodes": [
+     11790003465,
+     11790003436,
+     11790003463,
+     11790003464,
+     11790003465
+    ],
+    "geometry": [
+     {
+      "lat": -33.8802848,
+      "lon": 151.2045404
+     },
+     {
+      "lat": -33.8803354,
+      "lon": 151.2047635
+     },
+     {
+      "lat": -33.8803103,
+      "lon": 151.2047718
+     },
+     {
+      "lat": -33.8802597,
+      "lon": 151.2045487
+     },
+     {
+      "lat": -33.8802848,
+      "lon": 151.2045404
+     }
+    ],
+    "tags": {
+     "amenity": "parking",
+     "parking": "street_side"
+    }
+   },
+   {
+    "type": "way",
+    "id": 1282075016,
+    "bounds": {
+     "minlat": -33.8944623,
+     "minlon": 151.1979383,
+     "maxlat": -33.894026,
+     "maxlon": 151.1980949
+    },
+    "nodes": [
+     5738428422,
+     5738426112,
+     5738426117,
+     5738426120,
+     5738428422
+    ],
+    "geometry": [
+     {
+      "lat": -33.8944525,
+      "lon": 151.1979383
+     },
+     {
+      "lat": -33.894026,
+      "lon": 151.1980088
+     },
+     {
+      "lat": -33.8940358,
+      "lon": 151.1980949
+     },
+     {
+      "lat": -33.8944623,
+      "lon": 151.1980246
+     },
+     {
+      "lat": -33.8944525,
+      "lon": 151.1979383
+     }
+    ],
+    "tags": {
+     "access": "private",
+     "amenity": "parking",
+     "parking": "surface"
+    }
+   },
+   {
+    "type": "way",
+    "id": 1301271580,
+    "bounds": {
+     "minlat": -33.8874182,
+     "minlon": 151.2017641,
+     "maxlat": -33.8873673,
+     "maxlon": 151.2018528
+    },
+    "nodes": [
+     12052826719,
+     12052826720,
+     12052826721,
+     12052826722,
+     12052826719
+    ],
+    "geometry": [
+     {
+      "lat": -33.8873673,
+      "lon": 151.2017718
+     },
+     {
+      "lat": -33.8874075,
+      "lon": 151.2017641
+     },
+     {
+      "lat": -33.8874182,
+      "lon": 151.2018451
+     },
+     {
+      "lat": -33.8873779,
+      "lon": 151.2018528
+     },
+     {
+      "lat": -33.8873673,
+      "lon": 151.2017718
+     }
+    ],
+    "tags": {
+     "access": "private",
+     "amenity": "parking",
+     "capacity": "3",
+     "parking": "street_side"
+    }
+   },
+   {
+    "type": "way",
+    "id": 1303632837,
+    "bounds": {
+     "minlat": -33.8910337,
+     "minlon": 151.2126113,
+     "maxlat": -33.8909668,
+     "maxlon": 151.2127989
+    },
+    "nodes": [
+     12072983826,
+     12072983827,
+     12072983828,
+     12072983829,
+     12072983826
+    ],
+    "geometry": [
+     {
+      "lat": -33.8909668,
+      "lon": 151.21262
+     },
+     {
+      "lat": -33.890993,
+      "lon": 151.2127989
+     },
+     {
+      "lat": -33.8910337,
+      "lon": 151.2127903
+     },
+     {
+      "lat": -33.8910075,
+      "lon": 151.2126113
+     },
+     {
+      "lat": -33.8909668,
+      "lon": 151.21262
+     }
+    ],
+    "tags": {
+     "addr:housenumber": "573",
+     "addr:level": "1",
+     "addr:street": "Crown Street",
+     "amenity": "hospital",
+     "healthcare": "hospital",
+     "name": "Surry Hills Day Hospital",
+     "source": "https://www.health.gov.au/resources/publications/list-of-declared-hospitals;https://surryhillsdayhospital.sydney/"
+    }
+   },
+   {
+    "type": "way",
+    "id": 1304967202,
+    "bounds": {
+     "minlat": -33.8927695,
+     "minlon": 151.1942884,
+     "maxlat": -33.8924071,
+     "maxlon": 151.1949254
+    },
+    "nodes": [
+     12086562247,
+     12086562248,
+     12086562260,
+     12086562249,
+     12086562250,
+     12086562251,
+     12086562252,
+     12086562253,
+     12086562254,
+     12086562255,
+     12086562256,
+     12086562247
+    ],
+    "geometry": [
+     {
+      "lat": -33.8927239,
+      "lon": 151.1949254
+     },
+     {
+      "lat": -33.8924071,
+      "lon": 151.1947849
+     },
+     {
+      "lat": -33.8924182,
+      "lon": 151.1947474
+     },
+     {
+      "lat": -33.892554,
+      "lon": 151.1942884
+     },
+     {
+      "lat": -33.8927255,
+      "lon": 151.1943661
+     },
+     {
+      "lat": -33.892733,
+      "lon": 151.1943438
+     },
+     {
+      "lat": -33.8927695,
+      "lon": 151.1943615
+     },
+     {
+      "lat": -33.89275,
+      "lon": 151.1944978
+     },
+     {
+      "lat": -33.8926024,
+      "lon": 151.1944412
+     },
+     {
+      "lat": -33.8925195,
+      "lon": 151.1947175
+     },
+     {
+      "lat": -33.8927477,
+      "lon": 151.1948117
+     },
+     {
+      "lat": -33.8927239,
+      "lon": 151.1949254
+     }
+    ],
+    "tags": {
+     "access": "private",
+     "amenity": "parking",
+     "parking": "surface"
+    }
+   },
+   {
+    "type": "way",
+    "id": 1350647276,
+    "bounds": {
+     "minlat": -33.8851628,
+     "minlon": 151.1963748,
+     "maxlat": -33.8850322,
+     "maxlon": 151.1966583
+    },
+    "nodes": [
+     11832190678,
+     12495766429,
+     12495766430,
+     11832190681,
+     11832190678
+    ],
+    "geometry": [
+     {
+      "lat": -33.8851507,
+      "lon": 151.1966583
+     },
+     {
+      "lat": -33.8850322,
+      "lon": 151.1966495
+     },
+     {
+      "lat": -33.8850469,
+      "lon": 151.1963748
+     },
+     {
+      "lat": -33.8851628,
+      "lon": 151.1963835
+     },
+     {
+      "lat": -33.8851507,
+      "lon": 151.1966583
+     }
+    ],
+    "tags": {
+     "amenity": "university",
+     "name": "University of Notre Dame",
+     "website": "https://notredame.edu.au",
+     "wikidata": "Q1887921",
+     "wikipedia": "en:University of Notre Dame Australia"
+    }
+   },
+   {
+    "type": "way",
+    "id": 1358288840,
+    "bounds": {
+     "minlat": -33.8821334,
+     "minlon": 151.1922696,
+     "maxlat": -33.8820729,
+     "maxlon": 151.1923505
+    },
+    "nodes": [
+     9788261666,
+     12570587805,
+     9788261668,
+     9788261667,
+     9788261666
+    ],
+    "geometry": [
+     {
+      "lat": -33.8820771,
+      "lon": 151.1923021
+     },
+     {
+      "lat": -33.8820729,
+      "lon": 151.1923505
+     },
+     {
+      "lat": -33.8821334,
+      "lon": 151.1923012
+     },
+     {
+      "lat": -33.8821145,
+      "lon": 151.1922696
+     },
+     {
+      "lat": -33.8820771,
+      "lon": 151.1923021
+     }
+    ],
+    "tags": {
+     "amenity": "community_centre",
+     "building": "yes",
+     "building:levels": "1",
+     "name": "Robyn Kemmis Reserve Community Space"
+    }
+   },
+   {
+    "type": "way",
+    "id": 1424726657,
+    "bounds": {
+     "minlat": -33.8882502,
+     "minlon": 151.2008684,
+     "maxlat": -33.8879787,
+     "maxlon": 151.2010644
+    },
+    "nodes": [
+     13095731263,
+     13095731264,
+     13095731265,
+     13095731266,
+     13095731263
+    ],
+    "geometry": [
+     {
+      "lat": -33.8879787,
+      "lon": 151.2009195
+     },
+     {
+      "lat": -33.887999,
+      "lon": 151.2010644
+     },
+     {
+      "lat": -33.8882502,
+      "lon": 151.2010131
+     },
+     {
+      "lat": -33.8882298,
+      "lon": 151.2008684
+     },
+     {
+      "lat": -33.8879787,
+      "lon": 151.2009195
+     }
+    ],
+    "tags": {
+     "access": "private",
+     "amenity": "parking",
+     "capacity": "15"
+    }
+   },
+   {
+    "type": "way",
+    "id": 1424726709,
+    "bounds": {
+     "minlat": -33.8886113,
+     "minlon": 151.2005201,
+     "maxlat": -33.8884554,
+     "maxlon": 151.2007423
+    },
+    "nodes": [
+     11865362057,
+     13095728571,
+     13095728572,
+     13095728573,
+     11865362057
+    ],
+    "geometry": [
+     {
+      "lat": -33.8884857,
+      "lon": 151.2007423
+     },
+     {
+      "lat": -33.8886113,
+      "lon": 151.2007113
+     },
+     {
+      "lat": -33.8885895,
+      "lon": 151.2005201
+     },
+     {
+      "lat": -33.8884554,
+      "lon": 151.2005451
+     },
+     {
+      "lat": -33.8884857,
+      "lon": 151.2007423
+     }
+    ],
+    "tags": {
+     "access": "customers",
+     "amenity": "parking",
+     "capacity": "11",
+     "fee": "no",
+     "parking": "surface",
+     "source": "survey"
+    }
+   },
+   {
+    "type": "way",
+    "id": 1429450775,
+    "bounds": {
+     "minlat": -33.8864927,
+     "minlon": 151.2011097,
+     "maxlat": -33.8863541,
+     "maxlon": 151.2013422
+    },
+    "nodes": [
+     6604166230,
+     13140445517,
+     13140445518,
+     13140445519,
+     13140445508,
+     13140445509,
+     11070635480,
+     13140445520,
+     6604166227,
+     13736419174,
+     13736419173,
+     13736419172,
+     13736419171,
+     6604166230
+    ],
+    "geometry": [
+     {
+      "lat": -33.8864279,
+      "lon": 151.2013422
+     },
+     {
+      "lat": -33.8864927,
+      "lon": 151.201333
+     },
+     {
+      "lat": -33.8864672,
+      "lon": 151.2011422
+     },
+     {
+      "lat": -33.886457,
+      "lon": 151.2011263
+     },
+     {
+      "lat": -33.886444,
+      "lon": 151.2011161
+     },
+     {
+      "lat": -33.8864286,
+      "lon": 151.2011113
+     },
+     {
+      "lat": -33.8864107,
+      "lon": 151.2011097
+     },
+     {
+      "lat": -33.8863541,
+      "lon": 151.2011146
+     },
+     {
+      "lat": -33.8863647,
+      "lon": 151.2011981
+     },
+     {
+      "lat": -33.8863884,
+      "lon": 151.2011945
+     },
+     {
+      "lat": -33.8864024,
+      "lon": 151.2012028
+     },
+     {
+      "lat": -33.8864152,
+      "lon": 151.2012216
+     },
+     {
+      "lat": -33.8864186,
+      "lon": 151.2012459
+     },
+     {
+      "lat": -33.8864279,
+      "lon": 151.2013422
+     }
+    ],
+    "tags": {
+     "amenity": "kindergarten",
+     "level": "1"
+    }
+   },
+   {
+    "type": "way",
+    "id": 1441576959,
+    "bounds": {
+     "minlat": -33.8923979,
+     "minlon": 151.1963286,
+     "maxlat": -33.8921135,
+     "maxlon": 151.1967001
+    },
+    "nodes": [
+     13227166792,
+     13227254728,
+     13227254705,
+     13227166793,
+     13227254706,
+     13227254708,
+     13227254710,
+     13227254712,
+     13227254714,
+     13227254716,
+     13227254718,
+     13227254720,
+     13227254722,
+     13227254724,
+     13227254726,
+     13227166794,
+     13227166795,
+     13227166796,
+     13227166797,
+     13227254729,
+     13227254731,
+     13227254733,
+     13227254735,
+     13227254737,
+     13227254739,
+     13227254741,
+     13227254743,
+     13227254745,
+     13227166792
+    ],
+    "geometry": [
+     {
+      "lat": -33.8922954,
+      "lon": 151.1963286
+     },
+     {
+      "lat": -33.8923282,
+      "lon": 151.1963698
+     },
+     {
+      "lat": -33.8923628,
+      "lon": 151.1964126
+     },
+     {
+      "lat": -33.8923979,
+      "lon": 151.196457
+     },
+     {
+      "lat": -33.8923803,
+      "lon": 151.1964772
+     },
+     {
+      "lat": -33.8923627,
+      "lon": 151.1964975
+     },
+     {
+      "lat": -33.8923451,
+      "lon": 151.1965178
+     },
+     {
+      "lat": -33.8923275,
+      "lon": 151.196538
+     },
+     {
+      "lat": -33.8923098,
+      "lon": 151.1965583
+     },
+     {
+      "lat": -33.8922922,
+      "lon": 151.1965786
+     },
+     {
+      "lat": -33.8922746,
+      "lon": 151.1965988
+     },
+     {
+      "lat": -33.892257,
+      "lon": 151.1966191
+     },
+     {
+      "lat": -33.8922394,
+      "lon": 151.1966393
+     },
+     {
+      "lat": -33.8922218,
+      "lon": 151.1966596
+     },
+     {
+      "lat": -33.8922042,
+      "lon": 151.1966799
+     },
+     {
+      "lat": -33.8921865,
+      "lon": 151.1967001
+     },
+     {
+      "lat": -33.8921514,
+      "lon": 151.1966557
+     },
+     {
+      "lat": -33.8921464,
+      "lon": 151.1965804
+     },
+     {
+      "lat": -33.8921135,
+      "lon": 151.1965392
+     },
+     {
+      "lat": -33.8921317,
+      "lon": 151.1965181
+     },
+     {
+      "lat": -33.8921499,
+      "lon": 151.1964971
+     },
+     {
+      "lat": -33.8921681,
+      "lon": 151.196476
+     },
+     {
+      "lat": -33.8921863,
+      "lon": 151.196455
+     },
+     {
+      "lat": -33.8922045,
+      "lon": 151.1964339
+     },
+     {
+      "lat": -33.8922226,
+      "lon": 151.1964129
+     },
+     {
+      "lat": -33.8922408,
+      "lon": 151.1963918
+     },
+     {
+      "lat": -33.892259,
+      "lon": 151.1963707
+     },
+     {
+      "lat": -33.8922772,
+      "lon": 151.1963497
+     },
+     {
+      "lat": -33.8922954,
+      "lon": 151.1963286
+     }
+    ],
+    "tags": {
+     "access": "private",
+     "amenity": "parking"
+    }
+   },
+   {
+    "type": "way",
+    "id": 1456897744,
+    "bounds": {
+     "minlat": -33.8805174,
+     "minlon": 151.2006811,
+     "maxlat": -33.8801123,
+     "maxlon": 151.2012017
+    },
+    "nodes": [
+     443443071,
+     13361549486,
+     13361549487,
+     443443074,
+     443443071
+    ],
+    "geometry": [
+     {
+      "lat": -33.8801123,
+      "lon": 151.2010609
+     },
+     {
+      "lat": -33.88038,
+      "lon": 151.2012017
+     },
+     {
+      "lat": -33.8805174,
+      "lon": 151.2008382
+     },
+     {
+      "lat": -33.8802617,
+      "lon": 151.2006811
+     },
+     {
+      "lat": -33.8801123,
+      "lon": 151.2010609
+     }
+    ],
+    "tags": {
+     "access": "private",
+     "amenity": "parking",
+     "parking": "surface"
+    }
+   },
+   {
+    "type": "way",
+    "id": 1456898795,
+    "bounds": {
+     "minlat": -33.8936743,
+     "minlon": 151.196791,
+     "maxlat": -33.8935293,
+     "maxlon": 151.1971168
+    },
+    "nodes": [
+     12177991334,
+     12177991357,
+     12177991355,
+     12177991353,
+     12177991351,
+     12177991349,
+     12177991347,
+     12177991345,
+     12177991343,
+     12177991341,
+     12177991339,
+     12177991337,
+     12177991333,
+     12177991332,
+     12177991336,
+     12177991338,
+     12177991340,
+     12177991342,
+     12177991344,
+     12177991346,
+     12177991348,
+     12177991350,
+     12177991352,
+     12177991354,
+     12177991356,
+     12177991335,
+     12177991334
+    ],
+    "geometry": [
+     {
+      "lat": -33.8935748,
+      "lon": 151.1971168
+     },
+     {
+      "lat": -33.8935831,
+      "lon": 151.1970914
+     },
+     {
+      "lat": -33.8935914,
+      "lon": 151.1970661
+     },
+     {
+      "lat": -33.8935997,
+      "lon": 151.1970407
+     },
+     {
+      "lat": -33.893608,
+      "lon": 151.1970154
+     },
+     {
+      "lat": -33.8936162,
+      "lon": 151.19699
+     },
+     {
+      "lat": -33.8936245,
+      "lon": 151.1969647
+     },
+     {
+      "lat": -33.8936328,
+      "lon": 151.1969394
+     },
+     {
+      "lat": -33.8936411,
+      "lon": 151.196914
+     },
+     {
+      "lat": -33.8936494,
+      "lon": 151.1968887
+     },
+     {
+      "lat": -33.8936577,
+      "lon": 151.1968633
+     },
+     {
+      "lat": -33.893666,
+      "lon": 151.196838
+     },
+     {
+      "lat": -33.8936743,
+      "lon": 151.1968126
+     },
+     {
+      "lat": -33.8936287,
+      "lon": 151.196791
+     },
+     {
+      "lat": -33.8936204,
+      "lon": 151.1968164
+     },
+     {
+      "lat": -33.8936122,
+      "lon": 151.1968417
+     },
+     {
+      "lat": -33.8936039,
+      "lon": 151.1968671
+     },
+     {
+      "lat": -33.8935956,
+      "lon": 151.1968924
+     },
+     {
+      "lat": -33.8935873,
+      "lon": 151.1969178
+     },
+     {
+      "lat": -33.893579,
+      "lon": 151.1969431
+     },
+     {
+      "lat": -33.8935707,
+      "lon": 151.1969685
+     },
+     {
+      "lat": -33.8935624,
+      "lon": 151.1969938
+     },
+     {
+      "lat": -33.8935542,
+      "lon": 151.1970192
+     },
+     {
+      "lat": -33.8935459,
+      "lon": 151.1970445
+     },
+     {
+      "lat": -33.8935376,
+      "lon": 151.1970698
+     },
+     {
+      "lat": -33.8935293,
+      "lon": 151.1970952
+     },
+     {
+      "lat": -33.8935748,
+      "lon": 151.1971168
+     }
+    ],
+    "tags": {
+     "access": "private",
+     "amenity": "parking",
+     "parking": "street_side"
+    }
+   },
+   {
+    "type": "way",
+    "id": 1472870802,
+    "bounds": {
+     "minlat": -33.8909521,
+     "minlon": 151.2017582,
+     "maxlat": -33.8904071,
+     "maxlon": 151.2021582
+    },
+    "nodes": [
+     13513656093,
+     6636017117,
+     13513667609,
+     6636017116,
+     13513656098,
+     13513656093
+    ],
+    "geometry": [
+     {
+      "lat": -33.8909106,
+      "lon": 151.2017582
+     },
+     {
+      "lat": -33.8904071,
+      "lon": 151.2018531
+     },
+     {
+      "lat": -33.890445,
+      "lon": 151.2021582
+     },
+     {
+      "lat": -33.890741,
+      "lon": 151.2021048
+     },
+     {
+      "lat": -33.8909521,
+      "lon": 151.2020667
+     },
+     {
+      "lat": -33.8909106,
+      "lon": 151.2017582
+     }
+    ],
+    "tags": {
+     "amenity": "college"
+    }
+   },
+   {
+    "type": "way",
+    "id": 1483805851,
+    "bounds": {
+     "minlat": -33.8812474,
+     "minlon": 151.2006647,
+     "maxlat": -33.8809682,
+     "maxlon": 151.2011069
+    },
+    "nodes": [
+     13605407736,
+     13605407732,
+     13605407735,
+     13605407731,
+     13605407736
+    ],
+    "geometry": [
+     {
+      "lat": -33.88111,
+      "lon": 151.2011069
+     },
+     {
+      "lat": -33.8809682,
+      "lon": 151.2010294
+     },
+     {
+      "lat": -33.8811056,
+      "lon": 151.2006647
+     },
+     {
+      "lat": -33.8812474,
+      "lon": 151.2007422
+     },
+     {
+      "lat": -33.88111,
+      "lon": 151.2011069
+     }
+    ],
+    "tags": {
+     "amenity": "parking"
+    }
+   },
+   {
+    "type": "way",
+    "id": 1490496311,
+    "bounds": {
+     "minlat": -33.8843142,
+     "minlon": 151.2013428,
+     "maxlat": -33.8842759,
+     "maxlon": 151.2014554
+    },
+    "nodes": [
+     13660959477,
+     13660959494,
+     13660959485,
+     13660959478,
+     13660959477
+    ],
+    "geometry": [
+     {
+      "lat": -33.8842759,
+      "lon": 151.2014522
+     },
+     {
+      "lat": -33.8843065,
+      "lon": 151.2014554
+     },
+     {
+      "lat": -33.8843142,
+      "lon": 151.2013459
+     },
+     {
+      "lat": -33.8842836,
+      "lon": 151.2013428
+     },
+     {
+      "lat": -33.8842759,
+      "lon": 151.2014522
+     }
+    ],
+    "tags": {
+     "amenity": "parking",
+     "capacity": "2",
+     "check_date": "2026-03-19",
+     "description": "2p ticket Mo-Fr 10:00-15:00; Sa-Su 08:00-18:00, bus lane Mo-Fr 6:00-22:00, 15:00-19:00",
+     "fixme": "Implement parking tags",
+     "parking": "street_side"
+    }
+   },
+   {
+    "type": "way",
+    "id": 1510948444,
+    "bounds": {
+     "minlat": -33.8930673,
+     "minlon": 151.2124378,
+     "maxlat": -33.8920915,
+     "maxlon": 151.2133099
+    },
+    "nodes": [
+     1084662535,
+     5608349189,
+     5608349196,
+     5608349197,
+     5608349198,
+     13811035693,
+     13811035634,
+     13811035635,
+     13811056136,
+     13811035636,
+     13811035637,
+     13811035638,
+     13811056137,
+     13811056162,
+     13811056200,
+     13811056218,
+     13811056219,
+     13811035639,
+     13811035640,
+     13811035679,
+     5608349241,
+     5608349192,
+     5608349191,
+     13811035641,
+     13811035642,
+     1084662535
+    ],
+    "geometry": [
+     {
+      "lat": -33.8920915,
+      "lon": 151.2126195
+     },
+     {
+      "lat": -33.8920931,
+      "lon": 151.2126292
+     },
+     {
+      "lat": -33.8921167,
+      "lon": 151.2127922
+     },
+     {
+      "lat": -33.8921178,
+      "lon": 151.2127986
+     },
+     {
+      "lat": -33.8922125,
+      "lon": 151.212781
+     },
+     {
+      "lat": -33.8922455,
+      "lon": 151.2127746
+     },
+     {
+      "lat": -33.8922785,
+      "lon": 151.2127682
+     },
+     {
+      "lat": -33.8922867,
+      "lon": 151.2128318
+     },
+     {
+      "lat": -33.8923229,
+      "lon": 151.2128248
+     },
+     {
+      "lat": -33.8924912,
+      "lon": 151.2127921
+     },
+     {
+      "lat": -33.8925542,
+      "lon": 151.2128488
+     },
+     {
+      "lat": -33.8926177,
+      "lon": 151.2133099
+     },
+     {
+      "lat": -33.8926303,
+      "lon": 151.2133075
+     },
+     {
+      "lat": -33.8926508,
+      "lon": 151.2133035
+     },
+     {
+      "lat": -33.892674,
+      "lon": 151.2132991
+     },
+     {
+      "lat": -33.8929903,
+      "lon": 151.213238
+     },
+     {
+      "lat": -33.8929994,
+      "lon": 151.2132363
+     },
+     {
+      "lat": -33.893014,
+      "lon": 151.2132335
+     },
+     {
+      "lat": -33.8929381,
+      "lon": 151.2126904
+     },
+     {
+      "lat": -33.8929488,
+      "lon": 151.2126882
+     },
+     {
+      "lat": -33.8929637,
+      "lon": 151.2126852
+     },
+     {
+      "lat": -33.8929744,
+      "lon": 151.2126825
+     },
+     {
+      "lat": -33.893058,
+      "lon": 151.2126662
+     },
+     {
+      "lat": -33.8930673,
+      "lon": 151.2126638
+     },
+     {
+      "lat": -33.8930344,
+      "lon": 151.2124378
+     },
+     {
+      "lat": -33.8920915,
+      "lon": 151.2126195
+     }
+    ],
+    "tags": {
+     "addr:street": "Baptist Street",
+     "amenity": "police",
+     "name": "Mounted Police",
+     "operator": "NSW Police Force",
+     "operator:wikidata": "Q7011763",
+     "wikidata": "Q110771881"
+    }
+   },
+   {
+    "type": "way",
+    "id": 1510948453,
+    "bounds": {
+     "minlat": -33.8932498,
+     "minlon": 151.2135441,
+     "maxlat": -33.8930948,
+     "maxlon": 151.2139713
+    },
+    "nodes": [
+     13811035664,
+     13811035671,
+     13811035663,
+     13811035656,
+     13811035665,
+     13811035666,
+     13811035667,
+     13811035669,
+     13811035670,
+     13811035668,
+     13811035664
+    ],
+    "geometry": [
+     {
+      "lat": -33.8931475,
+      "lon": 151.2139713
+     },
+     {
+      "lat": -33.8932498,
+      "lon": 151.2139499
+     },
+     {
+      "lat": -33.8931913,
+      "lon": 151.2135441
+     },
+     {
+      "lat": -33.8930993,
+      "lon": 151.2135634
+     },
+     {
+      "lat": -33.8931041,
+      "lon": 151.2135967
+     },
+     {
+      "lat": -33.8930948,
+      "lon": 151.2135987
+     },
+     {
+      "lat": -33.8931176,
+      "lon": 151.2137572
+     },
+     {
+      "lat": -33.8931092,
+      "lon": 151.2137589
+     },
+     {
+      "lat": -33.8931257,
+      "lon": 151.2138733
+     },
+     {
+      "lat": -33.8931332,
+      "lon": 151.2138717
+     },
+     {
+      "lat": -33.8931475,
+      "lon": 151.2139713
+     }
+    ],
+    "tags": {
+     "amenity": "kindergarten"
+    }
+   },
+   {
+    "type": "way",
+    "id": 1544541030,
+    "bounds": {
+     "minlat": -33.881635,
+     "minlon": 151.2063089,
+     "maxlat": -33.8813057,
+     "maxlon": 151.2066271
+    },
+    "nodes": [
+     14048929629,
+     11101477096,
+     11101477094,
+     14048929627,
+     14048929630,
+     14048929629
+    ],
+    "geometry": [
+     {
+      "lat": -33.8813057,
+      "lon": 151.206518
+     },
+     {
+      "lat": -33.8815156,
+      "lon": 151.2063562
+     },
+     {
+      "lat": -33.881577,
+      "lon": 151.2063089
+     },
+     {
+      "lat": -33.881635,
+      "lon": 151.2064181
+     },
+     {
+      "lat": -33.8813637,
+      "lon": 151.2066271
+     },
+     {
+      "lat": -33.8813057,
+      "lon": 151.206518
+     }
+    ],
+    "tags": {
+     "alt_name": "Rail Emergency Response Unit",
+     "amenity": "fire_station",
+     "building": "yes",
+     "check_date": "2026-01-13",
+     "name": "Rail Fire & Emergency (99)",
+     "not:operator": "Fire and Rescue NSW",
+     "not:operator:wikidata": "Q5451532",
+     "note": "unusually, this fire brigade is not operated by FRNSW, but it has a FRNSW number (#99)",
+     "old_name": "State Rail Fire Service",
+     "operator": "Sydney Trains",
+     "operator:wikidata": "Q7660181",
+     "ref": "99",
+     "wikipedia": "en:RailCorp#Emergency_response"
+    }
+   }
+  ]
+ },
+ "query": "[out:json][timeout:90];\n(\n  node[\"amenity\"~\"^(arts_centre|nightclub|studio|event_venue|community_centre|social_facility|police|fire_station|hospital|clinic|doctors|pharmacy|school|university|college|kindergarten|library|fuel|charging_station|parking)$\"](-33.8955,151.186,-33.88,151.214);\n  way[\"amenity\"~\"^(arts_centre|nightclub|studio|event_venue|community_centre|social_facility|police|fire_station|hospital|clinic|doctors|pharmacy|school|university|college|kindergarten|library|fuel|charging_station|parking)$\"](-33.8955,151.186,-33.88,151.214);\n);\nout body geom;\n",
+ "description": "amenity POIs in tile 'darling-harbour' (values 20-39)",
+ "elementCount": 187,
+ "partial": false,
+ "remark": null,
+ "evidenceLayer": "source",
+ "whyNotMcp": "No MCP tool queries this tag, and all MCP tools use `out body;` which discards geometry."
+}

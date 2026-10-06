@@ -1,0 +1,27 @@
+{
+  "name": "grand-theft-bayou",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Joke GTA-style Three.js game set in north Louisiana (Chatham / Monroe / Ruston)",
+  "scripts": {
+    "build": "node tools/music-playlist.mjs",
+    "build:site": "node tools/build-site.mjs",
+    "deploy": "node tools/build-site.mjs && npx wrangler pages deploy dist",
+    "test": "node --experimental-detect-module tools/qa/run_all.mjs",
+    "test:browser:access-gate": "node --experimental-detect-module tools/qa/access_gate_browser_test.mjs",
+    "test:browser:startup": "node --experimental-detect-module tools/qa/startup_browser_test.mjs",
+    "profile:startup:mobile": "node --experimental-detect-module tools/qa/startup_browser_test.mjs --mobile-profile",
+    "start": "node serve.mjs 8899",
+    "server": "node server/index.js",
+    "dev:server": "node server/index.js",
+    "voiceover": "node tools/voiceover-gen.mjs"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "puppeteer": "^25.12.0"
+  },
+  "license": "UNLICENSED"
+}

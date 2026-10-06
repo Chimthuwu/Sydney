@@ -1,0 +1,19 @@
+{
+ "generatedAt": "2026-09-29T17:49:22+00:00",
+ "stats": {
+  "total": 972,
+  "named": 312,
+  "withLevels": 782,
+  "withHeight": 20,
+  "withFootprint": 972,
+  "sampleBbox": {
+   "note": "Building footprints are only collected inside this small sample of the CBD. Building data in OSM Sydney is enormous and mostly un-heighted; a sample is enough to test schema and density, and to prove heights are usually absent.",
+   "south": -33.879,
+   "west": 151.202,
+   "north": -33.866,
+   "east": 151.214
+  },
+  "warning": "Sample only. Heights are absent for the vast majority of footprints; no height is inferred anywhere in this pipeline."
+ },
+ "note": "Sample only - see config scope.buildingSampleBbox. Most buildings have no height in OSM."
+}

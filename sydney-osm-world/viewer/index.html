@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Sydney OSM - 3D skeleton</title>
+<style>
+  :root { color-scheme: dark; }
+  html, body { margin:0; height:100%; background:#05070a; overflow:hidden;
+               font:13px/1.5 ui-monospace,Menlo,Consolas,monospace; color:#c9d1d9; }
+  canvas { display:block; }
+  .panel { position:absolute; padding:12px 14px; background:rgba(13,17,23,.86);
+           border:1px solid #30363d; border-radius:6px; backdrop-filter:blur(3px); }
+  #hud { top:12px; left:12px; max-width:300px; }
+  #hud h1 { margin:0 0 2px; font-size:14px; color:#e6edf3; }
+  #hud .sub { color:#8b949e; font-size:11px; margin-bottom:10px; }
+  #hud label { display:block; margin:5px 0; cursor:pointer; font-size:12px; }
+  #hud input[type=range] { width:120px; vertical-align:-2px; }
+  #hud .row { display:flex; justify-content:space-between; gap:10px; }
+  #keys { bottom:12px; left:12px; font-size:11px; color:#8b949e; }
+  #keys b { color:#c9d1d9; }
+  #stats { top:12px; right:12px; font-size:11px; min-width:190px; }
+  #stats table { width:100%; border-collapse:collapse; }
+  #stats td { padding:2px 0; }
+  #stats td:last-child { text-align:right; color:#e6edf3; }
+  #fps { position:absolute; bottom:12px; right:12px; font-size:11px; color:#6e7681; }
+  #labels { position:absolute; inset:0; pointer-events:none; overflow:hidden; }
+  .lbl { position:absolute; transform:translate(-50%,-50%); font-size:11px; color:#e6edf3;
+         text-shadow:0 0 4px #000,0 0 8px #000; white-space:nowrap; }
+  .lbl.water { color:#58a6ff; font-style:italic; }
+  #err { position:absolute; inset:0; display:none; padding:40px; color:#f85149;
+         background:#0d1117; white-space:pre-wrap; font-size:12px; }
+  a { color:#79c0ff; }
+</style>
+</head>
+<body>
+<div id="labels"></div>
+
+<div id="hud" class="panel">
+  <h1>Sydney OSM &mdash; 3D skeleton</h1>
+  <div class="sub">data/world/world-spec.json &middot; local metres &middot; north is &minus;Z</div>
+
+  <label><input type="checkbox" id="tWater"> water <span style="color:#6e7681">(harbour; toggle on to see)</span></label>
+  <label><input type="checkbox" id="tParks"> parks <span style="color:#6e7681">(toggle on to see)</span></label>
+  <label><input type="checkbox" id="tRoads" checked> roads</label>
+  <label><input type="checkbox" id="tBuildings" checked> buildings <span id="bCount"></span></label>
+  <label><input type="checkbox" id="tVenues"> venues <span id="vCount"></span></label>
+  <label><input type="checkbox" id="tTransit" checked> transit</label>
+  <label><input type="checkbox" id="tLabels" checked> labels</label>
+
+  <div class="row" style="margin-top:8px">
+    <span>road width</span><input type="range" id="roadWidth" min="1" max="16" value="9">
+  </div>
+  <div class="row">
+    <span>building height</span><input type="range" id="bHeight" min="0" max="6" value="1">
+  </div>
+  <div class="row">
+    <span>fly speed</span><input type="range" id="speed" min="20" max="900" value="260">
+  </div>
+
+  <div style="margin-top:10px">
+    <button id="btnFly" style="width:100%;padding:6px;cursor:pointer">fly tour: harbour loop</button>
+  </div>
+</div>
+
+<div id="stats" class="panel">
+  <table>
+    <tr><td>roads</td><td id="sRoads">-</td></tr>
+    <tr><td>road length</td><td id="sLen">-</td></tr>
+    <tr><td>water rings</td><td id="sWater">-</td></tr>
+    <tr><td>parks</td><td id="sParks">-</td></tr>
+    <tr><td>buildings</td><td id="sBld">-</td></tr>
+    <tr><td>with real height</td><td id="sBldH">-</td></tr>
+    <tr><td>venues</td><td id="sVen">-</td></tr>
+    <tr><td>transit</td><td id="sTra">-</td></tr>
+    <tr><td>districts</td><td id="sDis">-</td></tr>
+  </table>
+</div>
+
+<div id="keys" class="panel">
+  <b>W A S D</b> move &nbsp; <b>Q E</b> down/up &nbsp; <b>drag</b> look &nbsp; <b>wheel</b> speed
+  &nbsp; <b>shift</b> sprint &nbsp; <b>H</b> hide UI &nbsp; <b>R</b> reset
+</div>
+<div id="fps"></div>
+<div id="err"></div>
+
+<script type="importmap">
+{ "imports": { "three": "./vendor/three.module.js" } }
+</script>
+<script type="module" src="./main.js"></script>
+</body>
+</html>

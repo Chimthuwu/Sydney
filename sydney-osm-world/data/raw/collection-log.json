@@ -1,0 +1,472 @@
+{
+ "runAt": "2026-09-29T17:49:04+00:00",
+ "durationSeconds": 2.6,
+ "configVersion": "0.1.0-prototype",
+ "coreBbox": {
+  "south": -33.8955,
+  "west": 151.186,
+  "north": -33.845,
+  "east": 151.235
+ },
+ "steps": [
+  {
+   "step": "mcp-anchor-places",
+   "channel": "osm-mcp",
+   "tool": "geocode_address",
+   "status": "ok",
+   "count": 4,
+   "detail": "",
+   "at": "2026-09-29T17:49:03+00:00"
+  },
+  {
+   "step": "mcp-corridor-routes",
+   "channel": "osm-mcp",
+   "tool": "get_route_directions",
+   "status": "ok",
+   "count": "4/4",
+   "detail": "",
+   "at": "2026-09-29T17:49:04+00:00"
+  },
+  {
+   "step": "mcp-district-seeds",
+   "channel": "osm-mcp",
+   "tool": "reverse_geocode",
+   "status": "ok",
+   "count": "19/19 resolved",
+   "detail": "",
+   "at": "2026-09-29T17:49:03+00:00"
+  },
+  {
+   "step": "mcp-explore-barangaroo",
+   "channel": "osm-mcp",
+   "tool": "explore_area",
+   "status": "ok",
+   "count": 532,
+   "detail": "",
+   "at": "2026-09-29T17:49:04+00:00"
+  },
+  {
+   "step": "mcp-explore-cbd-core",
+   "channel": "osm-mcp",
+   "tool": "explore_area",
+   "status": "ok",
+   "count": 161,
+   "detail": "",
+   "at": "2026-09-29T17:49:04+00:00"
+  },
+  {
+   "step": "mcp-explore-circular-quay",
+   "channel": "osm-mcp",
+   "tool": "explore_area",
+   "status": "ok",
+   "count": 1210,
+   "detail": "",
+   "at": "2026-09-29T17:49:04+00:00"
+  },
+  {
+   "step": "mcp-explore-the-rocks",
+   "channel": "osm-mcp",
+   "tool": "explore_area",
+   "status": "ok",
+   "count": 948,
+   "detail": "",
+   "at": "2026-09-29T17:49:04+00:00"
+  },
+  {
+   "step": "mcp-explore-walsh-bay",
+   "channel": "osm-mcp",
+   "tool": "explore_area",
+   "status": "ok",
+   "count": 743,
+   "detail": "",
+   "at": "2026-09-29T17:49:04+00:00"
+  },
+  {
+   "step": "mcp-explore-woolloomooloo",
+   "channel": "osm-mcp",
+   "tool": "explore_area",
+   "status": "ok",
+   "count": 797,
+   "detail": "",
+   "at": "2026-09-29T17:49:04+00:00"
+  },
+  {
+   "step": "mcp-poi-amenity-barangaroo",
+   "channel": "osm-mcp",
+   "tool": "search_category",
+   "status": "ok",
+   "count": 1217,
+   "detail": "",
+   "at": "2026-09-29T17:49:04+00:00"
+  },
+  {
+   "step": "mcp-poi-amenity-cbd",
+   "channel": "osm-mcp",
+   "tool": "search_category",
+   "status": "ok",
+   "count": 2735,
+   "detail": "",
+   "at": "2026-09-29T17:49:03+00:00"
+  },
+  {
+   "step": "mcp-poi-amenity-darling-harbour",
+   "channel": "osm-mcp",
+   "tool": "search_category",
+   "status": "ok",
+   "count": 966,
+   "detail": "",
+   "at": "2026-09-29T17:49:04+00:00"
+  },
+  {
+   "step": "mcp-poi-amenity-east-inner",
+   "channel": "osm-mcp",
+   "tool": "search_category",
+   "status": "ok",
+   "count": 2363,
+   "detail": "",
+   "at": "2026-09-29T17:49:04+00:00"
+  },
+  {
+   "step": "mcp-poi-shop-barangaroo",
+   "channel": "osm-mcp",
+   "tool": "search_category",
+   "status": "ok",
+   "count": 368,
+   "detail": "",
+   "at": "2026-09-29T17:49:04+00:00"
+  },
+  {
+   "step": "mcp-poi-shop-cbd",
+   "channel": "osm-mcp",
+   "tool": "search_category",
+   "status": "ok",
+   "count": 1027,
+   "detail": "",
+   "at": "2026-09-29T17:49:04+00:00"
+  },
+  {
+   "step": "mcp-poi-shop-darling-harbour",
+   "channel": "osm-mcp",
+   "tool": "search_category",
+   "status": "ok",
+   "count": 375,
+   "detail": "",
+   "at": "2026-09-29T17:49:04+00:00"
+  },
+  {
+   "step": "mcp-poi-shop-east-inner",
+   "channel": "osm-mcp",
+   "tool": "search_category",
+   "status": "ok",
+   "count": 1083,
+   "detail": "",
+   "at": "2026-09-29T17:49:04+00:00"
+  },
+  {
+   "step": "buildings-sample",
+   "channel": "overpass-api",
+   "tool": "overpass",
+   "status": "ok",
+   "count": 972,
+   "detail": "",
+   "at": "2026-09-29T17:49:02+00:00"
+  },
+  {
+   "step": "landmarks-nodes",
+   "channel": "overpass-api",
+   "tool": "overpass",
+   "status": "ok",
+   "count": 794,
+   "detail": "",
+   "at": "2026-09-29T17:49:03+00:00"
+  },
+  {
+   "step": "landmarks-ways",
+   "channel": "overpass-api",
+   "tool": "overpass",
+   "status": "ok",
+   "count": 603,
+   "detail": "",
+   "at": "2026-09-29T17:49:03+00:00"
+  },
+  {
+   "step": "parks",
+   "channel": "overpass-api",
+   "tool": "overpass",
+   "status": "ok",
+   "count": 1486,
+   "detail": "",
+   "at": "2026-09-29T17:49:03+00:00"
+  },
+  {
+   "step": "roads-backbone-barangaroo",
+   "channel": "overpass-api",
+   "tool": "overpass",
+   "status": "ok",
+   "count": 399,
+   "detail": "",
+   "at": "2026-09-29T17:49:01+00:00"
+  },
+  {
+   "step": "roads-backbone-cbd",
+   "channel": "overpass-api",
+   "tool": "overpass",
+   "status": "ok",
+   "count": 1273,
+   "detail": "",
+   "at": "2026-09-29T17:49:01+00:00"
+  },
+  {
+   "step": "roads-backbone-darling-harbour",
+   "channel": "overpass-api",
+   "tool": "overpass",
+   "status": "ok",
+   "count": 535,
+   "detail": "",
+   "at": "2026-09-29T17:49:01+00:00"
+  },
+  {
+   "step": "roads-backbone-east-inner",
+   "channel": "overpass-api",
+   "tool": "overpass",
+   "status": "ok",
+   "count": 1310,
+   "detail": "",
+   "at": "2026-09-29T17:49:02+00:00"
+  },
+  {
+   "step": "roads-grid-cbd",
+   "channel": "overpass-api",
+   "tool": "overpass",
+   "status": "ok",
+   "count": 2271,
+   "detail": "",
+   "at": "2026-09-29T17:49:02+00:00"
+  },
+  {
+   "step": "roads-grid-east-inner",
+   "channel": "overpass-api",
+   "tool": "overpass",
+   "status": "ok",
+   "count": 2431,
+   "detail": "",
+   "at": "2026-09-29T17:49:02+00:00"
+  },
+  {
+   "step": "transit",
+   "channel": "overpass-api",
+   "tool": "overpass",
+   "status": "ok",
+   "count": 464,
+   "detail": "",
+   "at": "2026-09-29T17:49:03+00:00"
+  },
+  {
+   "step": "venues-amenity-barangaroo-0",
+   "channel": "overpass-api",
+   "tool": "overpass",
+   "status": "ok",
+   "count": 634,
+   "detail": "",
+   "at": "2026-09-29T17:49:03+00:00"
+  },
+  {
+   "step": "venues-amenity-barangaroo-1",
+   "channel": "overpass-api",
+   "tool": "overpass",
+   "status": "ok",
+   "count": 179,
+   "detail": "",
+   "at": "2026-09-29T17:49:03+00:00"
+  },
+  {
+   "step": "venues-amenity-barangaroo-2",
+   "channel": "overpass-api",
+   "tool": "overpass",
+   "status": "ok",
+   "count": 591,
+   "detail": "",
+   "at": "2026-09-29T17:49:03+00:00"
+  },
+  {
+   "step": "venues-amenity-cbd-0",
+   "channel": "overpass-api",
+   "tool": "overpass",
+   "status": "ok",
+   "count": 1569,
+   "detail": "",
+   "at": "2026-09-29T17:49:03+00:00"
+  },
+  {
+   "step": "venues-amenity-cbd-1",
+   "channel": "overpass-api",
+   "tool": "overpass",
+   "status": "ok",
+   "count": 307,
+   "detail": "",
+   "at": "2026-09-29T17:49:03+00:00"
+  },
+  {
+   "step": "venues-amenity-cbd-2",
+   "channel": "overpass-api",
+   "tool": "overpass",
+   "status": "ok",
+   "count": 1168,
+   "detail": "",
+   "at": "2026-09-29T17:49:03+00:00"
+  },
+  {
+   "step": "venues-amenity-darling-harbour-0",
+   "channel": "overpass-api",
+   "tool": "overpass",
+   "status": "ok",
+   "count": 548,
+   "detail": "",
+   "at": "2026-09-29T17:49:03+00:00"
+  },
+  {
+   "step": "venues-amenity-darling-harbour-1",
+   "channel": "overpass-api",
+   "tool": "overpass",
+   "status": "ok",
+   "count": 187,
+   "detail": "",
+   "at": "2026-09-29T17:49:03+00:00"
+  },
+  {
+   "step": "venues-amenity-darling-harbour-2",
+   "channel": "overpass-api",
+   "tool": "overpass",
+   "status": "ok",
+   "count": 414,
+   "detail": "",
+   "at": "2026-09-29T17:49:03+00:00"
+  },
+  {
+   "step": "venues-amenity-east-inner-0",
+   "channel": "overpass-api",
+   "tool": "overpass",
+   "status": "ok",
+   "count": 1412,
+   "detail": "",
+   "at": "2026-09-29T17:49:03+00:00"
+  },
+  {
+   "step": "venues-amenity-east-inner-1",
+   "channel": "overpass-api",
+   "tool": "overpass",
+   "status": "ok",
+   "count": 350,
+   "detail": "",
+   "at": "2026-09-29T17:49:03+00:00"
+  },
+  {
+   "step": "venues-amenity-east-inner-2",
+   "channel": "overpass-api",
+   "tool": "overpass",
+   "status": "ok",
+   "count": 981,
+   "detail": "",
+   "at": "2026-09-29T17:49:03+00:00"
+  },
+  {
+   "step": "venues-leisure-tourism-barangaroo",
+   "channel": "overpass-api",
+   "tool": "overpass",
+   "status": "ok",
+   "count": 324,
+   "detail": "",
+   "at": "2026-09-29T17:49:03+00:00"
+  },
+  {
+   "step": "venues-leisure-tourism-cbd",
+   "channel": "overpass-api",
+   "tool": "overpass",
+   "status": "ok",
+   "count": 524,
+   "detail": "",
+   "at": "2026-09-29T17:49:03+00:00"
+  },
+  {
+   "step": "venues-leisure-tourism-darling-harbour",
+   "channel": "overpass-api",
+   "tool": "overpass",
+   "status": "ok",
+   "count": 172,
+   "detail": "",
+   "at": "2026-09-29T17:49:03+00:00"
+  },
+  {
+   "step": "venues-leisure-tourism-east-inner",
+   "channel": "overpass-api",
+   "tool": "overpass",
+   "status": "ok",
+   "count": 644,
+   "detail": "",
+   "at": "2026-09-29T17:49:03+00:00"
+  },
+  {
+   "step": "venues-shop-barangaroo",
+   "channel": "overpass-api",
+   "tool": "overpass",
+   "status": "ok",
+   "count": 390,
+   "detail": "",
+   "at": "2026-09-29T17:49:03+00:00"
+  },
+  {
+   "step": "venues-shop-cbd",
+   "channel": "overpass-api",
+   "tool": "overpass",
+   "status": "ok",
+   "count": 1085,
+   "detail": "",
+   "at": "2026-09-29T17:49:03+00:00"
+  },
+  {
+   "step": "venues-shop-darling-harbour",
+   "channel": "overpass-api",
+   "tool": "overpass",
+   "status": "ok",
+   "count": 389,
+   "detail": "",
+   "at": "2026-09-29T17:49:03+00:00"
+  },
+  {
+   "step": "venues-shop-east-inner",
+   "channel": "overpass-api",
+   "tool": "overpass",
+   "status": "ok",
+   "count": 1142,
+   "detail": "",
+   "at": "2026-09-29T17:49:03+00:00"
+  },
+  {
+   "step": "water-areas",
+   "channel": "overpass-api",
+   "tool": "overpass",
+   "status": "ok",
+   "count": 94,
+   "detail": "",
+   "at": "2026-09-29T17:49:02+00:00"
+  },
+  {
+   "step": "water-beaches",
+   "channel": "overpass-api",
+   "tool": "overpass",
+   "status": "ok",
+   "count": 16,
+   "detail": "",
+   "at": "2026-09-29T17:49:02+00:00"
+  },
+  {
+   "step": "water-lines",
+   "channel": "overpass-api",
+   "tool": "overpass",
+   "status": "ok",
+   "count": 11,
+   "detail": "",
+   "at": "2026-09-29T17:49:02+00:00"
+  }
+ ]
+}

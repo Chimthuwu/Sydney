@@ -1,0 +1,97 @@
+{
+ "kind": "anchor-places",
+ "sourceChannel": "osm-mcp",
+ "collectedAt": "2026-09-29T17:49:03+00:00",
+ "dataSource": "OpenStreetMap",
+ "license": "ODbL 1.0",
+ "payload": {
+  "anchors": [
+   {
+    "query": "Sydney Harbour Bridge",
+    "origin": "cache",
+    "results": [
+     {
+      "displayName": "Sydney Harbour Bridge, Harbour Bridge Cycleway Ramp, Milsons Point, Lower North Shore, Sydney, New South Wales, 2061, Australia",
+      "lat": "-33.8521165",
+      "lon": "151.2107812",
+      "osmType": "relation",
+      "osmId": 3178788,
+      "class": "man_made",
+      "type": "bridge"
+     },
+     {
+      "displayName": "Sydney Harbour Bridge, Olympic Drive, Milsons Point, Lower North Shore, Sydney, New South Wales, 2061, Australia",
+      "lat": "-33.8523817",
+      "lon": "151.2107399",
+      "osmType": "way",
+      "osmId": 1452495983,
+      "class": "bridge",
+      "type": "yes"
+     },
+     {
+      "displayName": "Sydney Harbour Bridge, Milsons Point, Lower North Shore, Sydney, New South Wales, Australia",
+      "lat": "-33.8523477",
+      "lon": "151.2108466",
+      "osmType": "way",
+      "osmId": 142518144,
+      "class": "bridge",
+      "type": "yes"
+     },
+     {
+      "displayName": "Sydney Harbour Bridge, Dawes Point, Sydney, New South Wales, 2000, Australia",
+      "lat": "-33.8549591",
+      "lon": "151.2091911",
+      "osmType": "way",
+      "osmId": 1452495985,
+      "class": "bridge",
+      "type": "yes"
+     },
+     {
+      "displayName": "Sydney Harbour Bridge, Cahill Expressway, Harbour Bridge Northern Compound, Milsons Point, Lower North Shore, Sydney, New South Wales, 2061, Australia",
+      "lat": "-33.8497840",
+      "lon": "151.2124329",
+      "osmType": "way",
+      "osmId": 1452495984,
+      "class": "bridge",
+      "type": "yes"
+     }
+    ]
+   },
+   {
+    "query": "Sydney Opera House",
+    "origin": "cache",
+    "results": [
+     {
+      "displayName": "Sydney Opera House, 2, Macquarie Street, Quay Quarter, Sydney, New South Wales, 2000, Australia",
+      "lat": "-33.8571980",
+      "lon": "151.2151234",
+      "osmType": "relation",
+      "osmId": 9596872,
+      "class": "amenity",
+      "type": "arts_centre"
+     },
+     {
+      "displayName": "Sydney Opera House, Douglas County, Colorado, United States",
+      "lat": "39.2631531",
+      "lon": "-105.0902113",
+      "osmType": "way",
+      "osmId": 1193400489,
+      "class": "natural",
+      "type": "bare_rock"
+     }
+    ]
+   },
+   {
+    "query": "Central Station Sydney",
+    "error": "AttributeError: 'str' object has no attribute 'get'"
+   },
+   {
+    "query": "Darling Harbour Sydney",
+    "error": "AttributeError: 'str' object has no attribute 'get'"
+   }
+  ]
+ },
+ "tool": "geocode_address",
+ "purpose": "Anchor the prototype area to recognisable Sydney landmarks.",
+ "evidenceLayer": "source"
+}

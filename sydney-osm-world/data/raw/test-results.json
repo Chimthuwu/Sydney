@@ -1,0 +1,1114 @@
+{
+ "runAt": "2026-09-29T17:49:00+00:00",
+ "passed": 9,
+ "failed": 0,
+ "total": 9,
+ "overpassCalls": [
+  {
+   "label": "(cached)",
+   "status": "cache-hit",
+   "elements": 2194
+  },
+  {
+   "label": "(cached)",
+   "status": "cache-hit",
+   "elements": 793
+  },
+  {
+   "label": "(cached)",
+   "status": "cache-hit",
+   "elements": 1486
+  },
+  {
+   "label": "(cached)",
+   "status": "cache-hit",
+   "elements": 94
+  },
+  {
+   "label": "(cached)",
+   "status": "cache-hit",
+   "elements": 11
+  },
+  {
+   "label": "(cached)",
+   "status": "cache-hit",
+   "elements": 16
+  },
+  {
+   "label": "(cached)",
+   "status": "cache-hit",
+   "elements": 464
+  },
+  {
+   "label": "(cached)",
+   "status": "cache-hit",
+   "elements": 972
+  }
+ ],
+ "tests": [
+  {
+   "test": "H. MCP tool surface",
+   "channel": "osm-mcp",
+   "tool": "tools/list",
+   "parameters": {},
+   "query": null,
+   "status": "PASS",
+   "resultCount": 12,
+   "responseStructure": {
+    "tools": [
+     "geocode_address",
+     "reverse_geocode",
+     "find_nearby_places",
+     "get_route_directions",
+     "search_category",
+     "suggest_meeting_point",
+     "explore_area",
+     "find_schools_nearby",
+     "analyze_commute",
+     "find_ev_charging_stations",
+     "analyze_neighborhood",
+     "find_parking_facilities"
+    ]
+   },
+   "errors": [],
+   "limitations": [
+    "11 tools, none of which can return `highway` or geometry (all use `out body`)."
+   ],
+   "sample": [
+    {
+     "name": "geocode_address",
+     "description": "Convert an address or place name to geographic coordinates with detailed location information.",
+     "input_schema": {
+      "properties": {
+       "address": {
+        "title": "Address",
+        "type": "string"
+       }
+      },
+      "required": [
+       "address"
+      ],
+      "title": "geocode_addressArguments",
+      "type": "object"
+     }
+    },
+    {
+     "name": "reverse_geocode",
+     "description": "Convert geographic coordinates to a detailed address and location description.",
+     "input_schema": {
+      "properties": {
+       "latitude": {
+        "title": "Latitude",
+        "type": "number"
+       },
+       "longitude": {
+        "title": "Longitude",
+        "type": "number"
+       }
+      },
+      "required": [
+       "latitude",
+       "longitude"
+      ],
+      "title": "reverse_geocodeArguments",
+      "type": "object"
+     }
+    },
+    {
+     "name": "find_nearby_places",
+     "description": "Discover points of interest and amenities near a specific location.",
+     "input_schema": {
+      "properties": {
+       "latitude": {
+        "title": "Latitude",
+        "type": "number"
+       },
+       "longitude": {
+        "title": "Longitude",
+        "type": "number"
+       },
+       "radius": {
+        "default": 1000,
+        "title": "Radius",
+        "type": "number"
+       },
+       "categories": {
+        "default": null,
+        "items": {
+         "type": "string"
+        },
+        "title": "Categories",
+        "type": "array"
+       },
+       "limit": {
+        "default": 20,
+        "title": "Limit",
+        "type": "integer"
+       }
+      },
+      "required": [
+       "latitude",
+       "longitude"
+      ],
+      "title": "find_nearby_placesArguments",
+      "type": "object"
+     }
+    },
+    {
+     "name": "get_route_directions",
+     "description": "Calculate detailed route directions between two geographic points.",
+     "input_schema": {
+      "properties": {
+       "from_latitude": {
+        "title": "From Latitude",
+        "type": "number"
+       },
+       "from_longitude": {
+        "title": "From Longitude",
+        "type": "number"
+       },
+       "to_latitude": {
+        "title": "To Latitude",
+        "type": "number"
+       },
+       "to_longitude": {
+        "title": "To Longitude",
+        "type": "number"
+       },
+       "mode": {
+        "default": "car",
+        "title": "Mode",
+        "type": "string"
+       },
+       "steps": {
+        "default": false,
+        "title": "Steps",
+        "type": "boolean"
+       },
+       "overview": {
+        "default": "simplified",
+        "title": "Overview",
+        "type": "string"
+       },
+       "annotations": {
+        "default": false,
+        "title": "Annotations",
+        "type": "boolean"
+       }
+      },
+      "required": [
+       "from_latitude",
+       "from_longitude",
+       "to_latitude",
+       "to_longitude"
+      ],
+      "title": "get_route_directionsArguments",
+      "type": "object"
+     }
+    },
+    {
+     "name": "search_category",
+     "description": "Search for specific types of places within a defined geographic area.",
+     "input_schema": {
+      "properties": {
+       "category": {
+        "title": "Category",
+        "type": "string"
+       },
+       "min_latitude": {
+        "title": "Min Latitude",
+        "type": "number"
+       },
+       "min_longitude": {
+        "title": "Min Longitude",
+        "type": "number"
+       },
+       "max_latitude": {
+        "title": "Max Latitude",
+        "type": "number"
+       },
+       "max_longitude": {
+        "title": "Max Longitude",
+        "type": "number"
+       },
+       "subcategories": {
+        "default": null,
+        "items": {
+         "type": "string"
+        },
+        "title": "Subcategories",
+        "type": "array"
+       }
+      },
+      "required": [
+       "category",
+       "min_latitude",
+       "min_longitude",
+       "max_latitude",
+       "max_longitude"
+      ],
+      "title": "search_categoryArguments",
+      "type": "object"
+     }
+    },
+    {
+     "name": "suggest_meeting_point",
+     "description": "Find the optimal meeting place for multiple people coming from different locations.",
+     "input_schema": {
+      "properties": {
+       "locations": {
+        "items": {
+         "additionalProperties": {
+          "type": "number"
+         },
+         "type": "object"
+        },
+        "title": "Locations",
+        "type": "array"
+       },
+       "venue_type": {
+        "default": "cafe",
+        "title": "Venue Type",
+        "type": "string"
+       }
+      },
+      "required": [
+       "locations"
+      ],
+      "title": "suggest_meeting_pointArguments",
+      "type": "object"
+     }
+    },
+    {
+     "name": "explore_area",
+     "description": "Generate a comprehensive profile of an area including all amenities and features.",
+     "input_schema": {
+      "properties": {
+       "latitude": {
+        "title": "Latitude",
+        "type": "number"
+       },
+       "longitude": {
+        "title": "Longitude",
+        "type": "number"
+       },
+       "radius": {
+        "default": 500,
+        "title": "Radius",
+        "type": "number"
+       }
+      },
+      "required": [
+       "latitude",
+       "longitude"
+      ],
+      "title": "explore_areaArguments",
+      "type": "object"
+     }
+    },
+    {
+     "name": "find_schools_nearby",
+     "description": "Locate educational institutions near a specific location, filtered by education level.",
+     "input_schema": {
+      "properties": {
+       "latitude": {
+        "title": "Latitude",
+        "type": "number"
+       },
+       "longitude": {
+        "title": "Longitude",
+        "type": "number"
+       },
+       "radius": {
+        "default": 2000,
+        "title": "Radius",
+        "type": "number"
+       },
+       "education_levels": {
+        "default": null,
+        "items": {
+         "type": "string"
+        },
+        "title": "Education Levels",
+        "type": "array"
+       }
+      },
+      "required": [
+       "latitude",
+       "longitude"
+      ],
+      "title": "find_schools_nearbyArguments",
+      "type": "object"
+     }
+    },
+    {
+     "name": "analyze_commute",
+     "description": "Perform a detailed commute analysis between home and work locations.",
+     "input_schema": {
+      "properties": {
+       "home_latitude": {
+        "title": "Home Latitude",
+        "type": "number"
+       },
+       "home_longitude": {
+        "title": "Home Longitude",
+        "type": "number"
+       },
+       "work_latitude": {
+        "title": "Work Latitude",
+        "type": "number"
+       },
+       "work_longitude": {
+        "title": "Work Longitude",
+        "type": "number"
+       },
+       "modes": {
+        "default": [
+         "car",
+         "foot",
+         "bike"
+        ],
+        "items": {
+         "type": "string"
+        },
+        "title": "Modes",
+        "type": "array"
+       },
+       "depart_at": {
+        "default": null,
+        "title": "Depart At",
+        "type": "string"
+       }
+      },
+      "required": [
+       "home_latitude",
+       "home_longitude",
+       "work_latitude",
+       "work_longitude"
+      ],
+      "title": "analyze_commuteArguments",
+      "type": "object"
+     }
+    },
+    {
+     "name": "find_ev_charging_stations",
+     "description": "Locate electric vehicle charging stations near a specific location.",
+     "input_schema": {
+      "properties": {
+       "latitude": {
+        "title": "Latitude",
+        "type": "number"
+       },
+       "longitude": {
+        "title": "Longitude",
+        "type": "number"
+       },
+       "radius": {
+        "default": 5000,
+        "title": "Radius",
+        "type": "number"
+       },
+       "connector_types": {
+        "default": null,
+        "items": {
+         "type": "string"
+        },
+        "title": "Connector Types",
+        "type": "array"
+       },
+       "min_power": {
+        "default": null,
+        "title": "Min Power",
+        "type": "number"
+       }
+      },
+      "required": [
+       "latitude",
+       "longitude"
+      ],
+      "title": "find_ev_charging_stationsArguments",
+      "type": "object"
+     }
+    },
+    {
+     "name": "analyze_neighborhood",
+     "description": "Generate a comprehensive neighborhood analysis focused on livability factors.",
+     "input_schema": {
+      "properties": {
+       "latitude": {
+        "title": "Latitude",
+        "type": "number"
+       },
+       "longitude": {
+        "title": "Longitude",
+        "type": "number"
+       },
+       "radius": {
+        "default": 1000,
+        "title": "Radius",
+        "type": "number"
+       }
+      },
+      "required": [
+       "latitude",
+       "longitude"
+      ],
+      "title": "analyze_neighborhoodArguments",
+      "type": "object"
+     }
+    },
+    {
+     "name": "find_parking_facilities",
+     "description": "Locate parking facilities near a specific location.",
+     "input_schema": {
+      "properties": {
+       "latitude": {
+        "title": "Latitude",
+        "type": "number"
+       },
+       "longitude": {
+        "title": "Longitude",
+        "type": "number"
+       },
+       "radius": {
+        "default": 1000,
+        "title": "Radius",
+        "type": "number"
+       },
+       "parking_type": {
+        "default": null,
+        "title": "Parking Type",
+        "type": "string"
+       }
+      },
+      "required": [
+       "latitude",
+       "longitude"
+      ],
+      "title": "find_parking_facilitiesArguments",
+      "type": "object"
+     }
+    }
+   ],
+   "checkedAt": "2026-09-29T17:48:40+00:00"
+  },
+  {
+   "test": "A. Location (geocode)",
+   "channel": "osm-mcp",
+   "tool": "geocode_address",
+   "parameters": {
+    "address": [
+     "Sydney NSW, Australia",
+     "Sydney Opera House",
+     "Circular Quay Station, Sydney"
+    ]
+   },
+   "query": "Nominatim /search via MCP tool geocode_address",
+   "status": "PASS",
+   "resultCount": 9,
+   "responseStructure": {
+    "topLevel": "array",
+    "note": "list of Nominatim place objects + injected 'coordinates'"
+   },
+   "errors": [],
+   "limitations": [
+    "Returns Nominatim place records, not an administrative boundary polygon.",
+    "No boundary/geometry is returned beyond a boundingbox array."
+   ],
+   "sample": [
+    {
+     "query": "Sydney NSW, Australia",
+     "display_name": "Visa, Shipwright Walk, Barangaroo, Sydney, New South Wales, 2000, Australia",
+     "lat": "-33.8644304",
+     "lon": "151.2022166",
+     "osm_type": "node",
+     "osm_id": 13917759967,
+     "boundingbox": [
+      "-33.8644804",
+      "-33.8643804",
+      "151.2021666",
+      "151.2022666"
+     ]
+    },
+    {
+     "query": "Sydney Opera House",
+     "display_name": "Sydney Opera House, 2, Macquarie Street, Quay Quarter, Sydney, New South Wales, 2000, Australia",
+     "lat": "-33.8571980",
+     "lon": "151.2151234",
+     "osm_type": "relation",
+     "osm_id": 9596872,
+     "boundingbox": [
+      "-33.8579291",
+      "-33.8563050",
+      "151.2144280",
+      "151.2158894"
+     ]
+    },
+    {
+     "query": "Circular Quay Station, Sydney",
+     "display_name": "Circular Quay, Cahill Expressway, Quay Quarter, Sydney, New South Wales, 2000, Australia",
+     "lat": "-33.8613593",
+     "lon": "151.2107193",
+     "osm_type": "node",
+     "osm_id": 1692720118,
+     "boundingbox": [
+      "-33.8663593",
+      "-33.8563593",
+      "151.2057193",
+      "151.2157193"
+     ]
+    }
+   ],
+   "checkedAt": "2026-09-29T17:48:47+00:00"
+  },
+  {
+   "test": "B. Roads",
+   "channel": "overpass-direct",
+   "tool": "overpass-api (MCP cannot do this)",
+   "parameters": {
+    "bbox": {
+     "south": -33.8955,
+     "west": 151.186,
+     "north": -33.845,
+     "east": 151.235
+    },
+    "highway": [
+     "motorway",
+     "trunk",
+     "primary",
+     "secondary",
+     "tertiary",
+     "motorway_link",
+     "trunk_link",
+     "primary_link",
+     "secondary_link",
+     "tertiary_link",
+     "living_street"
+    ]
+   },
+   "query": "[out:json][timeout:120];\n(\n  way[\"highway\"~\"^(motorway|trunk|primary|secondary|tertiary|motorway_link|trunk_link|primary_link|secondary_link|tertiary_link|living_street)$\"](-33.8955,151.186,-33.845,151.235);\n);\nout body geom;\n",
+   "status": "PASS",
+   "resultCount": 2194,
+   "responseStructure": {
+    "topLevel": "overpass.elements",
+    "elementKeys": [
+     "bounds",
+     "geometry",
+     "id",
+     "nodes",
+     "tags",
+     "type"
+    ]
+   },
+   "errors": [],
+   "limitations": [
+    "NO MCP tool can query the `highway` tag - this dataset is impossible via the MCP server alone.",
+    "Used `out geom;` because every MCP tool hard-codes `out body;` and returns no geometry."
+   ],
+   "sample": {
+    "id": 1884057,
+    "tags": {
+     "administration": "Regional",
+     "classified": "yes",
+     "cycleway": "share_busway",
+     "highway": "secondary",
+     "lanes": "4",
+     "lanes:backward": "1",
+     "lanes:forward": "3",
+     "level": "0",
+     "lit": "yes",
+     "maxspeed": "40",
+     "maxspeed:type": "sign",
+     "name": "Park Street",
+     "owner": "City of Sydney",
+     "owner:wikidata": "Q1094194",
+     "sidewalk:both": "separate",
+     "source:maxspeed": "City of Sydney 40km/h maxzone description of bounds",
+     "surface": "asphalt"
+    },
+    "geometrySample": [
+     {
+      "lat": -33.8730343,
+      "lon": 151.2076319
+     },
+     {
+      "lat": -33.8729814,
+      "lon": 151.207223
+     },
+     {
+      "lat": -33.8729706,
+      "lon": 151.2071455
+     }
+    ],
+    "hasGeometry": true
+   },
+   "checkedAt": "2026-09-29T17:48:47+00:00"
+  },
+  {
+   "test": "C. Venues (nightlife/commerce)",
+   "channel": "osm-mcp + overpass-direct",
+   "tool": "search_category (MCP) vs overpass-api",
+   "parameters": {
+    "bbox": {
+     "south": -33.885,
+     "west": 151.2,
+     "north": -33.87,
+     "east": 151.22
+    },
+    "amenityValues": [
+     "bar",
+     "pub",
+     "nightclub",
+     "restaurant",
+     "cafe",
+     "fast_food",
+     "cinema",
+     "theatre",
+     "casino"
+    ],
+    "mcpNote": "a single search_category call with all amenity values OR-ed by the patched regex filter (see docs/OSM-MCP.md)"
+   },
+   "query": "[out:json][timeout:90];\n(\n  node[\"amenity\"~\"^(bar|pub|nightclub|restaurant|cafe|fast_food|cinema|theatre|casino)$\"](-33.885,151.2,-33.87,151.22);\n  way[\"amenity\"~\"^(bar|pub|nightclub|restaurant|cafe|fast_food|cinema|theatre|casino)$\"](-33.885,151.2,-33.87,151.22);\n);\nout body geom;\n",
+   "status": "PASS",
+   "resultCount": {
+    "mcpTotal": 760,
+    "mcpByCategory": {
+     "restaurant": 298,
+     "pub": 57,
+     "theatre": 3,
+     "cafe": 205,
+     "bar": 73,
+     "fast_food": 107,
+     "nightclub": 13,
+     "cinema": 4
+    },
+    "overpassSameBox": 793
+   },
+   "responseStructure": {
+    "mcp": {
+     "topLevel": "object",
+     "keys": [
+      "query",
+      "results",
+      "count"
+     ]
+    },
+    "mcpResultItemKeys": [
+     "id",
+     "type",
+     "name",
+     "coordinates",
+     "category",
+     "subcategory",
+     "tags"
+    ],
+    "overpass": "elements[] with full tags"
+   },
+   "errors": [],
+   "limitations": [
+    "MCP search_category only returns elements that have coordinates, and `out body` means ways/relations have no centre - so area-mapped venues (pubs mapped as buildings) are dropped.",
+    "MCP returned 760 vs Overpass 793 for the same box: the MCP channel under-reports.",
+    "MCP has no subcategory OR-ing: the upstream regex filter is a local patch (patches/)."
+   ],
+   "sample": {
+    "id": 13757642,
+    "name": "Singapore Famous BBQ Pork",
+    "coordinates": {
+     "latitude": -33.8807768,
+     "longitude": 151.203912
+    },
+    "osmElementType": "node",
+    "tagKeys": [
+     "amenity",
+     "name"
+    ]
+   },
+   "checkedAt": "2026-09-29T17:48:55+00:00"
+  },
+  {
+   "test": "D. Parks / green space",
+   "channel": "overpass-direct",
+   "tool": "overpass-api (MCP cannot do this)",
+   "parameters": {
+    "bbox": {
+     "south": -33.8955,
+     "west": 151.186,
+     "north": -33.845,
+     "east": 151.235
+    },
+    "filters": [
+     {
+      "leisure": [
+       "park",
+       "garden",
+       "nature_reserve",
+       "recreation_ground",
+       "pitch",
+       "playground",
+       "dog_park",
+       "golf_course",
+       "common"
+      ]
+     },
+     {
+      "landuse": [
+       "forest",
+       "grass",
+       "village_green",
+       "allotments",
+       "orchard",
+       "meadow",
+       "cemetery",
+       "brownfield"
+      ]
+     },
+     {
+      "boundary": "national_park"
+     },
+     {
+      "leisure": "stadium"
+     }
+    ]
+   },
+   "query": "[out:json][timeout:120];\n(\n  way[\"leisure\"~\"^(park|garden|nature_reserve|recreation_ground|pitch|playground|dog_park|golf_course|common)$\"](-33.8955,151.186,-33.845,151.235);\n  way[\"landuse\"~\"^(forest|grass|village_green|allotments|orchard|meadow|cemetery|brownfield)$\"](-33.8955,151.186,-33.845,151.235);\n  way[\"boundary\"=\"national_park\"](-33.8955,151.186,-33.845,151.235);\n  way[\"leisure\"=\"stadium\"](-33.8955,151.186,-33.845,151.235);\n  relation[\"leisure\"~\"^(park|garden|nature_reserve|recreation_ground|pitch|playground|dog_park|golf_course|common)$\"](-33.8955,151.186,-33.845,151.235);\n  relation[\"landuse\"~\"^(forest|grass|village_green|allotments|orchard|meadow|cemetery|brownfield)$\"](-33.8955,151.186,-33.845,151.235);\n  relation[\"boundary\"=\"national_park\"](-33.8955,151.186,-33.845,151.235);\n  relation[\"leisure\"=\"stadium\"](-33.8955,151.186,-33.845,151.235);\n);\nout body geom;\n",
+   "status": "PASS",
+   "resultCount": 1486,
+   "responseStructure": {
+    "topLevel": "overpass.elements",
+    "elementKeys": [
+     "bounds",
+     "geometry",
+     "id",
+     "nodes",
+     "tags",
+     "type"
+    ]
+   },
+   "errors": [],
+   "limitations": [
+    "MCP explore_area/search_category can list leisure=park but returns no polygon geometry.",
+    "31 of 1486 elements came back without geometry (multipart relations)."
+   ],
+   "sample": {
+    "id": 4292684,
+    "elementType": "way",
+    "name": "Green Park",
+    "tags": {
+     "check_date": "2024-10-25",
+     "dog": "yes",
+     "leisure": "park",
+     "name": "Green Park",
+     "name:etymology": "James Green",
+     "website": "https://www.cityofsydney.nsw.gov.au/parks/green-park",
+     "wikidata": "Q21929043"
+    },
+    "geometryPoints": 9
+   },
+   "checkedAt": "2026-09-29T17:48:55+00:00"
+  },
+  {
+   "test": "E. Water (harbour, rivers, beaches)",
+   "channel": "overpass-direct",
+   "tool": "overpass-api (MCP cannot do this)",
+   "parameters": {
+    "bbox": {
+     "south": -33.8955,
+     "west": 151.186,
+     "north": -33.845,
+     "east": 151.235
+    }
+   },
+   "query": "[out:json][timeout:120];\n(\n  way[\"natural\"=\"water\"](-33.8955,151.186,-33.845,151.235);\n  way[\"natural\"=\"bay\"](-33.8955,151.186,-33.845,151.235);\n  way[\"natural\"=\"strait\"](-33.8955,151.186,-33.845,151.235);\n  way[\"landuse\"=\"reservoir\"](-33.8955,151.186,-33.845,151.235);\n  way[\"waterway\"=\"riverbank\"](-33.8955,151.186,-33.845,151.235);\n  relation[\"natural\"=\"water\"](-33.8955,151.186,-33.845,151.235);\n  relation[\"natural\"=\"bay\"](-33.8955,151.186,-33.845,151.235);\n  relation[\"natural\"=\"strait\"](-33.8955,151.186,-33.845,151.235);\n  relation[\"landuse\"=\"reservoir\"](-33.8955,151.186,-33.845,151.235);\n  relation[\"waterway\"=\"riverbank\"](-33.8955,151.186,-33.845,151.235);\n);\nout body geom;\n",
+   "status": "PASS",
+   "resultCount": {
+    "polygons": 94,
+    "lines": 11,
+    "beaches": 16
+   },
+   "responseStructure": {
+    "polygons": "ways + multipolygon relations with geometry",
+    "lines": "waterway river/stream/canal + natural=coastline",
+    "beaches": "natural=beach"
+   },
+   "errors": [],
+   "limitations": [
+    "Sydney Harbour is mapped as many separate ways/relations, not one harbour polygon - the world designer must union them.",
+    "natural=coastline is a line, not an area; land polygons must be built by buffering or by using the water polygons instead.",
+    "No bathymetry, depth or shoreline simplification is available from OSM."
+   ],
+   "sample": [
+    {
+     "kind": "polygons",
+     "name": "Kippax Lake",
+     "tags": {
+      "layer": "1",
+      "name": "Kippax Lake",
+      "natural": "water",
+      "source:name": "historical",
+      "wikidata": "Q21962616"
+     }
+    },
+    {
+     "kind": "lines",
+     "name": "Captain Cook Graving Dock",
+     "tags": {
+      "depth": "13",
+      "dock": "drydock",
+      "length": "346",
+      "name": "Captain Cook Graving Dock",
+      "waterway": "dock",
+      "website": "http://www.gardenisland.info/1-02-010.html",
+      "width": "41.6"
+     }
+    },
+    {
+     "kind": "beaches",
+     "name": "Quarantine Boat Depot Beach",
+     "tags": {
+      "name": "Quarantine Boat Depot Beach",
+      "natural": "beach",
+      "surface": "sand",
+      "wikimedia_commons": "File:Quarantine Boat Depot beach.jpg"
+     }
+    }
+   ],
+   "checkedAt": "2026-09-29T17:48:55+00:00"
+  },
+  {
+   "test": "F. Transit (spatial only)",
+   "channel": "overpass-direct",
+   "tool": "overpass-api (MCP cannot do this)",
+   "parameters": {
+    "bbox": {
+     "south": -33.8955,
+     "west": 151.186,
+     "north": -33.845,
+     "east": 151.235
+    }
+   },
+   "query": "[out:json][timeout:90];\n(\n  node[\"railway\"~\"^(station|halt|subway_entrance|tram_stop|light_rail|ferry_terminal)$\"](-33.8955,151.186,-33.845,151.235);\n  node[\"public_transport\"=\"station\"](-33.8955,151.186,-33.845,151.235);\n  node[\"amenity\"=\"ferry_terminal\"](-33.8955,151.186,-33.845,151.235);\n  node[\"station\"=\"subway\"](-33.8955,151.186,-33.845,151.235);\n  way[\"railway\"~\"^(station|light_rail|subway)$\"](-33.8955,151.186,-33.845,151.235);\n  way[\"public_transport\"=\"station\"](-33.8955,151.186,-33.845,151.235);\n  way[\"amenity\"=\"ferry_terminal\"](-33.8955,151.186,-33.845,151.235);\n  way[\"station\"=\"subway\"](-33.8955,151.186,-33.845,151.235);\n);\nout body geom;\n",
+   "status": "PASS",
+   "resultCount": {
+    "total": 464,
+    "byType": {
+     "ferry_terminal": 39,
+     "other": 113,
+     "rail_station": 37,
+     "light_rail": 275
+    },
+    "named": 304
+   },
+   "responseStructure": {
+    "elementKeys": [
+     "id",
+     "lat",
+     "lon",
+     "tags",
+     "type"
+    ]
+   },
+   "errors": [],
+   "limitations": [
+    "No timetables, no line/route topology, no platform count - OSM node positions only.",
+    "Train *routes* (relation/route=subway) were not collected; only stations/stops.",
+    "Bus infrastructure is barely mapped in OSM and is not collected at all."
+   ],
+   "sample": [
+    {
+     "name": "Circular Quay 5A",
+     "type": "node",
+     "tags": {
+      "amenity": "ferry_terminal",
+      "fare_gates": "yes",
+      "ferry": "yes",
+      "local_ref": "5A",
+      "name": "Circular Quay 5A",
+      "public_transport": "stop_position",
+      "wheelchair": "yes"
+     }
+    },
+    {
+     "name": "Balmain East Wharf",
+     "type": "node",
+     "tags": {
+      "amenity": "ferry_terminal",
+      "fare_gates": "no",
+      "ferry": "yes",
+      "name": "Balmain East Wharf",
+      "public_transport": "station",
+      "wheelchair": "yes"
+     }
+    },
+    {
+     "name": "Circular Quay 4B",
+     "type": "node",
+     "tags": {
+      "amenity": "ferry_terminal",
+      "fare_gates": "yes",
+      "ferry": "yes",
+      "local_ref": "4B",
+      "name": "Circular Quay 4B",
+      "public_transport": "stop_position",
+      "wheelchair": "yes"
+     }
+    },
+    {
+     "name": "Circular Quay 3B",
+     "type": "node",
+     "tags": {
+      "amenity": "ferry_terminal",
+      "fare_gates": "yes",
+      "ferry": "yes",
+      "local_ref": "3B",
+      "name": "Circular Quay 3B",
+      "public_transport": "stop_position",
+      "wheelchair": "yes"
+     }
+    },
+    {
+     "name": "St James",
+     "type": "node",
+     "tags": {
+      "entrance": "yes",
+      "level": "0",
+      "name": "St James",
+      "railway": "subway_entrance",
+      "wheelchair": "yes"
+     }
+    }
+   ],
+   "checkedAt": "2026-09-29T17:48:55+00:00"
+  },
+  {
+   "test": "G. Buildings",
+   "channel": "overpass-direct",
+   "tool": "overpass-api (MCP cannot do this)",
+   "parameters": {
+    "bbox": {
+     "south": -33.879,
+     "west": 151.202,
+     "north": -33.866,
+     "east": 151.214
+    }
+   },
+   "query": "[out:json][timeout:120];\n(\n  way[\"building\"](-33.879,151.202,-33.866,151.214);\n);\nout body geom;\n",
+   "status": "PASS",
+   "resultCount": {
+    "sampleAreaBuildings": 972,
+    "withGeometry": 972,
+    "withName": 312,
+    "withBuildingLevels": 782,
+    "withHeight": 20
+   },
+   "responseStructure": {
+    "elementKeys": [
+     "type",
+     "id",
+     "tags",
+     "geometry",
+     "nodes"
+    ]
+   },
+   "errors": [],
+   "limitations": [
+    "Buildings are only sampled inside a small CBD box; metro-wide extraction is not attempted.",
+    "Only 782/972 have building:levels and 20/972 have any height tag: heights must NOT be invented by the world designer.",
+    "Only 312/972 are named - most footprints are anonymous.",
+    "No MCP tool queries the `building` tag at all."
+   ],
+   "sample": {
+    "topBuildingValues": [
+     [
+      "yes",
+      448
+     ],
+     [
+      "office",
+      112
+     ],
+     [
+      "commercial",
+      104
+     ],
+     [
+      "apartments",
+      77
+     ],
+     [
+      "retail",
+      46
+     ],
+     [
+      "roof",
+      41
+     ]
+    ],
+    "sampleLevels": {
+     "3": 124,
+     "2": 103,
+     "4": 78,
+     "5": 67,
+     "6": 50,
+     "12": 47
+    },
+    "sampleHeights": {
+     "15": 4,
+     "6": 2,
+     "140": 1,
+     "55": 1,
+     "158": 1,
+     "183": 1
+    }
+   },
+   "checkedAt": "2026-09-29T17:48:55+00:00"
+  },
+  {
+   "test": "I. Routing corridors (OSRM via MCP)",
+   "channel": "osm-mcp",
+   "tool": "get_route_directions",
+   "parameters": {
+    "routes": [
+     "cbd-to-barangaroo",
+     "cbd-to-kings-cross"
+    ],
+    "mode": "car",
+    "overview": "full"
+   },
+   "query": "OSRM router.project-osrm.org via MCP tool get_route_directions",
+   "status": "PASS",
+   "resultCount": 2,
+   "responseStructure": {
+    "keys": [
+     "summary",
+     "directions",
+     "geometry",
+     "waypoints"
+    ]
+   },
+   "errors": [],
+   "limitations": [
+    "Routing is a *derived* road-network fact from OSRM, not an OSM tag fact.",
+    "Only used here to prove the corridor between districts is drivable; not a data source for the world spec."
+   ],
+   "sample": [
+    {
+     "route": "cbd-to-barangaroo",
+     "from": "CBD",
+     "to": "Barangaroo",
+     "distanceM": 7650.8,
+     "durationS": 595,
+     "geometryPoints": 280
+    },
+    {
+     "route": "cbd-to-kings-cross",
+     "from": "Central",
+     "to": "Kings Cross",
+     "distanceM": 2320.4,
+     "durationS": 297.5,
+     "geometryPoints": 135
+    }
+   ],
+   "checkedAt": "2026-09-29T17:49:00+00:00"
+  }
+ ]
+}

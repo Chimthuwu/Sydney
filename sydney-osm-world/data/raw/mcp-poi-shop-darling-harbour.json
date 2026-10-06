@@ -1,0 +1,6568 @@
+{
+ "kind": "mcp-poi-shop-darling-harbour",
+ "sourceChannel": "osm-mcp",
+ "collectedAt": "2026-09-29T17:49:04+00:00",
+ "dataSource": "OpenStreetMap",
+ "license": "ODbL 1.0",
+ "payload": {
+  "results": [
+   {
+    "id": 20930547,
+    "type": "node",
+    "name": "Unnamed",
+    "coordinates": {
+     "latitude": -33.8800414,
+     "longitude": 151.2061281
+    },
+    "category": "shop",
+    "subcategory": "mall",
+    "tags": {
+     "name:signed": "no",
+     "shop": "mall"
+    }
+   },
+   {
+    "id": 266280019,
+    "type": "node",
+    "name": "Redfern Fruit Market",
+    "coordinates": {
+     "latitude": -33.8947146,
+     "longitude": 151.199446
+    },
+    "category": "shop",
+    "subcategory": "convenience",
+    "tags": {
+     "check_date": "2025-09",
+     "name": "Redfern Fruit Market",
+     "shop": "convenience"
+    }
+   },
+   {
+    "id": 695189495,
+    "type": "node",
+    "name": "MSY Ultimo",
+    "coordinates": {
+     "latitude": -33.8810375,
+     "longitude": 151.1983928
+    },
+    "category": "shop",
+    "subcategory": "computer",
+    "tags": {
+     "brand": "MSY Technology",
+     "check_date": "2025-04-05",
+     "check_date:opening_hours": "2025-04-05",
+     "name": "MSY Ultimo",
+     "opening_hours": "Mo-Fr 10:00-18:00; Sa 10:00-15:00",
+     "operator": "MSY Technology Pty Ltd",
+     "shop": "computer",
+     "source": "survey",
+     "website": "https://www.msy.com.au/",
+     "wheelchair": "yes"
+    }
+   },
+   {
+    "id": 1125928272,
+    "type": "node",
+    "name": "Inner City Cycles",
+    "coordinates": {
+     "latitude": -33.8814476,
+     "longitude": 151.1889444
+    },
+    "category": "shop",
+    "subcategory": "bicycle",
+    "tags": {
+     "name": "Inner City Cycles",
+     "shop": "bicycle",
+     "website": "https://innercitycycles.com.au/"
+    }
+   },
+   {
+    "id": 1564720150,
+    "type": "node",
+    "name": "Woolworths",
+    "coordinates": {
+     "latitude": -33.8945995,
+     "longitude": 151.2049073
+    },
+    "category": "shop",
+    "subcategory": "supermarket",
+    "tags": {
+     "addr:housenumber": "261-265",
+     "addr:postcode": "2016",
+     "addr:street": "Chalmers Street",
+     "brand": "Woolworths",
+     "brand:wikidata": "Q3249145",
+     "brand:wikipedia": "en:Woolworths Supermarkets",
+     "designation": "supermarket",
+     "name": "Woolworths",
+     "opening_hours": "Mo-Su 07:00-22:00",
+     "operator": "Woolworths Group",
+     "operator:wikidata": "Q607272",
+     "shop": "supermarket",
+     "source": "survey",
+     "website": "https://www.woolworths.com.au/wps/wcm/connect/website/woolworths",
+     "wheelchair": "yes"
+    }
+   },
+   {
+    "id": 1577577804,
+    "type": "node",
+    "name": "Chippendale Scoop",
+    "coordinates": {
+     "latitude": -33.8913201,
+     "longitude": 151.1958703
+    },
+    "category": "shop",
+    "subcategory": "convenience",
+    "tags": {
+     "name": "Chippendale Scoop",
+     "shop": "convenience"
+    }
+   },
+   {
+    "id": 1653998464,
+    "type": "node",
+    "name": "Chippendale Cellars",
+    "coordinates": {
+     "latitude": -33.8878513,
+     "longitude": 151.1989572
+    },
+    "category": "shop",
+    "subcategory": "alcohol",
+    "tags": {
+     "addr:street": "Abercrombie Street",
+     "check_date": "2026-04",
+     "name": "Chippendale Cellars",
+     "opening_hours": "Mo-We 09:00-21:00, Th 09:00-21:30, Fr 09:00-21:00, Sa 10:00-23:00, Su 10:00-21:00",
+     "phone": "+61 2 9310 4167",
+     "shop": "alcohol",
+     "wheelchair": "no"
+    }
+   },
+   {
+    "id": 1736956868,
+    "type": "node",
+    "name": "IGA",
+    "coordinates": {
+     "latitude": -33.8801277,
+     "longitude": 151.1874169
+    },
+    "category": "shop",
+    "subcategory": "supermarket",
+    "tags": {
+     "brand": "IGA",
+     "brand:wikidata": "Q5970945",
+     "brand:wikipedia": "en:IGA (Australian supermarket group)",
+     "name": "IGA",
+     "shop": "supermarket"
+    }
+   },
+   {
+    "id": 1736956869,
+    "type": "node",
+    "name": "Sonoma Bread",
+    "coordinates": {
+     "latitude": -33.8800112,
+     "longitude": 151.187298
+    },
+    "category": "shop",
+    "subcategory": "bakery",
+    "tags": {
+     "check_date": "2026-02-22",
+     "check_date:opening_hours": "2026-02-22",
+     "name": "Sonoma Bread",
+     "opening_hours": "Mo-Su 07:00-14:30",
+     "shop": "bakery"
+    }
+   },
+   {
+    "id": 1812101583,
+    "type": "node",
+    "name": "Redfern Bicycle Depot",
+    "coordinates": {
+     "latitude": -33.8893475,
+     "longitude": 151.1985892
+    },
+    "category": "shop",
+    "subcategory": "bicycle",
+    "tags": {
+     "name": "Redfern Bicycle Depot",
+     "shop": "bicycle",
+     "source": "survey",
+     "wheelchair": "no"
+    }
+   },
+   {
+    "id": 1812102108,
+    "type": "node",
+    "name": "Unnamed",
+    "coordinates": {
+     "latitude": -33.8881484,
+     "longitude": 151.1965608
+    },
+    "category": "shop",
+    "subcategory": "vacant",
+    "tags": {
+     "check_date": "2026-01",
+     "shop": "vacant"
+    }
+   },
+   {
+    "id": 1812102282,
+    "type": "node",
+    "name": "Quick & Easy",
+    "coordinates": {
+     "latitude": -33.8884632,
+     "longitude": 151.198721
+    },
+    "category": "shop",
+    "subcategory": "convenience",
+    "tags": {
+     "check_date": "2026-04",
+     "name": "Quick & Easy",
+     "shop": "convenience"
+    }
+   },
+   {
+    "id": 1813354000,
+    "type": "node",
+    "name": "Chain Hardware",
+    "coordinates": {
+     "latitude": -33.8913629,
+     "longitude": 151.2122764
+    },
+    "category": "shop",
+    "subcategory": "doityourself",
+    "tags": {
+     "check_date": "2026-03-21",
+     "name": "Chain Hardware",
+     "shop": "doityourself"
+    }
+   },
+   {
+    "id": 1813380282,
+    "type": "node",
+    "name": "Gregory Strange Mechanics",
+    "coordinates": {
+     "latitude": -33.8885048,
+     "longitude": 151.1970232
+    },
+    "category": "shop",
+    "subcategory": "car_repair",
+    "tags": {
+     "check_date": "2024-10-15",
+     "description": "License number 35580",
+     "name": "Gregory Strange Mechanics",
+     "shop": "car_repair",
+     "source:name": "painted on the side of it"
+    }
+   },
+   {
+    "id": 1813415156,
+    "type": "node",
+    "name": "Unnamed",
+    "coordinates": {
+     "latitude": -33.8946913,
+     "longitude": 151.2093306
+    },
+    "category": "shop",
+    "subcategory": "convenience",
+    "tags": {
+     "shop": "convenience",
+     "toilets:wheelchair": "no",
+     "wheelchair": "yes"
+    }
+   },
+   {
+    "id": 1823701928,
+    "type": "node",
+    "name": "Greasemonkey Bicycles",
+    "coordinates": {
+     "latitude": -33.8893161,
+     "longitude": 151.1985173
+    },
+    "category": "shop",
+    "subcategory": "bicycle",
+    "tags": {
+     "addr:housenumber": "156",
+     "addr:street": "Abercrombie Street",
+     "name": "Greasemonkey Bicycles",
+     "shop": "bicycle",
+     "source": "visual inspection",
+     "website": "http://greasemonkeybicycles.com.au/"
+    }
+   },
+   {
+    "id": 1833317153,
+    "type": "node",
+    "name": "Fresh Foods and Convenience Store",
+    "coordinates": {
+     "latitude": -33.8851169,
+     "longitude": 151.1947702
+    },
+    "category": "shop",
+    "subcategory": "convenience",
+    "tags": {
+     "check_date": "2026-07-06",
+     "check_date:opening_hours": "2025-05-24",
+     "name": "Fresh Foods and Convenience Store",
+     "opening_hours:signed": "no",
+     "shop": "convenience",
+     "source": "photo"
+    }
+   },
+   {
+    "id": 1912639308,
+    "type": "node",
+    "name": "Noffs Op Shop",
+    "coordinates": {
+     "latitude": -33.8855387,
+     "longitude": 151.2080303
+    },
+    "category": "shop",
+    "subcategory": "charity",
+    "tags": {
+     "addr:housenumber": "423",
+     "addr:street": "Elizabeth Street",
+     "name": "Noffs Op Shop",
+     "shop": "charity",
+     "source": "Collected via KeypadMapper"
+    }
+   },
+   {
+    "id": 2449108745,
+    "type": "node",
+    "name": "Breadfern Bakery",
+    "coordinates": {
+     "latitude": -33.8928575,
+     "longitude": 151.2055958
+    },
+    "category": "shop",
+    "subcategory": "bakery",
+    "tags": {
+     "addr:housenumber": "306-308",
+     "addr:street": "Chalmers Street",
+     "check_date": "2025-03",
+     "check_date:opening_hours": "2025-03",
+     "name": "Breadfern Bakery",
+     "opening_hours": "Mo-Fr 06:00-15:00;Sa 06:30-15:00;Su 07:00-14:00",
+     "shop": "bakery",
+     "website": "https://www.breadfern.com.au"
+    }
+   },
+   {
+    "id": 2514755467,
+    "type": "node",
+    "name": "Chalmers Convenience Store",
+    "coordinates": {
+     "latitude": -33.8893825,
+     "longitude": 151.20631
+    },
+    "category": "shop",
+    "subcategory": "convenience",
+    "tags": {
+     "name": "Chalmers Convenience Store",
+     "shop": "convenience"
+    }
+   },
+   {
+    "id": 2525014059,
+    "type": "node",
+    "name": "Central Park Mall",
+    "coordinates": {
+     "latitude": -33.8846058,
+     "longitude": 151.2007392
+    },
+    "category": "shop",
+    "subcategory": "mall",
+    "tags": {
+     "addr:housenumber": "80",
+     "addr:street": "Broadway",
+     "name": "Central Park Mall",
+     "shop": "mall",
+     "toilets": "yes",
+     "wheelchair": "yes",
+     "wikidata": "Q5061591"
+    }
+   },
+   {
+    "id": 2841108302,
+    "type": "node",
+    "name": "Brickfields",
+    "coordinates": {
+     "latitude": -33.888624,
+     "longitude": 151.1997783
+    },
+    "category": "shop",
+    "subcategory": "bakery",
+    "tags": {
+     "addr:housenumber": "206",
+     "addr:postcode": "2008",
+     "addr:state": "NSW",
+     "addr:street": "Cleveland Street",
+     "addr:suburb": "Chippendale",
+     "email": "orders@brickfields.com.au",
+     "indoor_seating": "yes",
+     "name": "Brickfields",
+     "opening_hours": "Mo-Fr 07:00-15:00, Sa-Su 08:00-15:00",
+     "outdoor_seating:comfort": "bench",
+     "payment:cash": "no",
+     "shop": "bakery",
+     "source": "survey",
+     "toilets": "no",
+     "toilets:wheelchair": "no",
+     "website": "https://www.brickfields.com.au",
+     "wheelchair": "no"
+    }
+   },
+   {
+    "id": 2911988522,
+    "type": "node",
+    "name": "City Mart",
+    "coordinates": {
+     "latitude": -33.8841728,
+     "longitude": 151.1966269
+    },
+    "category": "shop",
+    "subcategory": "convenience",
+    "tags": {
+     "addr:housenumber": "173-179",
+     "addr:street": "Broadway",
+     "check_date": "2025-12",
+     "name": "City Mart",
+     "shop": "convenience"
+    }
+   },
+   {
+    "id": 2955359282,
+    "type": "node",
+    "name": "Vodafone",
+    "coordinates": {
+     "latitude": -33.8914359,
+     "longitude": 151.1954386
+    },
+    "category": "shop",
+    "subcategory": "mobile_phone",
+    "tags": {
+     "brand": "Vodafone",
+     "brand:wikidata": "Q122141",
+     "brand:wikipedia": "en:Vodafone",
+     "name": "Vodafone",
+     "shop": "mobile_phone",
+     "website": "https://www.vodafone.com.au/"
+    }
+   },
+   {
+    "id": 2955359286,
+    "type": "node",
+    "name": "Mary Logan Beauty",
+    "coordinates": {
+     "latitude": -33.8883393,
+     "longitude": 151.1976697
+    },
+    "category": "shop",
+    "subcategory": "beauty",
+    "tags": {
+     "beauty": "nails",
+     "name": "Mary Logan Beauty",
+     "shop": "beauty",
+     "website": "https://maryloganbeauty.com.au"
+    }
+   },
+   {
+    "id": 2955359288,
+    "type": "node",
+    "name": "Journals",
+    "coordinates": {
+     "latitude": -33.8913822,
+     "longitude": 151.1956394
+    },
+    "category": "shop",
+    "subcategory": "newsagent",
+    "tags": {
+     "name": "Journals",
+     "shop": "newsagent"
+    }
+   },
+   {
+    "id": 2955359290,
+    "type": "node",
+    "name": "Unnamed",
+    "coordinates": {
+     "latitude": -33.8914232,
+     "longitude": 151.1954861
+    },
+    "category": "shop",
+    "subcategory": "laundry",
+    "tags": {
+     "laundry_service": "yes",
+     "self_service": "yes",
+     "shop": "laundry"
+    }
+   },
+   {
+    "id": 2955359303,
+    "type": "node",
+    "name": "Unnamed",
+    "coordinates": {
+     "latitude": -33.8914584,
+     "longitude": 151.195237
+    },
+    "category": "shop",
+    "subcategory": "hairdresser",
+    "tags": {
+     "female": "yes",
+     "male": "yes",
+     "shop": "hairdresser"
+    }
+   },
+   {
+    "id": 2968344431,
+    "type": "node",
+    "name": "Gleebooks",
+    "coordinates": {
+     "latitude": -33.8832594,
+     "longitude": 151.1915273
+    },
+    "category": "shop",
+    "subcategory": "books",
+    "tags": {
+     "addr:housenumber": "49",
+     "addr:postcode": "2037",
+     "addr:street": "Glebe Point Road",
+     "addr:suburb": "Glebe",
+     "check_date": "2025-11-04",
+     "name": "Gleebooks",
+     "opening_hours": "Mo-Tu,Su 09:00-18:00; We-Sa 09:00-20:00",
+     "second_hand": "yes",
+     "shop": "books",
+     "wheelchair": "limited"
+    }
+   },
+   {
+    "id": 3143329919,
+    "type": "node",
+    "name": "Unnamed",
+    "coordinates": {
+     "latitude": -33.8950447,
+     "longitude": 151.1992837
+    },
+    "category": "shop",
+    "subcategory": "hairdresser",
+    "tags": {
+     "shop": "hairdresser"
+    }
+   },
+   {
+    "id": 3273881196,
+    "type": "node",
+    "name": "Mixed Business The Original Corner Shop Laundrette & Dry Cleaner",
+    "coordinates": {
+     "latitude": -33.8869532,
+     "longitude": 151.1949044
+    },
+    "category": "shop",
+    "subcategory": "convenience",
+    "tags": {
+     "name": "Mixed Business The Original Corner Shop Laundrette & Dry Cleaner",
+     "shop": "convenience"
+    }
+   },
+   {
+    "id": 3447692533,
+    "type": "node",
+    "name": "UTS Gallery",
+    "coordinates": {
+     "latitude": -33.883141,
+     "longitude": 151.2019978
+    },
+    "category": "shop",
+    "subcategory": "art",
+    "tags": {
+     "addr:housenumber": "L4 702",
+     "addr:postcode": "2007",
+     "addr:street": "Harris Street",
+     "addr:suburb": "Ultimo",
+     "name": "UTS Gallery",
+     "opening_hours": "Mo-Fr 10:00-18:00",
+     "shop": "art",
+     "website": "http://art.uts.edu.au"
+    }
+   },
+   {
+    "id": 3476198927,
+    "type": "node",
+    "name": "EzyMart",
+    "coordinates": {
+     "latitude": -33.8815253,
+     "longitude": 151.2052127
+    },
+    "category": "shop",
+    "subcategory": "convenience",
+    "tags": {
+     "brand": "EzyMart",
+     "brand:wikidata": "Q117220554",
+     "check_date": "2025-06-14",
+     "check_date:opening_hours": "2025-06-14",
+     "name": "EzyMart",
+     "opening_hours:signed": "no",
+     "shop": "convenience"
+    }
+   },
+   {
+    "id": 3610075757,
+    "type": "node",
+    "name": "ALDI",
+    "coordinates": {
+     "latitude": -33.8830311,
+     "longitude": 151.1943353
+    },
+    "category": "shop",
+    "subcategory": "supermarket",
+    "tags": {
+     "addr:floor": "0",
+     "addr:housenumber": "1",
+     "addr:street": "Bay Street",
+     "brand": "Aldi",
+     "brand:wikidata": "Q125054",
+     "brand:wikipedia": "en:Aldi",
+     "check_date:opening_hours": "2023-05-05",
+     "full_name": "ALDI Broadway",
+     "name": "ALDI",
+     "not:brand:wikidata": "Q41171672",
+     "opening_hours": "Mo-We,Fr-Su 08:30-20:00; Th 08:30-21:00",
+     "shop": "supermarket",
+     "website": "https://store.aldi.com.au/nsw/broadway/1-bay-street",
+     "wheelchair": "yes"
+    }
+   },
+   {
+    "id": 3610075758,
+    "type": "node",
+    "name": "Coles",
+    "coordinates": {
+     "latitude": -33.8838408,
+     "longitude": 151.1932625
+    },
+    "category": "shop",
+    "subcategory": "supermarket",
+    "tags": {
+     "addr:floor": "0",
+     "brand": "Coles",
+     "brand:wikidata": "Q1108172",
+     "brand:wikipedia": "en:Coles Supermarkets",
+     "level": "0",
+     "name": "Coles",
+     "opening_hours": "PH,Mo-Su 06:00-24:00",
+     "operator": "Coles Group",
+     "operator:wikidata": "Q131937428",
+     "shop": "supermarket",
+     "website": "https://www.coles.com.au/",
+     "wheelchair": "yes"
+    }
+   },
+   {
+    "id": 3718044370,
+    "type": "node",
+    "name": "Target",
+    "coordinates": {
+     "latitude": -33.8836609,
+     "longitude": 151.1932671
+    },
+    "category": "shop",
+    "subcategory": "department_store",
+    "tags": {
+     "branch": "Glebe",
+     "brand": "Target",
+     "brand:wikidata": "Q7685854",
+     "brand:wikipedia": "en:Target Australia",
+     "check_date:opening_hours": "2023-05-05",
+     "contact:facebook": "https://www.facebook.com/targetaus",
+     "contact:instagram": "https://instagram.com/targetaus",
+     "contact:pinterest": "https://www.pinterest.com.au/targetaus",
+     "contact:twitter": "https://twitter.com/Targetaus",
+     "contact:youtube": "https://www.youtube.com/user/TargetAustralia",
+     "level": "3",
+     "name": "Target",
+     "opening_hours": "Mo-We,Fr 09:00-20:00; Th 09:00-21:00; Sa-Su 09:00-18:00",
+     "phone": "+61 2 8217 1600",
+     "shop": "department_store",
+     "website": "https://www.target.com.au/store/nsw/broadway/5286"
+    }
+   },
+   {
+    "id": 3718044371,
+    "type": "node",
+    "name": "Kmart",
+    "coordinates": {
+     "latitude": -33.8836988,
+     "longitude": 151.1931516
+    },
+    "category": "shop",
+    "subcategory": "department_store",
+    "tags": {
+     "brand": "Kmart",
+     "brand:wikidata": "Q6421682",
+     "brand:wikipedia": "en:Kmart Australia",
+     "check_date": "2025-01-05",
+     "level": "1",
+     "name": "Kmart",
+     "shop": "department_store",
+     "website": "https://www.kmart.com.au/"
+    }
+   },
+   {
+    "id": 3858086635,
+    "type": "node",
+    "name": "Unnamed",
+    "coordinates": {
+     "latitude": -33.8822123,
+     "longitude": 151.2054949
+    },
+    "category": "shop",
+    "subcategory": "ticket",
+    "tags": {
+     "addr:housenumber": "482",
+     "addr:street": "Pitt Street",
+     "brand": "Firefly",
+     "level": "0",
+     "shop": "ticket",
+     "source": "survey",
+     "source:geometry": "digitalglobe"
+    }
+   },
+   {
+    "id": 3858086637,
+    "type": "node",
+    "name": "Murrays Canberra Express",
+    "coordinates": {
+     "latitude": -33.8823243,
+     "longitude": 151.2053531
+    },
+    "category": "shop",
+    "subcategory": "ticket",
+    "tags": {
+     "addr:housenumber": "486",
+     "addr:street": "Pitt Street",
+     "brand": "Murrays",
+     "level": "0",
+     "name": "Murrays Canberra Express",
+     "opening_hours": "Mo-Su 06:30-19:00",
+     "shop": "ticket",
+     "source": "survey",
+     "source:geometry": "digitalglobe"
+    }
+   },
+   {
+    "id": 3858086638,
+    "type": "node",
+    "name": "Premier Motor Service",
+    "coordinates": {
+     "latitude": -33.8823813,
+     "longitude": 151.2052808
+    },
+    "category": "shop",
+    "subcategory": "ticket",
+    "tags": {
+     "addr:housenumber": "488",
+     "addr:postcode": "2000",
+     "addr:state": "NSW",
+     "addr:street": "Pitt Street",
+     "addr:suburb": "Haymarket",
+     "brand": "Premier",
+     "level": "0",
+     "name": "Premier Motor Service",
+     "opening_hours": "Mo-Su 07:00-11:00,15:00-19:00",
+     "phone:AU": "13 34 10",
+     "shop": "ticket",
+     "source": "survey",
+     "source:geometry": "digitalglobe",
+     "website": "https://www.premierms.com.au/"
+    }
+   },
+   {
+    "id": 3918035357,
+    "type": "node",
+    "name": "Woolworths",
+    "coordinates": {
+     "latitude": -33.8810537,
+     "longitude": 151.2027041
+    },
+    "category": "shop",
+    "subcategory": "supermarket",
+    "tags": {
+     "brand": "Woolworths",
+     "brand:wikidata": "Q3249145",
+     "brand:wikipedia": "en:Woolworths Supermarkets",
+     "name": "Woolworths",
+     "opening_hours": "Mo-Su 08:00-22:00",
+     "operator": "Woolworths Group",
+     "operator:wikidata": "Q607272",
+     "shop": "supermarket",
+     "website": "https://www.woolworths.com.au/"
+    }
+   },
+   {
+    "id": 3921514862,
+    "type": "node",
+    "name": "Woolworths Metro",
+    "coordinates": {
+     "latitude": -33.8847889,
+     "longitude": 151.200639
+    },
+    "category": "shop",
+    "subcategory": "supermarket",
+    "tags": {
+     "brand": "Woolworths Metro",
+     "brand:wikidata": "Q111772555",
+     "brand:wikipedia": "en:Woolworths Supermarkets",
+     "check_date": "2025-08-18",
+     "level": "-1",
+     "name": "Woolworths Metro",
+     "opening_hours": "07:00-22:00",
+     "operator": "Woolworths Group",
+     "operator:wikidata": "Q607272",
+     "shop": "supermarket",
+     "toilets:wheelchair": "yes",
+     "website": "https://www.woolworths.com.au/shop/storelocator/nsw-chippendale-1905",
+     "wheelchair": "yes"
+    }
+   },
+   {
+    "id": 3921515057,
+    "type": "node",
+    "name": "EzyMart",
+    "coordinates": {
+     "latitude": -33.8837522,
+     "longitude": 151.2024241
+    },
+    "category": "shop",
+    "subcategory": "convenience",
+    "tags": {
+     "amenity": "atm",
+     "brand": "EzyMart",
+     "brand:wikidata": "Q117220554",
+     "check_date": "2025-11",
+     "name": "EzyMart",
+     "shop": "convenience"
+    }
+   },
+   {
+    "id": 3921515362,
+    "type": "node",
+    "name": "TSG",
+    "coordinates": {
+     "latitude": -33.8834807,
+     "longitude": 151.2030238
+    },
+    "category": "shop",
+    "subcategory": "tobacco",
+    "tags": {
+     "check_date:opening_hours": "2025-06-28",
+     "name": "TSG",
+     "opening_hours:signed": "no",
+     "shop": "tobacco"
+    }
+   },
+   {
+    "id": 3951219159,
+    "type": "node",
+    "name": "Miracle",
+    "coordinates": {
+     "latitude": -33.8928234,
+     "longitude": 151.1861078
+    },
+    "category": "shop",
+    "subcategory": "supermarket",
+    "tags": {
+     "name": "Miracle",
+     "shop": "supermarket"
+    }
+   },
+   {
+    "id": 3977545158,
+    "type": "node",
+    "name": "Rebel",
+    "coordinates": {
+     "latitude": -33.8841771,
+     "longitude": 151.1948295
+    },
+    "category": "shop",
+    "subcategory": "sports",
+    "tags": {
+     "addr:housenumber": "213",
+     "addr:street": "Broadway",
+     "branch": "Sport",
+     "brand": "Rebel",
+     "brand:wikidata": "Q18636397",
+     "brand:wikipedia": "en:Rebel (company)",
+     "check_date": "2025-10",
+     "name": "Rebel",
+     "shop": "sports",
+     "website": "https://www.rebelsport.com.au/"
+    }
+   },
+   {
+    "id": 3977545160,
+    "type": "node",
+    "name": "Maurice Drycleaner",
+    "coordinates": {
+     "latitude": -33.8838192,
+     "longitude": 151.1943646
+    },
+    "category": "shop",
+    "subcategory": "laundry",
+    "tags": {
+     "check_date": "2025-06-21",
+     "laundry_service": "yes",
+     "level": "0",
+     "name": "Maurice Drycleaner",
+     "opening_hours:signed": "no",
+     "self_service": "no",
+     "shop": "laundry",
+     "wheelchair": "yes"
+    }
+   },
+   {
+    "id": 3977545358,
+    "type": "node",
+    "name": "Harvey Norman",
+    "coordinates": {
+     "latitude": -33.8830417,
+     "longitude": 151.1940704
+    },
+    "category": "shop",
+    "subcategory": "department_store",
+    "tags": {
+     "brand": "Harvey Norman",
+     "brand:wikidata": "Q4040441",
+     "brand:wikipedia": "en:Harvey Norman",
+     "level": "1",
+     "name": "Harvey Norman",
+     "opening_hours:signed": "no",
+     "shop": "department_store",
+     "toilets": "no",
+     "website": "https://www.harveynorman.com.au/",
+     "wheelchair": "yes"
+    }
+   },
+   {
+    "id": 3977545359,
+    "type": "node",
+    "name": "Hype",
+    "coordinates": {
+     "latitude": -33.8834804,
+     "longitude": 151.1940866
+    },
+    "category": "shop",
+    "subcategory": "shoes",
+    "tags": {
+     "check_date": "2025-01-05",
+     "level": "1",
+     "name": "Hype",
+     "opening_hours:signed": "no",
+     "shop": "shoes",
+     "wheelchair": "yes"
+    }
+   },
+   {
+    "id": 3977545457,
+    "type": "node",
+    "name": "Bed Bath n Table",
+    "coordinates": {
+     "latitude": -33.8834915,
+     "longitude": 151.1946293
+    },
+    "category": "shop",
+    "subcategory": "household_linen",
+    "tags": {
+     "check_date:opening_hours": "2026-07-13",
+     "level": "0",
+     "name": "Bed Bath n Table",
+     "opening_hours:signed": "no",
+     "shop": "household_linen",
+     "wheelchair": "yes"
+    }
+   },
+   {
+    "id": 3977545458,
+    "type": "node",
+    "name": "Broadway Camera House",
+    "coordinates": {
+     "latitude": -33.8838289,
+     "longitude": 151.1940847
+    },
+    "category": "shop",
+    "subcategory": "camera",
+    "tags": {
+     "level": "0",
+     "name": "Broadway Camera House",
+     "shop": "camera"
+    }
+   },
+   {
+    "id": 3977545459,
+    "type": "node",
+    "name": "Liquorland",
+    "coordinates": {
+     "latitude": -33.8838255,
+     "longitude": 151.1942088
+    },
+    "category": "shop",
+    "subcategory": "alcohol",
+    "tags": {
+     "brand": "Liquorland",
+     "brand:wikidata": "Q2283837",
+     "brand:wikipedia": "en:Liquorland",
+     "check_date": "2025-01-05",
+     "level": "0",
+     "name": "Liquorland",
+     "opening_hours": "Mo-Th 09:00-22:00; Fr,Sa 08:00-23:00; Su 10:00-22:00",
+     "shop": "alcohol",
+     "wheelchair": "yes"
+    }
+   },
+   {
+    "id": 3977545460,
+    "type": "node",
+    "name": "Prouds",
+    "coordinates": {
+     "latitude": -33.8835089,
+     "longitude": 151.1940878
+    },
+    "category": "shop",
+    "subcategory": "jewelry",
+    "tags": {
+     "brand": "Prouds",
+     "brand:wikidata": "Q18636715",
+     "level": "0",
+     "name": "Prouds",
+     "opening_hours:signed": "no",
+     "shop": "jewelry",
+     "wheelchair": "yes"
+    }
+   },
+   {
+    "id": 3977545461,
+    "type": "node",
+    "name": "Shaver Shop",
+    "coordinates": {
+     "latitude": -33.883504,
+     "longitude": 151.1941844
+    },
+    "category": "shop",
+    "subcategory": "appliance",
+    "tags": {
+     "level": "0",
+     "name": "Shaver Shop",
+     "shop": "appliance"
+    }
+   },
+   {
+    "id": 3977545462,
+    "type": "node",
+    "name": "Steve Costi's Seafood",
+    "coordinates": {
+     "latitude": -33.8838312,
+     "longitude": 151.1938658
+    },
+    "category": "shop",
+    "subcategory": "seafood",
+    "tags": {
+     "level": "0",
+     "name": "Steve Costi's Seafood",
+     "opening_hours:signed": "no",
+     "shop": "seafood",
+     "wheelchair": "yes"
+    }
+   },
+   {
+    "id": 3977545463,
+    "type": "node",
+    "name": "Craig Cook",
+    "coordinates": {
+     "latitude": -33.8838428,
+     "longitude": 151.1935959
+    },
+    "category": "shop",
+    "subcategory": "butcher",
+    "tags": {
+     "level": "0",
+     "name": "Craig Cook",
+     "opening_hours:signed": "no",
+     "shop": "butcher",
+     "wheelchair": "yes"
+    }
+   },
+   {
+    "id": 3977545464,
+    "type": "node",
+    "name": "Specsavers",
+    "coordinates": {
+     "latitude": -33.8835441,
+     "longitude": 151.1936008
+    },
+    "category": "shop",
+    "subcategory": "optician",
+    "tags": {
+     "brand": "Specsavers",
+     "brand:wikidata": "Q2000610",
+     "brand:wikipedia": "en:Specsavers",
+     "level": "0",
+     "name": "Specsavers",
+     "shop": "optician"
+    }
+   },
+   {
+    "id": 3977545466,
+    "type": "node",
+    "name": "Zoom",
+    "coordinates": {
+     "latitude": -33.8838293,
+     "longitude": 151.1940062
+    },
+    "category": "shop",
+    "subcategory": "optician",
+    "tags": {
+     "level": "0",
+     "name": "Zoom",
+     "opening_hours:signed": "no",
+     "shop": "optician",
+     "wheelchair": "yes"
+    }
+   },
+   {
+    "id": 3977545467,
+    "type": "node",
+    "name": "Canvas Home Interiors",
+    "coordinates": {
+     "latitude": -33.8831864,
+     "longitude": 151.1940655
+    },
+    "category": "shop",
+    "subcategory": "interior_decoration",
+    "tags": {
+     "level": "1",
+     "name": "Canvas Home Interiors",
+     "opening_hours:signed": "no",
+     "shop": "interior_decoration",
+     "wheelchair": "yes"
+    }
+   },
+   {
+    "id": 3977545468,
+    "type": "node",
+    "name": "Dymocks",
+    "coordinates": {
+     "latitude": -33.8831178,
+     "longitude": 151.1940689
+    },
+    "category": "shop",
+    "subcategory": "books",
+    "tags": {
+     "brand": "Dymocks",
+     "brand:wikidata": "Q1280883",
+     "level": "1",
+     "name": "Dymocks",
+     "opening_hours:signed": "no",
+     "shop": "books",
+     "website": "https://www.dymocks.com.au/",
+     "wheelchair": "yes"
+    }
+   },
+   {
+    "id": 4017521495,
+    "type": "node",
+    "name": "Unnamed",
+    "coordinates": {
+     "latitude": -33.883849,
+     "longitude": 151.2084539
+    },
+    "category": "shop",
+    "subcategory": "convenience",
+    "tags": {
+     "brand": "Tobacco Station",
+     "check_date": "2025-03-25",
+     "shop": "convenience"
+    }
+   },
+   {
+    "id": 4017563989,
+    "type": "node",
+    "name": "Woolworths Metro",
+    "coordinates": {
+     "latitude": -33.8837104,
+     "longitude": 151.2084909
+    },
+    "category": "shop",
+    "subcategory": "supermarket",
+    "tags": {
+     "addr:housenumber": "302-306",
+     "addr:street": "Elizabeth Street",
+     "brand": "Woolworths Metro",
+     "brand:wikidata": "Q111772555",
+     "brand:wikipedia": "en:Woolworths Supermarkets",
+     "check_date:opening_hours": "2025-06",
+     "level": "0",
+     "name": "Woolworths Metro",
+     "opening_hours": "Mo-Su 06:00-22:00",
+     "operator": "Woolworths Group",
+     "operator:ref:abn": "88 000 014 675",
+     "operator:wikidata": "Q607272",
+     "phone": "+61 2 8736 7401",
+     "ref": "1669 Central Station",
+     "shop": "supermarket",
+     "website": "https://www.woolworths.com.au/Shop/ShopLocator/NSW-Surry-Hills-1669"
+    }
+   },
+   {
+    "id": 4027229151,
+    "type": "node",
+    "name": "Baggage Storage",
+    "coordinates": {
+     "latitude": -33.8823606,
+     "longitude": 151.2061242
+    },
+    "category": "shop",
+    "subcategory": "storage_rental",
+    "tags": {
+     "level": "1",
+     "name": "Baggage Storage",
+     "opening_hours": "Mo-Su 07:00-21:00",
+     "phone": "+61 2 9280 2254",
+     "shop": "storage_rental",
+     "website": "https://www.baggagestorage.com.au/index.php/store-locator/2-store-location-country-aus-nz/store-locations-data-australia-nsw/118-sydney-central-station"
+    }
+   },
+   {
+    "id": 4032643295,
+    "type": "node",
+    "name": "EzyMart",
+    "coordinates": {
+     "latitude": -33.8852123,
+     "longitude": 151.2138737
+    },
+    "category": "shop",
+    "subcategory": "convenience",
+    "tags": {
+     "brand": "EzyMart",
+     "brand:wikidata": "Q117220554",
+     "check_date": "2026-07-09",
+     "name": "EzyMart",
+     "shop": "convenience"
+    }
+   },
+   {
+    "id": 4032662091,
+    "type": "node",
+    "name": "Grand Royal Barbers",
+    "coordinates": {
+     "latitude": -33.8850198,
+     "longitude": 151.2126001
+    },
+    "category": "shop",
+    "subcategory": "hairdresser",
+    "tags": {
+     "check_date": "2025-09",
+     "male": "yes",
+     "name": "Grand Royal Barbers",
+     "shop": "hairdresser"
+    }
+   },
+   {
+    "id": 4032662189,
+    "type": "node",
+    "name": "Surry Hills Newsagency",
+    "coordinates": {
+     "latitude": -33.8837587,
+     "longitude": 151.2094101
+    },
+    "category": "shop",
+    "subcategory": "newsagent",
+    "tags": {
+     "name": "Surry Hills Newsagency",
+     "shop": "newsagent"
+    }
+   },
+   {
+    "id": 4032662190,
+    "type": "node",
+    "name": "Unnamed",
+    "coordinates": {
+     "latitude": -33.8842533,
+     "longitude": 151.209999
+    },
+    "category": "shop",
+    "subcategory": "vacant",
+    "tags": {
+     "shop": "vacant"
+    }
+   },
+   {
+    "id": 4056076112,
+    "type": "node",
+    "name": "Vinnies",
+    "coordinates": {
+     "latitude": -33.8858875,
+     "longitude": 151.2083491
+    },
+    "category": "shop",
+    "subcategory": "charity",
+    "tags": {
+     "brand": "Vinnies",
+     "brand:wikidata": "Q120646672",
+     "name": "Vinnies",
+     "opening_hours": "Mo-Sa 09:30-17:30;Su 10:00-16:00",
+     "shop": "charity"
+    }
+   },
+   {
+    "id": 4071269493,
+    "type": "node",
+    "name": "Crown",
+    "coordinates": {
+     "latitude": -33.8841739,
+     "longitude": 151.1954289
+    },
+    "category": "shop",
+    "subcategory": "jewelry",
+    "tags": {
+     "name": "Crown",
+     "shop": "jewelry"
+    }
+   },
+   {
+    "id": 4071269495,
+    "type": "node",
+    "name": "Sydney Cellars",
+    "coordinates": {
+     "latitude": -33.8843062,
+     "longitude": 151.1944593
+    },
+    "category": "shop",
+    "subcategory": "alcohol",
+    "tags": {
+     "check_date": "2025-10",
+     "level": "0",
+     "name": "Sydney Cellars",
+     "shop": "alcohol"
+    }
+   },
+   {
+    "id": 4071269591,
+    "type": "node",
+    "name": "Dongtian",
+    "coordinates": {
+     "latitude": -33.8841829,
+     "longitude": 151.1962683
+    },
+    "category": "shop",
+    "subcategory": "gift",
+    "tags": {
+     "addr:housenumber": "181",
+     "addr:street": "Broadway",
+     "check_date:opening_hours": "2025-07-22",
+     "name": "Dongtian",
+     "opening_hours:signed": "no",
+     "shop": "gift",
+     "wheelchair": "no"
+    }
+   },
+   {
+    "id": 4071269593,
+    "type": "node",
+    "name": "Student Flights",
+    "coordinates": {
+     "latitude": -33.8841669,
+     "longitude": 151.1953209
+    },
+    "category": "shop",
+    "subcategory": "travel_agency",
+    "tags": {
+     "name": "Student Flights",
+     "shop": "travel_agency"
+    }
+   },
+   {
+    "id": 4071269594,
+    "type": "node",
+    "name": "Super Nutrition",
+    "coordinates": {
+     "latitude": -33.8841727,
+     "longitude": 151.1955035
+    },
+    "category": "shop",
+    "subcategory": "nutrition_supplements",
+    "tags": {
+     "name": "Super Nutrition",
+     "shop": "nutrition_supplements"
+    }
+   },
+   {
+    "id": 4071269690,
+    "type": "node",
+    "name": "Broadway Convenience",
+    "coordinates": {
+     "latitude": -33.8841683,
+     "longitude": 151.1955741
+    },
+    "category": "shop",
+    "subcategory": "convenience",
+    "tags": {
+     "name": "Broadway Convenience",
+     "shop": "convenience"
+    }
+   },
+   {
+    "id": 4089598728,
+    "type": "node",
+    "name": "Spar",
+    "coordinates": {
+     "latitude": -33.892622,
+     "longitude": 151.1995018
+    },
+    "category": "shop",
+    "subcategory": "supermarket",
+    "tags": {
+     "brand": "Spar",
+     "brand:wikidata": "Q610492",
+     "name": "Spar",
+     "operator": "Spar",
+     "shop": "supermarket"
+    }
+   },
+   {
+    "id": 4091229572,
+    "type": "node",
+    "name": "Unnamed",
+    "coordinates": {
+     "latitude": -33.8951432,
+     "longitude": 151.1992965
+    },
+    "category": "shop",
+    "subcategory": "newsagent",
+    "tags": {
+     "shop": "newsagent"
+    }
+   },
+   {
+    "id": 4129027983,
+    "type": "node",
+    "name": "Cila Beauty",
+    "coordinates": {
+     "latitude": -33.8881363,
+     "longitude": 151.1987469
+    },
+    "category": "shop",
+    "subcategory": "hairdresser",
+    "tags": {
+     "check_date": "2026-04",
+     "name": "Cila Beauty",
+     "shop": "hairdresser"
+    }
+   },
+   {
+    "id": 4131610192,
+    "type": "node",
+    "name": "Daiso Japan",
+    "coordinates": {
+     "latitude": -33.8847367,
+     "longitude": 151.200692
+    },
+    "category": "shop",
+    "subcategory": "variety_store",
+    "tags": {
+     "brand": "Daiso",
+     "brand:wikidata": "Q866991",
+     "check_date": "2025-07",
+     "level": "2",
+     "name": "Daiso Japan",
+     "opening_hours": "Mo-Su 10:00-20:00",
+     "shop": "variety_store",
+     "short_name": "Daiso"
+    }
+   },
+   {
+    "id": 4186485779,
+    "type": "node",
+    "name": "Apple Store",
+    "coordinates": {
+     "latitude": -33.8838222,
+     "longitude": 151.1941449
+    },
+    "category": "shop",
+    "subcategory": "electronics",
+    "tags": {
+     "addr:housenumber": "1",
+     "addr:street": "Bay Street",
+     "branch": "Broadway",
+     "brand": "Apple Store",
+     "brand:wikidata": "Q421253",
+     "brand:wikipedia": "en:Apple Store",
+     "level": "3",
+     "name": "Apple Store",
+     "operator": "Apple",
+     "shop": "electronics",
+     "short_name": "Apple",
+     "wikidata": "Q131309108"
+    }
+   },
+   {
+    "id": 4242650074,
+    "type": "node",
+    "name": "7-Eleven",
+    "coordinates": {
+     "latitude": -33.8862537,
+     "longitude": 151.208281
+    },
+    "category": "shop",
+    "subcategory": "convenience",
+    "tags": {
+     "brand": "7-Eleven",
+     "brand:wikidata": "Q259340",
+     "brand:wikipedia": "en:7-Eleven",
+     "name": "7-Eleven",
+     "shop": "convenience"
+    }
+   },
+   {
+    "id": 4314399992,
+    "type": "node",
+    "name": "7-Eleven",
+    "coordinates": {
+     "latitude": -33.8816463,
+     "longitude": 151.2088365
+    },
+    "category": "shop",
+    "subcategory": "convenience",
+    "tags": {
+     "brand": "7-Eleven",
+     "brand:wikidata": "Q259340",
+     "brand:wikipedia": "en:7-Eleven",
+     "check_date": "2025-11-",
+     "name": "7-Eleven",
+     "opening_hours": "24/7",
+     "shop": "convenience"
+    }
+   },
+   {
+    "id": 4707722289,
+    "type": "node",
+    "name": "Unnamed",
+    "coordinates": {
+     "latitude": -33.8895939,
+     "longitude": 151.2130803
+    },
+    "category": "shop",
+    "subcategory": "hairdresser",
+    "tags": {
+     "shop": "hairdresser"
+    }
+   },
+   {
+    "id": 4770686823,
+    "type": "node",
+    "name": "Cake Wines",
+    "coordinates": {
+     "latitude": -33.8894811,
+     "longitude": 151.1998099
+    },
+    "category": "shop",
+    "subcategory": "wine",
+    "tags": {
+     "addr:housenumber": "16",
+     "addr:postcode": "2016",
+     "addr:street": "Eveleigh Street",
+     "name": "Cake Wines",
+     "shop": "wine"
+    }
+   },
+   {
+    "id": 4798382999,
+    "type": "node",
+    "name": "Shiny Star",
+    "coordinates": {
+     "latitude": -33.8836666,
+     "longitude": 151.2036009
+    },
+    "category": "shop",
+    "subcategory": "hairdresser",
+    "tags": {
+     "check_date": "2024-11-05",
+     "layer": "-1",
+     "male": "yes",
+     "name": "Shiny Star",
+     "shop": "hairdresser",
+     "source": "physical survey"
+    }
+   },
+   {
+    "id": 4813090221,
+    "type": "node",
+    "name": "Breadtop",
+    "coordinates": {
+     "latitude": -33.8829841,
+     "longitude": 151.2035186
+    },
+    "category": "shop",
+    "subcategory": "bakery",
+    "tags": {
+     "brand": "Breadtop",
+     "brand:wikidata": "Q4959217",
+     "check_date": "2026-07-08",
+     "check_date:opening_hours": "2026-07-08",
+     "cuisine": "chinese",
+     "name": "Breadtop",
+     "opening_hours": "Mo-Fr 07:00-19:00; Sa,Su 08:00-17:00",
+     "shop": "bakery"
+    }
+   },
+   {
+    "id": 4936515754,
+    "type": "node",
+    "name": "H&M",
+    "coordinates": {
+     "latitude": -33.8836974,
+     "longitude": 151.1934067
+    },
+    "category": "shop",
+    "subcategory": "clothes",
+    "tags": {
+     "alt_name": "Hennes&Mauritz",
+     "brand": "H&M",
+     "brand:wikidata": "Q188326",
+     "brand:wikipedia": "en:H&M",
+     "check_date": "2025-06-21",
+     "level": "2",
+     "name": "H&M",
+     "opening_hours:signed": "no",
+     "shop": "clothes",
+     "website": "https://www.hm.com/au",
+     "wheelchair": "yes"
+    }
+   },
+   {
+    "id": 4962929346,
+    "type": "node",
+    "name": "The Online Jewellery Company (OJCo)",
+    "coordinates": {
+     "latitude": -33.8871806,
+     "longitude": 151.2000597
+    },
+    "category": "shop",
+    "subcategory": "jewelry",
+    "tags": {
+     "addr:housenumber": "52",
+     "addr:postcode": "2008",
+     "addr:state": "NSW",
+     "addr:street": "Balfour Street",
+     "addr:suburb": "Chippendale",
+     "contact:email": "info@ojco.com.au",
+     "contact:phone": "+61 2 9699 4100",
+     "name": "The Online Jewellery Company (OJCo)",
+     "opening_hours": "Mo-Fr 09:00-17:00",
+     "operator": "Steven Sher",
+     "payment": "Credit cards, Debit cards",
+     "shop": "jewelry",
+     "website": "https://ojco.com.au/"
+    }
+   },
+   {
+    "id": 5239284028,
+    "type": "node",
+    "name": "Kinly Beauty",
+    "coordinates": {
+     "latitude": -33.8802316,
+     "longitude": 151.2047235
+    },
+    "category": "shop",
+    "subcategory": "beauty",
+    "tags": {
+     "name": "Kinly Beauty",
+     "shop": "beauty"
+    }
+   },
+   {
+    "id": 5240186385,
+    "type": "node",
+    "name": "Aceben",
+    "coordinates": {
+     "latitude": -33.8805788,
+     "longitude": 151.204766
+    },
+    "category": "shop",
+    "subcategory": "pawnbroker",
+    "tags": {
+     "addr:housenumber": "703",
+     "addr:state": "NSW",
+     "addr:street": "George Street",
+     "addr:suburb": "Haymarket",
+     "name": "Aceben",
+     "shop": "pawnbroker",
+     "website": "https://www.aceben.com.au"
+    }
+   },
+   {
+    "id": 5240187410,
+    "type": "node",
+    "name": "Cash Mall",
+    "coordinates": {
+     "latitude": -33.8804568,
+     "longitude": 151.2052383
+    },
+    "category": "shop",
+    "subcategory": "pawnbroker",
+    "tags": {
+     "addr:housenumber": "450",
+     "addr:state": "NSW",
+     "addr:street": "George Street",
+     "addr:suburb": "Haymarket",
+     "disused:amenity": "fast_food",
+     "disused:brand": "Subway",
+     "disused:brand:wikidata": "Q244457",
+     "disused:brand:wikipedia": "en:Subway (restaurant)",
+     "disused:cuisine": "sandwich",
+     "disused:name": "Subway",
+     "disused:takeaway": "yes",
+     "name": "Cash Mall",
+     "shop": "pawnbroker"
+    }
+   },
+   {
+    "id": 5240187411,
+    "type": "node",
+    "name": "Leung Wai Kee Buddhist Craft",
+    "coordinates": {
+     "latitude": -33.8804897,
+     "longitude": 151.2052287
+    },
+    "category": "shop",
+    "subcategory": "gift",
+    "tags": {
+     "name": "Leung Wai Kee Buddhist Craft",
+     "shop": "gift"
+    }
+   },
+   {
+    "id": 5240187412,
+    "type": "node",
+    "name": "EzyMart",
+    "coordinates": {
+     "latitude": -33.880741,
+     "longitude": 151.2051164
+    },
+    "category": "shop",
+    "subcategory": "convenience",
+    "tags": {
+     "brand": "EzyMart",
+     "brand:wikidata": "Q117220554",
+     "name": "EzyMart",
+     "shop": "convenience"
+    }
+   },
+   {
+    "id": 5240187413,
+    "type": "node",
+    "name": "Cash Stop",
+    "coordinates": {
+     "latitude": -33.8806185,
+     "longitude": 151.2051731
+    },
+    "category": "shop",
+    "subcategory": "pawnbroker",
+    "tags": {
+     "name": "Cash Stop",
+     "shop": "pawnbroker"
+    }
+   },
+   {
+    "id": 5406463557,
+    "type": "node",
+    "name": "Attaquer Cycling Store & Cafe",
+    "coordinates": {
+     "latitude": -33.8852429,
+     "longitude": 151.209074
+    },
+    "category": "shop",
+    "subcategory": "bicycle",
+    "tags": {
+     "name": "Attaquer Cycling Store & Cafe",
+     "shop": "bicycle"
+    }
+   },
+   {
+    "id": 5603655690,
+    "type": "node",
+    "name": "Strawberry Hill Convenience Store",
+    "coordinates": {
+     "latitude": -33.8893476,
+     "longitude": 151.208171
+    },
+    "category": "shop",
+    "subcategory": "convenience",
+    "tags": {
+     "name": "Strawberry Hill Convenience Store",
+     "shop": "convenience"
+    }
+   },
+   {
+    "id": 5605556397,
+    "type": "node",
+    "name": "Blackwattle Hardwood Floors",
+    "coordinates": {
+     "latitude": -33.8876291,
+     "longitude": 151.2080112
+    },
+    "category": "shop",
+    "subcategory": "yes",
+    "tags": {
+     "name": "Blackwattle Hardwood Floors",
+     "shop": "yes"
+    }
+   },
+   {
+    "id": 5608270088,
+    "type": "node",
+    "name": "Unnamed",
+    "coordinates": {
+     "latitude": -33.888852,
+     "longitude": 151.2103214
+    },
+    "category": "shop",
+    "subcategory": "convenience",
+    "tags": {
+     "shop": "convenience"
+    }
+   },
+   {
+    "id": 5608349013,
+    "type": "node",
+    "name": "Bargain Bazaar Charity Shop",
+    "coordinates": {
+     "latitude": -33.8913879,
+     "longitude": 151.2124579
+    },
+    "category": "shop",
+    "subcategory": "variety_store",
+    "tags": {
+     "name": "Bargain Bazaar Charity Shop",
+     "shop": "variety_store"
+    }
+   },
+   {
+    "id": 5608349015,
+    "type": "node",
+    "name": "Sexy Nails",
+    "coordinates": {
+     "latitude": -33.8913665,
+     "longitude": 151.2123409
+    },
+    "category": "shop",
+    "subcategory": "beauty",
+    "tags": {
+     "beauty": "nails",
+     "check_date": "2025-05-22",
+     "name": "Sexy Nails",
+     "shop": "beauty"
+    }
+   },
+   {
+    "id": 5608349137,
+    "type": "node",
+    "name": "Your Hair & Beauty",
+    "coordinates": {
+     "latitude": -33.8913383,
+     "longitude": 151.2121248
+    },
+    "category": "shop",
+    "subcategory": "beauty",
+    "tags": {
+     "name": "Your Hair & Beauty",
+     "shop": "beauty"
+    }
+   },
+   {
+    "id": 5608349139,
+    "type": "node",
+    "name": "Convenience Plus",
+    "coordinates": {
+     "latitude": -33.8909216,
+     "longitude": 151.2130814
+    },
+    "category": "shop",
+    "subcategory": "convenience",
+    "tags": {
+     "name": "Convenience Plus",
+     "shop": "convenience"
+    }
+   },
+   {
+    "id": 5608349140,
+    "type": "node",
+    "name": "Deluxe Nails & Foot Spa",
+    "coordinates": {
+     "latitude": -33.8910274,
+     "longitude": 151.2130455
+    },
+    "category": "shop",
+    "subcategory": "beauty",
+    "tags": {
+     "name": "Deluxe Nails & Foot Spa",
+     "shop": "beauty"
+    }
+   },
+   {
+    "id": 5608349141,
+    "type": "node",
+    "name": "Surry Hills Fine Wines",
+    "coordinates": {
+     "latitude": -33.8911137,
+     "longitude": 151.2130344
+    },
+    "category": "shop",
+    "subcategory": "alcohol",
+    "tags": {
+     "name": "Surry Hills Fine Wines",
+     "shop": "alcohol"
+    }
+   },
+   {
+    "id": 5608349142,
+    "type": "node",
+    "name": "Dellis Furniture",
+    "coordinates": {
+     "latitude": -33.8911702,
+     "longitude": 151.213022
+    },
+    "category": "shop",
+    "subcategory": "furniture",
+    "tags": {
+     "name": "Dellis Furniture",
+     "shop": "furniture"
+    }
+   },
+   {
+    "id": 5608349147,
+    "type": "node",
+    "name": "Cmos",
+    "coordinates": {
+     "latitude": -33.8913808,
+     "longitude": 151.2129762
+    },
+    "category": "shop",
+    "subcategory": "mobile_phone",
+    "tags": {
+     "check_date": "2024-11-28",
+     "name": "Cmos",
+     "shop": "mobile_phone"
+    }
+   },
+   {
+    "id": 5608349148,
+    "type": "node",
+    "name": "Cignall",
+    "coordinates": {
+     "latitude": -33.8914188,
+     "longitude": 151.2129725
+    },
+    "category": "shop",
+    "subcategory": "yes",
+    "tags": {
+     "check_date": "2024-11-28",
+     "name": "Cignall",
+     "shop": "yes"
+    }
+   },
+   {
+    "id": 5608349149,
+    "type": "node",
+    "name": "Lilly's Nails & Foot Spa",
+    "coordinates": {
+     "latitude": -33.8914845,
+     "longitude": 151.2131371
+    },
+    "category": "shop",
+    "subcategory": "beauty",
+    "tags": {
+     "beauty": "nails",
+     "check_date": "2026-05-15",
+     "name": "Lilly's Nails & Foot Spa",
+     "shop": "beauty"
+    }
+   },
+   {
+    "id": 5608349150,
+    "type": "node",
+    "name": "Lanna Thai Massage",
+    "coordinates": {
+     "latitude": -33.8914794,
+     "longitude": 151.2131953
+    },
+    "category": "shop",
+    "subcategory": "massage",
+    "tags": {
+     "name": "Lanna Thai Massage",
+     "shop": "massage"
+    }
+   },
+   {
+    "id": 5609320394,
+    "type": "node",
+    "name": "Rococo Flowers",
+    "coordinates": {
+     "latitude": -33.8912241,
+     "longitude": 151.2109252
+    },
+    "category": "shop",
+    "subcategory": "florist",
+    "tags": {
+     "check_date": "2026-05-21",
+     "name": "Rococo Flowers",
+     "shop": "florist"
+    }
+   },
+   {
+    "id": 5609320598,
+    "type": "node",
+    "name": "Signarama",
+    "coordinates": {
+     "latitude": -33.8901359,
+     "longitude": 151.2080506
+    },
+    "category": "shop",
+    "subcategory": "yes",
+    "tags": {
+     "brand": "Signarama",
+     "brand:wikidata": "Q24963251",
+     "craft": "signmaker",
+     "name": "Signarama",
+     "shop": "yes"
+    }
+   },
+   {
+    "id": 5609320602,
+    "type": "node",
+    "name": "Mak Mak Macarons",
+    "coordinates": {
+     "latitude": -33.8899301,
+     "longitude": 151.2081861
+    },
+    "category": "shop",
+    "subcategory": "bakery",
+    "tags": {
+     "name": "Mak Mak Macarons",
+     "shop": "bakery"
+    }
+   },
+   {
+    "id": 5609320610,
+    "type": "node",
+    "name": "Anderson Bros",
+    "coordinates": {
+     "latitude": -33.890045,
+     "longitude": 151.2085175
+    },
+    "category": "shop",
+    "subcategory": "laundry",
+    "tags": {
+     "laundry_service": "yes",
+     "name": "Anderson Bros",
+     "self_service": "no",
+     "shop": "laundry"
+    }
+   },
+   {
+    "id": 5609320622,
+    "type": "node",
+    "name": "Fatima's Mini Mart",
+    "coordinates": {
+     "latitude": -33.8901611,
+     "longitude": 151.2088855
+    },
+    "category": "shop",
+    "subcategory": "convenience",
+    "tags": {
+     "check_date": "2026-05-15",
+     "name": "Fatima's Mini Mart",
+     "shop": "convenience"
+    }
+   },
+   {
+    "id": 5610439452,
+    "type": "node",
+    "name": "Acme Framing",
+    "coordinates": {
+     "latitude": -33.8897042,
+     "longitude": 151.213049
+    },
+    "category": "shop",
+    "subcategory": "frame",
+    "tags": {
+     "name": "Acme Framing",
+     "shop": "frame"
+    }
+   },
+   {
+    "id": 5610439512,
+    "type": "node",
+    "name": "Unnamed",
+    "coordinates": {
+     "latitude": -33.8899496,
+     "longitude": 151.2129944
+    },
+    "category": "shop",
+    "subcategory": "vacant",
+    "tags": {
+     "check_date": "2026-04",
+     "shop": "vacant"
+    }
+   },
+   {
+    "id": 5610439514,
+    "type": "node",
+    "name": "Eden on Crown",
+    "coordinates": {
+     "latitude": -33.8898201,
+     "longitude": 151.2130158
+    },
+    "category": "shop",
+    "subcategory": "clothes",
+    "tags": {
+     "name": "Eden on Crown",
+     "shop": "clothes"
+    }
+   },
+   {
+    "id": 5610439529,
+    "type": "node",
+    "name": "Unnamed",
+    "coordinates": {
+     "latitude": -33.8899452,
+     "longitude": 151.2132524
+    },
+    "category": "shop",
+    "subcategory": "vacant",
+    "tags": {
+     "check_date": "2026-02",
+     "shop": "vacant"
+    }
+   },
+   {
+    "id": 5610439535,
+    "type": "node",
+    "name": "Crown St Thai Massage",
+    "coordinates": {
+     "latitude": -33.8898578,
+     "longitude": 151.213263
+    },
+    "category": "shop",
+    "subcategory": "massage",
+    "tags": {
+     "name": "Crown St Thai Massage",
+     "shop": "massage"
+    }
+   },
+   {
+    "id": 5610439558,
+    "type": "node",
+    "name": "Special Lights",
+    "coordinates": {
+     "latitude": -33.8894809,
+     "longitude": 151.2133564
+    },
+    "category": "shop",
+    "subcategory": "yes",
+    "tags": {
+     "name": "Special Lights",
+     "shop": "yes"
+    }
+   },
+   {
+    "id": 5610748174,
+    "type": "node",
+    "name": "Johnson's",
+    "coordinates": {
+     "latitude": -33.8826833,
+     "longitude": 151.2098152
+    },
+    "category": "shop",
+    "subcategory": "clothes",
+    "tags": {
+     "addr:housenumber": "72",
+     "addr:street": "Mary Street",
+     "addr:suburb": "Surry Hills",
+     "clothes": "workwear;chef_clothing",
+     "name": "Johnson's",
+     "phone": "+61 2 9211 3128",
+     "shop": "clothes",
+     "website": "https://johnsons1912.com.au/"
+    }
+   },
+   {
+    "id": 5610748657,
+    "type": "node",
+    "name": "Nail Lounge",
+    "coordinates": {
+     "latitude": -33.8838344,
+     "longitude": 151.2105179
+    },
+    "category": "shop",
+    "subcategory": "beauty",
+    "tags": {
+     "beauty": "nails",
+     "name": "Nail Lounge",
+     "shop": "beauty"
+    }
+   },
+   {
+    "id": 5610748972,
+    "type": "node",
+    "name": "AC Laundry",
+    "coordinates": {
+     "latitude": -33.8824332,
+     "longitude": 151.2100565
+    },
+    "category": "shop",
+    "subcategory": "dry_cleaning",
+    "tags": {
+     "name": "AC Laundry",
+     "shop": "dry_cleaning"
+    }
+   },
+   {
+    "id": 5610877669,
+    "type": "node",
+    "name": "Desmond & Molly Jones",
+    "coordinates": {
+     "latitude": -33.8829855,
+     "longitude": 151.211989
+    },
+    "category": "shop",
+    "subcategory": "hairdresser",
+    "tags": {
+     "name": "Desmond & Molly Jones",
+     "shop": "hairdresser"
+    }
+   },
+   {
+    "id": 5610877691,
+    "type": "node",
+    "name": "Unnamed",
+    "coordinates": {
+     "latitude": -33.8829848,
+     "longitude": 151.2121025
+    },
+    "category": "shop",
+    "subcategory": "vacant",
+    "tags": {
+     "addr:housenumber": "102-104",
+     "addr:street": "Albion Street",
+     "addr:suburb": "Surry Hills",
+     "check_date": "2026-09",
+     "shop": "vacant"
+    }
+   },
+   {
+    "id": 5735710161,
+    "type": "node",
+    "name": "Dulux Paints",
+    "coordinates": {
+     "latitude": -33.8886638,
+     "longitude": 151.2006012
+    },
+    "category": "shop",
+    "subcategory": "paint",
+    "tags": {
+     "branch": "Trade Centre",
+     "brand": "Dulux Paints",
+     "brand:wikidata": "Q50921",
+     "name": "Dulux Paints",
+     "shop": "paint"
+    }
+   },
+   {
+    "id": 5738346721,
+    "type": "node",
+    "name": "Unnamed",
+    "coordinates": {
+     "latitude": -33.8842415,
+     "longitude": 151.2037913
+    },
+    "category": "shop",
+    "subcategory": "vacant",
+    "tags": {
+     "check_date": "2026-09",
+     "shop": "vacant"
+    }
+   },
+   {
+    "id": 5738839976,
+    "type": "node",
+    "name": "Solar Wind",
+    "coordinates": {
+     "latitude": -33.8945674,
+     "longitude": 151.1995128
+    },
+    "category": "shop",
+    "subcategory": "florist",
+    "tags": {
+     "name": "Solar Wind",
+     "shop": "florist"
+    }
+   },
+   {
+    "id": 5739975176,
+    "type": "node",
+    "name": "Unnamed",
+    "coordinates": {
+     "latitude": -33.8894207,
+     "longitude": 151.2019083
+    },
+    "category": "shop",
+    "subcategory": "vacant",
+    "tags": {
+     "addr:housenumber": "19",
+     "addr:street": "Regent Street",
+     "addr:suburb": "Redfern",
+     "addr:unit": "1",
+     "check_date": "2026-03",
+     "shop": "vacant"
+    }
+   },
+   {
+    "id": 5739975362,
+    "type": "node",
+    "name": "Bee Nails",
+    "coordinates": {
+     "latitude": -33.8922718,
+     "longitude": 151.2010086
+    },
+    "category": "shop",
+    "subcategory": "beauty",
+    "tags": {
+     "beauty": "nails",
+     "name": "Bee Nails",
+     "shop": "beauty"
+    }
+   },
+   {
+    "id": 5739975364,
+    "type": "node",
+    "name": "Joseph Medcalf Funerals",
+    "coordinates": {
+     "latitude": -33.8922896,
+     "longitude": 151.2011886
+    },
+    "category": "shop",
+    "subcategory": "funeral_directors",
+    "tags": {
+     "name": "Joseph Medcalf Funerals",
+     "shop": "funeral_directors"
+    }
+   },
+   {
+    "id": 5739975406,
+    "type": "node",
+    "name": "Bannerama",
+    "coordinates": {
+     "latitude": -33.8919204,
+     "longitude": 151.200811
+    },
+    "category": "shop",
+    "subcategory": "yes",
+    "tags": {
+     "name": "Bannerama",
+     "shop": "yes"
+    }
+   },
+   {
+    "id": 5739975409,
+    "type": "node",
+    "name": "Bubbles Laundry",
+    "coordinates": {
+     "latitude": -33.8920928,
+     "longitude": 151.2007833
+    },
+    "category": "shop",
+    "subcategory": "laundry",
+    "tags": {
+     "addr:housenumber": "111",
+     "addr:street": "Regent Street",
+     "name": "Bubbles Laundry",
+     "shop": "laundry"
+    }
+   },
+   {
+    "id": 5740038945,
+    "type": "node",
+    "name": "Bargain Super Store",
+    "coordinates": {
+     "latitude": -33.8925279,
+     "longitude": 151.2011207
+    },
+    "category": "shop",
+    "subcategory": "variety_store",
+    "tags": {
+     "name": "Bargain Super Store",
+     "shop": "variety_store"
+    }
+   },
+   {
+    "id": 5740038951,
+    "type": "node",
+    "name": "NSW Lotteries",
+    "coordinates": {
+     "latitude": -33.8925375,
+     "longitude": 151.2012106
+    },
+    "category": "shop",
+    "subcategory": "newsagent",
+    "tags": {
+     "name": "NSW Lotteries",
+     "shop": "newsagent"
+    }
+   },
+   {
+    "id": 5740038958,
+    "type": "node",
+    "name": "Good Health Thai Massage At Redfern",
+    "coordinates": {
+     "latitude": -33.8925402,
+     "longitude": 151.2012838
+    },
+    "category": "shop",
+    "subcategory": "massage",
+    "tags": {
+     "addr:housenumber": "139",
+     "addr:postcode": "2016",
+     "addr:state": "NSW",
+     "addr:street": "Redfern Street",
+     "addr:suburb": "Redfern",
+     "name": "Good Health Thai Massage At Redfern",
+     "phone": "+61 2 8542 4285",
+     "shop": "massage"
+    }
+   },
+   {
+    "id": 5740039071,
+    "type": "node",
+    "name": "PT Beauty & Nails",
+    "coordinates": {
+     "latitude": -33.8925696,
+     "longitude": 151.2014624
+    },
+    "category": "shop",
+    "subcategory": "beauty",
+    "tags": {
+     "beauty": "nails",
+     "check_date": "2024-11-10",
+     "name": "PT Beauty & Nails",
+     "shop": "beauty"
+    }
+   },
+   {
+    "id": 5740591203,
+    "type": "node",
+    "name": "Redfern Convenience",
+    "coordinates": {
+     "latitude": -33.8924116,
+     "longitude": 151.2020379
+    },
+    "category": "shop",
+    "subcategory": "convenience",
+    "tags": {
+     "check_date": "2025-11",
+     "name": "Redfern Convenience",
+     "shop": "convenience"
+    }
+   },
+   {
+    "id": 5800564653,
+    "type": "node",
+    "name": "Rewind Photo Lab",
+    "coordinates": {
+     "latitude": -33.8844262,
+     "longitude": 151.1924881
+    },
+    "category": "shop",
+    "subcategory": "photo",
+    "tags": {
+     "addr:housenumber": "2-12",
+     "addr:postcode": "2037",
+     "addr:street": "Glebe Point Road",
+     "addr:unit": "5",
+     "name": "Rewind Photo Lab",
+     "opening_hours": "Mo-Fr 10:00-18:00; Sa 10:00-16:00",
+     "phone": "+61 2 8041 7049",
+     "shop": "photo",
+     "website": "https://rewindphotolab.com.au/"
+    }
+   },
+   {
+    "id": 5813784856,
+    "type": "node",
+    "name": "Little Devil Cakes & Bakery",
+    "coordinates": {
+     "latitude": -33.8843121,
+     "longitude": 151.1943532
+    },
+    "category": "shop",
+    "subcategory": "bakery",
+    "tags": {
+     "name": "Little Devil Cakes & Bakery",
+     "shop": "bakery"
+    }
+   },
+   {
+    "id": 5813784857,
+    "type": "node",
+    "name": "Broadway Tattoo",
+    "coordinates": {
+     "latitude": -33.8843109,
+     "longitude": 151.1944025
+    },
+    "category": "shop",
+    "subcategory": "tattoo",
+    "tags": {
+     "name": "Broadway Tattoo",
+     "shop": "tattoo"
+    }
+   },
+   {
+    "id": 5813784858,
+    "type": "node",
+    "name": "CTC",
+    "coordinates": {
+     "latitude": -33.884304,
+     "longitude": 151.1945063
+    },
+    "category": "shop",
+    "subcategory": "tobacco",
+    "tags": {
+     "check_date": "2025-10",
+     "description": "Cuban cigars",
+     "level": "0",
+     "name": "CTC",
+     "opening_hours": "Mo-Su 08:00-00:00",
+     "shop": "tobacco"
+    }
+   },
+   {
+    "id": 5889821727,
+    "type": "node",
+    "name": "XY Styled",
+    "coordinates": {
+     "latitude": -33.8914762,
+     "longitude": 151.1953076
+    },
+    "category": "shop",
+    "subcategory": "hairdresser",
+    "tags": {
+     "name": "XY Styled",
+     "shop": "hairdresser"
+    }
+   },
+   {
+    "id": 5909780093,
+    "type": "node",
+    "name": "Mickey’s Fruit & Veg",
+    "coordinates": {
+     "latitude": -33.8924336,
+     "longitude": 151.2038378
+    },
+    "category": "shop",
+    "subcategory": "greengrocer",
+    "tags": {
+     "addr:housenumber": "86",
+     "addr:postcode": "2016",
+     "addr:state": "NSW",
+     "addr:street": "Pitt Street",
+     "addr:suburb": "Redfern",
+     "name": "Mickey’s Fruit & Veg",
+     "opening_hours": "Mo-Sa 07:00-19:00, Su 08:00-16:00",
+     "payment:coins": "yes",
+     "payment:credit_cards": "yes",
+     "payment:debit_cards": "yes",
+     "payment:mastercard": "yes",
+     "payment:notes": "yes",
+     "payment:visa": "yes",
+     "phone": "+61 2 8399 0243",
+     "shop": "greengrocer"
+    }
+   },
+   {
+    "id": 5956222295,
+    "type": "node",
+    "name": "Red Bottle Central",
+    "coordinates": {
+     "latitude": -33.8847989,
+     "longitude": 151.2004599
+    },
+    "category": "shop",
+    "subcategory": "alcohol",
+    "tags": {
+     "addr:floor": "-1",
+     "addr:housenumber": "28",
+     "addr:postcode": "2008",
+     "addr:state": "NSW",
+     "addr:street": "Broadway",
+     "addr:suburb": "Chippendale",
+     "addr:unit": "RB04",
+     "check_date": "2025-08",
+     "level": "-1",
+     "name": "Red Bottle Central",
+     "opening_hours": "Mo-Sa 09:00-22:55, Su 10:00-22:55",
+     "payment": "Cash, Credit Card, Debit Card",
+     "phone": "+61 2 8005 4003",
+     "shop": "alcohol",
+     "website": "https://redbottle.com.au/store-locations/chippendale/"
+    }
+   },
+   {
+    "id": 6006789485,
+    "type": "node",
+    "name": "Raben Footwear",
+    "coordinates": {
+     "latitude": -33.8824547,
+     "longitude": 151.2040411
+    },
+    "category": "shop",
+    "subcategory": "shoes",
+    "tags": {
+     "check_date": "2024-11-10",
+     "name": "Raben Footwear",
+     "opening_hours": "Mo-We,Fr,Sa 09:00-18:00; Th 09:00-20:00; Su 09:30-18:00",
+     "shop": "shoes",
+     "wheelchair": "yes"
+    }
+   },
+   {
+    "id": 6043739771,
+    "type": "node",
+    "name": "Inner Vision Tattoo & Piercing",
+    "coordinates": {
+     "latitude": -33.8891326,
+     "longitude": 151.1985187
+    },
+    "category": "shop",
+    "subcategory": "tattoo",
+    "tags": {
+     "addr:housenumber": "150",
+     "addr:street": "Abercrombie Street",
+     "name": "Inner Vision Tattoo & Piercing",
+     "shop": "tattoo"
+    }
+   },
+   {
+    "id": 6076209000,
+    "type": "node",
+    "name": "Pedl",
+    "coordinates": {
+     "latitude": -33.8943839,
+     "longitude": 151.1992782
+    },
+    "category": "shop",
+    "subcategory": "bicycle",
+    "tags": {
+     "addr:housenumber": "136",
+     "addr:street": "Regent Street",
+     "check_date": "2025-10",
+     "name": "Pedl",
+     "shop": "bicycle"
+    }
+   },
+   {
+    "id": 6125847380,
+    "type": "node",
+    "name": "EzyMart",
+    "coordinates": {
+     "latitude": -33.8829504,
+     "longitude": 151.2070443
+    },
+    "category": "shop",
+    "subcategory": "convenience",
+    "tags": {
+     "brand": "EzyMart",
+     "brand:wikidata": "Q117220554",
+     "level": "1",
+     "name": "EzyMart",
+     "shop": "convenience"
+    }
+   },
+   {
+    "id": 6254951826,
+    "type": "node",
+    "name": "NSW Trainlink Travel Centre",
+    "coordinates": {
+     "latitude": -33.882501,
+     "longitude": 151.2058779
+    },
+    "category": "shop",
+    "subcategory": "ticket",
+    "tags": {
+     "check_date:opening_hours": "2025-07-17",
+     "level": "1",
+     "name": "NSW Trainlink Travel Centre",
+     "opening_hours": "Mo-Su 06:15-20:30",
+     "shop": "ticket",
+     "website": "http://nswtrainlink.info"
+    }
+   },
+   {
+    "id": 6303338780,
+    "type": "node",
+    "name": "Tessuti fabrics",
+    "coordinates": {
+     "latitude": -33.8805316,
+     "longitude": 151.2110267
+    },
+    "category": "shop",
+    "subcategory": "fabric",
+    "tags": {
+     "addr:housenumber": "110",
+     "addr:street": "Commonwealth Street",
+     "check_date": "2025-09",
+     "name": "Tessuti fabrics",
+     "shop": "fabric",
+     "website": "https://www.tessuti.com.au/"
+    }
+   },
+   {
+    "id": 6308025287,
+    "type": "node",
+    "name": "Fleur de flo",
+    "coordinates": {
+     "latitude": -33.8950975,
+     "longitude": 151.1981041
+    },
+    "category": "shop",
+    "subcategory": "florist",
+    "tags": {
+     "addr:housenumber": "1",
+     "addr:street": "Wyndham Street",
+     "check_date": "2024-11-26",
+     "check_date:opening_hours": "2024-11-26",
+     "name": "Fleur de flo",
+     "opening_hours:signed": "no",
+     "shop": "florist",
+     "website": "https://fleurdeflo.com.au"
+    }
+   },
+   {
+    "id": 6487934930,
+    "type": "node",
+    "name": "Chambers Fine Coffee",
+    "coordinates": {
+     "latitude": -33.8811292,
+     "longitude": 151.2027846
+    },
+    "category": "shop",
+    "subcategory": "coffee",
+    "tags": {
+     "name": "Chambers Fine Coffee",
+     "opening_hours": "Mo-Fr 06:00-16:00; Sa,Su 06:00-15:00",
+     "shop": "coffee"
+    }
+   },
+   {
+    "id": 6590135738,
+    "type": "node",
+    "name": "7-Eleven",
+    "coordinates": {
+     "latitude": -33.8860776,
+     "longitude": 151.2083885
+    },
+    "category": "shop",
+    "subcategory": "convenience",
+    "tags": {
+     "brand": "7-Eleven",
+     "brand:wikidata": "Q259340",
+     "name": "7-Eleven",
+     "shop": "convenience"
+    }
+   },
+   {
+    "id": 6738140585,
+    "type": "node",
+    "name": "Bing Lee",
+    "coordinates": {
+     "latitude": -33.8800058,
+     "longitude": 151.2054228
+    },
+    "category": "shop",
+    "subcategory": "electronics",
+    "tags": {
+     "brand": "Bing Lee",
+     "brand:wikidata": "Q4914136",
+     "brand:wikipedia": "en:Bing Lee",
+     "check_date": "2025-02-14",
+     "name": "Bing Lee",
+     "shop": "electronics"
+    }
+   },
+   {
+    "id": 6901192228,
+    "type": "node",
+    "name": "Co-op",
+    "coordinates": {
+     "latitude": -33.890884,
+     "longitude": 151.1920277
+    },
+    "category": "shop",
+    "subcategory": "books",
+    "tags": {
+     "name": "Co-op",
+     "shop": "books"
+    }
+   },
+   {
+    "id": 6919600547,
+    "type": "node",
+    "name": "New Shalimar Movies and Spices",
+    "coordinates": {
+     "latitude": -33.8908749,
+     "longitude": 151.2131682
+    },
+    "category": "shop",
+    "subcategory": "convenience",
+    "tags": {
+     "name": "New Shalimar Movies and Spices",
+     "shop": "convenience"
+    }
+   },
+   {
+    "id": 6943941285,
+    "type": "node",
+    "name": "Craft Beer to Take Home",
+    "coordinates": {
+     "latitude": -33.8872233,
+     "longitude": 151.2015139
+    },
+    "category": "shop",
+    "subcategory": "alcohol",
+    "tags": {
+     "name": "Craft Beer to Take Home",
+     "shop": "alcohol"
+    }
+   },
+   {
+    "id": 6981900799,
+    "type": "node",
+    "name": "KK Supermarket",
+    "coordinates": {
+     "latitude": -33.8913611,
+     "longitude": 151.1956808
+    },
+    "category": "shop",
+    "subcategory": "supermarket",
+    "tags": {
+     "name": "KK Supermarket",
+     "shop": "supermarket"
+    }
+   },
+   {
+    "id": 6982483998,
+    "type": "node",
+    "name": "Laundromat",
+    "coordinates": {
+     "latitude": -33.8809429,
+     "longitude": 151.2089524
+    },
+    "category": "shop",
+    "subcategory": "laundry",
+    "tags": {
+     "addr:housenumber": "234",
+     "addr:street": "Elizabeth Street",
+     "name": "Laundromat",
+     "shop": "laundry"
+    }
+   },
+   {
+    "id": 6982533693,
+    "type": "node",
+    "name": "The Illustrated Man",
+    "coordinates": {
+     "latitude": -33.8807814,
+     "longitude": 151.208983
+    },
+    "category": "shop",
+    "subcategory": "tattoo",
+    "tags": {
+     "addr:housenumber": "226",
+     "addr:street": "Elizabeth Street",
+     "name": "The Illustrated Man",
+     "shop": "tattoo"
+    }
+   },
+   {
+    "id": 7599111586,
+    "type": "node",
+    "name": "New Yen Yen Supermarket",
+    "coordinates": {
+     "latitude": -33.8811911,
+     "longitude": 151.203509
+    },
+    "category": "shop",
+    "subcategory": "supermarket",
+    "tags": {
+     "addr:postcode": "2000",
+     "check_date": "2026-08-04",
+     "level": "1",
+     "name": "New Yen Yen Supermarket",
+     "name:zh": "新人人超市",
+     "shop": "supermarket"
+    }
+   },
+   {
+    "id": 7599111786,
+    "type": "node",
+    "name": "Dong Nam Asian Supermarket",
+    "coordinates": {
+     "latitude": -33.8804095,
+     "longitude": 151.2042071
+    },
+    "category": "shop",
+    "subcategory": "greengrocer",
+    "tags": {
+     "name": "Dong Nam Asian Supermarket",
+     "shop": "greengrocer"
+    }
+   },
+   {
+    "id": 7844967578,
+    "type": "node",
+    "name": "R & R Providores",
+    "coordinates": {
+     "latitude": -33.8927413,
+     "longitude": 151.205606
+    },
+    "category": "shop",
+    "subcategory": "supermarket",
+    "tags": {
+     "description": "Fresh, seasonal fruit and vegetables",
+     "name": "R & R Providores",
+     "shop": "supermarket"
+    }
+   },
+   {
+    "id": 7844968340,
+    "type": "node",
+    "name": "Ambour's Hardware",
+    "coordinates": {
+     "latitude": -33.8929355,
+     "longitude": 151.2042611
+    },
+    "category": "shop",
+    "subcategory": "hardware",
+    "tags": {
+     "check_date": "2025-07-03",
+     "name": "Ambour's Hardware",
+     "opening_hours": "Mo-Fr 08:00-17:00; Sa 08:00-14:00",
+     "phone": "+61 2 8937 0556",
+     "shop": "hardware"
+    }
+   },
+   {
+    "id": 7965363459,
+    "type": "node",
+    "name": "Hair by Tommy J",
+    "coordinates": {
+     "latitude": -33.8929263,
+     "longitude": 151.2019576
+    },
+    "category": "shop",
+    "subcategory": "hairdresser",
+    "tags": {
+     "name": "Hair by Tommy J",
+     "shop": "hairdresser"
+    }
+   },
+   {
+    "id": 8329454421,
+    "type": "node",
+    "name": "Little Fern",
+    "coordinates": {
+     "latitude": -33.8924601,
+     "longitude": 151.2002597
+    },
+    "category": "shop",
+    "subcategory": "bakery",
+    "tags": {
+     "name": "Little Fern",
+     "shop": "bakery",
+     "website": "https://www.breadfern.com.au/"
+    }
+   },
+   {
+    "id": 8585789856,
+    "type": "node",
+    "name": "Lux Property",
+    "coordinates": {
+     "latitude": -33.8848024,
+     "longitude": 151.2012502
+    },
+    "category": "shop",
+    "subcategory": "estate_agent",
+    "tags": {
+     "name": "Lux Property",
+     "shop": "estate_agent"
+    }
+   },
+   {
+    "id": 8879221357,
+    "type": "node",
+    "name": "ResMed",
+    "coordinates": {
+     "latitude": -33.8855993,
+     "longitude": 151.2089698
+    },
+    "category": "shop",
+    "subcategory": "electronics",
+    "tags": {
+     "addr:housenumber": "27",
+     "addr:postcode": "2010",
+     "addr:state": "NSW",
+     "addr:street": "Cooper Street",
+     "addr:suburb": "Surry Hills",
+     "check_date": "2026-03-30",
+     "name": "ResMed",
+     "opening_hours": "Mo-Fr 08:00-17:00, Sa 09:00-15:00",
+     "operator": "Resmed",
+     "phone:AU": "1300 692 727",
+     "shop": "electronics",
+     "website": "https://resmed.com.au"
+    }
+   },
+   {
+    "id": 9195271975,
+    "type": "node",
+    "name": "Romeo's Food Hall",
+    "coordinates": {
+     "latitude": -33.8944115,
+     "longitude": 151.1959306
+    },
+    "category": "shop",
+    "subcategory": "supermarket",
+    "tags": {
+     "name": "Romeo's Food Hall",
+     "shop": "supermarket"
+    }
+   },
+   {
+    "id": 9420161770,
+    "type": "node",
+    "name": "Unnamed",
+    "coordinates": {
+     "latitude": -33.8895114,
+     "longitude": 151.2071528
+    },
+    "category": "shop",
+    "subcategory": "bicycle",
+    "tags": {
+     "phone": "+61 2 9569 6161",
+     "shop": "bicycle"
+    }
+   },
+   {
+    "id": 9642489579,
+    "type": "node",
+    "name": "The Reject Shop",
+    "coordinates": {
+     "latitude": -33.8830498,
+     "longitude": 151.1939067
+    },
+    "category": "shop",
+    "subcategory": "variety_store",
+    "tags": {
+     "brand": "The Reject Shop",
+     "brand:wikidata": "Q7760092",
+     "name": "The Reject Shop",
+     "shop": "variety_store"
+    }
+   },
+   {
+    "id": 9642494616,
+    "type": "node",
+    "name": "Telstra",
+    "coordinates": {
+     "latitude": -33.8829772,
+     "longitude": 151.1940172
+    },
+    "category": "shop",
+    "subcategory": "mobile_phone",
+    "tags": {
+     "brand": "Telstra",
+     "brand:wikidata": "Q721162",
+     "name": "Telstra",
+     "opening_hours": "Mo-Su 10:00-17:00",
+     "shop": "mobile_phone",
+     "wheelchair": "yes"
+    }
+   },
+   {
+    "id": 9660380317,
+    "type": "node",
+    "name": "7-Eleven",
+    "coordinates": {
+     "latitude": -33.8830557,
+     "longitude": 151.1911123
+    },
+    "category": "shop",
+    "subcategory": "convenience",
+    "tags": {
+     "brand": "7-Eleven",
+     "brand:wikidata": "Q259340",
+     "name": "7-Eleven",
+     "shop": "convenience"
+    }
+   },
+   {
+    "id": 9819324660,
+    "type": "node",
+    "name": "Coral Peak Convenience Store",
+    "coordinates": {
+     "latitude": -33.8810692,
+     "longitude": 151.1983504
+    },
+    "category": "shop",
+    "subcategory": "convenience",
+    "tags": {
+     "check_date": "2025-04-05",
+     "check_date:opening_hours": "2023-12-14",
+     "name": "Coral Peak Convenience Store",
+     "opening_hours:signed": "no",
+     "shop": "convenience"
+    }
+   },
+   {
+    "id": 10107331305,
+    "type": "node",
+    "name": "Blue Spinach",
+    "coordinates": {
+     "latitude": -33.8922785,
+     "longitude": 151.2070849
+    },
+    "category": "shop",
+    "subcategory": "clothes",
+    "tags": {
+     "addr:housenumber": "619",
+     "addr:street": "Elizabeth Street",
+     "addr:unit": "1",
+     "contact:facebook": "https://www.facebook.com/bluespinachconsignment/",
+     "name": "Blue Spinach",
+     "opening_hours": "Mo-Fr 09:30-17:30 \"by appointment\"",
+     "phone": "+61 2 9331 3904",
+     "shop": "clothes",
+     "website": "https://bluespinach.com.au/"
+    }
+   },
+   {
+    "id": 10127097926,
+    "type": "node",
+    "name": "Unnamed",
+    "coordinates": {
+     "latitude": -33.8923168,
+     "longitude": 151.2013004
+    },
+    "category": "shop",
+    "subcategory": "vacant",
+    "tags": {
+     "check_date": "2026-08-24",
+     "old_name": "Bitcoin Rocket Cafe",
+     "shop": "vacant",
+     "was:amenity": "cafe"
+    }
+   },
+   {
+    "id": 10181545225,
+    "type": "node",
+    "name": "Provider Store",
+    "coordinates": {
+     "latitude": -33.8850598,
+     "longitude": 151.2125835
+    },
+    "category": "shop",
+    "subcategory": "houseware",
+    "tags": {
+     "check_date": "2025-09",
+     "name": "Provider Store",
+     "opening_hours": "Mo-Fr 10:00-17:30, Sa 10:00-17:00, Su 11:00-17:00",
+     "shop": "houseware",
+     "website": "https://providerstore.com.au"
+    }
+   },
+   {
+    "id": 10202690541,
+    "type": "node",
+    "name": "Shapiro",
+    "coordinates": {
+     "latitude": -33.8869105,
+     "longitude": 151.2000876
+    },
+    "category": "shop",
+    "subcategory": "art",
+    "tags": {
+     "check_date": "2025-02-05",
+     "name": "Shapiro",
+     "shop": "art",
+     "website": "https://shapiro.com.au"
+    }
+   },
+   {
+    "id": 10202702737,
+    "type": "node",
+    "name": "In Syle",
+    "coordinates": {
+     "latitude": -33.8859635,
+     "longitude": 151.1989135
+    },
+    "category": "shop",
+    "subcategory": "hairdresser",
+    "tags": {
+     "check_date": "2026-04",
+     "name": "In Syle",
+     "opening_hours": "Mo-Sa 11:00-19:00",
+     "shop": "hairdresser"
+    }
+   },
+   {
+    "id": 10289235470,
+    "type": "node",
+    "name": "Humble",
+    "coordinates": {
+     "latitude": -33.8862924,
+     "longitude": 151.2094272
+    },
+    "category": "shop",
+    "subcategory": "bakery",
+    "tags": {
+     "addr:housenumber": "50",
+     "addr:street": "Holt Street",
+     "indoor_seating": "yes",
+     "indoor_seating:comfort": "chair",
+     "name": "Humble",
+     "opening_hours": "Mo-Fr 07:00-15:00; Sa-Su 08:00-14:00",
+     "outdoor_seating": "yes",
+     "outdoor_seating:comfort": "stool;chair",
+     "shop": "bakery",
+     "toilets": "yes",
+     "website": "https://humblesydney.com/"
+    }
+   },
+   {
+    "id": 10316177663,
+    "type": "node",
+    "name": "Unnamed",
+    "coordinates": {
+     "latitude": -33.8917551,
+     "longitude": 151.2008317
+    },
+    "category": "shop",
+    "subcategory": "vacant",
+    "tags": {
+     "addr:housenumber": "101",
+     "addr:postcode": "2016",
+     "addr:state": "NSW",
+     "addr:street": "Regent Street",
+     "check_date": "2026-09-09",
+     "opening_hours": "closed",
+     "shop": "vacant"
+    }
+   },
+   {
+    "id": 10605114190,
+    "type": "node",
+    "name": "Snog The Frog",
+    "coordinates": {
+     "latitude": -33.8864544,
+     "longitude": 151.2098415
+    },
+    "category": "shop",
+    "subcategory": "clothes",
+    "tags": {
+     "check_date": "2025-05",
+     "name": "Snog The Frog",
+     "shop": "clothes",
+     "website": "https://snogthefrog.com.au"
+    }
+   },
+   {
+    "id": 10605114191,
+    "type": "node",
+    "name": "Kippaloo",
+    "coordinates": {
+     "latitude": -33.885487,
+     "longitude": 151.2112217
+    },
+    "category": "shop",
+    "subcategory": "coffee",
+    "tags": {
+     "indoor_seating": "yes",
+     "name": "Kippaloo",
+     "opening_hours": "Mo-Sa 07:00-15:30",
+     "outdoor_seating": "yes",
+     "shop": "coffee"
+    }
+   },
+   {
+    "id": 10607653558,
+    "type": "node",
+    "name": "Red Bottle",
+    "coordinates": {
+     "latitude": -33.8838975,
+     "longitude": 151.208424
+    },
+    "category": "shop",
+    "subcategory": "alcohol",
+    "tags": {
+     "check_date": "2026-05-15",
+     "name": "Red Bottle",
+     "opening_hours": "Mo-Sa 10:00-22:55; Su 10:00-21:55",
+     "shop": "alcohol"
+    }
+   },
+   {
+    "id": 10636111252,
+    "type": "node",
+    "name": "Australian Design & Co",
+    "coordinates": {
+     "latitude": -33.8824479,
+     "longitude": 151.2068456
+    },
+    "category": "shop",
+    "subcategory": "furniture",
+    "tags": {
+     "check_date": "2025-05-26",
+     "name": "Australian Design & Co",
+     "shop": "furniture"
+    }
+   },
+   {
+    "id": 10648006085,
+    "type": "node",
+    "name": "Just Flowers",
+    "coordinates": {
+     "latitude": -33.8827398,
+     "longitude": 151.2073056
+    },
+    "category": "shop",
+    "subcategory": "florist",
+    "tags": {
+     "check_date": "2025-07-04",
+     "name": "Just Flowers",
+     "shop": "florist"
+    }
+   },
+   {
+    "id": 10650874271,
+    "type": "node",
+    "name": "Unnamed",
+    "coordinates": {
+     "latitude": -33.8855852,
+     "longitude": 151.2124508
+    },
+    "category": "shop",
+    "subcategory": "hairdresser",
+    "tags": {
+     "shop": "hairdresser"
+    }
+   },
+   {
+    "id": 10650874272,
+    "type": "node",
+    "name": "Native Drops",
+    "coordinates": {
+     "latitude": -33.8880367,
+     "longitude": 151.2133518
+    },
+    "category": "shop",
+    "subcategory": "alcohol",
+    "tags": {
+     "name": "Native Drops",
+     "opening_hours": "Mo 03:00-08:00, Tu-Th 12:00-20:00, Fr-Sa 10:00-20:00, Su 10:00-18:00",
+     "shop": "alcohol"
+    }
+   },
+   {
+    "id": 10679626430,
+    "type": "node",
+    "name": "Porters Liquor",
+    "coordinates": {
+     "latitude": -33.8859599,
+     "longitude": 151.2083542
+    },
+    "category": "shop",
+    "subcategory": "alcohol",
+    "tags": {
+     "check_date": "2025-06-21",
+     "name": "Porters Liquor",
+     "opening_hours": "Mo 10:00-20:00, Tu-We 10:00-20:00, Th-Sa 10:00-20:45, Su 10:00-19:00",
+     "shop": "alcohol"
+    }
+   },
+   {
+    "id": 10679626439,
+    "type": "node",
+    "name": "Style State",
+    "coordinates": {
+     "latitude": -33.8851429,
+     "longitude": 151.2103174
+    },
+    "category": "shop",
+    "subcategory": "wholesale",
+    "tags": {
+     "name": "Style State",
+     "shop": "wholesale"
+    }
+   },
+   {
+    "id": 10679626452,
+    "type": "node",
+    "name": "Mint Vanilla",
+    "coordinates": {
+     "latitude": -33.8853882,
+     "longitude": 151.2102511
+    },
+    "category": "shop",
+    "subcategory": "wholesale",
+    "tags": {
+     "name": "Mint Vanilla",
+     "shop": "wholesale"
+    }
+   },
+   {
+    "id": 10679626455,
+    "type": "node",
+    "name": "Hot Pink Fashion",
+    "coordinates": {
+     "latitude": -33.885765,
+     "longitude": 151.2100548
+    },
+    "category": "shop",
+    "subcategory": "wholesale",
+    "tags": {
+     "name": "Hot Pink Fashion",
+     "shop": "wholesale"
+    }
+   },
+   {
+    "id": 10679626459,
+    "type": "node",
+    "name": "Snap",
+    "coordinates": {
+     "latitude": -33.8856184,
+     "longitude": 151.2091365
+    },
+    "category": "shop",
+    "subcategory": "printer_ink",
+    "tags": {
+     "check_date": "2026-09",
+     "name": "Snap",
+     "opening_hours": "Mo 08:30-17:00",
+     "shop": "printer_ink"
+    }
+   },
+   {
+    "id": 10679626468,
+    "type": "node",
+    "name": "La Strada",
+    "coordinates": {
+     "latitude": -33.8855153,
+     "longitude": 151.2087636
+    },
+    "category": "shop",
+    "subcategory": "wholesale",
+    "tags": {
+     "check_date": "2026-03-30",
+     "name": "La Strada",
+     "shop": "wholesale"
+    }
+   },
+   {
+    "id": 10679626489,
+    "type": "node",
+    "name": "Bubblegum Clothing",
+    "coordinates": {
+     "latitude": -33.8845223,
+     "longitude": 151.2093166
+    },
+    "category": "shop",
+    "subcategory": "wholesale",
+    "tags": {
+     "name": "Bubblegum Clothing",
+     "shop": "wholesale"
+    }
+   },
+   {
+    "id": 10700618864,
+    "type": "node",
+    "name": "Elms",
+    "coordinates": {
+     "latitude": -33.8854937,
+     "longitude": 151.2138394
+    },
+    "category": "shop",
+    "subcategory": "fashion_accessories",
+    "tags": {
+     "check_date": "2025-07",
+     "name": "Elms",
+     "shop": "fashion_accessories"
+    }
+   },
+   {
+    "id": 10703343348,
+    "type": "node",
+    "name": "Kürtősh",
+    "coordinates": {
+     "latitude": -33.8951255,
+     "longitude": 151.1962874
+    },
+    "category": "shop",
+    "subcategory": "pastry",
+    "tags": {
+     "brand": "Kürtősh",
+     "brand:wikidata": "Q117257108",
+     "check_date": "2024-08-13",
+     "cuisine": "hungarian",
+     "name": "Kürtősh",
+     "opening_hours": "Mo-Fr 07:00-18:00; Sa-Su 08:00-18:00; PH closed",
+     "payment:credit_cards": "yes",
+     "payment:debit_cards": "yes",
+     "shop": "pastry",
+     "wheelchair": "yes"
+    }
+   },
+   {
+    "id": 10800572143,
+    "type": "node",
+    "name": "SkinKandy Broadway",
+    "coordinates": {
+     "latitude": -33.8836798,
+     "longitude": 151.1946827
+    },
+    "category": "shop",
+    "subcategory": "piercing",
+    "tags": {
+     "addr:unit": "224",
+     "name": "SkinKandy Broadway",
+     "phone": "+61 2 9189 7773",
+     "shop": "piercing",
+     "website": "https://skinkandy.com/pages/location-details-broadway"
+    }
+   },
+   {
+    "id": 10801245154,
+    "type": "node",
+    "name": "El Loco Bottle Shop",
+    "coordinates": {
+     "latitude": -33.8844188,
+     "longitude": 151.21124
+    },
+    "category": "shop",
+    "subcategory": "alcohol",
+    "tags": {
+     "name": "El Loco Bottle Shop",
+     "opening_hours": "Mo-Fr 11:00-23:00; Sa 12:00-23:00; Su 12:00-22:00",
+     "shop": "alcohol"
+    }
+   },
+   {
+    "id": 10895520188,
+    "type": "node",
+    "name": "The Lip Lab",
+    "coordinates": {
+     "latitude": -33.8852775,
+     "longitude": 151.2118525
+    },
+    "category": "shop",
+    "subcategory": "beauty",
+    "tags": {
+     "name": "The Lip Lab",
+     "shop": "beauty"
+    }
+   },
+   {
+    "id": 10925938063,
+    "type": "node",
+    "name": "Holt Convenience Store",
+    "coordinates": {
+     "latitude": -33.8859973,
+     "longitude": 151.2091603
+    },
+    "category": "shop",
+    "subcategory": "convenience",
+    "tags": {
+     "name": "Holt Convenience Store",
+     "shop": "convenience"
+    }
+   },
+   {
+    "id": 10948424184,
+    "type": "node",
+    "name": "Petbarn",
+    "coordinates": {
+     "latitude": -33.8842194,
+     "longitude": 151.2098816
+    },
+    "category": "shop",
+    "subcategory": "pet",
+    "tags": {
+     "brand": "Petbarn",
+     "brand:wikidata": "Q104746468",
+     "name": "Petbarn",
+     "shop": "pet"
+    }
+   },
+   {
+    "id": 10948424187,
+    "type": "node",
+    "name": "Kwik Copy",
+    "coordinates": {
+     "latitude": -33.883341,
+     "longitude": 151.2090505
+    },
+    "category": "shop",
+    "subcategory": "copyshop",
+    "tags": {
+     "check_date": "2026-09",
+     "name": "Kwik Copy",
+     "shop": "copyshop"
+    }
+   },
+   {
+    "id": 11060801581,
+    "type": "node",
+    "name": "Friends & Family",
+    "coordinates": {
+     "latitude": -33.8874585,
+     "longitude": 151.1990646
+    },
+    "category": "shop",
+    "subcategory": "hairdresser",
+    "tags": {
+     "name": "Friends & Family",
+     "shop": "hairdresser"
+    }
+   },
+   {
+    "id": 11068522219,
+    "type": "node",
+    "name": "Title",
+    "coordinates": {
+     "latitude": -33.8884344,
+     "longitude": 151.2132738
+    },
+    "category": "shop",
+    "subcategory": "books",
+    "tags": {
+     "name": "Title",
+     "shop": "books"
+    }
+   },
+   {
+    "id": 11223530133,
+    "type": "node",
+    "name": "Pastorale Flower",
+    "coordinates": {
+     "latitude": -33.8851896,
+     "longitude": 151.1987905
+    },
+    "category": "shop",
+    "subcategory": "florist",
+    "tags": {
+     "check_date": "2025-06",
+     "name": "Pastorale Flower",
+     "opening_hours": "Mo-Su 09:00-17:00",
+     "shop": "florist",
+     "website": "https://pastoraleflower.com.au"
+    }
+   },
+   {
+    "id": 11223543041,
+    "type": "node",
+    "name": "Unnamed",
+    "coordinates": {
+     "latitude": -33.8852974,
+     "longitude": 151.1987901
+    },
+    "category": "shop",
+    "subcategory": "vacant",
+    "tags": {
+     "check_date": "2025-06",
+     "fixme": "Leased - new shop soon",
+     "shop": "vacant"
+    }
+   },
+   {
+    "id": 11223543048,
+    "type": "node",
+    "name": "Cult",
+    "coordinates": {
+     "latitude": -33.8867851,
+     "longitude": 151.197606
+    },
+    "category": "shop",
+    "subcategory": "furniture",
+    "tags": {
+     "check_date": "2025-06",
+     "name": "Cult",
+     "shop": "furniture"
+    }
+   },
+   {
+    "id": 11345548181,
+    "type": "node",
+    "name": "Museum Shop",
+    "coordinates": {
+     "latitude": -33.8853912,
+     "longitude": 151.1902748
+    },
+    "category": "shop",
+    "subcategory": "gift",
+    "tags": {
+     "email": "ccwm.shop@sydney.edu.au",
+     "name": "Museum Shop",
+     "opening_hours": "Mo-Fr 10:00-17:00; Sa-Su 12:00-16:00",
+     "phone": "+61 2 9114 4708",
+     "shop": "gift",
+     "website": "https://www.sydney.edu.au/museum/about-us/cafe-and-shop.html"
+    }
+   },
+   {
+    "id": 11374704302,
+    "type": "node",
+    "name": "TSG",
+    "coordinates": {
+     "latitude": -33.8843297,
+     "longitude": 151.2016286
+    },
+    "category": "shop",
+    "subcategory": "convenience",
+    "tags": {
+     "addr:housenumber": "16-18",
+     "addr:street": "Broadway",
+     "check_date": "2026-06-30",
+     "name": "TSG",
+     "shop": "convenience"
+    }
+   },
+   {
+    "id": 11374704309,
+    "type": "node",
+    "name": "Headz Up",
+    "coordinates": {
+     "latitude": -33.8852169,
+     "longitude": 151.2018243
+    },
+    "category": "shop",
+    "subcategory": "hairdresser",
+    "tags": {
+     "check_date": "2025-02",
+     "name": "Headz Up",
+     "shop": "hairdresser"
+    }
+   },
+   {
+    "id": 11374704319,
+    "type": "node",
+    "name": "Neverland Flora",
+    "coordinates": {
+     "latitude": -33.8844461,
+     "longitude": 151.2016534
+    },
+    "category": "shop",
+    "subcategory": "florist",
+    "tags": {
+     "check_date": "2025-02",
+     "name": "Neverland Flora",
+     "shop": "florist"
+    }
+   },
+   {
+    "id": 11374704328,
+    "type": "node",
+    "name": "Peacock",
+    "coordinates": {
+     "latitude": -33.8851817,
+     "longitude": 151.2018137
+    },
+    "category": "shop",
+    "subcategory": "beauty",
+    "tags": {
+     "beauty": "nails",
+     "check_date": "2025-02",
+     "name": "Peacock",
+     "shop": "beauty"
+    }
+   },
+   {
+    "id": 11374704330,
+    "type": "node",
+    "name": "Unnamed",
+    "coordinates": {
+     "latitude": -33.8849858,
+     "longitude": 151.201769
+    },
+    "category": "shop",
+    "subcategory": "vacant",
+    "tags": {
+     "check_date": "2025-02",
+     "colour": "green",
+     "shop": "vacant"
+    }
+   },
+   {
+    "id": 11602188727,
+    "type": "node",
+    "name": "Sydneywide Printer Copier Repairs",
+    "coordinates": {
+     "latitude": -33.8843686,
+     "longitude": 151.1925722
+    },
+    "category": "shop",
+    "subcategory": "copyshop",
+    "tags": {
+     "addr:housenumber": "2-12",
+     "addr:postcode": "2037",
+     "addr:state": "NSW",
+     "addr:street": "Glebe Point Road",
+     "addr:suburb": "Glebe",
+     "addr:unit": "Shop 6",
+     "name": "Sydneywide Printer Copier Repairs",
+     "opening_hours": "Mo-Fr 09:00-17:00",
+     "phone": "+61 2 8570 8600",
+     "shop": "copyshop",
+     "website": "http://sydneywideprintercopierrepairs.com.au"
+    }
+   },
+   {
+    "id": 11749863708,
+    "type": "node",
+    "name": "Woolworths Metro",
+    "coordinates": {
+     "latitude": -33.8920493,
+     "longitude": 151.1998321
+    },
+    "category": "shop",
+    "subcategory": "supermarket",
+    "tags": {
+     "brand": "Woolworths Metro",
+     "brand:wikidata": "Q111772555",
+     "name": "Woolworths Metro",
+     "operator": "Woolworths Group",
+     "operator:wikidata": "Q607272",
+     "shop": "supermarket"
+    }
+   },
+   {
+    "id": 11749863709,
+    "type": "node",
+    "name": "Foodworks",
+    "coordinates": {
+     "latitude": -33.8924002,
+     "longitude": 151.1996512
+    },
+    "category": "shop",
+    "subcategory": "supermarket",
+    "tags": {
+     "brand": "Foodworks",
+     "brand:wikidata": "Q5465579",
+     "name": "Foodworks",
+     "opening_hours": "Mo-Fr 06:30-22:00; Sa 07:00-22:00; Su 07:00-21:00",
+     "shop": "supermarket"
+    }
+   },
+   {
+    "id": 11754858246,
+    "type": "node",
+    "name": "Hungry Jacks",
+    "coordinates": {
+     "latitude": -33.8844381,
+     "longitude": 151.2002317
+    },
+    "category": "shop",
+    "subcategory": "construction",
+    "tags": {
+     "check_date": "2026-07",
+     "name": "Hungry Jacks",
+     "shop": "construction"
+    }
+   },
+   {
+    "id": 11799208600,
+    "type": "node",
+    "name": "Unnamed",
+    "coordinates": {
+     "latitude": -33.8931916,
+     "longitude": 151.2002009
+    },
+    "category": "shop",
+    "subcategory": "hairdresser",
+    "tags": {
+     "hairdresser": "barber",
+     "shop": "hairdresser"
+    }
+   },
+   {
+    "id": 11865362045,
+    "type": "node",
+    "name": "Halliday Baillie",
+    "coordinates": {
+     "latitude": -33.8880461,
+     "longitude": 151.2003969
+    },
+    "category": "shop",
+    "subcategory": "doityourself",
+    "tags": {
+     "check_date": "2024-10-06",
+     "description": "Exclusive architectural fittings",
+     "name": "Halliday Baillie",
+     "shop": "doityourself",
+     "website": "https://hallidaybaillie.com"
+    }
+   },
+   {
+    "id": 11865362052,
+    "type": "node",
+    "name": "Hello Fresh Customer Care",
+    "coordinates": {
+     "latitude": -33.8872233,
+     "longitude": 151.2006847
+    },
+    "category": "shop",
+    "subcategory": "wholesale",
+    "tags": {
+     "addr:housenumber": "15-17",
+     "name": "Hello Fresh Customer Care",
+     "shop": "wholesale",
+     "source": "survey"
+    }
+   },
+   {
+    "id": 11865408769,
+    "type": "node",
+    "name": "Amazing Asian Market",
+    "coordinates": {
+     "latitude": -33.885233,
+     "longitude": 151.2006398
+    },
+    "category": "shop",
+    "subcategory": "supermarket",
+    "tags": {
+     "check_date": "2026-09",
+     "name": "Amazing Asian Market",
+     "shop": "supermarket"
+    }
+   },
+   {
+    "id": 11865408787,
+    "type": "node",
+    "name": "Unnamed",
+    "coordinates": {
+     "latitude": -33.8855204,
+     "longitude": 151.2026261
+    },
+    "category": "shop",
+    "subcategory": "bicycle",
+    "tags": {
+     "addr:housenumber": "49",
+     "addr:street": "Regent Street",
+     "addr:unit": "2",
+     "check_date": "2026-02",
+     "demolished": "yes",
+     "note": "This shop was destoryed by fire 2025-09-10. Tarp is still over windows and is unrepaired as of 2026-02",
+     "phone": "+61 422 479 364",
+     "shop": "bicycle"
+    }
+   },
+   {
+    "id": 11865408788,
+    "type": "node",
+    "name": "WBB",
+    "coordinates": {
+     "latitude": -33.8877084,
+     "longitude": 151.2008087
+    },
+    "category": "shop",
+    "subcategory": "wholesale",
+    "tags": {
+     "addr:housenumber": "29",
+     "description": "Home of Softlite, Stealth, Mullet, DaFin, Nalu and Solarez",
+     "name": "WBB",
+     "phone": "+61 2 9318 7400",
+     "shop": "wholesale",
+     "source": "survey"
+    }
+   },
+   {
+    "id": 11890769216,
+    "type": "node",
+    "name": "Ropetek Swrvifes Pty Ltd",
+    "coordinates": {
+     "latitude": -33.8893298,
+     "longitude": 151.2019738
+    },
+    "category": "shop",
+    "subcategory": "repair",
+    "tags": {
+     "check_date": "2026-09-14",
+     "name": "Ropetek Swrvifes Pty Ltd",
+     "shop": "repair",
+     "start_date": "1998",
+     "website": "https://ropetek.com.au"
+    }
+   },
+   {
+    "id": 11890769242,
+    "type": "node",
+    "name": "Arboreta",
+    "coordinates": {
+     "latitude": -33.8893517,
+     "longitude": 151.2019577
+    },
+    "category": "shop",
+    "subcategory": "garden_centre",
+    "tags": {
+     "check_date": "2026-09-14",
+     "description": "Indoor plant hire & maintenance",
+     "name": "Arboreta",
+     "shop": "garden_centre",
+     "website": "https://arboreta.com.au"
+    }
+   },
+   {
+    "id": 11890769250,
+    "type": "node",
+    "name": "Unnamed",
+    "coordinates": {
+     "latitude": -33.8896181,
+     "longitude": 151.201793
+    },
+    "category": "shop",
+    "subcategory": "vacant",
+    "tags": {
+     "check_date": "2026-04-26",
+     "shop": "vacant"
+    }
+   },
+   {
+    "id": 11919551591,
+    "type": "node",
+    "name": "The Prep Room - Hair Salon",
+    "coordinates": {
+     "latitude": -33.8806756,
+     "longitude": 151.2093404
+    },
+    "category": "shop",
+    "subcategory": "hairdresser",
+    "tags": {
+     "addr:housenumber": "37",
+     "addr:street": "Foster Street",
+     "addr:unit": "1",
+     "name": "The Prep Room - Hair Salon",
+     "shop": "hairdresser"
+    }
+   },
+   {
+    "id": 12061321619,
+    "type": "node",
+    "name": "Fuzzy Monsters",
+    "coordinates": {
+     "latitude": -33.8863648,
+     "longitude": 151.2017789
+    },
+    "category": "shop",
+    "subcategory": "pet",
+    "tags": {
+     "name": "Fuzzy Monsters",
+     "shop": "pet"
+    }
+   },
+   {
+    "id": 12066209099,
+    "type": "node",
+    "name": "Unnamed",
+    "coordinates": {
+     "latitude": -33.8850283,
+     "longitude": 151.2006407
+    },
+    "category": "shop",
+    "subcategory": "vacant",
+    "tags": {
+     "check_date": "2026-09",
+     "shop": "vacant"
+    }
+   },
+   {
+    "id": 12101659683,
+    "type": "node",
+    "name": "Vinnies",
+    "coordinates": {
+     "latitude": -33.8904266,
+     "longitude": 151.2128826
+    },
+    "category": "shop",
+    "subcategory": "charity",
+    "tags": {
+     "brand": "Vinnies",
+     "brand:wikidata": "Q120646672",
+     "name": "Vinnies",
+     "shop": "charity"
+    }
+   },
+   {
+    "id": 12163032634,
+    "type": "node",
+    "name": "Vintage Cellars",
+    "coordinates": {
+     "latitude": -33.8919091,
+     "longitude": 151.2119943
+    },
+    "category": "shop",
+    "subcategory": "alcohol",
+    "tags": {
+     "brand": "Vintage Cellars",
+     "brand:wikidata": "Q7932815",
+     "level": "-1",
+     "name": "Vintage Cellars",
+     "shop": "alcohol"
+    }
+   },
+   {
+    "id": 12163032635,
+    "type": "node",
+    "name": "Coles",
+    "coordinates": {
+     "latitude": -33.8919417,
+     "longitude": 151.2120328
+    },
+    "category": "shop",
+    "subcategory": "supermarket",
+    "tags": {
+     "brand": "Coles",
+     "brand:wikidata": "Q1108172",
+     "level": "-1",
+     "name": "Coles",
+     "operator": "Coles Group",
+     "operator:wikidata": "Q131937428",
+     "shop": "supermarket"
+    }
+   },
+   {
+    "id": 12163032636,
+    "type": "node",
+    "name": "Harris Farm",
+    "coordinates": {
+     "latitude": -33.8917353,
+     "longitude": 151.2120732
+    },
+    "category": "shop",
+    "subcategory": "supermarket",
+    "tags": {
+     "level": "-1",
+     "name": "Harris Farm",
+     "shop": "supermarket"
+    }
+   },
+   {
+    "id": 12163251893,
+    "type": "node",
+    "name": "Maloney's",
+    "coordinates": {
+     "latitude": -33.8866732,
+     "longitude": 151.2138781
+    },
+    "category": "shop",
+    "subcategory": "supermarket",
+    "tags": {
+     "name": "Maloney's",
+     "shop": "supermarket"
+    }
+   },
+   {
+    "id": 12174001781,
+    "type": "node",
+    "name": "Liquor and Wattle Ultimo",
+    "coordinates": {
+     "latitude": -33.8807775,
+     "longitude": 151.1963345
+    },
+    "category": "shop",
+    "subcategory": "alcohol",
+    "tags": {
+     "drive_through": "no",
+     "name": "Liquor and Wattle Ultimo",
+     "operator": "Local Liquor",
+     "phone": "+61 2 9280 0845",
+     "shop": "alcohol",
+     "website": "https://localliquor.com.au/store/liquor-and-wattle-ultimo-522"
+    }
+   },
+   {
+    "id": 12176799475,
+    "type": "node",
+    "name": "Unnamed",
+    "coordinates": {
+     "latitude": -33.8847758,
+     "longitude": 151.1972853
+    },
+    "category": "shop",
+    "subcategory": "vacant",
+    "tags": {
+     "check_date": "2025-09-17",
+     "shop": "vacant"
+    }
+   },
+   {
+    "id": 12177991177,
+    "type": "node",
+    "name": "IGA",
+    "coordinates": {
+     "latitude": -33.8941577,
+     "longitude": 151.1961256
+    },
+    "category": "shop",
+    "subcategory": "supermarket",
+    "tags": {
+     "brand": "IGA",
+     "brand:wikidata": "Q5970945",
+     "name": "IGA",
+     "shop": "supermarket"
+    }
+   },
+   {
+    "id": 12200476478,
+    "type": "node",
+    "name": "Quikstop",
+    "coordinates": {
+     "latitude": -33.884801,
+     "longitude": 151.1998882
+    },
+    "category": "shop",
+    "subcategory": "convenience",
+    "tags": {
+     "check_date": "2026-07",
+     "name": "Quikstop",
+     "opening_hours": "Mo-Fr 07:00-24:00;Sa-Su 00:00-24:00",
+     "shop": "convenience",
+     "website": "https://quikstop.com.au"
+    }
+   },
+   {
+    "id": 12201394715,
+    "type": "node",
+    "name": "Unnamed",
+    "coordinates": {
+     "latitude": -33.8878724,
+     "longitude": 151.2017156
+    },
+    "category": "shop",
+    "subcategory": "convenience",
+    "tags": {
+     "shop": "convenience"
+    }
+   },
+   {
+    "id": 12208368279,
+    "type": "node",
+    "name": "Bestway Tobacconist",
+    "coordinates": {
+     "latitude": -33.884149,
+     "longitude": 151.1977972
+    },
+    "category": "shop",
+    "subcategory": "tobacco",
+    "tags": {
+     "check_date": "2025-06",
+     "name": "Bestway Tobacconist",
+     "opening_hours": "Mo-Fr 09:00-23:00;Sa-Su 10:00-23:00",
+     "shop": "tobacco"
+    }
+   },
+   {
+    "id": 12208368299,
+    "type": "node",
+    "name": "Mobilezone",
+    "coordinates": {
+     "latitude": -33.8841543,
+     "longitude": 151.1977468
+    },
+    "category": "shop",
+    "subcategory": "mobile_phone",
+    "tags": {
+     "check_date": "2025-06",
+     "name": "Mobilezone",
+     "shop": "mobile_phone"
+    }
+   },
+   {
+    "id": 12239973594,
+    "type": "node",
+    "name": "The cBDispensary",
+    "coordinates": {
+     "latitude": -33.8866408,
+     "longitude": 151.2017598
+    },
+    "category": "shop",
+    "subcategory": "vacant",
+    "tags": {
+     "addr:housenumber": "77",
+     "addr:street": "Regent Street",
+     "name": "The cBDispensary",
+     "shop": "vacant"
+    }
+   },
+   {
+    "id": 12240017202,
+    "type": "node",
+    "name": "Simple Beautiful Things",
+    "coordinates": {
+     "latitude": -33.8860755,
+     "longitude": 151.1983801
+    },
+    "category": "shop",
+    "subcategory": "houseware",
+    "tags": {
+     "addr:housenumber": "30",
+     "addr:street": "O'Connor Street",
+     "check_date": "2024-11-20",
+     "name": "Simple Beautiful Things",
+     "opening_hours": "We-Fr 11:00-17:30;Sa 10:00-15:00",
+     "shop": "houseware",
+     "website": "https://simplebeautifulthings.com.au"
+    }
+   },
+   {
+    "id": 12240017204,
+    "type": "node",
+    "name": "Unnamed",
+    "coordinates": {
+     "latitude": -33.8865087,
+     "longitude": 151.2018191
+    },
+    "category": "shop",
+    "subcategory": "vacant",
+    "tags": {
+     "shop": "vacant"
+    }
+   },
+   {
+    "id": 12251641081,
+    "type": "node",
+    "name": "CSSR",
+    "coordinates": {
+     "latitude": -33.888679,
+     "longitude": 151.1984706
+    },
+    "category": "shop",
+    "subcategory": "car_repair",
+    "tags": {
+     "addr:housenumber": "153",
+     "addr:street": "Cleveland Street",
+     "alt_name": "Cleveland Motors",
+     "name": "CSSR",
+     "shop": "car_repair",
+     "start_date": "1969"
+    }
+   },
+   {
+    "id": 12251641084,
+    "type": "node",
+    "name": "Fabric Ruse",
+    "coordinates": {
+     "latitude": -33.8882244,
+     "longitude": 151.1969479
+    },
+    "category": "shop",
+    "subcategory": "fabric",
+    "tags": {
+     "check_date": "2025-09",
+     "name": "Fabric Ruse",
+     "opening_hours": "Tu-Sa 10:00-17:00, Su-Mo off",
+     "shop": "fabric",
+     "website": "https://fabricmuse.com.au"
+    }
+   },
+   {
+    "id": 12251641087,
+    "type": "node",
+    "name": "Candice Golf",
+    "coordinates": {
+     "latitude": -33.8882131,
+     "longitude": 151.1968481
+    },
+    "category": "shop",
+    "subcategory": "yes",
+    "tags": {
+     "check_date": "2026-01",
+     "contact:email": "Candicegolf88@gmail.com",
+     "level": "0",
+     "name": "Candice Golf",
+     "shop": "yes"
+    }
+   },
+   {
+    "id": 12259742201,
+    "type": "node",
+    "name": "Reborne",
+    "coordinates": {
+     "latitude": -33.8880998,
+     "longitude": 151.1989937
+    },
+    "category": "shop",
+    "subcategory": "clothes",
+    "tags": {
+     "check_date": "2026-04",
+     "name": "Reborne",
+     "shop": "clothes"
+    }
+   },
+   {
+    "id": 12259742202,
+    "type": "node",
+    "name": "Rumble & Co",
+    "coordinates": {
+     "latitude": -33.8883348,
+     "longitude": 151.1978246
+    },
+    "category": "shop",
+    "subcategory": "hairdresser",
+    "tags": {
+     "name": "Rumble & Co",
+     "shop": "hairdresser"
+    }
+   },
+   {
+    "id": 12259742205,
+    "type": "node",
+    "name": "Priceworth",
+    "coordinates": {
+     "latitude": -33.8883766,
+     "longitude": 151.1981893
+    },
+    "category": "shop",
+    "subcategory": "furniture",
+    "tags": {
+     "check_date": "2026-01",
+     "name": "Priceworth",
+     "shop": "furniture",
+     "website": "https://priceworth.com.au"
+    }
+   },
+   {
+    "id": 12259742206,
+    "type": "node",
+    "name": "Le’Mark embroidery",
+    "coordinates": {
+     "latitude": -33.8883766,
+     "longitude": 151.1981893
+    },
+    "category": "shop",
+    "subcategory": "fabric",
+    "tags": {
+     "addr:housenumber": "146-152",
+     "addr:street": "Cleveland Street",
+     "addr:unit": "4",
+     "name": "Le’Mark embroidery",
+     "shop": "fabric"
+    }
+   },
+   {
+    "id": 12259742207,
+    "type": "node",
+    "name": "Beat Buds",
+    "coordinates": {
+     "latitude": -33.8883891,
+     "longitude": 151.1990073
+    },
+    "category": "shop",
+    "subcategory": "florist",
+    "tags": {
+     "check_date": "2025-10",
+     "name": "Beat Buds",
+     "shop": "florist",
+     "website": "https://bestbuds.com.au"
+    }
+   },
+   {
+    "id": 12319797694,
+    "type": "node",
+    "name": "Leung Wai Kwe Buddhist Crafts & Joss Stick P/L",
+    "coordinates": {
+     "latitude": -33.8845587,
+     "longitude": 151.2023164
+    },
+    "category": "shop",
+    "subcategory": "gift",
+    "tags": {
+     "check_date": "2025-08-19",
+     "fixme": "Has this closed? Signage still visible",
+     "name": "Leung Wai Kwe Buddhist Crafts & Joss Stick P/L",
+     "shop": "gift"
+    }
+   },
+   {
+    "id": 12319797695,
+    "type": "node",
+    "name": "Fastimart",
+    "coordinates": {
+     "latitude": -33.8839722,
+     "longitude": 151.2028788
+    },
+    "category": "shop",
+    "subcategory": "convenience",
+    "tags": {
+     "check_date": "2025-11",
+     "name": "Fastimart",
+     "shop": "convenience"
+    }
+   },
+   {
+    "id": 12319797697,
+    "type": "node",
+    "name": "Barber Shop",
+    "coordinates": {
+     "latitude": -33.883957,
+     "longitude": 151.2029594
+    },
+    "category": "shop",
+    "subcategory": "hairdresser",
+    "tags": {
+     "check_date": "2024-11-04",
+     "male": "yes",
+     "name": "Barber Shop",
+     "shop": "hairdresser"
+    }
+   },
+   {
+    "id": 12319797698,
+    "type": "node",
+    "name": "Unnamed",
+    "coordinates": {
+     "latitude": -33.8836821,
+     "longitude": 151.2038089
+    },
+    "category": "shop",
+    "subcategory": "vacant",
+    "tags": {
+     "check_date": "2024-11-05",
+     "level": "-1",
+     "shop": "vacant"
+    }
+   },
+   {
+    "id": 12319797700,
+    "type": "node",
+    "name": "Cook Central Alterations / Dry Cleaning",
+    "coordinates": {
+     "latitude": -33.8849312,
+     "longitude": 151.2027809
+    },
+    "category": "shop",
+    "subcategory": "dry_cleaning",
+    "tags": {
+     "addr:housenumber": "32-34",
+     "addr:street": "Regent Street",
+     "check_date": "2025-08-19",
+     "check_date:opening_hours": "2026-05",
+     "email": "kookcentral@kookcentral.com",
+     "name": "Cook Central Alterations / Dry Cleaning",
+     "opening_hours": "Mo-Fr 09:00-17:00; Sa 09:00-14:00",
+     "operator": "Muse Aus Pty Ltd",
+     "phone": "+61 2 8540 7783",
+     "shop": "dry_cleaning",
+     "website": "https://kookcentral.com/collections/alterations-dry-cleaning-services"
+    }
+   },
+   {
+    "id": 12319821001,
+    "type": "node",
+    "name": "More Furniture",
+    "coordinates": {
+     "latitude": -33.8845891,
+     "longitude": 151.20263
+    },
+    "category": "shop",
+    "subcategory": "furniture",
+    "tags": {
+     "check_date": "2026-05",
+     "level": "0",
+     "name": "More Furniture",
+     "shop": "furniture"
+    }
+   },
+   {
+    "id": 12319821002,
+    "type": "node",
+    "name": "Central Tobacco Hub",
+    "coordinates": {
+     "latitude": -33.8835909,
+     "longitude": 151.203637
+    },
+    "category": "shop",
+    "subcategory": "convenience",
+    "tags": {
+     "check_date": "2024-11-05",
+     "level": "-1",
+     "name": "Central Tobacco Hub",
+     "shop": "convenience"
+    }
+   },
+   {
+    "id": 12319821008,
+    "type": "node",
+    "name": "Pack Send",
+    "coordinates": {
+     "latitude": -33.8849943,
+     "longitude": 151.2024853
+    },
+    "category": "shop",
+    "subcategory": "stationery",
+    "tags": {
+     "check_date": "2026-03",
+     "level": "0",
+     "name": "Pack Send",
+     "shop": "stationery"
+    }
+   },
+   {
+    "id": 12319821011,
+    "type": "node",
+    "name": "Unnamed",
+    "coordinates": {
+     "latitude": -33.8836804,
+     "longitude": 151.2040152
+    },
+    "category": "shop",
+    "subcategory": "vacant",
+    "tags": {
+     "check_date": "2024-11-04",
+     "shop": "vacant"
+    }
+   },
+   {
+    "id": 12319821013,
+    "type": "node",
+    "name": "Lüneburger",
+    "coordinates": {
+     "latitude": -33.8835919,
+     "longitude": 151.2035157
+    },
+    "category": "shop",
+    "subcategory": "bakery",
+    "tags": {
+     "check_date": "2024-11-05",
+     "level": "-1",
+     "name": "Lüneburger",
+     "shop": "bakery"
+    }
+   },
+   {
+    "id": 12319821014,
+    "type": "node",
+    "name": "Central Barber Shop",
+    "coordinates": {
+     "latitude": -33.8837524,
+     "longitude": 151.2041433
+    },
+    "category": "shop",
+    "subcategory": "hairdresser",
+    "tags": {
+     "check_date": "2024-11-04",
+     "name": "Central Barber Shop",
+     "shop": "hairdresser"
+    }
+   },
+   {
+    "id": 12324818783,
+    "type": "node",
+    "name": "Humanist House",
+    "coordinates": {
+     "latitude": -33.8849256,
+     "longitude": 151.196141
+    },
+    "category": "shop",
+    "subcategory": "books",
+    "tags": {
+     "check_date": "2025-02-09",
+     "check_date:opening_hours": "2025-02-09",
+     "name": "Humanist House",
+     "opening_hours": "We,Sa 11:00-15:00",
+     "shop": "books"
+    }
+   },
+   {
+    "id": 12327923221,
+    "type": "node",
+    "name": "Anime at Abbotsford",
+    "coordinates": {
+     "latitude": -33.8810286,
+     "longitude": 151.2035405
+    },
+    "category": "shop",
+    "subcategory": "anime",
+    "tags": {
+     "check_date": "2025-11-19",
+     "level": "2",
+     "name": "Anime at Abbotsford",
+     "opening_hours": "Mo-Su 10:30-17:30",
+     "shop": "anime",
+     "website": "https://www.anime-oz.com/",
+     "wheelchair": "yes"
+    }
+   },
+   {
+    "id": 12328386923,
+    "type": "node",
+    "name": "Unnamed",
+    "coordinates": {
+     "latitude": -33.891636,
+     "longitude": 151.1999952
+    },
+    "category": "shop",
+    "subcategory": "convenience",
+    "tags": {
+     "atm": "yes",
+     "check_date": "2025-05",
+     "indoor_seating": "yes",
+     "indoor_seating:comfort": "chair",
+     "shop": "convenience"
+    }
+   },
+   {
+    "id": 12328386925,
+    "type": "node",
+    "name": "Redfern Tobacconist",
+    "coordinates": {
+     "latitude": -33.8923574,
+     "longitude": 151.2016084
+    },
+    "category": "shop",
+    "subcategory": "tobacco",
+    "tags": {
+     "check_date": "2025-05",
+     "name": "Redfern Tobacconist",
+     "shop": "tobacco"
+    }
+   },
+   {
+    "id": 12328386928,
+    "type": "node",
+    "name": "Redfern Tobacconist & Shisha",
+    "coordinates": {
+     "latitude": -33.8923745,
+     "longitude": 151.2017657
+    },
+    "category": "shop",
+    "subcategory": "tobacco",
+    "tags": {
+     "check_date": "2024-11-10",
+     "name": "Redfern Tobacconist & Shisha",
+     "shop": "tobacco"
+    }
+   },
+   {
+    "id": 12328386933,
+    "type": "node",
+    "name": "Heads Up",
+    "coordinates": {
+     "latitude": -33.8925883,
+     "longitude": 151.2016492
+    },
+    "category": "shop",
+    "subcategory": "hairdresser",
+    "tags": {
+     "check_date": "2024-11-10",
+     "male": "yes",
+     "name": "Heads Up",
+     "shop": "hairdresser"
+    }
+   },
+   {
+    "id": 12328386938,
+    "type": "node",
+    "name": "EzyMart",
+    "coordinates": {
+     "latitude": -33.8914064,
+     "longitude": 151.1985292
+    },
+    "category": "shop",
+    "subcategory": "convenience",
+    "tags": {
+     "brand": "EzyMart",
+     "brand:wikidata": "Q117220554",
+     "check_date": "2026-06-07",
+     "name": "EzyMart",
+     "shop": "convenience"
+    }
+   },
+   {
+    "id": 12338933543,
+    "type": "node",
+    "name": "Savoy Cake",
+    "coordinates": {
+     "latitude": -33.8811103,
+     "longitude": 151.2032212
+    },
+    "category": "shop",
+    "subcategory": "pastry",
+    "tags": {
+     "check_date": "2024-11-10",
+     "level": "0",
+     "name": "Savoy Cake",
+     "opening_hours": "09:30-17:45",
+     "shop": "pastry"
+    }
+   },
+   {
+    "id": 12383967648,
+    "type": "node",
+    "name": "W Cosmetics",
+    "coordinates": {
+     "latitude": -33.8844546,
+     "longitude": 151.2004563
+    },
+    "category": "shop",
+    "subcategory": "cosmetics",
+    "tags": {
+     "check_date": "2025-08",
+     "level": "1",
+     "name": "W Cosmetics",
+     "shop": "cosmetics",
+     "start_date": "2024-11-28"
+    }
+   },
+   {
+    "id": 12483743279,
+    "type": "node",
+    "name": "Goi Dylost",
+    "coordinates": {
+     "latitude": -33.8859683,
+     "longitude": 151.1944018
+    },
+    "category": "shop",
+    "subcategory": "hairdresser",
+    "tags": {
+     "check_date": "2025-01",
+     "name": "Goi Dylost",
+     "opening_hours": "\"by appointment\"",
+     "shop": "hairdresser"
+    }
+   },
+   {
+    "id": 12513160801,
+    "type": "node",
+    "name": "S. P. D. P. Hair Design",
+    "coordinates": {
+     "latitude": -33.8805778,
+     "longitude": 151.200658
+    },
+    "category": "shop",
+    "subcategory": "hairdresser",
+    "tags": {
+     "check_date": "2025-01",
+     "name": "S. P. D. P. Hair Design",
+     "shop": "hairdresser"
+    }
+   },
+   {
+    "id": 12540969313,
+    "type": "node",
+    "name": "Rococo Seoul",
+    "coordinates": {
+     "latitude": -33.8847825,
+     "longitude": 151.2004165
+    },
+    "category": "shop",
+    "subcategory": "clothes",
+    "tags": {
+     "check_date": "2026-07",
+     "level": "0",
+     "name": "Rococo Seoul",
+     "shop": "clothes"
+    }
+   },
+   {
+    "id": 12543852693,
+    "type": "node",
+    "name": "Glue",
+    "coordinates": {
+     "latitude": -33.8844315,
+     "longitude": 151.2010182
+    },
+    "category": "shop",
+    "subcategory": "clothes",
+    "tags": {
+     "check_date": "2025-11",
+     "name": "Glue",
+     "shop": "clothes",
+     "website": "https://www.gluestore.com.au/"
+    }
+   },
+   {
+    "id": 12543852697,
+    "type": "node",
+    "name": "Vampt Vintage Design",
+    "coordinates": {
+     "latitude": -33.8886797,
+     "longitude": 151.2082092
+    },
+    "category": "shop",
+    "subcategory": "furniture",
+    "tags": {
+     "addr:housenumber": "486-490",
+     "addr:street": "Elizabeth Street",
+     "contact:email": "info@vamptvintagedesign.com",
+     "name": "Vampt Vintage Design",
+     "opening_hours": "Mo-Sa 10:30-17:00; Su 11:00-17:00",
+     "shop": "furniture",
+     "website": "https://www.vamptvintagedesign.com/"
+    }
+   },
+   {
+    "id": 12556177843,
+    "type": "node",
+    "name": "Adam Convenience Store",
+    "coordinates": {
+     "latitude": -33.8861175,
+     "longitude": 151.1974496
+    },
+    "category": "shop",
+    "subcategory": "convenience",
+    "tags": {
+     "check_date": "2025-01",
+     "level": "0",
+     "name": "Adam Convenience Store",
+     "opening_hours": "Mo-Su 07:00-22:00",
+     "shop": "convenience"
+    }
+   },
+   {
+    "id": 12573456459,
+    "type": "node",
+    "name": "Khanom House",
+    "coordinates": {
+     "latitude": -33.8875574,
+     "longitude": 151.199767
+    },
+    "category": "shop",
+    "subcategory": "bakery",
+    "tags": {
+     "check_date": "2026-02-12",
+     "check_date:opening_hours": "2026-02-12",
+     "colour": "teal",
+     "contact:instagram": "khanomhouse.syd",
+     "indoor_seating": "yes",
+     "indoor_seating:comfort": "bench;stool",
+     "name": "Khanom House",
+     "opening_hours": "Mo off; Tu-Fr 07:30-15:00; Sa-Su 08:00-16:00; PH 09:00-15:00",
+     "outdoor_seating:comfort": "stool;bench",
+     "shop": "bakery",
+     "toilets": "customers"
+    }
+   },
+   {
+    "id": 12599830223,
+    "type": "node",
+    "name": "Cafe Ideas",
+    "coordinates": {
+     "latitude": -33.8875489,
+     "longitude": 151.2013844
+    },
+    "category": "shop",
+    "subcategory": "appliance",
+    "tags": {
+     "check_date": "2025-08",
+     "name": "Cafe Ideas",
+     "shop": "appliance",
+     "website": "https://cafeideas.com.au"
+    }
+   },
+   {
+    "id": 12624032046,
+    "type": "node",
+    "name": "Unnamed",
+    "coordinates": {
+     "latitude": -33.8839985,
+     "longitude": 151.201636
+    },
+    "category": "shop",
+    "subcategory": "vacant",
+    "tags": {
+     "check_date": "2026-06-30",
+     "shop": "vacant"
+    }
+   },
+   {
+    "id": 12624032051,
+    "type": "node",
+    "name": "Hype",
+    "coordinates": {
+     "latitude": -33.8844084,
+     "longitude": 151.2007389
+    },
+    "category": "shop",
+    "subcategory": "shoes",
+    "tags": {
+     "check_date": "2026-07",
+     "name": "Hype",
+     "shop": "shoes"
+    }
+   },
+   {
+    "id": 12624032052,
+    "type": "node",
+    "name": "Calm",
+    "coordinates": {
+     "latitude": -33.8851597,
+     "longitude": 151.2018112
+    },
+    "category": "shop",
+    "subcategory": "massage",
+    "tags": {
+     "addr:housenumber": "32",
+     "addr:street": "Kensington Street",
+     "check_date": "2025-11",
+     "name": "Calm",
+     "shop": "massage"
+    }
+   },
+   {
+    "id": 12624032054,
+    "type": "node",
+    "name": "Veracity Tailor",
+    "coordinates": {
+     "latitude": -33.8881125,
+     "longitude": 151.1961118
+    },
+    "category": "shop",
+    "subcategory": "tailor",
+    "tags": {
+     "check_date": "2025-09",
+     "name": "Veracity Tailor",
+     "shop": "tailor"
+    }
+   },
+   {
+    "id": 12688691498,
+    "type": "node",
+    "name": "Kodak Express",
+    "coordinates": {
+     "latitude": -33.8802301,
+     "longitude": 151.2063532
+    },
+    "category": "shop",
+    "subcategory": "photo",
+    "tags": {
+     "brand": "Kodak Express",
+     "brand:wikidata": "Q6425126",
+     "check_date": "2026-09-15",
+     "check_date:opening_hours": "2026-09-15",
+     "level": "0",
+     "name": "Kodak Express",
+     "opening_hours": "Mo-Fr 09:00-18:00; Sa 10:00-16:00",
+     "opening_hours:signed": "Mo-Fr 09:00-18:00, Sa 10:00-16:00",
+     "shop": "photo",
+     "wheelchair": "yes"
+    }
+   },
+   {
+    "id": 12688691499,
+    "type": "node",
+    "name": "Keydom",
+    "coordinates": {
+     "latitude": -33.8854073,
+     "longitude": 151.2013148
+    },
+    "category": "shop",
+    "subcategory": "computer",
+    "tags": {
+     "addr:housenumber": "5",
+     "addr:postcode": "2008",
+     "addr:state": "NSW",
+     "addr:street": "Carlton Street",
+     "addr:suburb": "Chippendale",
+     "addr:unit": "106&107",
+     "check_date": "2025-07-03",
+     "name": "Keydom",
+     "opening_hours": "Tu-Su 11:00-19:00",
+     "phone": "+61 403 690 566",
+     "shop": "computer",
+     "website": "www.keydomshop.com.au"
+    }
+   },
+   {
+    "id": 12715373236,
+    "type": "node",
+    "name": "MR T Studio",
+    "coordinates": {
+     "latitude": -33.8886461,
+     "longitude": 151.1999421
+    },
+    "category": "shop",
+    "subcategory": "copyshop",
+    "tags": {
+     "check_date": "2026-04",
+     "contact:phone": "+61 2 9698 2128",
+     "description": "Custom design & screen printing",
+     "name": "MR T Studio",
+     "shop": "copyshop"
+    }
+   },
+   {
+    "id": 12715373242,
+    "type": "node",
+    "name": "Mondoluce",
+    "coordinates": {
+     "latitude": -33.8869019,
+     "longitude": 151.2135119
+    },
+    "category": "shop",
+    "subcategory": "lighting",
+    "tags": {
+     "check_date": "2025-03",
+     "name": "Mondoluce",
+     "shop": "lighting",
+     "website": "https://www.mondoluce.com"
+    }
+   },
+   {
+    "id": 12725046701,
+    "type": "node",
+    "name": "JB Hi-Fi",
+    "coordinates": {
+     "latitude": -33.883792,
+     "longitude": 151.1946562
+    },
+    "category": "shop",
+    "subcategory": "electronics",
+    "tags": {
+     "brand": "JB Hi-Fi",
+     "brand:wikidata": "Q3310113",
+     "level": "2",
+     "name": "JB Hi-Fi",
+     "shop": "electronics"
+    }
+   },
+   {
+    "id": 12725071377,
+    "type": "node",
+    "name": "Review",
+    "coordinates": {
+     "latitude": -33.8837754,
+     "longitude": 151.1945593
+    },
+    "category": "shop",
+    "subcategory": "clothes",
+    "tags": {
+     "clothes": "women",
+     "level": "1",
+     "name": "Review",
+     "shop": "clothes"
+    }
+   },
+   {
+    "id": 12751105761,
+    "type": "node",
+    "name": "Quick Link Mini Mart",
+    "coordinates": {
+     "latitude": -33.88533,
+     "longitude": 151.2066323
+    },
+    "category": "shop",
+    "subcategory": "convenience",
+    "tags": {
+     "check_date": "2025-04",
+     "level": "-1",
+     "name": "Quick Link Mini Mart",
+     "shop": "convenience"
+    }
+   },
+   {
+    "id": 12761501265,
+    "type": "node",
+    "name": "Pleasure Chest Lifestyle",
+    "coordinates": {
+     "latitude": -33.8806191,
+     "longitude": 151.2047551
+    },
+    "category": "shop",
+    "subcategory": "erotic",
+    "tags": {
+     "addr:housenumber": "705",
+     "addr:state": "NSW",
+     "addr:street": "George Street",
+     "addr:suburb": "Haymarket",
+     "name": "Pleasure Chest Lifestyle",
+     "shop": "erotic"
+    }
+   },
+   {
+    "id": 12778496641,
+    "type": "node",
+    "name": "Unnamed",
+    "coordinates": {
+     "latitude": -33.8851103,
+     "longitude": 151.2025358
+    },
+    "category": "shop",
+    "subcategory": "vacant",
+    "tags": {
+     "check_date": "2026-05",
+     "shop": "vacant"
+    }
+   },
+   {
+    "id": 12824858310,
+    "type": "node",
+    "name": "Mousy Browne",
+    "coordinates": {
+     "latitude": -33.8869624,
+     "longitude": 151.2102672
+    },
+    "category": "shop",
+    "subcategory": "hairdresser",
+    "tags": {
+     "check_date": "2025-05",
+     "name": "Mousy Browne",
+     "shop": "hairdresser"
+    }
+   },
+   {
+    "id": 12869719582,
+    "type": "node",
+    "name": "Top 10 Sound And Movie",
+    "coordinates": {
+     "latitude": -33.8813532,
+     "longitude": 151.2041372
+    },
+    "category": "shop",
+    "subcategory": "music",
+    "tags": {
+     "addr:housenumber": "741",
+     "addr:street": "George Street",
+     "check_date": "2025-06-14",
+     "check_date:opening_hours": "2025-06-14",
+     "name": "Top 10 Sound And Movie",
+     "opening_hours": "Mo-Fr 10:00-17:00; Sa,Su off",
+     "shop": "music"
+    }
+   },
+   {
+    "id": 12953739516,
+    "type": "node",
+    "name": "Unnamed",
+    "coordinates": {
+     "latitude": -33.8841937,
+     "longitude": 151.1972887
+    },
+    "category": "shop",
+    "subcategory": "vacant",
+    "tags": {
+     "check_date": "2025-06",
+     "shop": "vacant"
+    }
+   },
+   {
+    "id": 12953739527,
+    "type": "node",
+    "name": "Unnamed",
+    "coordinates": {
+     "latitude": -33.884132,
+     "longitude": 151.1979912
+    },
+    "category": "shop",
+    "subcategory": "vacant",
+    "tags": {
+     "check_date": "2025-06",
+     "shop": "vacant"
+    }
+   },
+   {
+    "id": 12953739544,
+    "type": "node",
+    "name": "Unnamed",
+    "coordinates": {
+     "latitude": -33.8846801,
+     "longitude": 151.2028754
+    },
+    "category": "shop",
+    "subcategory": "vacant",
+    "tags": {
+     "check_date": "2025-06",
+     "shop": "vacant"
+    }
+   },
+   {
+    "id": 12953739546,
+    "type": "node",
+    "name": "University Barber Shop",
+    "coordinates": {
+     "latitude": -33.8835581,
+     "longitude": 151.199481
+    },
+    "category": "shop",
+    "subcategory": "hairdresser",
+    "tags": {
+     "addr:housenumber": "235",
+     "addr:street": "Jones Street",
+     "check_date": "2025-10",
+     "contact:mobile": "+61 403 918 549",
+     "level": "0",
+     "name": "University Barber Shop",
+     "shop": "hairdresser",
+     "start_date": "2001"
+    }
+   },
+   {
+    "id": 12953739547,
+    "type": "node",
+    "name": "Salon Hair Design",
+    "coordinates": {
+     "latitude": -33.8841867,
+     "longitude": 151.1975171
+    },
+    "category": "shop",
+    "subcategory": "hairdresser",
+    "tags": {
+     "addr:housenumber": "151",
+     "addr:street": "Broadway",
+     "check_date": "2025-06",
+     "name": "Salon Hair Design",
+     "shop": "hairdresser"
+    }
+   },
+   {
+    "id": 12953739549,
+    "type": "node",
+    "name": "Kopy Stop",
+    "coordinates": {
+     "latitude": -33.8832121,
+     "longitude": 151.1961472
+    },
+    "category": "shop",
+    "subcategory": "copyshop",
+    "tags": {
+     "check_date": "2025-07-22",
+     "check_date:opening_hours": "2025-07-22",
+     "name": "Kopy Stop",
+     "opening_hours": "Mo-Fr 08:00-16:00; Sa,Su,PH off",
+     "shop": "copyshop",
+     "wheelchair": "no"
+    }
+   },
+   {
+    "id": 12955621599,
+    "type": "node",
+    "name": "Enrico Santi",
+    "coordinates": {
+     "latitude": -33.8867589,
+     "longitude": 151.1966839
+    },
+    "category": "shop",
+    "subcategory": "shoes",
+    "tags": {
+     "addr:housenumber": "38",
+     "check_date": "2025-06",
+     "name": "Enrico Santi",
+     "opening_hours": "Tu-Sa 10:00-16:00",
+     "shop": "shoes",
+     "website": "https://www.enricosanti.com.au"
+    }
+   },
+   {
+    "id": 12955635004,
+    "type": "node",
+    "name": "Project One Hair",
+    "coordinates": {
+     "latitude": -33.8876508,
+     "longitude": 151.1967615
+    },
+    "category": "shop",
+    "subcategory": "hairdresser",
+    "tags": {
+     "check_date": "2025-06",
+     "name": "Project One Hair",
+     "shop": "hairdresser",
+     "website": "https://projectonehair.com.au"
+    }
+   },
+   {
+    "id": 12957904313,
+    "type": "node",
+    "name": "Box Office",
+    "coordinates": {
+     "latitude": -33.8938213,
+     "longitude": 151.1920487
+    },
+    "category": "shop",
+    "subcategory": "ticket",
+    "tags": {
+     "name": "Box Office",
+     "shop": "ticket"
+    }
+   },
+   {
+    "id": 13012888587,
+    "type": "node",
+    "name": "Unnamed",
+    "coordinates": {
+     "latitude": -33.884542,
+     "longitude": 151.2008995
+    },
+    "category": "shop",
+    "subcategory": "vacant",
+    "tags": {
+     "check_date": "2025-07",
+     "description": "Previously skate fashion store",
+     "shop": "vacant"
+    }
+   },
+   {
+    "id": 13012888588,
+    "type": "node",
+    "name": "Unnamed",
+    "coordinates": {
+     "latitude": -33.8846395,
+     "longitude": 151.2009023
+    },
+    "category": "shop",
+    "subcategory": "vacant",
+    "tags": {
+     "check_date": "2025-07",
+     "description": "Previously sunglasses store",
+     "shop": "vacant"
+    }
+   },
+   {
+    "id": 13012888591,
+    "type": "node",
+    "name": "Unnamed",
+    "coordinates": {
+     "latitude": -33.8847366,
+     "longitude": 151.200875
+    },
+    "category": "shop",
+    "subcategory": "vacant",
+    "tags": {
+     "check_date": "2025-11",
+     "description": "Previously TAB",
+     "shop": "vacant"
+    }
+   },
+   {
+    "id": 13012888592,
+    "type": "node",
+    "name": "Unnamed",
+    "coordinates": {
+     "latitude": -33.884417,
+     "longitude": 151.2008391
+    },
+    "category": "shop",
+    "subcategory": "vacant",
+    "tags": {
+     "check_date": "2026-07",
+     "shop": "vacant"
+    }
+   },
+   {
+    "id": 13020534865,
+    "type": "node",
+    "name": "Unnamed",
+    "coordinates": {
+     "latitude": -33.8863457,
+     "longitude": 151.1988523
+    },
+    "category": "shop",
+    "subcategory": "vacant",
+    "tags": {
+     "addr:housenumber": "66",
+     "addr:street": "Abercrombie Street",
+     "check_date": "2026-09",
+     "shop": "vacant"
+    }
+   },
+   {
+    "id": 13020534866,
+    "type": "node",
+    "name": "Unnamed",
+    "coordinates": {
+     "latitude": -33.8864272,
+     "longitude": 151.1988554
+    },
+    "category": "shop",
+    "subcategory": "vacant",
+    "tags": {
+     "addr:housenumber": "70",
+     "addr:street": "Abercrombie Street",
+     "check_date": "2026-09",
+     "shop": "vacant"
+    }
+   },
+   {
+    "id": 13020534884,
+    "type": "node",
+    "name": "Unnamed",
+    "coordinates": {
+     "latitude": -33.88639,
+     "longitude": 151.1988457
+    },
+    "category": "shop",
+    "subcategory": "vacant",
+    "tags": {
+     "addr:housenumber": "68",
+     "addr:street": "Abercrombie Street",
+     "check_date": "2026-09",
+     "shop": "vacant"
+    }
+   },
+   {
+    "id": 13045849566,
+    "type": "node",
+    "name": "pedl",
+    "coordinates": {
+     "latitude": -33.8932613,
+     "longitude": 151.1991571
+    },
+    "category": "shop",
+    "subcategory": "bicycle",
+    "tags": {
+     "check_date": "2025-08",
+     "name": "pedl",
+     "shop": "bicycle"
+    }
+   },
+   {
+    "id": 13057189318,
+    "type": "node",
+    "name": "Jilian Boustred Studio",
+    "coordinates": {
+     "latitude": -33.8876201,
+     "longitude": 151.2001634
+    },
+    "category": "shop",
+    "subcategory": "clothes",
+    "tags": {
+     "name": "Jilian Boustred Studio",
+     "shop": "clothes"
+    }
+   },
+   {
+    "id": 13057189319,
+    "type": "node",
+    "name": "Special",
+    "coordinates": {
+     "latitude": -33.8876152,
+     "longitude": 151.2000739
+    },
+    "category": "shop",
+    "subcategory": "pottery",
+    "tags": {
+     "name": "Special",
+     "shop": "pottery"
+    }
+   },
+   {
+    "id": 13063075004,
+    "type": "node",
+    "name": "Unnamed",
+    "coordinates": {
+     "latitude": -33.8916846,
+     "longitude": 151.2005872
+    },
+    "category": "shop",
+    "subcategory": "vacant",
+    "tags": {
+     "check_date": "2025-10",
+     "shop": "vacant"
+    }
+   },
+   {
+    "id": 13115653362,
+    "type": "node",
+    "name": "ProfessioNail",
+    "coordinates": {
+     "latitude": -33.8846877,
+     "longitude": 151.2008826
+    },
+    "category": "shop",
+    "subcategory": "beauty",
+    "tags": {
+     "beauty": "nails",
+     "check_date": "2025-09",
+     "level": "1",
+     "name": "ProfessioNail",
+     "shop": "beauty"
+    }
+   },
+   {
+    "id": 13115653370,
+    "type": "node",
+    "name": "Massage World",
+    "coordinates": {
+     "latitude": -33.8844429,
+     "longitude": 151.2006013
+    },
+    "category": "shop",
+    "subcategory": "massage",
+    "tags": {
+     "check_date": "2025-09",
+     "level": "1",
+     "name": "Massage World",
+     "shop": "massage"
+    }
+   },
+   {
+    "id": 13122064471,
+    "type": "node",
+    "name": "The Glebe Community Op Shop",
+    "coordinates": {
+     "latitude": -33.8803514,
+     "longitude": 151.1899017
+    },
+    "category": "shop",
+    "subcategory": "charity",
+    "tags": {
+     "check_date": "2025-09",
+     "name": "The Glebe Community Op Shop",
+     "shop": "charity"
+    }
+   },
+   {
+    "id": 13140202192,
+    "type": "node",
+    "name": "Pipo Pet",
+    "coordinates": {
+     "latitude": -33.8857776,
+     "longitude": 151.2011065
+    },
+    "category": "shop",
+    "subcategory": "pet_grooming",
+    "tags": {
+     "addr:housenumber": "18",
+     "addr:street": "Park Lane",
+     "addr:unit": "103",
+     "check_date": "2025-09",
+     "name": "Pipo Pet",
+     "shop": "pet_grooming"
+    }
+   },
+   {
+    "id": 13174756950,
+    "type": "node",
+    "name": "Anderson's Dry Cleaning",
+    "coordinates": {
+     "latitude": -33.8914903,
+     "longitude": 151.2009086
+    },
+    "category": "shop",
+    "subcategory": "dry_cleaning",
+    "tags": {
+     "name": "Anderson's Dry Cleaning",
+     "shop": "dry_cleaning"
+    }
+   },
+   {
+    "id": 13174756952,
+    "type": "node",
+    "name": "Noffs Op Shop",
+    "coordinates": {
+     "latitude": -33.8945453,
+     "longitude": 151.1995136
+    },
+    "category": "shop",
+    "subcategory": "charity",
+    "tags": {
+     "addr:housenumber": "185",
+     "addr:street": "Regent Street",
+     "name": "Noffs Op Shop",
+     "shop": "charity"
+    }
+   },
+   {
+    "id": 13191886472,
+    "type": "node",
+    "name": "Scotty's Makeup & Beauty",
+    "coordinates": {
+     "latitude": -33.884315,
+     "longitude": 151.1941883
+    },
+    "category": "shop",
+    "subcategory": "cosmetics",
+    "tags": {
+     "check_date": "2025-10",
+     "level": "0",
+     "name": "Scotty's Makeup & Beauty",
+     "shop": "cosmetics"
+    }
+   },
+   {
+    "id": 13242812460,
+    "type": "node",
+    "name": "Beyond Vintage",
+    "coordinates": {
+     "latitude": -33.8875768,
+     "longitude": 151.1952297
+    },
+    "category": "shop",
+    "subcategory": "fashion_accessories",
+    "tags": {
+     "check_date": "2025-10",
+     "name": "Beyond Vintage",
+     "shop": "fashion_accessories"
+    }
+   },
+   {
+    "id": 13242812461,
+    "type": "node",
+    "name": "Chop Shop",
+    "coordinates": {
+     "latitude": -33.8867363,
+     "longitude": 151.2016577
+    },
+    "category": "shop",
+    "subcategory": "bicycle",
+    "tags": {
+     "check_date": "2026-09",
+     "name": "Chop Shop",
+     "shop": "bicycle",
+     "website": "https://chopbikes.com"
+    }
+   },
+   {
+    "id": 13253266274,
+    "type": "node",
+    "name": "Unnamed",
+    "coordinates": {
+     "latitude": -33.8942106,
+     "longitude": 151.1994159
+    },
+    "category": "shop",
+    "subcategory": "vacant",
+    "tags": {
+     "check_date": "2025-10",
+     "shop": "vacant"
+    }
+   },
+   {
+    "id": 13253266275,
+    "type": "node",
+    "name": "Unnamed",
+    "coordinates": {
+     "latitude": -33.8953465,
+     "longitude": 151.1992608
+    },
+    "category": "shop",
+    "subcategory": "newsagent",
+    "tags": {
+     "check_date": "2025-10",
+     "shop": "newsagent"
+    }
+   },
+   {
+    "id": 13253266283,
+    "type": "node",
+    "name": "Chef's Warehouse",
+    "coordinates": {
+     "latitude": -33.8940089,
+     "longitude": 151.1994839
+    },
+    "category": "shop",
+    "subcategory": "kitchen",
+    "tags": {
+     "check_date": "2025-10",
+     "name": "Chef's Warehouse",
+     "shop": "kitchen"
+    }
+   },
+   {
+    "id": 13253266286,
+    "type": "node",
+    "name": "Babylon Tailoring",
+    "coordinates": {
+     "latitude": -33.8941643,
+     "longitude": 151.1994358
+    },
+    "category": "shop",
+    "subcategory": "laundry",
+    "tags": {
+     "name": "Babylon Tailoring",
+     "shop": "laundry"
+    }
+   },
+   {
+    "id": 13269606462,
+    "type": "node",
+    "name": "Quikstop",
+    "coordinates": {
+     "latitude": -33.8834807,
+     "longitude": 151.1994067
+    },
+    "category": "shop",
+    "subcategory": "convenience",
+    "tags": {
+     "check_date": "2025-10",
+     "name": "Quikstop",
+     "shop": "convenience"
+    }
+   },
+   {
+    "id": 13288339730,
+    "type": "node",
+    "name": "The Source Bulk Foods",
+    "coordinates": {
+     "latitude": -33.8806948,
+     "longitude": 151.1878437
+    },
+    "category": "shop",
+    "subcategory": "supermarket",
+    "tags": {
+     "addr:housenumber": "183",
+     "addr:street": "Glebe Point Road",
+     "brand": "The Source Bulk Foods",
+     "brand:wikidata": "Q113771168",
+     "name": "The Source Bulk Foods",
+     "opening_hours": "Mo-Sa 09:00-17:30; Su 11:00-15:00",
+     "phone": "+61 2 8386 0969",
+     "shop": "supermarket",
+     "website": "https://glebe.thesourcebulkfoods.com.au",
+     "zero_waste": "only"
+    }
+   },
+   {
+    "id": 13288375721,
+    "type": "node",
+    "name": "IC Mart",
+    "coordinates": {
+     "latitude": -33.8842913,
+     "longitude": 151.2017957
+    },
+    "category": "shop",
+    "subcategory": "convenience",
+    "tags": {
+     "check_date": "2026-06-30",
+     "check_date:opening_hours": "2026-03-19",
+     "cuisine": "japanese",
+     "name": "IC Mart",
+     "opening_hours": "Mo-Th 07:30-23:00;Fr-Sa 07:30-00:00;Su 10:00-23:00",
+     "shop": "convenience",
+     "source:opening_hours": "conversation with cashier",
+     "tobacco": "yes"
+    }
+   },
+   {
+    "id": 13316014096,
+    "type": "node",
+    "name": "Moko Moko Patisserie",
+    "coordinates": {
+     "latitude": -33.8809191,
+     "longitude": 151.2036146
+    },
+    "category": "shop",
+    "subcategory": "bakery",
+    "tags": {
+     "level": "0",
+     "name": "Moko Moko Patisserie",
+     "shop": "bakery"
+    }
+   },
+   {
+    "id": 13323544330,
+    "type": "node",
+    "name": "Chabaa",
+    "coordinates": {
+     "latitude": -33.8813448,
+     "longitude": 151.2088944
+    },
+    "category": "shop",
+    "subcategory": "massage",
+    "tags": {
+     "check_date": "2025-11",
+     "name": "Chabaa",
+     "shop": "massage"
+    }
+   },
+   {
+    "id": 13327464090,
+    "type": "node",
+    "name": "Massage Link",
+    "coordinates": {
+     "latitude": -33.8830658,
+     "longitude": 151.1938225
+    },
+    "category": "shop",
+    "subcategory": "massage",
+    "tags": {
+     "level": "3",
+     "name": "Massage Link",
+     "shop": "massage"
+    }
+   },
+   {
+    "id": 13506230370,
+    "type": "node",
+    "name": "Moebel",
+    "coordinates": {
+     "latitude": -33.8883612,
+     "longitude": 151.1979953
+    },
+    "category": "shop",
+    "subcategory": "furniture",
+    "tags": {
+     "name": "Moebel",
+     "opening_hours": "\"By appointment\"",
+     "shop": "furniture",
+     "website": "https://https//www.moebel.com.au"
+    }
+   },
+   {
+    "id": 13506230371,
+    "type": "node",
+    "name": "Unnamed",
+    "coordinates": {
+     "latitude": -33.8885492,
+     "longitude": 151.1992003
+    },
+    "category": "shop",
+    "subcategory": "vacant",
+    "tags": {
+     "shop": "vacant"
+    }
+   },
+   {
+    "id": 13523838756,
+    "type": "node",
+    "name": "Unnamed",
+    "coordinates": {
+     "latitude": -33.8898052,
+     "longitude": 151.2132778
+    },
+    "category": "shop",
+    "subcategory": "vacant",
+    "tags": {
+     "shop": "vacant"
+    }
+   },
+   {
+    "id": 13551049888,
+    "type": "node",
+    "name": "TSG Tobacco Station",
+    "coordinates": {
+     "latitude": -33.8852102,
+     "longitude": 151.2072763
+    },
+    "category": "shop",
+    "subcategory": "convenience",
+    "tags": {
+     "check_date": "2026-02",
+     "name": "TSG Tobacco Station",
+     "shop": "convenience"
+    }
+   },
+   {
+    "id": 13589620876,
+    "type": "node",
+    "name": "I Heart Kpop",
+    "coordinates": {
+     "latitude": -33.8832975,
+     "longitude": 151.2022024
+    },
+    "category": "shop",
+    "subcategory": "collector",
+    "tags": {
+     "check_date": "2026-02",
+     "name": "I Heart Kpop",
+     "shop": "collector"
+    }
+   },
+   {
+    "id": 13589620882,
+    "type": "node",
+    "name": "Wayne Massage",
+    "coordinates": {
+     "latitude": -33.8831825,
+     "longitude": 151.2023817
+    },
+    "category": "shop",
+    "subcategory": "massage",
+    "tags": {
+     "level": "1",
+     "name": "Wayne Massage",
+     "shop": "massage"
+    }
+   },
+   {
+    "id": 13628717938,
+    "type": "node",
+    "name": "Unnamed",
+    "coordinates": {
+     "latitude": -33.8895246,
+     "longitude": 151.2018357
+    },
+    "category": "shop",
+    "subcategory": "vacant",
+    "tags": {
+     "check_date": "2026-03",
+     "shop": "vacant"
+    }
+   },
+   {
+    "id": 13653449201,
+    "type": "node",
+    "name": "Galluzzo Deli",
+    "coordinates": {
+     "latitude": -33.8805756,
+     "longitude": 151.187773
+    },
+    "category": "shop",
+    "subcategory": "greengrocer",
+    "tags": {
+     "addr:housenumber": "189",
+     "addr:street": "Glebe Point Road",
+     "contact:facebook": "Galluzzofruiterers",
+     "contact:instagram": "galluzzofruiterers",
+     "name": "Galluzzo Deli",
+     "opening_hours": "Mo-We, Fr-Sa 09:00-19:00",
+     "shop": "greengrocer"
+    }
+   },
+   {
+    "id": 13660929302,
+    "type": "node",
+    "name": "Harmony Mart",
+    "coordinates": {
+     "latitude": -33.8821641,
+     "longitude": 151.2037967
+    },
+    "category": "shop",
+    "subcategory": "convenience",
+    "tags": {
+     "check_date": "2026-03",
+     "location": "approximate",
+     "name": "Harmony Mart",
+     "shop": "convenience"
+    }
+   },
+   {
+    "id": 13660959474,
+    "type": "node",
+    "name": "Project Hair Salon",
+    "coordinates": {
+     "latitude": -33.8851895,
+     "longitude": 151.2012771
+    },
+    "category": "shop",
+    "subcategory": "hairdresser",
+    "tags": {
+     "name": "Project Hair Salon",
+     "shop": "hairdresser"
+    }
+   },
+   {
+    "id": 13660959498,
+    "type": "node",
+    "name": "Unnamed",
+    "coordinates": {
+     "latitude": -33.8852654,
+     "longitude": 151.2012895
+    },
+    "category": "shop",
+    "subcategory": "vacant",
+    "tags": {
+     "check_date": "2026-03-19",
+     "shop": "vacant"
+    }
+   },
+   {
+    "id": 13661026201,
+    "type": "node",
+    "name": "Unnamed",
+    "coordinates": {
+     "latitude": -33.8842763,
+     "longitude": 151.2018411
+    },
+    "category": "shop",
+    "subcategory": "vacant",
+    "tags": {
+     "check_date": "2026-03-19",
+     "shop": "vacant"
+    }
+   },
+   {
+    "id": 13673264735,
+    "type": "node",
+    "name": "Welcome To Travel",
+    "coordinates": {
+     "latitude": -33.8817683,
+     "longitude": 151.2048119
+    },
+    "category": "shop",
+    "subcategory": "travel_agency",
+    "tags": {
+     "level": "1",
+     "name": "Welcome To Travel",
+     "shop": "travel_agency"
+    }
+   },
+   {
+    "id": 13673264736,
+    "type": "node",
+    "name": "Maillot",
+    "coordinates": {
+     "latitude": -33.8819509,
+     "longitude": 151.2040548
+    },
+    "category": "shop",
+    "subcategory": "clothes",
+    "tags": {
+     "name": "Maillot",
+     "opening_hours": "Mo-We 11:00-18:00, Th 11:00-19:00, Fr-Su 11:00-18:00",
+     "shop": "clothes"
+    }
+   },
+   {
+    "id": 13673264737,
+    "type": "node",
+    "name": "Unnamed",
+    "coordinates": {
+     "latitude": -33.8817713,
+     "longitude": 151.2043488
+    },
+    "category": "shop",
+    "subcategory": "vacant",
+    "tags": {
+     "check_date": "2026-03",
+     "shop": "vacant"
+    }
+   },
+   {
+    "id": 13673264740,
+    "type": "node",
+    "name": "Grandcity Travel",
+    "coordinates": {
+     "latitude": -33.8822212,
+     "longitude": 151.2042119
+    },
+    "category": "shop",
+    "subcategory": "travel_agency",
+    "tags": {
+     "check_date": "2026-03",
+     "name": "Grandcity Travel",
+     "shop": "travel_agency"
+    }
+   },
+   {
+    "id": 13673264741,
+    "type": "node",
+    "name": "Unnamed",
+    "coordinates": {
+     "latitude": -33.8818239,
+     "longitude": 151.2043239
+    },
+    "category": "shop",
+    "subcategory": "vacant",
+    "tags": {
+     "check_date": "2026-03",
+     "shop": "vacant"
+    }
+   },
+   {
+    "id": 13704754946,
+    "type": "node",
+    "name": "Fridges Washers Dryers",
+    "coordinates": {
+     "latitude": -33.8850553,
+     "longitude": 151.1947672
+    },
+    "category": "shop",
+    "subcategory": "appliance",
+    "tags": {
+     "check_date": "2026-04",
+     "name": "Fridges Washers Dryers",
+     "shop": "appliance"
+    }
+   },
+   {
+    "id": 13704754963,
+    "type": "node",
+    "name": "CITY PAWN STAR",
+    "coordinates": {
+     "latitude": -33.8851198,
+     "longitude": 151.1947275
+    },
+    "category": "shop",
+    "subcategory": "pawnbroker",
+    "tags": {
+     "check_date": "2026-04",
+     "name": "CITY PAWN STAR",
+     "shop": "pawnbroker"
+    }
+   },
+   {
+    "id": 13725026702,
+    "type": "node",
+    "name": "IN/EX",
+    "coordinates": {
+     "latitude": -33.8876384,
+     "longitude": 151.2080591
+    },
+    "category": "shop",
+    "subcategory": "clothes",
+    "tags": {
+     "name": "IN/EX",
+     "shop": "clothes"
+    }
+   },
+   {
+    "id": 13731703134,
+    "type": "node",
+    "name": "Unnamed",
+    "coordinates": {
+     "latitude": -33.8801333,
+     "longitude": 151.2043252
+    },
+    "category": "shop",
+    "subcategory": "vacant",
+    "tags": {
+     "check_date": "2026-04",
+     "level": "0",
+     "shop": "vacant"
+    }
+   },
+   {
+    "id": 13784030802,
+    "type": "node",
+    "name": "Alpha Modern",
+    "coordinates": {
+     "latitude": -33.8886831,
+     "longitude": 151.2134948
+    },
+    "category": "shop",
+    "subcategory": "furniture",
+    "tags": {
+     "check_date": "2026-04",
+     "name": "Alpha Modern",
+     "shop": "furniture"
+    }
+   },
+   {
+    "id": 13817057988,
+    "type": "node",
+    "name": "Unnamed",
+    "coordinates": {
+     "latitude": -33.8800816,
+     "longitude": 151.1997532
+    },
+    "category": "shop",
+    "subcategory": "vacant",
+    "tags": {
+     "check_date": "2026-05",
+     "shop": "vacant"
+    }
+   },
+   {
+    "id": 13817057991,
+    "type": "node",
+    "name": "Quay Convenience",
+    "coordinates": {
+     "latitude": -33.881237,
+     "longitude": 151.2028367
+    },
+    "category": "shop",
+    "subcategory": "convenience",
+    "tags": {
+     "name": "Quay Convenience",
+     "shop": "convenience"
+    }
+   },
+   {
+    "id": 13817065005,
+    "type": "node",
+    "name": "Unnamed",
+    "coordinates": {
+     "latitude": -33.8871949,
+     "longitude": 151.1988976
+    },
+    "category": "shop",
+    "subcategory": "vacant",
+    "tags": {
+     "addr:housenumber": "88",
+     "addr:street": "Abercrombie Street",
+     "check_date": "2026-09",
+     "shop": "vacant"
+    }
+   },
+   {
+    "id": 13817065014,
+    "type": "node",
+    "name": "Unnamed",
+    "coordinates": {
+     "latitude": -33.8807639,
+     "longitude": 151.2001055
+    },
+    "category": "shop",
+    "subcategory": "vacant",
+    "tags": {
+     "check_date": "2026-05",
+     "level": "0",
+     "shop": "vacant"
+    }
+   },
+   {
+    "id": 13888259694,
+    "type": "node",
+    "name": "Maha Bodhi",
+    "coordinates": {
+     "latitude": -33.8813365,
+     "longitude": 151.2090018
+    },
+    "category": "shop",
+    "subcategory": "books",
+    "tags": {
+     "addr:street": "Elizabeth Street",
+     "description": "Buddhist Bookshop and Library",
+     "name": "Maha Bodhi",
+     "shop": "books"
+    }
+   },
+   {
+    "id": 13971444994,
+    "type": "node",
+    "name": "Unnamed",
+    "coordinates": {
+     "latitude": -33.8883691,
+     "longitude": 151.1981375
+    },
+    "category": "shop",
+    "subcategory": "bicycle",
+    "tags": {
+     "shop": "bicycle"
+    }
+   },
+   {
+    "id": 13980842706,
+    "type": "node",
+    "name": "Ace Nails And Beauty",
+    "coordinates": {
+     "latitude": -33.8928214,
+     "longitude": 151.1993615
+    },
+    "category": "shop",
+    "subcategory": "beauty",
+    "tags": {
+     "beauty": "nails",
+     "check_date": "2026-06-30",
+     "name": "Ace Nails And Beauty",
+     "shop": "beauty"
+    }
+   },
+   {
+    "id": 13982293001,
+    "type": "node",
+    "name": "Osaka DonutLab",
+    "coordinates": {
+     "latitude": -33.8852906,
+     "longitude": 151.1992012
+    },
+    "category": "shop",
+    "subcategory": "bakery",
+    "tags": {
+     "addr:housenumber": "6",
+     "addr:street": "Central Park Avenue",
+     "level": "0",
+     "name": "Osaka DonutLab",
+     "shop": "bakery",
+     "website": "https://www.osakadonutlab.com.au/"
+    }
+   },
+   {
+    "id": 14003580660,
+    "type": "node",
+    "name": "Salon Lane",
+    "coordinates": {
+     "latitude": -33.8824842,
+     "longitude": 151.2128832
+    },
+    "category": "shop",
+    "subcategory": "hairdresser",
+    "tags": {
+     "check_date": "2026-07-11",
+     "name": "Salon Lane",
+     "shop": "hairdresser"
+    }
+   },
+   {
+    "id": 14003591284,
+    "type": "node",
+    "name": "Scout Hair",
+    "coordinates": {
+     "latitude": -33.8822917,
+     "longitude": 151.2134944
+    },
+    "category": "shop",
+    "subcategory": "hairdresser",
+    "tags": {
+     "check_date": "2026-07-11",
+     "name": "Scout Hair",
+     "shop": "hairdresser"
+    }
+   },
+   {
+    "id": 14003591285,
+    "type": "node",
+    "name": "Tattoo Rosies",
+    "coordinates": {
+     "latitude": -33.8823718,
+     "longitude": 151.2134787
+    },
+    "category": "shop",
+    "subcategory": "tattoo",
+    "tags": {
+     "addr:housenumber": "246",
+     "addr:street": "Riley Street",
+     "check_date": "2026-07-11",
+     "name": "Tattoo Rosies",
+     "shop": "tattoo"
+    }
+   },
+   {
+    "id": 14023238055,
+    "type": "node",
+    "name": "DEA Store Redfern West",
+    "coordinates": {
+     "latitude": -33.8942539,
+     "longitude": 151.199369
+    },
+    "category": "shop",
+    "subcategory": "gift",
+    "tags": {
+     "addr:housenumber": "128",
+     "addr:street": "Regent Street",
+     "name": "DEA Store Redfern West",
+     "shop": "gift"
+    }
+   },
+   {
+    "id": 14047898307,
+    "type": "node",
+    "name": "Wildlife Hair",
+    "coordinates": {
+     "latitude": -33.881165,
+     "longitude": 151.2093374
+    },
+    "category": "shop",
+    "subcategory": "hairdresser",
+    "tags": {
+     "addr:housenumber": "50",
+     "addr:street": "Reservoir Street",
+     "check_date": "2026-09",
+     "name": "Wildlife Hair",
+     "shop": "hairdresser"
+    }
+   },
+   {
+    "id": 14047900890,
+    "type": "node",
+    "name": "Sydney Cakery",
+    "coordinates": {
+     "latitude": -33.8813381,
+     "longitude": 151.209079
+    },
+    "category": "shop",
+    "subcategory": "bakery",
+    "tags": {
+     "name": "Sydney Cakery",
+     "shop": "bakery"
+    }
+   },
+   {
+    "id": 14179998906,
+    "type": "node",
+    "name": "Unnamed",
+    "coordinates": {
+     "latitude": -33.8844755,
+     "longitude": 151.2091557
+    },
+    "category": "shop",
+    "subcategory": "vacant",
+    "tags": {
+     "addr:housenumber": "26",
+     "addr:street": "Kippax Street",
+     "addr:unit": "Shop 3",
+     "check_date": "2026-09",
+     "shop": "vacant"
+    }
+   },
+   {
+    "id": 14179998966,
+    "type": "node",
+    "name": "Sheridan Outlet",
+    "coordinates": {
+     "latitude": -33.8836637,
+     "longitude": 151.209172
+    },
+    "category": "shop",
+    "subcategory": "bathroom_furnishing",
+    "tags": {
+     "check_date": "2026-09",
+     "name": "Sheridan Outlet",
+     "shop": "bathroom_furnishing"
+    }
+   },
+   {
+    "id": 14211856367,
+    "type": "node",
+    "name": "Spider and Fly",
+    "coordinates": {
+     "latitude": -33.8858887,
+     "longitude": 151.1985804
+    },
+    "category": "shop",
+    "subcategory": "tattoo",
+    "tags": {
+     "addr:housenumber": "27-39",
+     "addr:street": "Abercrombie Street",
+     "addr:unit": "101",
+     "name": "Spider and Fly",
+     "reservation": "required",
+     "shop": "tattoo",
+     "website": "https://www.spiderandflytattoo.com"
+    }
+   },
+   {
+    "id": 14219453002,
+    "type": "node",
+    "name": "A.P Supply",
+    "coordinates": {
+     "latitude": -33.8804876,
+     "longitude": 151.2110303
+    },
+    "category": "shop",
+    "subcategory": "bakery",
+    "tags": {
+     "addr:floor": "G",
+     "addr:housenumber": "106",
+     "addr:street": "Commonwealth Street",
+     "check_date": "2026-09-26",
+     "level": "0",
+     "name": "A.P Supply",
+     "opening_hours": "07:30-15:00",
+     "shop": "bakery",
+     "website": "https://www.apbakery.com.au"
+    }
+   }
+  ]
+ },
+ "tool": "search_category",
+ "arguments": {
+  "category": "shop",
+  "min_latitude": -33.8955,
+  "min_longitude": 151.186,
+  "max_latitude": -33.88,
+  "max_longitude": 151.214
+ },
+ "origin": "cache",
+ "resultCount": 375,
+ "evidenceLayer": "source",
+ "knownGap": "MCP returns `out body` (no geometry) and drops ways/relations that have no centre, so this channel under-reports area-mapped venues."
+}

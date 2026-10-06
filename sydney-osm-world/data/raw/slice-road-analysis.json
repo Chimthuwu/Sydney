@@ -1,0 +1,52 @@
+{
+ "generatedAt": "2026-09-29T15:26:40+00:00",
+ "mapHalfMetres": 1200.0,
+ "roadsInSlice": 2682,
+ "byCategory": {
+  "service": 819,
+  "local": 585,
+  "arterial": 402,
+  "collector": 306,
+  "pedestrian": 242,
+  "freeway_link": 162,
+  "freeway": 91,
+  "arterial_link": 37,
+  "collector_link": 27,
+  "arterial_major": 11
+ },
+ "lengthKm": 176.97,
+ "chosenResolution": 2.0,
+ "graph": {
+  "nodes": 11150,
+  "edges": 12212,
+  "ways": 2682,
+  "components": 63,
+  "largestComponentNodes": 10069,
+  "largestComponentShare": 0.903,
+  "componentSizes": [
+   10069,
+   145,
+   114,
+   54,
+   43,
+   35,
+   34,
+   33,
+   32,
+   28,
+   27,
+   23,
+   22,
+   22,
+   21,
+   20,
+   20,
+   20,
+   19,
+   17
+  ],
+  "orphanNodes": 0
+ },
+ "largestComponentWays": 2584,
+ "largestComponentKm": 165.6
+}

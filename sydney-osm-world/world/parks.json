@@ -1,0 +1,611 @@
+{
+ "generatedAt": "2026-09-29T17:49:22+00:00",
+ "stats": {
+  "total": 1486,
+  "named": 300,
+  "withGeometry": 1485,
+  "totalAreaKm2": 9.956
+ },
+ "largestParks": [
+  {
+   "id": "relation/296933",
+   "name": "Sydney Harbour National Park",
+   "areaM2": 3960248.5,
+   "center": [
+    -33.839291,
+    151.256371
+   ],
+   "local": {
+    "x": 4472.42,
+    "y": 0.0,
+    "z": -3742.411
+   },
+   "kind": "parks"
+  },
+  {
+   "id": "way/445377932",
+   "name": "Centennial Park",
+   "areaM2": 1926174.8,
+   "center": [
+    -33.89831,
+    151.234595
+   ],
+   "local": {
+    "x": 2458.994,
+    "y": 0.0,
+    "z": 2809.884
+   },
+   "kind": "parks"
+  },
+  {
+   "id": "relation/2253129",
+   "name": "Moore Park Golf",
+   "areaM2": 324642.3,
+   "center": [
+    -33.899911,
+    151.219098
+   ],
+   "local": {
+    "x": 1026.16,
+    "y": 0.0,
+    "z": 2987.678
+   },
+   "kind": "parks"
+  },
+  {
+   "id": "relation/3744999",
+   "name": "Royal Botanic Garden",
+   "areaM2": 302093.6,
+   "center": [
+    -33.863277,
+    151.216086
+   ],
+   "local": {
+    "x": 747.641,
+    "y": 0.0,
+    "z": -1079.431
+   },
+   "kind": "parks"
+  },
+  {
+   "id": "way/331769891",
+   "name": null,
+   "areaM2": 171502.9,
+   "center": [
+    -33.891418,
+    151.221811
+   ],
+   "local": {
+    "x": 1276.954,
+    "y": 0.0,
+    "z": 2044.807
+   },
+   "kind": "parks"
+  },
+  {
+   "id": "relation/2030042",
+   "name": "Hyde Park",
+   "areaM2": 160398.5,
+   "center": [
+    -33.873461,
+    151.211144
+   ],
+   "local": {
+    "x": 290.652,
+    "y": 0.0,
+    "z": 51.186
+   },
+   "kind": "parks"
+  },
+  {
+   "id": "relation/3744998",
+   "name": "Domain Yurong Precinct",
+   "areaM2": 131935.4,
+   "center": [
+    -33.864281,
+    151.220402
+   ],
+   "local": {
+    "x": 1146.692,
+    "y": 0.0,
+    "z": -968.013
+   },
+   "kind": "parks"
+  },
+  {
+   "id": "way/12281514",
+   "name": "Moore Park",
+   "areaM2": 113932.7,
+   "center": [
+    -33.889597,
+    151.218578
+   ],
+   "local": {
+    "x": 978.066,
+    "y": 0.0,
+    "z": 1842.553
+   },
+   "kind": "parks"
+  },
+  {
+   "id": "way/331769890",
+   "name": null,
+   "areaM2": 107005.2,
+   "center": [
+    -33.894296,
+    151.218448
+   ],
+   "local": {
+    "x": 966.047,
+    "y": 0.0,
+    "z": 2364.306
+   },
+   "kind": "parks"
+  },
+  {
+   "id": "relation/2293483",
+   "name": "Balls Head Reserve",
+   "areaM2": 105598.3,
+   "center": [
+    -33.845328,
+    151.195063
+   ],
+   "local": {
+    "x": -1196.124,
+    "y": 0.0,
+    "z": -3072.129
+   },
+   "kind": "parks"
+  },
+  {
+   "id": "way/4960887",
+   "name": "Rushcutters Bay Park",
+   "areaM2": 95319.3,
+   "center": [
+    -33.874573,
+    151.230521
+   ],
+   "local": {
+    "x": 2082.297,
+    "y": 0.0,
+    "z": 174.616
+   },
+   "kind": "parks"
+  },
+  {
+   "id": "relation/7120940",
+   "name": "Wentworth Park",
+   "areaM2": 92946.7,
+   "center": [
+    -33.876591,
+    151.192535
+   ],
+   "local": {
+    "x": -1429.898,
+    "y": 0.0,
+    "z": 398.706
+   },
+   "kind": "parks"
+  },
+  {
+   "id": "relation/2347918",
+   "name": "Victoria Park",
+   "areaM2": 89878.6,
+   "center": [
+    -33.88609,
+    151.192645
+   ],
+   "local": {
+    "x": -1419.756,
+    "y": 0.0,
+    "z": 1453.281
+   },
+   "kind": "parks"
+  },
+  {
+   "id": "relation/14454221",
+   "name": "Cremorne Reserve",
+   "areaM2": 88707.2,
+   "center": [
+    -33.844418,
+    151.229793
+   ],
+   "local": {
+    "x": 2014.939,
+    "y": 0.0,
+    "z": -3173.121
+   },
+   "kind": "parks"
+  },
+  {
+   "id": "way/282035313",
+   "name": "Domain Crescent Precinct",
+   "areaM2": 86495.1,
+   "center": [
+    -33.869737,
+    151.21655
+   ],
+   "local": {
+    "x": 790.565,
+    "y": 0.0,
+    "z": -362.249
+   },
+   "kind": "parks"
+  },
+  {
+   "id": "way/148341695",
+   "name": "Hyde Park North",
+   "areaM2": 83607.4,
+   "center": [
+    -33.871629,
+    151.211398
+   ],
+   "local": {
+    "x": 314.161,
+    "y": 0.0,
+    "z": -152.24
+   },
+   "kind": "parks"
+  },
+  {
+   "id": "way/1224921215",
+   "name": "The Domain",
+   "areaM2": 78740.8,
+   "center": [
+    -33.867787,
+    151.214814
+   ],
+   "local": {
+    "x": 630.019,
+    "y": 0.0,
+    "z": -578.694
+   },
+   "kind": "parks"
+  },
+  {
+   "id": "way/150583873",
+   "name": "Hyde Park South",
+   "areaM2": 76791.1,
+   "center": [
+    -33.875603,
+    151.210846
+   ],
+   "local": {
+    "x": 263.17,
+    "y": 0.0,
+    "z": 288.993
+   },
+   "kind": "parks"
+  },
+  {
+   "id": "way/4334335",
+   "name": "Prince Alfred Park",
+   "areaM2": 72510.6,
+   "center": [
+    -33.887724,
+    151.205112
+   ],
+   "local": {
+    "x": -266.992,
+    "y": 0.0,
+    "z": 1634.607
+   },
+   "kind": "parks"
+  },
+  {
+   "id": "relation/17039613",
+   "name": "Barangaroo Reserve",
+   "areaM2": 64378.4,
+   "center": [
+    -33.857916,
+    151.201419
+   ],
+   "local": {
+    "x": -608.469,
+    "y": 0.0,
+    "z": -1674.639
+   },
+   "kind": "parks"
+  },
+  {
+   "id": "relation/5718956",
+   "name": "Trumper Park",
+   "areaM2": 59926.6,
+   "center": [
+    -33.881517,
+    151.235319
+   ],
+   "local": {
+    "x": 2525.897,
+    "y": 0.0,
+    "z": 945.561
+   },
+   "kind": "parks"
+  },
+  {
+   "id": "way/387975057",
+   "name": "Sydney Cricket Ground",
+   "areaM2": 58951.2,
+   "center": [
+    -33.891316,
+    151.22444
+   ],
+   "local": {
+    "x": 1520.013,
+    "y": 0.0,
+    "z": 2033.461
+   },
+   "kind": "parks"
+  },
+  {
+   "id": "way/685551995",
+   "name": "Allianz Stadium",
+   "areaM2": 57237.8,
+   "center": [
+    -33.889255,
+    151.22471
+   ],
+   "local": {
+    "x": 1545.031,
+    "y": 0.0,
+    "z": 1804.61
+   },
+   "kind": "parks"
+  },
+  {
+   "id": "relation/2068542",
+   "name": "Bradfield Park",
+   "areaM2": 50356.1,
+   "center": [
+    -33.84791,
+    151.211992
+   ],
+   "local": {
+    "x": 369.065,
+    "y": 0.0,
+    "z": -2785.455
+   },
+   "kind": "parks"
+  },
+  {
+   "id": "way/4334556",
+   "name": "Redfern Park",
+   "areaM2": 45607.5,
+   "center": [
+    -33.894717,
+    151.205938
+   ],
+   "local": {
+    "x": -190.657,
+    "y": 0.0,
+    "z": 2411.056
+   },
+   "kind": "parks"
+  },
+  {
+   "id": "way/1221911239",
+   "name": null,
+   "areaM2": 42761.5,
+   "center": [
+    -33.860221,
+    151.214993
+   ],
+   "local": {
+    "x": 646.556,
+    "y": 0.0,
+    "z": -1418.684
+   },
+   "kind": "parks"
+  },
+  {
+   "id": "way/188305885",
+   "name": "Mort Bay Park",
+   "areaM2": 42369.0,
+   "center": [
+    -33.853621,
+    151.185348
+   ],
+   "local": {
+    "x": -2094.367,
+    "y": 0.0,
+    "z": -2151.421
+   },
+   "kind": "parks"
+  },
+  {
+   "id": "way/172418034",
+   "name": "Wentworth Park Sporting Complex",
+   "areaM2": 37611.7,
+   "center": [
+    -33.877106,
+    151.192972
+   ],
+   "local": {
+    "x": -1389.479,
+    "y": 0.0,
+    "z": 455.802
+   },
+   "kind": "parks"
+  },
+  {
+   "id": "way/173153410",
+   "name": "Blackwattle Bay Park",
+   "areaM2": 33020.1,
+   "center": [
+    -33.872384,
+    151.18432
+   ],
+   "local": {
+    "x": -2189.42,
+    "y": 0.0,
+    "z": -68.43
+   },
+   "kind": "parks"
+  },
+  {
+   "id": "relation/6260181",
+   "name": null,
+   "areaM2": 26577.7,
+   "center": [
+    -33.889642,
+    151.188434
+   ],
+   "local": {
+    "x": -1809.052,
+    "y": 0.0,
+    "z": 1847.603
+   },
+   "kind": "parks"
+  },
+  {
+   "id": "way/82465736",
+   "name": "Ballast Point Park",
+   "areaM2": 25703.5,
+   "center": [
+    -33.852178,
+    151.189251
+   ],
+   "local": {
+    "x": -1733.485,
+    "y": 0.0,
+    "z": -2311.703
+   },
+   "kind": "parks"
+  },
+  {
+   "id": "way/282194920",
+   "name": "Dawes Point Reserve",
+   "areaM2": 23446.3,
+   "center": [
+    -33.855164,
+    151.209022
+   ],
+   "local": {
+    "x": 94.453,
+    "y": 0.0,
+    "z": -1980.112
+   },
+   "kind": "parks"
+  },
+  {
+   "id": "way/241886075",
+   "name": "Pirrama Park",
+   "areaM2": 23216.7,
+   "center": [
+    -33.864242,
+    151.1923
+   ],
+   "local": {
+    "x": -1451.591,
+    "y": 0.0,
+    "z": -972.334
+   },
+   "kind": "parks"
+  },
+  {
+   "id": "way/176557123",
+   "name": "Tramway Oval",
+   "areaM2": 21078.7,
+   "center": [
+    -33.891848,
+    151.222275
+   ],
+   "local": {
+    "x": 1319.821,
+    "y": 0.0,
+    "z": 2092.542
+   },
+   "kind": "parks"
+  },
+  {
+   "id": "relation/3744333",
+   "name": "Domain Tarpeian Precinct",
+   "areaM2": 20656.6,
+   "center": [
+    -33.859517,
+    151.214239
+   ],
+   "local": {
+    "x": 576.858,
+    "y": 0.0,
+    "z": -1496.876
+   },
+   "kind": "parks"
+  },
+  {
+   "id": "way/4334353",
+   "name": "Belmore Park",
+   "areaM2": 20561.2,
+   "center": [
+    -33.881072,
+    151.207481
+   ],
+   "local": {
+    "x": -47.961,
+    "y": 0.0,
+    "z": 896.165
+   },
+   "kind": "parks"
+  },
+  {
+   "id": "way/4000006",
+   "name": null,
+   "areaM2": 19086.6,
+   "center": [
+    -33.891706,
+    151.224821
+   ],
+   "local": {
+    "x": 1555.308,
+    "y": 0.0,
+    "z": 2076.786
+   },
+   "kind": "parks"
+  },
+  {
+   "id": "way/672208538",
+   "name": "Birrung Park",
+   "areaM2": 17540.8,
+   "center": [
+    -33.860716,
+    151.184265
+   ],
+   "local": {
+    "x": -2194.504,
+    "y": 0.0,
+    "z": -1363.797
+   },
+   "kind": "parks"
+  },
+  {
+   "id": "way/1225862414",
+   "name": null,
+   "areaM2": 16821.5,
+   "center": [
+    -33.890996,
+    151.220794
+   ],
+   "local": {
+    "x": 1182.897,
+    "y": 0.0,
+    "z": 1997.908
+   },
+   "kind": "parks"
+  },
+  {
+   "id": "way/1173833559",
+   "name": null,
+   "areaM2": 16679.0,
+   "center": [
+    -33.885383,
+    151.223278
+   ],
+   "local": {
+    "x": 1412.61,
+    "y": 0.0,
+    "z": 1374.723
+   },
+   "kind": "parks"
+  }
+ ]
+}

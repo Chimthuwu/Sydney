@@ -1,0 +1,349 @@
+// ---------------------------------------------------------------------------
+// weapons.js — the player's weapon slot.
+//
+// The game had one gun, hard-coded into fire(). This keeps that as the starter
+// 9mm (infinite ammo, the same numbers) and adds the weapons NPCs can drop. There
+// is one slot: picking up a different weapon swaps to it, picking up the same one
+// adds its ammo, and running dry falls back to the 9mm. The slot lives on the
+// game state (state.weapon, state.ammo) next to state.cash; nothing else keeps
+// a second inventory.
+// ---------------------------------------------------------------------------
+
+export const WEAPONS = Object.freeze({  // `rpm` is the source of truth for the fire interval (cooldown = 60/rpm) and
+  // `fireMode` decides whether holding the trigger keeps firing: only "auto"
+  // repeats. `hold` is which arm pose the character uses (weapons_3d.js):
+  // one-handed, two-handed or shouldered. Every weapon in the game — dropped,
+  // bought, spawned — goes through this table, so a new one cannot end up
+  // carried like a prop.
+  bat:       { id: "bat",       name: "Baseball Bat", rarity: "starter",  damage: 3,   rpm: 109, cooldown: 60 / 109, vehicleCooldown: 60 / 109, range: 2.2, clip: Infinity, melee: true, type: "melee", hold: "melee", twoHanded: false, fireMode: "single", reloadTime: 0 },  pistol:    { id: "pistol",    name: "9mm",        rarity: "common",   damage: 2,   rpm: 143, cooldown: 60 / 143, vehicleCooldown: 60 / 200, range: 30,  clip: 12, maxReserve: 72, type: "pistol",  hold: "pistol", twoHanded: false, fireMode: "single", reloadTime: 1.1 },  tec9:      { id: "tec9",      name: "Tec-9",      rarity: "common",   damage: 1.5, rpm: 460, cooldown: 60 / 460, vehicleCooldown: 60 / 460, range: 24,  clip: 32, maxReserve: 128, type: "smg", hold: "long", twoHanded: true, fireMode: "auto", reloadTime: 1.6 },  sawnoff:   { id: "sawnoff",   name: "Sawed-off",  rarity: "uncommon", damage: 6,   rpm: 63, cooldown: 60 / 63, vehicleCooldown: 60 / 63, range: 13,  clip: 8,  maxReserve: 32, type: "shotgun", hold: "long", twoHanded: true, fireMode: "single", reloadTime: 2.4 },  deerRifle: { id: "deerRifle", name: "Deer rifle", rarity: "rare",     damage: 9,   rpm: 52, cooldown: 60 / 52, vehicleCooldown: 60 / 52, range: 55,  clip: 5,  maxReserve: 20, type: "rifle", hold: "long", twoHanded: true, fireMode: "single", reloadTime: 2.8 },
+});
+
+export const RARITY = Object.freeze({
+  starter:  { weight: 0,  color: 0xa0a8b0, label: "Starter" },
+  common:   { weight: 65, color: 0xd9dde2, label: "Common" },
+  uncommon: { weight: 27, color: 0x4fc3f7, label: "Uncommon" },
+  rare:     { weight: 8,  color: 0xffd23a, label: "Rare" },
+});
+
+/**
+ * @param {object} o
+ * @param {object} o.state          the game state (state.weapon / state.ammo live here)
+ * @param {Function} o.flashObjective
+ */
+export function createArsenal({ state, flashObjective, onReload }) {
+  if (!WEAPONS[state.weapon]) state.weapon = "bat";
+  // Diagnostic starting loadout (human request, 2026-09-17): every character
+  // starts owning every gun — one clip's worth of reserve each, not full
+  // maxReserve — so cycleWeapon() (mouse wheel) can reach all of them
+  // immediately to check animations/sounds/behavior without hunting for
+  // pickups first. cycleWeapon() treats reserve > 0 as "owned".
+  if (!state.reserve) {
+    state.reserve = { pistol: WEAPONS.pistol.clip, tec9: WEAPONS.tec9.clip, sawnoff: WEAPONS.sawnoff.clip, deerRifle: WEAPONS.deerRifle.clip };
+  }
+  if (state.ammo == null) state.ammo = WEAPONS[state.weapon].clip;
+
+  // Lives inside #hudRight (below the cash readout) so it stacks in normal
+  // flow with the rest of the top-right cluster instead of a hardcoded
+  // top:Npx guess — that guess is what used to let this panel drift up and
+  // overlap the wanted stars. Falls back to <body> if #hudRight is missing
+  // (e.g. a stripped-down test page) so the HUD never silently disappears.
+  const hud = document.createElement("div");
+  hud.id = "weaponHud";
+  hud.style.cssText = "pointer-events:none;transition:opacity .4s";
+  (document.getElementById("hudRight") || document.body).appendChild(hud);
+  const css = document.createElement("style");
+  css.textContent = `
+    body.letterbox #weaponHud { opacity: 0; }
+    #weaponHud .wpn-panel {
+      display: flex; flex-direction: column; align-items: center;
+      gap: clamp(4px, .6vw, 8px);
+      padding: clamp(8px, 1.2vw, 14px);
+      background: rgba(6, 10, 8, 0.55);
+      border: 1px solid rgba(160, 190, 150, 0.28);
+      border-radius: 12px;
+      backdrop-filter: blur(2px);
+      box-shadow: 0 4px 18px rgba(0,0,0,.35);
+    }
+    #weaponHud .wpn-name {
+      font: 700 clamp(10px, 1.1vw, 12px)/1 Arial, sans-serif;
+      letter-spacing: .08em; text-transform: uppercase; opacity: .8;
+      max-width: clamp(90px, 12vw, 160px); text-align: center;
+      overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+    }
+    #weaponHud .wpn-icon {
+      width: clamp(88px, 10vw, 152px); height: clamp(88px, 10vw, 152px);
+      display: flex; align-items: center; justify-content: center;
+    }
+    #weaponHud .wpn-icon img {
+      width: 100%; height: 100%; object-fit: contain;
+      filter: drop-shadow(0 2px 3px rgba(0,0,0,.6));
+    }
+    #weaponHud .wpn-state {
+      font: 900 clamp(15px, 1.8vw, 20px)/1 'Arial Black', sans-serif;
+      text-shadow: 0 2px 2px #000, 0 0 4px #000;
+    }
+  `;
+  document.head.appendChild(css);
+
+  // No baseball bat icon exists anywhere in assets/ (checked the whole tree) —
+  // it was mapped to "unarmed.png" (a bare-fists icon), which is the "am I
+  // using my fists?" bug: the HUD visually said unarmed while the bat was
+  // equipped and working fine. Drawn inline instead of adding a new binary
+  // asset — a simple tapered-bar silhouette, same flat icon style as the rest.
+  const BAT_ICON = "data:image/svg+xml;utf8," + encodeURIComponent(
+    `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+      <g transform="rotate(-40 32 32)">
+        <rect x="29" y="8" width="6" height="15" rx="3" fill="#5a3a1e"/>
+        <path d="M29 23 h6 v20 a3 3 0 0 1 -3 8 a3 3 0 0 1 -3 -8 z" fill="#c99a5b"/>
+        <rect x="28.5" y="23" width="7" height="3" fill="#5a3a1e"/>
+      </g>
+    </svg>`
+  );
+  const ICONS = {
+    bat: BAT_ICON,
+    pistol: "WEAPON_PISTOL.png",
+    tec9: "WEAPON_MICROSMG.png",
+    sawnoff: "WEAPON_SHOTGUN.png",
+    deerRifle: "WEAPON_ASSAULTRIFLE.png"
+  };
+
+  // The weapon icon PNGs (assets/ui/weapons/*.png) each already bake in their
+  // own opaque white rounded-square card — they aren't bare silhouettes on
+  // transparent backgrounds. The old markup wrapped that card in a second,
+  // separate black rounded box, so the HUD showed two overlapping
+  // "container" shapes (the black box, and the white card floating inside
+  // it) — that's the stray grey/black layer behind the icon. Fix is to stop
+  // adding a background behind the icon at all: the single .wpn-panel below
+  // is the only container, and the icon's own card sits directly on it.
+  function render() {
+    const w = WEAPONS[state.weapon] || WEAPONS.bat;
+    // Holstered (main.js, X): dim the icon right down so the HUD reads as
+    // "carrying it, not holding it" rather than looking like the weapon is gone.
+    hud.style.opacity = state.holstered ? "0.35" : "1";
+    hud.title = state.holstered ? "Weapon away — X to draw" : "";
+    const iconName = ICONS[w.id] || BAT_ICON;
+    const iconSrc = iconName.startsWith("data:") ? iconName : `./assets/ui/weapons/${iconName}`;
+    const tint = RARITY[w.rarity] ? "#" + RARITY[w.rarity].color.toString(16).padStart(6, "0") : "#f4f1ea";
+
+    // Infinite/undefined ammo must never render as "Infinity" or "-Infinity"
+    // (free-roam gives Infinity reserve; a fresh slot can be null/undefined).
+    const fmt = (n) => Number.isFinite(n) ? n : (n > 0 ? "∞" : "0");
+    const state_ = w.melee ? "MELEE" : `${fmt(state.ammo)} <span style="opacity:.6;font-weight:700">/ ${fmt(state.reserve && state.reserve[w.id])}</span>`;
+
+    hud.innerHTML = `
+      <div class="wpn-panel">
+        <div class="wpn-name">${w.name}</div>
+        <div class="wpn-icon"><img src="${iconSrc}" alt="${w.name}"></div>
+        <div class="wpn-state" style="color:${tint}">${state_}</div>
+      </div>`;
+  }
+  render();
+
+  function reload() {
+    const w = WEAPONS[state.weapon];
+    if (!w || w.melee || !Number.isFinite(w.clip)) return false;
+    if (state.ammo >= w.clip) return false;
+    const res = state.reserve && state.reserve[w.id] ? state.reserve[w.id] : 0;
+    if (res <= 0) {
+      flashObjective(`No reserve ammo for ${w.name}!`);
+      return false;
+    }
+    const needed = w.clip - state.ammo;
+    const take = Math.min(needed, res);
+    state.reserve[w.id] -= take;
+    state.ammo += take;
+    flashObjective(`Reloaded ${w.name} (+${take})`);
+    // Presentation hook (main.js → weapons_3d.js): the weapon dips and comes
+    // back up for exactly this weapon's reloadTime. A callback rather than an
+    // import, so the gameplay table stays free of anything that renders.
+    if (onReload) onReload(w.id, w.reloadTime);
+    render();
+    return true;
+  }
+
+  function addReserve(id, rounds) {
+    const w = WEAPONS[id];
+    if (!w || w.melee) return;
+    if (!state.reserve) state.reserve = {};
+    if (state.freeRoam) { state.reserve[id] = Infinity; render(); return; }
+    const maxRes = w.maxReserve || 100;
+    state.reserve[id] = Math.min(maxRes, (state.reserve[id] || 0) + rounds);
+    render();
+  }
+
+  return {
+    WEAPONS,
+    get current() { return WEAPONS[state.weapon] || WEAPONS.bat; },
+    get ammo() { return state.ammo; },
+    get reserve() { return state.reserve; },    /** The numbers fire() uses. `fireMode`/`rpm` come along so the trigger loop
+     *  can ask the weapon rather than hardcoding which guns are automatic. */
+    stats(inVehicle) {
+      const w = WEAPONS[state.weapon] || WEAPONS.bat;
+      return { damage: w.damage, range: w.range, cooldown: inVehicle ? w.vehicleCooldown : w.cooldown, melee: !!w.melee, name: w.name, fireMode: w.fireMode || "single", rpm: w.rpm || Math.round(60 / w.cooldown), hold: w.hold || (w.melee ? "melee" : "pistol"), twoHanded: !!w.twoHanded, reloadTime: w.reloadTime || 0 };
+    },
+    /** True when holding the trigger should keep firing (Tec-9 and friends). */
+    get auto() { const w = WEAPONS[state.weapon] || WEAPONS.bat; return w.fireMode === "auto"; },
+    /** One round spent; bat never runs out. */
+    consume() {
+      const w = WEAPONS[state.weapon];
+      if (!w || w.melee || !Number.isFinite(state.ammo)) return;
+      state.ammo--;
+      if (state.ammo <= 0) {
+        const res = state.reserve && state.reserve[w.id] ? state.reserve[w.id] : 0;
+        if (res > 0) {
+          reload();
+        } else {
+          flashObjective(`${w.name} is empty! Back to the Baseball Bat.`);
+          state.weapon = "bat";
+          state.ammo = Infinity;
+        }
+      }
+      render();
+    },
+        cycleWeapon(dir) {
+      const keys = Object.keys(WEAPONS);
+      const available = keys.filter(k => {
+        if (state.veh && k !== 'pistol' && k !== 'tec9') return false;
+        if (k === 'bat' || state.freeRoam) return true;
+        if (state.weapon === k && state.ammo > 0) return true;
+        if (state.reserve && state.reserve[k] > 0) return true;
+        return false;
+      });
+      if (available.length <= 1) return; // Nothing to switch to
+      
+      let idx = available.indexOf(state.weapon);
+      if (idx === -1) idx = 0;
+      
+      // Before switching, dump current clip into reserve
+      if (!WEAPONS[state.weapon].melee && Number.isFinite(state.ammo)) {
+        if (!state.reserve) state.reserve = {};
+        const maxRes = WEAPONS[state.weapon].maxReserve || 100;
+        state.reserve[state.weapon] = Math.min(maxRes, (state.reserve[state.weapon] || 0) + state.ammo);
+      }
+      
+      idx = (idx + dir + available.length) % available.length;
+      const nextId = available[idx];
+      
+      state.weapon = nextId;
+      const w = WEAPONS[nextId];
+      if (w.melee || state.freeRoam) {
+        state.ammo = Infinity;
+      } else {
+        const res = state.reserve && state.reserve[nextId] ? state.reserve[nextId] : 0;
+        const take = Math.min(w.clip, res);
+        state.ammo = take;
+        state.reserve[nextId] -= take;
+      }
+      render();
+    },
+    /** Switch to weapon `id` (number keys), if it is owned. */
+    selectWeapon(id) {
+      if (state.weapon === id) return true;
+      for (let i = 0; i < 8 && state.weapon !== id; i++) this.cycleWeapon(1);
+      return state.weapon === id;
+    },
+    enforceVehicle() {
+      if (state.veh && state.weapon !== "pistol" && state.weapon !== "tec9") {
+        if (state.reserve && state.reserve.tec9 > 0) {
+          this.cycleWeapon(1); // Force a cycle, it will naturally pick tec9/pistol due to the filter
+          if (state.weapon !== "tec9" && state.weapon !== "pistol") {
+             // If cycleWeapon didn't work (no ammo), force it anyway
+             state.weapon = "pistol";
+             state.ammo = 0;
+          }
+        } else {
+          // Just force switch to pistol
+          state.weapon = "pistol";
+          this.reload();
+        }
+        render();
+      }
+    },
+    reload,
+    addReserve,
+    /**
+     * The `@STOOGELYF666` cheat: every gun in the table, infinite reserve, and
+     * a large sum of cash. Returns { ids, cash, total } — the id list plus the
+     * grant and the resulting balance, so main.js can report both in the HUD
+     // flash without re-deriving anything.
+     *
+     * This is a cheat and it is deliberately not hidden — it is a single typed
+     * line, it costs nothing to leave in, and a game you cannot pick up a rifle
+     * in is worse than a game with a cheat in it. But two rules keep it from
+     * being a footgun:
+     *
+     *  - It does NOT bypass `maxReserve`, because infinite ammo is a DIFFERENT
+     *    value from "a lot of ammo". `addReserve` clamps to maxReserve, and
+     *    `state.reserve[id] = Infinity` is the same value free roam already
+     *    uses, so the HUD's Infinity guard (weapons.js render) keeps working and
+     *    the number never renders as "Infinity".
+     *  - It does NOT touch `state.freeRoam`. Free roam is a separate mode with
+     *    its own rules (you can drive any car, keep weapons, and are not
+     *    policed); quietly flipping it here would change more than weapons.
+     *
+     * Melee is skipped: `WEAPONS.bat.clip` is Infinity already, so putting it
+     * in reserve would add an Infinity that the cycle filter has to special-case
+     * for no benefit. The bat is the fallback when a gun runs dry, and it is
+     * always present.
+     */
+    unlockAll() {
+      const ids = Object.keys(WEAPONS).filter((id) => !WEAPONS[id].melee);
+      if (!state.reserve) state.reserve = {};
+      for (const id of ids) {
+        state.reserve[id] = Infinity;
+        // fill the magazine too, so picking the gun up does not start it empty
+        state.ammo = WEAPONS[id].clip;
+        state.weapon = id;
+        render();
+      }
+      // leave the player holding the sawn-off rather than whichever happened to
+      // be last in the table's key order. It is the highest-damage gun in the
+      // game, so the cheat ends with something that visibly does more than the
+      // pistol you were holding a second ago.
+      state.weapon = "sawnoff";
+      state.ammo = Infinity;
+      render();
+      // Money too (human request 2026-10-02: "Make the all weapon cheat make
+      // player hella rich too"). A cheat that hands over every gun but leaves
+      // you broke to buy ammo and medkits is half a cheat.
+      //
+      // It is ADDITIVE and it tops up to a floor rather than setting a value, so
+      // it can never take money away from a player who is already carrying more
+      // than the cheat would grant — and retyping the code is a top-up, not a
+      // reset, so nobody loses their balance by fat-fingering it.
+      const CHEAT_CASH = 250000;
+      state.cash = Math.max((state.cash || 0) + CHEAT_CASH, CHEAT_CASH);
+      return { ids, cash: CHEAT_CASH, total: state.cash };
+    },
+    /** Pick up a weapon: the same one adds ammo to reserve, a different one swaps. */
+    give(id, rounds) {
+      const w = WEAPONS[id];
+      if (!w) return;
+      if (w.melee) {
+        state.weapon = "bat";
+        state.ammo = Infinity;
+        render();
+        return;
+      }
+      if (!state.reserve) state.reserve = {};
+      if (state.freeRoam) { state.weapon = id; state.ammo = Infinity; state.reserve[id] = Infinity; render(); return; }
+      const n = rounds != null ? rounds : w.clip;
+      if (state.weapon === id) {
+        const maxRes = w.maxReserve || 100;
+        state.reserve[id] = Math.min(maxRes, (state.reserve[id] || 0) + n);
+      } else {
+        state.weapon = id;
+        state.ammo = Math.min(w.clip, n);
+        const overflow = Math.max(0, n - w.clip);
+        if (overflow > 0) {
+          const maxRes = w.maxReserve || 100;
+          state.reserve[id] = Math.min(maxRes, (state.reserve[id] || 0) + overflow);
+        }
+      }
+      this.enforceVehicle();
+      render();
+    },
+    render,
+  };
+}
+

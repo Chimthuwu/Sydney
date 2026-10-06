@@ -1,0 +1,81 @@
+{
+ "kind": "mcp-explore-cbd-core",
+ "sourceChannel": "osm-mcp",
+ "collectedAt": "2026-09-29T17:49:04+00:00",
+ "dataSource": "OpenStreetMap",
+ "license": "ODbL 1.0",
+ "payload": {
+  "profile": {
+   "amenity": {},
+   "shop": {},
+   "tourism": {},
+   "leisure": {
+    "bleachers": 1,
+    "escape_game": 2,
+    "fitness_centre": 2,
+    "fitness_station": 1,
+    "garden": 51,
+    "outdoor_seating": 8,
+    "park": 8,
+    "picnic_table": 2,
+    "pitch": 5,
+    "sports_centre": 3,
+    "swimming_pool": 9
+   },
+   "natural": {},
+   "historic": {
+    "building": 2,
+    "cannon": 1,
+    "memorial": 63,
+    "monument": 1,
+    "yes": 2
+   },
+   "public_transport": {}
+  },
+  "address": {
+   "place_id": 23586783,
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "node",
+   "osm_id": 11204130724,
+   "lat": "-33.8687200",
+   "lon": "151.2088670",
+   "class": "amenity",
+   "type": "theatre",
+   "place_rank": 30,
+   "importance": 8.246051728079679e-05,
+   "addresstype": "amenity",
+   "name": "Theatre Royal Sydney",
+   "display_name": "Theatre Royal Sydney, 108, King Street, Wynyard, Sydney, New South Wales, 2000, Australia",
+   "address": {
+    "amenity": "Theatre Royal Sydney",
+    "house_number": "108",
+    "road": "King Street",
+    "neighbourhood": "Wynyard",
+    "suburb": "Sydney",
+    "city": "Sydney",
+    "state": "New South Wales",
+    "ISO3166-2-lvl4": "AU-NSW",
+    "postcode": "2000",
+    "country": "Australia",
+    "country_code": "au"
+   },
+   "boundingbox": [
+    "-33.8687700",
+    "-33.8686700",
+    "151.2088170",
+    "151.2089170"
+   ]
+  }
+ },
+ "tool": "explore_area",
+ "seed": {
+  "id": "cbd-core",
+  "name": "Sydney CBD",
+  "lat": -33.869,
+  "lon": 151.209,
+  "character": "commercial-tourist-core"
+ },
+ "origin": "cache",
+ "totalFeatures": 161,
+ "evidenceLayer": "source"
+}

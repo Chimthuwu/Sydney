@@ -1,0 +1,113 @@
+{
+ "kind": "mcp-explore-walsh-bay",
+ "sourceChannel": "osm-mcp",
+ "collectedAt": "2026-09-29T17:49:04+00:00",
+ "dataSource": "OpenStreetMap",
+ "license": "ODbL 1.0",
+ "payload": {
+  "profile": {
+   "amenity": {
+    "bar": 2,
+    "bbq": 1,
+    "bench": 66,
+    "bicycle_parking": 33,
+    "cafe": 3,
+    "drinking_water": 15,
+    "events_venue": 6,
+    "ferry_terminal": 1,
+    "kindergarten": 1,
+    "loading_dock": 2,
+    "motorcycle_parking": 1,
+    "parking": 8,
+    "parking_entrance": 3,
+    "parking_space": 48,
+    "place_of_worship": 1,
+    "post_box": 1,
+    "pub": 2,
+    "recycling": 1,
+    "restaurant": 5,
+    "school": 1,
+    "shelter": 8,
+    "shower": 1,
+    "social_facility": 1,
+    "taxi": 1,
+    "telephone": 1,
+    "theatre": 1,
+    "toilets": 15,
+    "vending_machine": 1,
+    "waste_basket": 17
+   },
+   "shop": {},
+   "tourism": {},
+   "leisure": {},
+   "natural": {
+    "bare_rock": 31,
+    "bay": 2,
+    "cape": 1,
+    "grassland": 2,
+    "sand": 3,
+    "scrub": 31,
+    "tree": 372,
+    "tree_row": 2,
+    "water": 3,
+    "wood": 12
+   },
+   "historic": {
+    "archaeological_site": 1,
+    "building": 4,
+    "cannon": 1,
+    "memorial": 8,
+    "monument": 1
+   },
+   "public_transport": {
+    "platform": 14,
+    "station": 2,
+    "stop_area": 2,
+    "stop_position": 4
+   }
+  },
+  "address": {
+   "place_id": 23617075,
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 690602152,
+   "lat": "-33.8562924",
+   "lon": "151.2003584",
+   "class": "amenity",
+   "type": "events_venue",
+   "place_rank": 30,
+   "importance": 8.246051728079679e-05,
+   "addresstype": "amenity",
+   "name": "Sea Wall Lawn",
+   "display_name": "Sea Wall Lawn, Wulugul Walk, Barangaroo, Sydney, New South Wales, 2000, Australia",
+   "address": {
+    "amenity": "Sea Wall Lawn",
+    "road": "Wulugul Walk",
+    "suburb": "Barangaroo",
+    "city": "Sydney",
+    "state": "New South Wales",
+    "ISO3166-2-lvl4": "AU-NSW",
+    "postcode": "2000",
+    "country": "Australia",
+    "country_code": "au"
+   },
+   "boundingbox": [
+    "-33.8566635",
+    "-33.8558536",
+    "151.2002937",
+    "151.2005004"
+   ]
+  }
+ },
+ "tool": "explore_area",
+ "seed": {
+  "id": "walsh-bay",
+  "name": "Walsh Bay",
+  "lat": -33.856,
+  "lon": 151.2,
+  "character": "heritage-waterfront"
+ },
+ "origin": "cache",
+ "totalFeatures": 743,
+ "evidenceLayer": "source"
+}
