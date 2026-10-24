@@ -217,14 +217,23 @@ export function buildSydneyContent() {
     // game's blockers are 2D circles walked by the physics, so a tower is a
     // circle sized to its footprint - close enough at car speed, and one circle
     // instead of a convex hull.
+    // Edge-circle colliders: one per footprint edge, radius = half edge length.
+    // Hugs L-shapes far better than a single circumscribing circle.
     for (const b of SYDNEY_BUILDINGS) {
       if (!b.fp || b.fp.length < 3) continue;
-      let cx = 0, cz = 0;
-      for (const [x, z] of b.fp) { cx += x; cz += z; }
-      cx /= b.fp.length; cz /= b.fp.length;
-      let r = 0;
-      for (const [x, z] of b.fp) r = Math.max(r, Math.hypot(x - cx, z - cz));
-      colliders.push({ x: cx, z: cz, r: Math.max(2, r) });
+      const fp = b.fp;
+      // Deduplicate first point if repeated at end (same as in buildingGeometry)
+      let pts = fp.slice();
+      const first = pts[0], last = pts[pts.length - 1];
+      if (first && last && first[0] === last[0] && first[1] === last[1]) pts.pop();
+      for (let i = 0; i < pts.length; i++) {
+        const a = pts[i];
+        const bpt = pts[(i + 1) % pts.length];
+        const mx = (a[0] + bpt[0]) / 2;
+        const mz = (a[1] + bpt[1]) / 2;
+        const r = Math.hypot(a[0] - bpt[0], a[1] - bpt[1]) / 2;
+        colliders.push({ x: mx, z: mz, r: Math.max(1.5, r) });
+      }
     }
     stats.colliders = colliders.length;
   }
