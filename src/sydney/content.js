@@ -97,9 +97,12 @@ function polygonGeometry(rings, y) {
   const index = [];
   for (const ring of rings) {
     if (!ring || ring.length < 3) continue;
+    // Force negative signed area so the fixed-y plane's normal points up (+y)
+    let r = ring.slice();
+    if (signedArea(r) > 0) r = r.slice().reverse();
     const base = pos.length / 3;
-    for (const [x, z] of ring) pos.push(x, y, z);
-    for (const [a, b, c] of triangulate(ring)) index.push(base + a, base + b, base + c);
+    for (const [x, z] of r) pos.push(x, y, z);
+    for (const [a, b, c] of triangulate(r)) index.push(base + a, base + b, base + c);
   }
   if (!index.length) return null;
   const g = new THREE.BufferGeometry();
@@ -120,28 +123,38 @@ function buildingGeometry(list) {
   const pos = [];
   const index = [];
   for (const b of list) {
-    const fp = b.fp;
+    let fp = b.fp ? b.fp.slice() : [];
     if (!fp || fp.length < 3) continue;
+    // 1. Remove duplicate closing point (first point repeated at end)
+    const first = fp[0], last = fp[fp.length - 1];
+    if (first && last && first[0] === last[0] && first[1] === last[1]) fp.pop();
+    if (fp.length < 3) continue;
     const h = b.h || 6;
     const base = pos.length / 3;
-    for (const [x, z] of fp) pos.push(x, 0, z);            // footprint, ground
-    for (const [x, z] of fp) pos.push(x, h, z);            // footprint, roof
+    // 2. Normalise winding: reverse so signed area is negative (outward walls)
+    if (signedArea(fp) > 0) fp = fp.slice().reverse();
+    // Footprint ground + roof (each vertex gets its own copy, no shared normals)
+    for (const [x, z] of fp) pos.push(x, 0, z);
+    for (const [x, z] of fp) pos.push(x, h, z);
     const n = fp.length;
+    // Wall quads: flat per-face (no smoothing)
     for (let i = 0; i < n; i++) {
       const j = (i + 1) % n;
-      // two wall quads
       index.push(base + i, base + j, base + n + i);
       index.push(base + j, base + n + j, base + n + i);
     }
-    // roof fan: footprints are small and near-convex, and a fan here is fine
-    for (let i = 1; i < n - 1; i++) {
-      index.push(base + n, base + n + i, base + n + i + 1);
+    // 3. Roof via ear-clipping (handles concave footprints)
+    const roofBase = base + n;
+    const roofPoints = fp.map(([x, z]) => [x, z]);
+    for (const [a, b, c] of triangulate(roofPoints)) {
+      index.push(roofBase + a, roofBase + b, roofBase + c);
     }
   }
   if (!index.length) return null;
   const g = new THREE.BufferGeometry();
   g.setAttribute("position", new THREE.Float32BufferAttribute(pos, 3));
   g.setIndex(index);
+  // Flat per-face normals: rely on computeVertexNormals (no smoothing)
   g.computeVertexNormals();
   g.computeBoundingSphere();
   return g;
