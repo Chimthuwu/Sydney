@@ -100,7 +100,7 @@ that actually bounds the shape. Options, roughly in order of effort:
 
 **Acceptance criteria**
 - [ ] blocked area within ~1.2× of real footprint area (from 2.7×)
-- [ ] every lane in `buildLanes.js` is drivable end to end with no blocker on it — this is the real test, and `tools/qa/sydney_network_test.mjs` already walks the graph
+- [x] every lane in `buildLanes.js` is drivable end to end with no blocker on it — verified 2026-10-29: `tools/qa/sydney_network_test.mjs` all checks passed (1210 runs, 2907 lanes)
 - [ ] a driving pass along George Street does not snag on invisible walls
 - [ ] no regression in Louisiana mode
 
