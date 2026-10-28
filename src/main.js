@@ -3786,7 +3786,7 @@ async function buildLevel() {
   // terrain.surface() is 0 across the whole map and every car in the game is
   // already standing on the right thing.
   if (SYDNEY_MODE) {
-    sydney = buildSydneyWorld({ scene, asphalt, rng, addBlocker });
+    sydney = await buildSydneyWorld({ scene, asphalt, rng, addBlocker });
     console.info("[sydney]", sydney.stats);
     // The spawn is applied HERE rather than where playerPos is declared,
     // because playerPos is built at module scope and this is the first moment

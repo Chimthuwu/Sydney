@@ -45,7 +45,7 @@ const SPAWN = { x: -152, z: -455, heading: Math.PI };
  *   builder: { scene, asphalt, terrain, rng, addBlocker, ... }
  * @returns {{lanes: Array, props: Array, spawn: object, stats: object, onRoad: Function}}
  */
-export function buildSydneyWorld(R) {
+export async function buildSydneyWorld(R) {
   const { scene, asphalt } = R;
 
   // ---- 1. the tarmac, as one mesh
@@ -93,7 +93,7 @@ export function buildSydneyWorld(R) {
   // content now gone entirely it would look like a grey grid on green grass.
   // This is the harbour the roads run beside, the parks between the blocks, and
   // the CBD's own skyline - 972 real OSM footprints, merged into one mesh.
-  const content = buildSydneyContent();
+  const content = await buildSydneyContent();
   scene.add(content.group);
   for (const c of content.colliders) R.addBlocker && R.addBlocker(c.x, c.z, c.r);
 

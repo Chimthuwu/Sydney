@@ -17,6 +17,9 @@
 // ---------------------------------------------------------------------------
 
 import * as THREE from "three";
+import { OBJLoader } from "three/addons/loaders/OBJLoader.js";
+import { MTLLoader } from "three/addons/loaders/MTLLoader.js";
+import { placeBuildings } from "./placeBuildings.js";
 import {
   SYDNEY_BUILDINGS,
   SYDNEY_DISTRICTS,
@@ -165,7 +168,7 @@ function buildingGeometry(list) {
  *
  * @returns {{group: THREE.Group, colliders: Array, districts: Array, stats: object}}
  */
-export function buildSydneyContent() {
+export async function buildSydneyContent() {
   const group = new THREE.Group();
   group.name = "sydney-content";
   const colliders = [];
@@ -202,41 +205,57 @@ export function buildSydneyContent() {
     stats.parkTriangles = parkGeom.index.count / 3;
   }
 
-  // ---- buildings ----------------------------------------------------------
-  const buildMat = new THREE.MeshStandardMaterial({ color: 0x8a8578, roughness: 0.78 });
-  const buildGeom = buildingGeometry(SYDNEY_BUILDINGS);
-  if (buildGeom) {
-    const buildings = new THREE.Mesh(buildGeom, buildMat);
-    buildings.name = "sydney-buildings";
-    buildings.castShadow = true;
-    buildings.receiveShadow = true;
-    group.add(buildings);
-    stats.buildingTriangles = buildGeom.index.count / 3;
-    stats.buildings = SYDNEY_BUILDINGS.length;
-    // A collider per building, so the player cannot drive through the CBD. The
-    // game's blockers are 2D circles walked by the physics, so a tower is a
-    // circle sized to its footprint - close enough at car speed, and one circle
-    // instead of a convex hull.
-    // Edge-circle colliders: one per footprint edge, radius = half edge length.
-    // Hugs L-shapes far better than a single circumscribing circle.
-    for (const b of SYDNEY_BUILDINGS) {
-      if (!b.fp || b.fp.length < 3) continue;
-      const fp = b.fp;
-      // Deduplicate first point if repeated at end (same as in buildingGeometry)
-      let pts = fp.slice();
-      const first = pts[0], last = pts[pts.length - 1];
-      if (first && last && first[0] === last[0] && first[1] === last[1]) pts.pop();
-      for (let i = 0; i < pts.length; i++) {
-        const a = pts[i];
-        const bpt = pts[(i + 1) % pts.length];
-        const mx = (a[0] + bpt[0]) / 2;
-        const mz = (a[1] + bpt[1]) / 2;
-        const r = Math.hypot(a[0] - bpt[0], a[1] - bpt[1]) / 2;
-        colliders.push({ x: mx, z: mz, r: Math.max(1.5, r) });
-      }
-    }
-    stats.colliders = colliders.length;
+  // ---- buildings (voxel models placed per footprint) -----------------------
+  const placements = placeBuildings(SYDNEY_BUILDINGS);
+  const modelCache = new Map();
+  async function loadModel(path) {
+    if (modelCache.has(path)) return modelCache.get(path);
+    const dir = path.substring(0, path.lastIndexOf('/') + 1);
+    const file = path.substring(path.lastIndexOf('/') + 1).replace(/\.obj$/, '');
+    const promise = new Promise((resolve) => {
+      const mtlLoader = new MTLLoader().setPath(dir);
+      mtlLoader.load(file + '.mtl', (materials) => {
+        materials.preload();
+        const objLoader = new OBJLoader().setMaterials(materials).setPath(dir);
+        objLoader.load(file + '.obj', (obj) => resolve(obj), undefined, () => resolve(null));
+      }, undefined, () => {
+        const objLoader = new OBJLoader().setPath(dir);
+        objLoader.load(file + '.obj', (obj) => resolve(obj), undefined, () => resolve(null));
+      });
+    });
+    modelCache.set(path, promise);
+    return promise;
   }
+  const buildingsGroup = new THREE.Group();
+  buildingsGroup.name = "sydney-buildings";
+  for (const pl of placements) {
+    const model = await loadModel(pl.path);
+    if (!model) continue;
+    const clone = model.clone(true);
+    clone.position.set(pl.x, 0, pl.z);
+    clone.rotation.y = pl.rotation;
+    clone.scale.setScalar(pl.scale);
+    buildingsGroup.add(clone);
+  }
+  group.add(buildingsGroup);
+  stats.buildings = placements.length;
+  // Edge-circle colliders (keep from footprint, unchanged)
+  for (const b of SYDNEY_BUILDINGS) {
+    if (!b.fp || b.fp.length < 3) continue;
+    const fp = b.fp;
+    let pts = fp.slice();
+    const first = pts[0], last = pts[pts.length - 1];
+    if (first && last && first[0] === last[0] && first[1] === last[1]) pts.pop();
+    for (let i = 0; i < pts.length; i++) {
+      const a = pts[i];
+      const bpt = pts[(i + 1) % pts.length];
+      const mx = (a[0] + bpt[0]) / 2;
+      const mz = (a[1] + bpt[1]) / 2;
+      const r = Math.hypot(a[0] - bpt[0], a[1] - bpt[1]) / 2;
+      colliders.push({ x: mx, z: mz, r: Math.max(1.5, r) });
+    }
+  }
+  stats.colliders = colliders.length;
 
   // ---- district labels ----------------------------------------------------
   // Not decoration: these are the names the HUD shows, so "Surry Hills" is what
