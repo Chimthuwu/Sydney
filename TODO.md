@@ -463,3 +463,5 @@ What changed · What remains · Testing performed · Known issues
 `COMPLETE` only after it has been tested and reviewed. Record what was actually
 tested; never report a test you did not run.
 - [ ] DECISION: SYD-003 look — voxel set chosen (coherent) [P2] [design] — checkpoint 37aaade
+
+## Inbox (agent-proposed)
