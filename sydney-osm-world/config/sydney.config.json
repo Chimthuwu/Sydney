@@ -38,6 +38,35 @@
     "buildingSampleBbox": {
       "note": "Building footprints are only collected inside this small sample of the CBD. Building data in OSM Sydney is enormous and mostly un-heighted; a sample is enough to test schema and density, and to prove heights are usually absent.",
       "south": -33.8790, "west": 151.2020, "north": -33.8660, "east": 151.2140
+    },
+    "stageA": {
+      "note": "Compact CBD vertical-slice area for the Splooge Godot integration. Uses the existing origin; no reprojection. Footpaths and crossings are DERIVED from road geometry because the Overpass network was unreachable during this phase.",
+      "south": -33.8790,
+      "west": 151.2025,
+      "north": -33.8560,
+      "east": 151.2165,
+      "includes": ["Sydney CBD", "Hyde Park", "The Rocks", "Circular Quay", "Bennelong Point", "Royal Botanic Garden edge"],
+      "exportPath": "export/stage_a"
+    },
+    "innerWest": {
+      "note": "Phase 6C Splooge district: Sydney Inner West + western/southern harbour waterfront. Same origin and projection as Stage A. Collection uses the OSM API /map endpoint (Overpass TLS is broken on this machine) plus AWS Terrain Tiles (public domain) for elevation. Geometry is CLIPPED at build time to scope minus Stage A minus the Phase 5 Harbour Bridge site and the deferred North Shore.",
+      "south": -33.9180,
+      "west": 151.1250,
+      "north": -33.8420,
+      "east": 151.2180,
+      "collectionMarginDeg": 0.003,
+      "northShoreCut": {
+        "note": "Everything north of Stage A and east of this longitude is the Phase 5 bridge site / deferred North Shore and is subtracted from the district.",
+        "west": 151.2058,
+        "south": -33.8560,
+        "north": -33.8433
+      },
+      "westHarbourNorthCut": {
+        "note": "West of northShoreCut.west the scope stops here: the channel between Balmain's islands and Waverton/Greenwich (North Shore, deferred). Mid-harbour islands south of this line (Goat, Cockatoo, Spectacle, Snapper) are kept.",
+        "north": -33.8438
+      },
+      "includes": ["Pyrmont", "Ultimo", "Glebe", "Forest Lodge", "Annandale", "Balmain", "Rozelle", "Lilyfield", "Leichhardt", "Haberfield", "Newtown", "Enmore", "Stanmore", "Petersham", "Marrickville", "Camperdown", "Chippendale", "Redfern", "Erskineville", "Alexandria", "Parramatta Road corridor", "Blackwattle Bay", "Rozelle Bay", "Johnstons Bay", "White Bay", "Iron Cove"],
+      "exportPath": "export/inner_west"
     }
   },
 
